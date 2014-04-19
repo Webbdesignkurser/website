@@ -1,5 +1,7 @@
 safe: false
 lsi: false
+name: Webbdesignkurser
+markdown: kramdown
 pygments: true
 
 relative_source: ./_site/
