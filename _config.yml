@@ -2,8 +2,8 @@ safe: false
 lsi: false
 pygments: true
 
-relative_source: ./_site/
-destination: ./_site/
+relative_source: ../webbdesignkurser.github.io/
+destination: ../webbdesignkurser.github.io-pages/
 
 # Settings for deploy rake task
 # Username and repo of Github repo, e.g.
