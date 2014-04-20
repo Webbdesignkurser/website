@@ -1,0 +1,17 @@
+---
+layout: page
+status: publish
+published: true
+title: Index
+author: admin
+author_login: admin
+author_email: kontakt@webbdesignkurser.se
+wordpress_id: 2837
+wordpress_url: http://dmarby.se/wdk/?page_id=2837
+date: '2013-02-20 12:09:23 +0100'
+date_gmt: '2013-02-20 11:09:23 +0100'
+categories: []
+tags: []
+comments: []
+---
+
