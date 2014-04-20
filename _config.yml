@@ -4,7 +4,7 @@ name: Webbdesignkurser
 markdown: kramdown
 pygments: true
 
-relative_source: ./_site/
+
 destination: ./_site/
 
 # Settings for deploy rake task
@@ -32,3 +32,6 @@ exclude:
   - "*.Rmd"
   - vendor
   - .travis.yml
+
+asset_pipeline:
+ bundle: false
