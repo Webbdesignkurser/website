@@ -27,12 +27,6 @@ permalink:   /:categories/:title/
 paginate: 10
 paginate_path: "blog/page:num"
 
-links:
-  - title: Home
-    url: /get-started/
-  - title: About
-    url: /about/
-
 exclude:
   - README.md
   - Rakefile
