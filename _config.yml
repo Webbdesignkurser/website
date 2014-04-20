@@ -32,5 +32,3 @@ exclude:
   - "*.Rmd"
   - vendor
   - .travis.yml
-
-gems: ['jekyll-less']
