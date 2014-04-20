@@ -1,5 +1,5 @@
 ---
 layout: home
-title: Webbdesignkurser
+title: Hur gör man en hemsida?
 page: home
 ---
