@@ -6,8 +6,8 @@
 @color-responsivDesign: #6abf6b;
 @color-grafiskDesign: #151440;
 @color-vektorteknik: #de9d25;
-@color-less: #e67a2c;
-@color-git: #201209;
+@color-less: #00a5cc;
+@color-git: #e67a2c;
 @color-seo: #b82a2a;
 
 @brand-font : 'Lato', sans-serif;
@@ -99,7 +99,8 @@ p {
 		}
 	}
 
-	// Display box
+
+	// Chapter box
 	.box{
 		margin-bottom: 30px;
 		div {
@@ -134,4 +135,54 @@ p {
 			}
 		}
 	}
+}
+
+.contribute {
+	background: #000 url(../../assets/images/bg_contribute.jpg) center center;
+	height: 500px;
+	.box {
+		padding: 20px;
+		text-align: center;
+		padding-top: 180px;
+		color: #fff;
+		font-size: 18px;
+		font-weight: 300 !important;
+		font-family: 'Lato';
+		h3{
+			color: #fff;
+			font-weight: 300 !important;
+			margin-bottom: 10px;
+		}
+	}
+	.btn-primary {
+		margin: 10px;
+		font-size:  18px;
+		background: #fff;
+		color: #255381;
+		&:hover {
+			opacity: 0.9;
+			background: #fff;
+			color: #255381;
+		}
+	}
+	.btn-secondary {
+		margin: 10px;
+		font-size: 18px;
+		color: #fff;
+		&:hover {
+			background: rgba(255,255,255,0.1) !important;
+			color: #fff;
+		}
+		&:active{
+			box-shadow: none;
+		}
+	}
+}
+
+footer{
+	margin-top: 40px;
+	padding: 20px;
+	text-align: center;
+	color: #888;
+	background: #eee;
 }
