@@ -1,0 +1,26 @@
+---
+layout: page
+status: publish
+published: true
+title: Om sidan
+author: admin
+author_login: admin
+author_email: kontakt@webbdesignkurser.se
+wordpress_id: 1954
+wordpress_url: http://webbdesignkurser.se/?page_id=1954
+date: '2012-08-28 13:40:03 +0200'
+date_gmt: '2012-08-28 11:40:03 +0200'
+categories: []
+tags: []
+comments: []
+---
+<h1>Om sidan<&#47;h1><br />
+<img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;08&#47;om-sidan.jpg" alt="Om sidan" width="700" height="415" class="alignnone size-full wp-image-3997" style="width:100%; height:auto;"&#47;></p>
+<p><strong>Webbdesignkurser.se &auml;r en av f&aring; webbkurser i Sverige<&#47;strong> som erbjuder gratis och aktuella kurser i webbdesign idag. Sidan bygger p&aring; ett skr&auml;ddarsytt wordpress-tema som vi sj&auml;lva har utvecklat med Skeleton som grid-system. Kurserna och materialet p&aring; hemsidan ligger under en trevlig <a href="http:&#47;&#47;creativecommons.org&#47;licenses&#47;by-nc-sa&#47;3.0&#47;deed.sv" rel="license">Creative Commons licens<&#47;a> som till&aring;ter dig att kopiera, redigera och publicera allt du hittar h&auml;r s&aring; l&auml;nge du inte anv&auml;nder det i kommersiellt syfte. Du beh&ouml;ver inte heller n&auml;mna oss, men det vore s&aring;klart trevligt om du gjorde det.</p>
+<p>Syftet med sidan &auml;r att hj&auml;lpa ungdomar som pluggar media&#47;webbdesign en bit p&aring; v&auml;gen. Vi t&auml;cker de flesta relevanta m&aring;l som skolverket har i kursen webbdesign vilket underl&auml;ttar f&ouml;r att f&aring; godk&auml;nt i &auml;mnet.</p>
+<p><strong>Kunskap ska delas gratis<&#47;strong> och vi tycker att skolan ska vara en plats fri fr&aring;n reklam, vi har d&auml;rf&ouml;r avb&ouml;jt fr&aring;n att l&auml;gga reklam p&aring; sidan. Vi g&aring;r inte heller med p&aring; att bli sponsrade eller dylikt, d&aring; det g&aring;r emot v&aring;r policy.</p>
+<p>Bakom sidan st&aring;r <a title="Graphic Leaf Reklambyr&aring;" href="http:&#47;&#47;perloov.com" target="_blank">Per L&ouml;&ouml;v<&#47;a> och <a title="David Marby" href="http:&#47;&#47;dmarby.se" target="_blank">David Marby<&#47;a>. Vi lanserade Webbdesignkurser i slutet av 2012 och har sedan dess h&aring;llit sidan uppdaterad och i drift.</p>
+<p>F&ouml;r mer information om oss bakom sidan hittar du p&aring; <a title="Cap&amp;Design" href="http:&#47;&#47;capdesign.idg.se&#47;2.990&#47;1.498805&#47;webbdesignkillar-tar-det-till-nasta-niva" target="_blank">Cap&amp;Design<&#47;a>. Pressbilder och logotyp hittar du <a href="http:&#47;&#47;webbdesignkurser.se&#47;press&#47;" title="Press">h&auml;r<&#47;a>.<br />
+Om du gillar det vi g&ouml;r kan du <a href="http:&#47;&#47;webbdesignkurser.se&#47;donera&#47;" title="Hj&auml;lp Webbdesignkurser" target="_blank">hj&auml;lpa oss h&auml;r<&#47;a>.</p>
+<p><em>B&auml;sta h&auml;lsningar,<br />
+Webbdesignkurser.se<&#47;em></p>

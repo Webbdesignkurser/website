@@ -1,0 +1,17 @@
+---
+layout: nav_menu_item
+status: publish
+published: true
+title: Bloggen
+author: admin
+author_login: admin
+author_email: kontakt@webbdesignkurser.se
+wordpress_id: 2831
+wordpress_url: http://dmarby.se/wdk/?p=2831
+date: '2013-02-20 12:02:20 +0100'
+date_gmt: '2013-02-20 11:02:20 +0100'
+categories: []
+tags: []
+comments: []
+---
+
