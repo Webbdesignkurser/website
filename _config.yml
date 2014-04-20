@@ -1,9 +1,11 @@
 safe: false
 lsi: false
-name: Webbdesignkurser
 markdown: kramdown
 pygments: true
 
+title:            Webbdesignkurser
+description: "Hur gör man en hemsida? Få svaret på Webbdesignkurser där alla kurser är gratis och lätta att komma igång med! Vi hjälper dig att bli en ninja på webbdesign"
+url:              http://webbdesignkurser.se
 
 destination: ./_site/
 
@@ -17,6 +19,8 @@ destination: ./_site/
 username: Webbdesignkurser
 repo: website
 branch: master
+
+disqus_shortname: webbdesignkurser
 
 permalink:   /:categories/:title/
 
