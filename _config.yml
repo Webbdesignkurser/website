@@ -39,3 +39,4 @@ exclude:
 
 asset_pipeline:
  bundle: false
+# display_path: "website/assets"
