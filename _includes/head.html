@@ -26,6 +26,13 @@
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-hover-dropdown/2.0.2/bootstrap-hover-dropdown.min.js"></script>
+<script>
+	$(function() {
+		if (!Modernizr.svg) {
+			$(".logo img").attr("src", "assets/images/logo.png");
+		}
+	});
+</script>
 <!--CSS-->
 {% css_asset_tag global %}
 - /_assets/css/main.css.less
