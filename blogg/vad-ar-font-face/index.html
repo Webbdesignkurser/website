@@ -1,0 +1,36 @@
+<p>&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;12&#47;font-face.jpg" alt="" title="" width="700" height="428" class="alignnone size-full wp-image-2766" &#47;&gt;</p>
+<h2>Anv&auml;ndning&lt;&#47;h2&gt;<br />
+<strong>Font-face hj&auml;lper dig att importera ett typsnitt in p&aring; hemsidan.&lt;&#47;strong&gt;<br />
+Typsnitt kan du ladda ner lite vart som helst, det finns dom som <a href="http:&#47;&#47;fontfabric.com&#47;category&#47;all-fonts&#47;" target="_blank">kostar pengar&lt;&#47;a&gt; och dom som &auml;r <a href="http:&#47;&#47;fontfabric.com&#47;category&#47;free&#47;" target="_blank">gratis&lt;&#47;a&gt;.
+<p><strong>Dubbelkolla alltid&lt;&#47;strong&gt; att du f&aring;r anv&auml;nda typsnittet du laddar ner.<br />
+N&auml;r du har laddat ner en font s&aring; vill du kanske applicera den p&aring; hemsidan, det h&auml;r g&ouml;r du med en <strong>@font-face&lt;&#47;strong&gt;-kod som l&auml;ggs i CSS-mallen. Det finns bra tj&auml;nster som hj&auml;lper dig att g&ouml;ra fonten webbanpassad, bland annat <a href="http:&#47;&#47;www.font2web.com&#47;" target="_blank">Font2web&lt;&#47;a&gt; och <a href="http:&#47;&#47;www.fontsquirrel.com&#47;fontface&#47;generator" target="_blank">Fontsquirrel&lt;&#47;a&gt;. 
+<p><strong>N&auml;r du laddar upp en font&lt;&#47;strong&gt; d&auml;r s&aring; f&aring;r du allt genererat &aring;t dig, det vill s&auml;ga en css-kod och det typsnittet du valt i olika filformat. Alla teckensnitts-format st&ouml;ds n&auml;mligen inte av alla webbl&auml;sare, man m&aring;ste d&auml;rf&ouml;r applicera en m&auml;ngd olika p&aring; sidan f&ouml;r att vara s&auml;ker p&aring; att den funkar.
+<p>&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;fontface-fonts.jpg" alt="" title="" width="700" height="172" class="alignnone size-full wp-image-2733" &#47;&gt;<br />
+&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;hagin-font.jpg" alt="" title="" width="700" height="172" class="alignnone size-full wp-image-2738" &#47;&gt;</p>
+<p>I det h&auml;r exemplet har vi anv&auml;nt en gratis font som heter <a href="http:&#47;&#47;fontfabric.com&#47;hagin-free-font&#47;" target="_blank">Hagin&lt;&#47;a&gt;. <strong>H&auml;r f&ouml;ljer v&aring;r @font-face-struktur:&lt;&#47;strong&gt;<br />
+
+<div class="highlight"><pre><code class="html"><span class="lineno"> 1</span> <span class="nt">&lt;br</span> <span class="nt">/&gt;</span>
+<span class="lineno"> 2</span> @font-face {<span class="nt">&lt;br</span> <span class="nt">/&gt;</span>
+<span class="lineno"> 3</span>     font-family: &#39;Hagin&#39;;<span class="nt">&lt;br</span> <span class="nt">/&gt;</span>
+<span class="lineno"> 4</span>     src: url(&#39;fonts<span class="ni">&amp;#47;</span>hagin_caps_medium.eot&#39;);<span class="nt">&lt;br</span> <span class="nt">/&gt;</span>
+<span class="lineno"> 5</span>     src: local(&#39;☺&#39;),<span class="nt">&lt;br</span> <span class="nt">/&gt;</span>
+<span class="lineno"> 6</span>     url(&#39;fonts<span class="ni">&amp;#47;</span>hagin_caps_medium.woff&#39;) format(&#39;woff&#39;),<span class="nt">&lt;br</span> <span class="nt">/&gt;</span>
+<span class="lineno"> 7</span>     url(&#39;fonts<span class="ni">&amp;#47;</span>hagin_caps_medium.ttf&#39;) format(&#39;truetype&#39;),<span class="nt">&lt;br</span> <span class="nt">/&gt;</span>
+<span class="lineno"> 8</span>     url(&#39;fonts<span class="ni">&amp;#47;</span>hagin_caps_medium.svg&#39;) format(&#39;svg&#39;);<span class="nt">&lt;br</span> <span class="nt">/&gt;</span>
+<span class="lineno"> 9</span>     font-weight: normal;<span class="nt">&lt;br</span> <span class="nt">/&gt;</span>
+<span class="lineno">10</span>     font-style: normal;<span class="nt">&lt;br</span> <span class="nt">/&gt;</span>
+<span class="lineno">11</span> }<span class="nt">&lt;br</span> <span class="nt">/&gt;</span>
+</code></pre></div>
+
+[&#47;css]
+<p>...och nu skriver vi helt enkelt in den nya fonten d&auml;r vi vill ha den.<br />
+[css]<br />
+#menu a{<br />
+    font-family: Hagin;<br />
+    color:#222;<br />
+    font-size:16px;<br />
+    text-decoration: none;<br />
+}<br />
+[&#47;css]<br />
+&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;meny-fontface.jpg" alt="" title="" width="700" height="89" class="alignnone size-full wp-image-2731" &#47;&gt;</p>
+</strong></a></p></strong></p></a></a></strong></strong></p></a></a></strong></h2>

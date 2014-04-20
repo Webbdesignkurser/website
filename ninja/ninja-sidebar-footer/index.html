@@ -1,0 +1,109 @@
+<p>&lt;img src="&#47;wp-content&#47;uploads&#47;2013&#47;02&#47;ninja-footer.png" alt="" width="695" height="182" class="alignnone size-full wp-image-3598" &#47;&gt;</p>
+<h1>Sidebar &amp; Footer&lt;&#47;h1&gt;<br />
+Nu &auml;r det dags att g&ouml;ra de sista mallarna, de f&ouml;r footern och sidebaren.
+<h2>Att registrera sidebars&lt;&#47;h2&gt;
+<p>I wordpress s&aring; anv&auml;nds termen "sidebar" f&ouml;r att beskriva ett omr&aring;de i ett tema som inneh&aring;ller widgets.<br />
+V&aring;rat tema kommer att ha tv&aring; widget-areas, vilket betyder att det kan fungera med b&aring;de 2-kolumns och 3-kolumns teman.</p>
+<p>&Ouml;ppna filen <strong>functions.php&lt;&#47;strong&gt; och kopiera in f&ouml;ljande kod:<br />
+[php]<br />
+&#47;**<br />
+ * Registrera widgets-areas och uppdatera sidebaren med standard widgets<br />
+ *<br />
+ * @since Ninja 1.0<br />
+ *&#47;<br />
+function ninja_widgets_init() {<br />
+    register_sidebar( array(<br />
+        'name' =&gt; __( 'Primary Widget Area', 'ninja' ),<br />
+        'id' =&gt; 'sidebar-1',<br />
+        'before_widget' =&gt; '<br />
+<aside id="%1$s" class="widget %2$s">',<br />
+        'after_widget' =&gt; '&lt;&#47;aside&gt;',<br />
+        'before_title' =&gt; '<br />
+<h1 class="widget-title">',<br />
+        'after_title' =&gt; '&lt;&#47;h1&gt;',<br />
+    ) );
+<p>    register_sidebar( array(<br />
+        'name' =&gt; __( 'Secondary Widget Area', 'ninja' ),<br />
+        'id' =&gt; 'sidebar-2',<br />
+        'before_widget' =&gt; '<br />
+<aside id="%1$s" class="widget %2$s">',<br />
+        'after_widget' =&gt; '&lt;&#47;aside&gt;',<br />
+        'before_title' =&gt; '<br />
+<h1 class="widget-title">',<br />
+        'after_title' =&gt; '&lt;&#47;h1&gt;',<br />
+    ) );<br />
+}<br />
+add_action( 'widgets_init', 'ninja_widgets_init' );<br />
+[&#47;php]
+<h2>Sidebar mallen&lt;&#47;h2&gt;
+<p>&Ouml;ppna filen <strong>sidebar.php&lt;&#47;strong&gt; och kopiera in f&ouml;ljande kod:<br />
+[php]<br />
+<?php<br />
+&#47;**<br />
+* The Sidebar containing the main widget areas.<br />
+*<br />
+* @package Ninja<br />
+* @since Ninja 1.0<br />
+*&#47;<br />
+?>
+<div id="secondary" class="widget-area" role="complementary">
+    <?php do_action( 'before_sidebar' ); ?><br />
+    <?php if ( ! dynamic_sidebar( 'sidebar-1' ) ) : ?>
+<aside id="search" class="widget widget_search">
+            <?php get_search_form(); ?><br />
+        &lt;&#47;aside&gt;
+<aside id="archives" class="widget">
+<h1 class="widget-title"><?php _e( 'Archives', 'ninja' ); ?>&lt;&#47;h1&gt;
+<ul>
+                <?php wp_get_archives( array( 'type' => 'monthly' ) ); ?><br />
+            &lt;&#47;ul&gt;<br />
+        &lt;&#47;aside&gt;
+<aside id="meta" class="widget">
+<h1 class="widget-title"><?php _e( 'Meta', 'ninja' ); ?>&lt;&#47;h1&gt;
+<ul>
+                <?php wp_register(); ?>
+<li><?php wp_loginout(); ?>&lt;&#47;li&gt;<br />
+                <?php wp_meta(); ?><br />
+            &lt;&#47;ul&gt;<br />
+        &lt;&#47;aside&gt;
+<p>    <?php endif; &#47;&#47; end sidebar widget area ?><br />
+&lt;&#47;div&gt;<!-- #secondary .widget-area --><br />
+[&#47;php]</p>
+<p>Nu &auml;r det dags att skriva lite kod f&ouml;r v&aring;ran sekund&auml;ra widget-area. Kopiera in f&ouml;ljande kod efter<br />
+[html]&lt;&#47;div&gt;<!-- #secondary .widget-area -->[&#47;html]</p>
+<p>[php]</p>
+<div id="tertiary" class="widget-area" role="supplementary">
+     <?php dynamic_sidebar( 'sidebar-2' ); ?><br />
+&lt;&#47;div&gt;<!-- #tertiary .widget-area --><br />
+[&#47;php]
+<h2>Footer&lt;&#47;h2&gt;
+<p>S&aring; var det dags att g&ouml;ra footern. Footern kommer att inneh&aring;lla f&ouml;ljande:</p>
+<p><em>- Avslut p&aring; #main content div:en som omsluter sidans inneh&aring;ll.<br />
+- En footer-sektion som visar tema-namnet och "Powered by WordPress" frasen.<br />
+- wp_footer() som flera Wordpress-plugins utnyttjar.<br />
+- Avslut p&aring; v&aring;ran wrapper div, body och html taggar.&lt;&#47;em&gt;
+<p>&Ouml;ppna filen <strong>footer.php&lt;&#47;strong&gt; och kopiera in f&ouml;ljande kod:
+<p>[php]<br />
+<?php<br />
+&#47;**<br />
+* Footer<br />
+*<br />
+* @package Ninja<br />
+* @since Ninja 1.0<br />
+*&#47;<br />
+?></p>
+<p>&lt;&#47;div&gt;<!-- #main .site-main --></p>
+<footer id="colophon" class="site-footer" role="contentinfo">
+<div class="site-info">
+        <?php do_action( 'ninja_credits' ); ?><br />
+        <a href="http:&#47;&#47;wordpress.org&#47;" title="&lt;?php esc_attr_e( 'A Semantic Personal Publishing Platform', 'ninja' ); ?&gt;" rel="generator"><?php printf( __( 'Proudly powered by %s', 'ninja' ), 'WordPress' ); ?>&lt;&#47;a&gt;<br />
+        <span class="sep"> | &lt;&#47;span&gt;<br />
+        <?php printf( __( 'Theme: %1$s by %2$s.', 'ninja' ), 'Ninja', '<a href="http:&#47;&#47;example.org" rel="designer">Exempel<&#47;a>' ); ?><br />
+    &lt;&#47;div&gt;<!-- .site-info --><br />
+&lt;&#47;footer&gt;<!-- #colophon .site-footer --><br />
+&lt;&#47;div&gt;<!-- #page .hfeed .site -->
+<p><?php wp_footer(); ?></p>
+<p>&lt;&#47;body&gt;<br />
+&lt;&#47;html&gt;<br />
+[&#47;php]</p>
+</span></a></div></footer></strong></p></em></p></h2></div></li></ul></h1></aside></ul></h1></aside></aside></div></strong></p></h2></h1></aside></p></h1></aside></strong></p></h2></h1>

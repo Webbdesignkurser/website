@@ -1,0 +1,39 @@
+<p>&lt;img src="&#47;wp-content&#47;uploads&#47;2013&#47;02&#47;html-struktur.png" alt="" width="695" height="182" class="alignnone size-full wp-image-3395" &#47;&gt;</p>
+<h1>HTML-struktur&lt;&#47;h1&gt;
+<h2>M&aring;len med en HTML-struktur&lt;&#47;h2&gt;<br />
+N&auml;r du g&ouml;r en hemsida b&ouml;r du ha tv&aring; m&aring;l i &aring;tanke: ren kod och meningsful kod. Dvs, att anv&auml;nda s&aring; lite html-taggar som m&ouml;jligt, och att se till s&aring; att taggarna symboliserar hur de ser ut, tex class="sidebar" ist&auml;llet f&ouml;r class="left".
+<p>N&auml;r du skapar ett wordpress tema (eller ett tema f&ouml;r vilket annat CMS som helst), kommer du att beh&ouml;va finna en balans mellan ren kod med v&auml;ldigt lite struktur, och n&aring;got som kallas <a href="http:&#47;&#47;www.456bereastreet.com&#47;lab&#47;web_development_mistakes&#47;sv&#47;" target="_blank">Divitis&lt;&#47;a&gt; (att ha f&ouml;r m&aring;nga on&ouml;digt div-element i koden). Med andra ord, f&ouml;r mycket meningsl&ouml;s struktur.
+<p>HTML5 har gjort det enklare att skapa meningsfull kod, d&aring; det nu finns struktur-taggar f&ouml;r header, nav, footer och liknande. Dessa nya element liknar div taggar, men till&aring;ter oss samtidigt att g&ouml;ra v&aring;ran HTML mer beskrivande.</p>
+<h2>HTML-strukturen f&ouml;r ditt Wordpress tema&lt;&#47;h2&gt;<br />
+S&aring; h&auml;r kan en struktur f&ouml;r bodyn i ditt wordpress-tema se ut.
+<p>[html]
+<div id="page" class="hfeed site">
+<header id="masthead" class="site-header" role="banner">
+<hgroup>&lt;&#47;hgroup&gt;
+<nav role="navigation" class="site-navigation main-navigation">&lt;&#47;nav&gt;<!-- .site-navigation .main-navigation --><br />
+     &lt;&#47;header&gt;<!-- #masthead .site-header -->
+<div id="main" class="site-main">
+<div id="primary" class="content-area">
+<div id="content" class="site-content">
+               &lt;&#47;div&gt;<!-- #content .site-content -->&lt;&#47;div&gt;<br />
+          <!-- #primary .content-area -->
+<div id="secondary" class="widget-area">
+          &lt;&#47;div&gt;<!-- #secondary .widget-area -->
+<div id="tertiary" class="widget-area">
+          &lt;&#47;div&gt;<!-- #tertiary .widget-area -->&lt;&#47;div&gt;<br />
+     <!-- #main .site-main -->
+<footer id="colophon" class="site-footer" role="contentinfo">
+<div class="site-info">
+          &lt;&#47;div&gt;<!-- .site-info --><br />
+     &lt;&#47;footer&gt;<!-- #colophon .site-footer --><br />
+&lt;&#47;div&gt; <!-- #page .hfeed .site --><br />
+[&#47;html]
+<h2>En snabb genomg&aring;ng av wordpress-temats HTML&lt;&#47;h2&gt;<br />
+&lt;img src="&#47;wp-content&#47;uploads&#47;2013&#47;02&#47;filstruktur.png" alt="" width="695" height="683" class="alignnone size-full wp-image-3563" &#47;&gt;
+<p>Kolla p&aring; bilden ovanf&ouml;r. Ju djupare ett block &auml;r, desto djupare &auml;r det begravt. Hur dessa block &auml;r arrangerade styrs till stor del av CSS, n&aring;got som vi kommer att g&aring; igenom i ett senare kapitel.<br />
+Du kan ocks&aring; modifiera HTML strukturen f&ouml;r att b&auml;ttre passa dina behov. F&ouml;r exempel s&aring; kan du flytta navigations blocket utanf&ouml;r header blocket, eller flytta en av widget-ytorna till footern.</p>
+<p>Vi b&ouml;rjar med class-attributen p&aring; wrappern, hfeed. Hfeed &auml;r en del av n&aring;got som kallas "hatom microformat schema". Detta g&ouml;r s&aring; att n&auml;r vi l&auml;gger till en hfeed class p&aring; v&aring;ran sida ber&auml;ttar det f&ouml;r alla maskiner som l&auml;ser v&aring;ran sida (till exempel en s&ouml;kmotor-robot) att v&aring;ran sida publicerar syndikerat inneh&aring;ll, s&aring; som bloggposter. Du kommer att se m&aring;nga class-namn som detta.</p>
+<p>Om vi kollar p&aring; strukturen i headern och footern, s&aring; finns d&auml;r n&aring;gra av de nya HTML5 taggarna, header respektive footer. Dessa taggar anv&auml;nds f&ouml;r att beskriva de st&ouml;rsta sektionerna av dokumentet.<br />
+I huvuddelen av HTML-koden, l&auml;gg m&auml;rke till att v&aring;ra widget-omr&aring;den kommer efter v&aring;rat inneh&aring;llsomr&aring;de, och att v&aring;rat inneh&aring;ll ligger inne i en container-div, med class-namnet "content-area". Detta g&ouml;r att v&aring;rat huvudinneh&aring;ll kommer f&ouml;re sidebaren f&ouml;r en s&ouml;kmotor, och att vi med hj&auml;lp av n&aring;gra f&aring; rader CSS kan g&ouml;ra om temat till ett en eller tv&aring;kolumns tema. </p>
+<p>Denna HTML-strukturen g&ouml;r att ditt wordpress-tema &auml;r framtidss&auml;kert, och ger dig m&ouml;jligheten att enkelt utnyttja CSS.</p>
+</h2></div></footer></div></div></div></div></div></nav></hgroup></header></div></p></h2></a></p></h2></h1>

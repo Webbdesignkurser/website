@@ -1,0 +1,304 @@
+<p>&lt;img src="&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;kunnig-css3.png" alt="Css 3" width="700" height="172" class="alignnone size-full wp-image-3282" &#47;&gt;</p>
+<h1>Vad &auml;r CSS3?&lt;&#47;h1&gt;<br />
+<strong>CSS3 &auml;r den senaste versionen av CSS.&lt;&#47;strong&gt; Det har tillkommit ett flertal nya funktioner, s&aring; som text-skugga, rundade kanter, animering, selection och mycket mer. Vi kommer att visa n&aring;gra av dessa genom att applicera det p&aring; v&aring;r HTML-sida. F&ouml;r dig som aldrig anv&auml;nt CSS f&ouml;rut s&aring; h&auml;nvisar vi till <a href="http:&#47;&#47;webbdesignkurser.se&#47;nyborjare-css-grunder&#47;">CSS-grunder&lt;&#47;a&gt;. L&auml;s ocks&aring; <a href="&#47;kunnig-html5&#47;">HTML5-kapitlet&lt;&#47;a&gt; innan du g&aring;r vidare.
+<p>I v&aring;r <a href="http:&#47;&#47;webbdesignkurser.se&#47;blogg&#47;">blogg&lt;&#47;a&gt; hittar du fler anv&auml;ndbara funktioner som man kan &aring;stadkomma med CSS3.&lt;br&#47;&gt;&lt;br&#47;&gt;
+<h2>1. Vi b&ouml;rjar med Reset CSS&lt;&#47;h2&gt;<br />
+Om du l&auml;st f&ouml;reg&aring;ende kurser s&aring; vet du vad Reset g&ouml;r, n&auml;mligen att nollst&auml;lla alla stil-v&auml;rden som webbl&auml;saren annars skulle ha gett din hemsida. Den h&auml;r processen &auml;r viktig f&ouml;r att hemsidan ska se korrekt ut oavs&auml;tt vilken webbl&auml;sare du anv&auml;nder.<br />
+Skapa ett nytt dokument och klistra in f&ouml;ljande CSS-kod.<br />
+[css]<br />
+html, body, div, span, applet, object, iframe,<br />
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,<br />
+a, abbr, acronym, address, big, cite, code,<br />
+del, dfn, em, img, ins, kbd, q, s, samp,<br />
+small, strike, strong, sub, sup, tt, var,<br />
+b, u, i, center,<br />
+dl, dt, dd, ol, ul, li,<br />
+fieldset, form, label, legend,<br />
+table, caption, tbody, tfoot, thead, tr, th, td,<br />
+article, aside, canvas, details, embed,<br />
+figure, figcaption, footer, header, hgroup,<br />
+menu, nav, output, ruby, section, sumgmary,<br />
+time, mark, audio, video {<br />
+	margin: 0;<br />
+	padding: 0;<br />
+	border: 0;<br />
+	font-size: 100%;<br />
+	font: inherit;<br />
+	vertical-align: baseline;<br />
+}<br />
+article, aside, details, figcaption, figure,<br />
+footer, header, hgroup, menu, nav, section {<br />
+	display: block;<br />
+}<br />
+body {<br />
+	line-height: 1;<br />
+}<br />
+ol, ul {<br />
+	list-style: none;<br />
+}<br />
+blockquote, q {<br />
+	quotes: none;<br />
+}<br />
+blockquote:before, blockquote:after,<br />
+q:before, q:after {<br />
+	content: '';<br />
+	content: none;<br />
+}<br />
+table {<br />
+	border-collapse: collapse;<br />
+	border-spacing: 0;<br />
+}<br />
+[&#47;css]<br />
+&lt;br&#47;&gt;&lt;br&#47;&gt;
+<h2>2. Body&lt;&#47;h2&gt;<br />
+Skriv sedan en bakgrund f&ouml;r body (det som t&auml;cker hela sidan).<br />
+[css]<br />
+body{<br />
+    background: #ececec;<br />
+}<br />
+[&#47;css]<br />
+&lt;br&#47;&gt;&lt;br&#47;&gt;
+<h2>3. Wrapper&lt;&#47;h2&gt;<br />
+P&aring; html-sidan har vi ett flertal wrappers skrivna som classer, men vi kommer att sammanfatta dom i en och samma class, kallad <strong>.wrapper&lt;&#47;strong&gt;. L&auml;s mer om Wrappers <a href="http:&#47;&#47;webbdesignkurser.se&#47;nyborjare-wrapper&#47;" target="_blank">h&auml;r&lt;&#47;a&gt;.<br />
+[css]<br />
+.wrapper{<br />
+    width: 960px;<br />
+    margin-left: auto;<br />
+    margin-right: auto;<br />
+}<br />
+[&#47;css]<br />
+&lt;br&#47;&gt;&lt;br&#47;&gt;
+<h2>4. Header&lt;&#47;h2&gt;<br />
+&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;css3-header1.png" alt="" title="" width="700" height="154" class="alignnone size-full wp-image-2323" &#47;&gt;<br />
+[css]<br />
+header{<br />
+    background: #414141;<br />
+    width: 100%;<br />
+    height: 87px;<br />
+}<br />
+[&#47;css]<br />
+&lt;br&#47;&lt;br&#47;&gt;
+<h2>5. Loggan&lt;&#47;h2&gt;<br />
+&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;css3-header2.png" alt="" title="" width="700" height="88" class="alignnone size-full wp-image-2330" &#47;&gt;<br />
+[css]<br />
+#logo{<br />
+    width: 130px;<br />
+    height: 29px;<br />
+    background: url(logo.png);<br />
+}<br />
+[&#47;css]<br />
+Diven <strong>#logo&lt;&#47;strong&gt; ska nu visa bilden p&aring; v&aring;r logga. F&ouml;r det h&auml;r m&aring;ste vi veta <strong>bredden&lt;&#47;strong&gt;, <strong>h&ouml;jden&lt;&#47;strong&gt; och <strong>adressen&lt;&#47;strong&gt; till bilden.<br />
+F&ouml;r att ta reda p&aring; m&aring;tten i din bild - h&ouml;gerklicka p&aring; bilden &gt; v&auml;lj egenskaper &gt; Information.<br />
+Om du har Photoshop &ouml;ppet kan du &auml;ven kopiera bilden och skapa nytt dockument, d&aring; ser du bildens m&aring;tt i rutan.
+<h2>Placera ut loggan&lt;&#47;h2&gt;<br />
+&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;css3-header3.png" alt="" title="" width="700" height="88" class="alignnone size-full wp-image-2331" &#47;&gt;<br />
+[css]<br />
+#logo{<br />
+    width: 130px;<br />
+    height: 29px;<br />
+    background: url(logo.png);<br />
+    position: absolute;
+<p>    margin-left: 0px;<br />
+    margin-top: 30px;<br />
+}<br />
+[&#47;css]<br />
+Vi ska &auml;ven placera ut #logo n&aring;gonstans i header. Det h&auml;r g&ouml;r vi genom att l&auml;gga till position och margin-attribut i diven.<br />
+&lt;br&#47;&gt;&lt;br&#47;&gt;</p>
+<h2>6. Menyn&lt;&#47;h2&gt;<br />
+Vi b&ouml;rjar med att placera ut <strong>#menu&lt;&#47;strong&gt; till h&ouml;ger i headern.
+<p>&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;css-meny22.png" alt="" title="" width="700" height="89" class="alignnone size-full wp-image-2449" &#47;&gt;<br />
+[css]<br />
+#menu{<br />
+    position: absolute;<br />
+    margin-left: 500px;<br />
+    margin-top: 35px;<br />
+    overflow: hidden;<br />
+}<br />
+[&#47;css]</p>
+<p>Som du s&aring;g i designen tidigare s&aring; ska menyn ligga horisontellt, det h&auml;r ska vi fixa med hj&auml;lp av <strong>float:left &lt;&#47;strong&gt;.<br />
+I html-filen har vi skrivit menyn som en <a href="&#47;nyborjare-listor-tabeller&#47;" target="_blank">lista&lt;&#47;a&gt; vilket till&aring;ter oss att &auml;ndra <strong>li-taggarna&lt;&#47;strong&gt; s&aring; att dom l&auml;gger sig p&aring; bredden ist&auml;llet.
+<p>&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;css-meny31.png" alt="" title="" width="700" height="89" class="alignnone size-full wp-image-2450" &#47;&gt;<br />
+[css]<br />
+#menu li{<br />
+    float:left;<br />
+    margin-left: 80px;<br />
+}<br />
+[&#47;css]</p>
+<h2 id="font-face">@font-face&lt;&#47;h2&gt;<br />
+Nu &auml;r meny-l&auml;nkarna utplacerade som vi vill, men n&aring;gonting saknas, n&auml;mligen r&auml;tt <strong>typsnitt och f&auml;rg&lt;&#47;strong&gt;.<br />
+Typsnitt kan du ladda ner lite vart som helst, det finns dom som <a href="http:&#47;&#47;fontfabric.com&#47;category&#47;all-fonts&#47;" target="_blank">kostar pengar&lt;&#47;a&gt; och dom som &auml;r <a href="http:&#47;&#47;fontfabric.com&#47;category&#47;free&#47;" target="_blank">gratis&lt;&#47;a&gt;.<br />
+N&auml;r man har laddat ner en font s&aring; vill man kanske applicera den p&aring; hemsidan, det h&auml;r g&ouml;r man med <strong>@font-face&lt;&#47;strong&gt;. Det finns bra tj&auml;nster som hj&auml;lper dig att g&ouml;ra fonten webbanpassad, bland annat <a href="http:&#47;&#47;www.font2web.com&#47;" target="_blank">Font2web&lt;&#47;a&gt; och <a href="http:&#47;&#47;www.fontsquirrel.com&#47;fontface&#47;generator" target="_blank">Fontsquirrel&lt;&#47;a&gt;. 
+<p><strong>N&auml;r du laddar upp en font&lt;&#47;strong&gt; d&auml;r s&aring; f&aring;r du allt genererat &aring;t dig, dvs. en css-kod och det typsnittet du valt i olika filformat. Alla teckensnitts-format st&ouml;ds n&auml;mligen inte av alla webbl&auml;sare, man m&aring;ste d&auml;rf&ouml;r applicera en m&auml;ngd olika p&aring; sidan f&ouml;r att vara s&auml;ker p&aring; att den funkar.
+<p>&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;fontface-fonts.jpg" alt="" title="" width="700" height="172" class="alignnone size-full wp-image-2733" &#47;&gt;<br />
+&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;hagin-font.jpg" alt="" title="" width="700" height="172" class="alignnone size-full wp-image-2738" &#47;&gt;</p>
+<p>I det h&auml;r exemplet har vi anv&auml;nt en gratis font som heter <a href="http:&#47;&#47;fontfabric.com&#47;hagin-free-font&#47;" target="_blank">Hagin&lt;&#47;a&gt;. <strong>H&auml;r f&ouml;ljer v&aring;r @font-face-struktur:&lt;&#47;strong&gt;<br />
+[css]<br />
+@font-face {<br />
+    font-family: 'Hagin';<br />
+    src: url('fonts&#47;hagin_caps_medium.eot');<br />
+    src: local('☺'),<br />
+    url('fonts&#47;hagin_caps_medium.woff') format('woff'),<br />
+    url('fonts&#47;hagin_caps_medium.ttf') format('truetype'),<br />
+    url('fonts&#47;hagin_caps_medium.svg') format('svg');<br />
+    font-weight: normal;<br />
+    font-style: normal;<br />
+}<br />
+[&#47;css]
+<p>...och nu skriver vi helt enkelt in den nya fonten p&aring; v&aring;ra l&auml;nkar.<br />
+[css]<br />
+#menu a{<br />
+    font-family: Hagin;<br />
+    color:#222;<br />
+    font-size:16px;<br />
+    text-decoration: none;<br />
+}<br />
+[&#47;css]<br />
+&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;meny-fontface.jpg" alt="" title="" width="700" height="89" class="alignnone size-full wp-image-2731" &#47;&gt;&lt;br&#47;&gt;&lt;br&#47;&gt;</p>
+<h2>7. Headline&lt;&#47;h2&gt;<br />
+Headlinen har tidigare inte varit synlig i html-filen. Nu g&ouml;r vi den 100% bred och 300px h&ouml;g, samt f&auml;rgar den ljusbl&aring;.<br />
+[css]<br />
+#headline{<br />
+    background:#8fc5df;<br />
+    width:100%;<br />
+    height:300px;<br />
+}<br />
+[&#47;css]<br />
+&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;headline.jpg" alt="" title="" width="700" height="377" class="alignnone size-full wp-image-2735" &#47;&gt;
+<h2>Headline-bilden&lt;&#47;h2&gt;<br />
+Bilden ligger i en div som vi kallat <strong>#headline_bild&lt;&#47;strong&gt;. Genom att &auml;ndra best&auml;mma position kan vi flytta den till h&ouml;ger om texten.<br />
+[css]<br />
+#headline_bild{<br />
+    position: absolute;<br />
+    margin-left:400px;<br />
+    margin-top:35px;<br />
+}<br />
+[&#47;css]<br />
+&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;headline-position3.jpg" alt="" title="" width="700" height="245" class="alignnone size-full wp-image-2741" &#47;&gt;
+<h2>Headline-texten&lt;&#47;h2&gt;<br />
+Vi g&ouml;r samma sak med texten. H&auml;r placerar vi den <strong>100px&lt;&#47;strong&gt; ner.<br />
+[css]<br />
+#headline_text{<br />
+    position: absolute;<br />
+    margin-top: 100px;<br />
+}<br />
+[&#47;css]<br />
+&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;headline-position2.jpg" alt="" title="" width="700" height="245" class="alignnone size-full wp-image-2740" &#47;&gt;
+<h2>Styla texten med CSS3&lt;&#47;h2&gt;<br />
+Headline-texten ska bli vit med en svart skugga. Vi b&ouml;rjar med det grundl&auml;ggande:<br />
+[css]<br />
+#headline_text h1{<br />
+    font-family: Hagin;<br />
+    color:#fff;<br />
+    font-size: 30px;<br />
+}<br />
+[&#47;css]<br />
+&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;headline-position4.jpg" alt="" title="" width="700" height="245" class="alignnone size-full wp-image-2743" &#47;&gt;
+<p><strong>Nu ska vi l&auml;gga till skuggan&lt;&#47;strong&gt; p&aring; texten, det h&auml;r g&ouml;r vi med funktionen <strong>text-shadow&lt;&#47;strong&gt;.<br />
+Ist&auml;llet f&ouml;r webbf&auml;rger (#000) s&aring; skriver vi skuggan i <strong>rgba&lt;&#47;strong&gt; (red, green, blue och alpha). Vi g&ouml;r det h&auml;r f&ouml;r att kunna best&auml;mma hur genomskinlig skuggan ska vara (alpha). Som exempel skriver jag <strong>.5&lt;&#47;strong&gt; p&aring; alpha, vilket ger oss en 50% genomskinlighet.<br />
+[css]<br />
+#headline_text h1{<br />
+    font-family: Hagin;<br />
+    color:#fff;<br />
+    font-size: 30px;
+<p>    text-shadow: rgba(0,0,0,.5) 0 1px 0;<br />
+}<br />
+[&#47;css]<br />
+&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;headline-position5.jpg" alt="" title="" width="700" height="245" class="alignnone size-full wp-image-2744" &#47;&gt;&lt;br&#47;&gt;&lt;br&#47;&gt;</p>
+<h2>8. Content&lt;&#47;h2&gt;<br />
+<strong>#content&lt;&#47;strong&gt; &auml;r uppdelad i tv&aring; delar, en till v&auml;nster och en till h&ouml;ger.<br />
+F&ouml;r att l&auml;gga de tv&aring; delarna bredvid varandra skriver vi <strong>overflow: hidden&lt;&#47;strong&gt; i #content och <strong>float: left&lt;&#47;strong&gt; i den v&auml;nstra och h&ouml;gra delen.<br />
+[css]<br />
+#content{<br />
+    position: relative;<br />
+    margin-top: 30px;<br />
+    width: 960px;<br />
+    overflow: hidden;<br />
+}
+<p>#left_box{<br />
+    position: relative;<br />
+    width: 700px;<br />
+    float: left;<br />
+}</p>
+<p>#right_box{<br />
+    position: relative;<br />
+    width: 240px;<br />
+    margin-left: 20px;<br />
+    float: left;<br />
+}<br />
+[&#47;css]<br />
+&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;content-position1.jpg" alt="" title="" width="700" height="363" class="alignnone size-full wp-image-2780" &#47;&gt;</p>
+<h2>Styla texten i #Content&lt;&#47;h2&gt;<br />
+[css]<br />
+#content h1{<br />
+    font-family: Hagin;<br />
+    color: #151515;<br />
+    font-size: 30px;<br />
+    line-height: 60px;<br />
+}
+<p>#content h2{<br />
+    font-family: Hagin;<br />
+    color: #151515;<br />
+    font-size: 20px;<br />
+    line-height:60px;<br />
+}</p>
+<p>#content p{<br />
+    font-family: arial;<br />
+    color: #232323;<br />
+    font-size: 13px;<br />
+    line-height: 21px;<br />
+}<br />
+[&#47;css]<br />
+&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;content-position21.jpg" alt="" title="" width="700" height="261" class="alignnone size-full wp-image-2786" &#47;&gt;</p>
+<h2>L&auml;nkar&lt;&#47;h2&gt;<br />
+[css]<br />
+#content a{<br />
+    font-family: arial;<br />
+    color: #479eba;<br />
+    font-size: 13px;<br />
+    text-decoration: none;<br />
+}
+<p>#content a:hover{<br />
+    text-decoration: underline;<br />
+}<br />
+[&#47;css]<br />
+&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;content-position3.jpg" alt="" title="" width="700" height="176" class="alignnone size-full wp-image-2787" &#47;&gt;<br />
+&lt;br&#47;&gt;&lt;br&#47;&gt;</p>
+<h2>9. Footer&lt;&#47;h2&gt;<br />
+Footern fungerar precis som headlinen, den &auml;r <strong>100% bred&lt;&#47;strong&gt;.<br />
+[css]<br />
+footer{<br />
+    position: relative;<br />
+    width:100%;<br />
+    background:#444444;<br />
+    height:200px;<br />
+}<br />
+[&#47;css]<br />
+&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;footer.jpg" alt="" title="" width="700" height="245" class="alignnone size-full wp-image-2794" &#47;&gt;
+<h2>Texten i footer&lt;&#47;h2&gt;<br />
+Texten ligger i en div som vi kallat <strong>#text&lt;&#47;strong&gt;. Den h&auml;r flyttar vi ner 35px.<br />
+[css]<br />
+footer #text{<br />
+	position: absolute;<br />
+	margin-top: 35px;<br />
+}<br />
+[&#47;css]<br />
+&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;footer_text.jpg" alt="" title="" width="700" height="128" class="alignnone size-full wp-image-2796" &#47;&gt;
+<h2>Styla texten i footer&lt;&#47;h2&gt;<br />
+[css]<br />
+footer p{<br />
+    font-family: arial;<br />
+    color:#c0c0c0;<br />
+    font-size: 13px;<br />
+    line-height:21px;<br />
+    text-shadow: rgba(0,0,0,.5) 0 -1px 0;<br />
+}<br />
+[&#47;css]<br />
+&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;footer_text2.jpg" alt="" title="" width="700" height="128" class="alignnone size-full wp-image-2798" &#47;&gt;<br />
+&lt;br&#47;&gt;&lt;br&#47;&gt;
+<h2>Slutresultat&lt;&#47;h2&gt;<br />
+<a href="http:&#47;&#47;webbdesignkurser.se&#47;html5-css3-slutresultat&#47;" title="Se slutresultatet" target="_blank">Se slutresultatet h&auml;r&lt;&#47;a&gt; eller <a href="http:&#47;&#47;webbdesignkurser.se&#47;html5-css3-hemsida.zip" title="Ladda ner alla filer" target="_blank">ladda ner&lt;&#47;a&gt; allt material.
+<p>&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;html5-forhandsvisning2.jpg" alt="" title="" width="700" height="480" class="alignnone size-full wp-image-2805" &#47;&gt;</p>
+<h2>Relaterade artiklar&lt;&#47;h2&gt;<br />
+&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;selective.jpg" alt="" title="" width="300" height="178" class="alignnone size-full wp-image-2809" &#47;&gt;<br />
+<a href="http:&#47;&#47;webbdesignkurser.se&#47;selection-css3&#47;" title="Selections med css3">Selections med css3&lt;&#47;a&gt;
+</a></h2></a></a></h2></h2></strong></h2></strong></h2></h2></h2></strong></strong></strong></h2></strong></strong></strong></strong></p></h2></strong></h2></strong></h2></h2></strong></a></p></strong></p></a></a></strong></a></a></strong></h2></strong></a></strong></p></strong></h2></h2></strong></strong></strong></strong></h2></h2></a></strong></h2></h2></h2></a></p></a></a></strong></h1>

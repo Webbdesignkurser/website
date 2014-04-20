@@ -1,0 +1,119 @@
+<p>&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;div-och-class3.png" alt="div och class" width="695" height="182" class="alignnone size-full wp-image-4073" &#47;&gt;</p>
+<h1>Div och class&lt;&#47;h1&gt;<br />
+F&ouml;r att kunna namnge, placera ut och tilldela egenskaper &aring;t olika omr&aring;den och element p&aring; hemsidan s&aring; anv&auml;nder vi oss utav divar och classer. Skillnaden mellan de tv&aring; &auml;r att en div endast f&aring;r anv&auml;ndas en g&aring;ng i index.html medan classer &auml;r till f&ouml;r att anv&auml;ndas p&aring; ett flertal st&auml;llen.&lt;br&#47;&gt;&lt;br&#47;&gt;
+<h2>Att skriva en div&lt;&#47;h2&gt;<br />
+En div &auml;r ett omr&aring;de p&aring; sidan som markeras i din html-fil med taggen&nbsp;<strong>
+<div>&lt;&#47;strong&gt;.<br />
+Med attributet <strong>id&lt;&#47;strong&gt; kan du d&ouml;pa din div, vilket ger dig m&ouml;jligheten att styla den.
+<p>[html]</p>
+<div id="ruta">
+<p>&lt;&#47;div&gt;<br />
+[&#47;html]</p>
+<p>I din style.css l&auml;gger du in f&ouml;ljande f&ouml;r att tilldela egenskaper:</p>
+<p>[css]<br />
+#ruta{</p>
+<p>}<br />
+[&#47;css]</p>
+<p><strong>Inom div-taggarna kan vi nu l&auml;gga in v&aring;rt inneh&aring;ll.&lt;&#47;strong&gt;
+<p>[html]</p>
+<div id="ruta">
+<h1>V&auml;lkommen!&lt;&#47;h1&gt;
+<p>K&auml;nn dig v&auml;lkommen.&lt;&#47;p&gt;</p>
+<p>&lt;&#47;div&gt;<br />
+[&#47;html]</p>
+<p>Nu till det roliga, vi ska skriva hur v&aring;r <strong>#ruta&lt;&#47;strong&gt; ska se ut.
+<p>[css]<br />
+#ruta{<br />
+background: #fff;<br />
+width: 200px;<br />
+height: 100px;<br />
+}<br />
+[&#47;css]</p>
+<p>&lt;img class="alignnone size-full wp-image-824" title="" src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;div1.png" alt="" width="696" height="170" &#47;&gt;</p>
+<h2>Position&lt;&#47;h2&gt;<br />
+Att placera ut din div kan vara en bra id&eacute;. Det finns olika s&auml;tt att g&aring; tillv&auml;ga, n&auml;rmare sagt fyra.
+<p>Det kan vara sv&aring;rt till en b&ouml;rjan att f&ouml;rst&aring; skillnaden mellan dessa men l&aring;t dig inte skr&auml;mmas!</p>
+<h3><strong>Static&lt;&#47;strong&gt;&lt;&#47;h3&gt;<br />
+Det h&auml;r &auml;r den f&ouml;rinst&auml;llda funktionen som din div har, att placeras i ditt v&auml;nstra h&ouml;rn. Det &auml;r v&auml;ldigt s&auml;llan du m&aring;ste till&auml;mpa static eftersom det redan &auml;r f&ouml;rinst&auml;llt om inget annat &auml;r sagt.
+<p>&lt;img class="alignnone size-full wp-image-837" title="" src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;static.png" alt="" width="695" height="182" &#47;&gt;</p>
+<h3><strong>Relative&lt;&#47;strong&gt;&lt;&#47;h3&gt;<br />
+Relative kan oftast missuppfattas och anv&auml;ndas fel, men kan f&ouml;rklaras ganska enkelt. Med Relative utg&aring;r du alltid fr&aring;n den position som den vanligtvis skulle ha haft om den vore static. S&aring; om du vill att en div ska placeras <strong>10px;&lt;&#47;strong&gt; nedanf&ouml;r den positionen s&aring; skriver du helt enkelt <strong>margin-top:10px;&lt;&#47;strong&gt; s&aring; kommer din div att hoppa ner 10px.
+<p>&lt;img class="alignnone size-full wp-image-868" title="" src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;relative1.png" alt="" width="695" height="182" &#47;&gt;</p>
+<h3><strong>Absolute&lt;&#47;strong&gt;&lt;&#47;h3&gt;<br />
+Med Absolute skapar du ett helt sj&auml;lvst&auml;ndigt element. Mer frihet helt enkelt.
+<p>&lt;img class="alignnone size-full wp-image-839" title="" src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;absolute.png" alt="" width="695" height="182" &#47;&gt;</p>
+<h3><strong>Fixed&lt;&#47;strong&gt;&lt;&#47;h3&gt;<br />
+Fixed &auml;r det s&auml;llan man anv&auml;nder. Det h&auml;r klistrar fast din div p&aring; f&ouml;nstret och stannar d&auml;r n&auml;r du scrollar ner p&aring; sidan.
+<p>&lt;img class="alignnone size-full wp-image-846" title="" src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;fixed.png" alt="" width="695" height="182" &#47;&gt;</p>
+<h2>Exempel&lt;&#47;h2&gt;<br />
+I det h&auml;r exemplet vill vi ha en vit ruta d&auml;r all text ligger. Vi vill ocks&aring; att texten ska ha en viss marginal fr&aring;n rutans kanter, d&auml;rf&ouml;r skapar vi tv&aring; stycken div, en f&ouml;r rutan och en f&ouml;r texten.
+<p>[html]</p>
+<div id="ruta">
+<div id="text">
+<h1>V&auml;lkommen!&lt;&#47;h1&gt;
+<p>K&auml;nn dig v&auml;lkommen.&lt;&#47;p&gt;</p>
+<p>    &lt;&#47;div&gt;<br />
+&lt;&#47;div&gt;<br />
+[&#47;html]<br />
+[css]<br />
+#ruta{<br />
+background: #fff;<br />
+width: 200px;<br />
+height: 100px;<br />
+position: absolute;<br />
+margin-left: 50px;<br />
+margin-top: 50px;<br />
+}</p>
+<p>#text{<br />
+margin: 10px;<br />
+}<br />
+[&#47;css]</p>
+<p>&lt;img class="alignnone size-full wp-image-854" title="" src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;css-div.png" alt="" width="695" height="182" &#47;&gt;</p>
+<h2>Float:left&lt;&#47;h2&gt;<br />
+Float anv&auml;nds f&ouml;r att <strong>placera ut en div bredvid en annan&lt;&#47;strong&gt; p&aring; hemsidan. F&ouml;r att f&ouml;rklara tydligare hur det h&auml;r funkar har vi ett exempel nedanf&ouml;r.
+<p>[html]</p>
+<div id="boxar">
+<div id="left_box"> V&auml;nster box &lt;&#47;div&gt;
+<div id="right_box"> H&ouml;ger box &lt;&#47;div&gt;
+<p>&lt;&#47;div&gt;<br />
+[&#47;html]</p>
+<p>&nbsp;</p>
+<p>[css]<br />
+#boxar{<br />
+overflow:hidden;<br />
+}</p>
+<p>#left_box{<br />
+background: #a2c5e5;<br />
+width: 200px;<br />
+height: 100px;<br />
+float: left;<br />
+}</p>
+<p>#right_box{<br />
+background: #df8dbd;<br />
+width: 200px;<br />
+height: 100px;<br />
+float: left;<br />
+}<br />
+[&#47;css]</p>
+<p>&lt;img class="alignnone size-full wp-image-996" title="" src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;float.png" alt="float left" width="695" height="146" &#47;&gt;<br />
+N&aring;got viktigt som du inte f&aring;r gl&ouml;mma &auml;r att l&auml;gga stilen <strong>overflow:hidden;&lt;&#47;strong&gt; i den div som t&auml;cker boxarna. Det h&auml;r hindrar att &ouml;vriga divar som kommer efter&aring;t ska placeras fel p&aring; sidan.
+<h2 id="class">Class&lt;&#47;h2&gt;<br />
+En class &auml;r en stil som &auml;r menad att anv&auml;ndas flera g&aring;nger. Du kan h&auml;mta en class fr&aring;n css'en f&ouml;r att sedan l&auml;gga in den i en tagg. F&ouml;r att ge ett objekt p&aring; sidan en class l&auml;gger du in f&ouml;ljande kod i taggens uppbyggnad p&aring; html-sidan.
+<p>[html]</p>
+<p>class="namn-p&aring;-classen"</p>
+<p>[&#47;html]</p>
+<h3>Exempel&lt;&#47;h3&gt;<br />
+[html]
+<h1 class="namn-p&aring;-classen"> Rubrik &lt;&#47;p&gt;
+<p><a href="sida.html" class="namn-p&aring;-classen"> L&auml;nk &lt;&#47;a&gt;
+<p>&lt;img src="bild.png" class="namn-p&aring;-classen"&#47;&gt;</p>
+<p class="namn-p&aring;-classen"> Text &lt;&#47;p&gt;</p>
+<div class="namn-p&aring;-classen"> &lt;&#47;div&gt;<br />
+[&#47;html]
+<h3>Class i css&lt;&#47;h3&gt;<br />
+I din css g&ouml;r vi precis som vi gjorde med div, men ist&auml;llet f&ouml;r ett <strong>#&lt;&#47;strong&gt; tecken s&auml;tter vi en punkt, vilket ocks&aring; f&aring;r s&auml;tta punkt f&ouml;r det h&auml;r kapitlet.
+<p>[css]<br />
+.namn-p&aring;-classen{</p>
+<p>}<br />
+[&#47;css]</p>
+</strong></h3></div></a></p></h1></h3></h2></strong></p></div></div></div></strong></h2></h1></div></div></h2></strong></h3></strong></h3></strong></strong></strong></h3></strong></h3></h2></strong></p></h1></div></strong></p></div></strong></div></strong></h2></h1>

@@ -1,0 +1,173 @@
+<p>&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;styla-text-lankar1.png" alt="styla text l&auml;nkar css" width="695" height="182" class="alignnone size-full wp-image-4049" &#47;&gt;</p>
+<h1>Styla text och l&auml;nkar med CSS&lt;&#47;h1&gt;<br />
+Genom att vi har <a href="http:&#47;&#47;webbdesignkurser.se&#47;nyborjare-css-grunder&#47;" target="_blank" title="CSS-grunder">l&auml;nkat en CSS-fil&lt;&#47;a&gt; till v&aring;r index.html s&aring; kan vi nu tilldela objekt p&aring; hemsidan olika stilegenskaper, s&aring; som f&auml;rg, storlek och typsnitt. Det enda vi beh&ouml;ver g&ouml;ra &auml;r att namnge vad vi vill &auml;ndra p&aring; och sedan skriva de olika egenskaperna.&lt;br&#47;&gt;&lt;br&#47;&gt;
+<h2>&Auml;ndra f&auml;rg, typsnitt och storlek&lt;&#47;h2&gt;<br />
+I <strong>index.html&lt;&#47;strong&gt; skriver vi rubriker med taggarna <em>h1&lt;&#47;em&gt;, <em>h2&lt;&#47;em&gt; och <em>h3&lt;&#47;em&gt;.<br />
+Nu vill vi best&auml;mma hur var och en ska se ut p&aring; sidan, det g&ouml;r vi genom att skriva css-egenskaper f&ouml;r varje rubrik.
+<h3><strong>Index.html&lt;&#47;strong&gt;&lt;&#47;h3&gt;<br />
+H&auml;r &auml;r koden som vi vill styla. Precis den samma vi anv&auml;nde i HTML-grunder.
+<p>[html]<br />
+&lt;!DOCTYPE html&gt;<br />
+<html><br />
+    <head><br />
+    <meta charset="utf-8" />
+<link rel="stylesheet" type="text&#47;css" href="style.css" />
+    <title>Min f&ouml;rsta hemsida&lt;&#47;title&gt;<br />
+    &lt;&#47;head&gt;<br />
+    <body>
+<h1>Min f&ouml;rsta hemsida&lt;&#47;h1&gt;
+<p><strong>Hej!&lt;&#47;strong&gt; Det h&auml;r &auml;r min f&ouml;rsta hemsida.&lt;br&#47;&gt;<br />
+        <em>Peace out!&lt;&#47;em&gt;&lt;&#47;p&gt;
+<h2>Underrubrik&lt;&#47;h2&gt;
+<p><strong>Tjock text&lt;&#47;strong&gt;<br />
+        <em>Kursiv text&lt;&#47;em&gt;&lt;&#47;p&gt;<br />
+    &lt;&#47;body&gt;<br />
+&lt;&#47;html&gt;<br />
+[&#47;html]<br />
+&lt;br&#47;&gt;
+<h3><strong>Style.css&lt;&#47;strong&gt;&lt;&#47;h3&gt;<br />
+Och h&auml;r ligger v&aring;r f&ouml;rsta css-kod. Vi b&ouml;rjar med <strong><br />
+<h1>&lt;&#47;strong&gt; taggen.
+<p><strong>1.&lt;&#47;strong&gt;&nbsp;B&ouml;rja med att markera att det &auml;r&nbsp;<strong>h1&lt;&#47;strong&gt;&nbsp;som v&aring;r stil ska p&aring;verka. Markera sedan att egenskaperna b&ouml;rjar genom att skriva en vinge&nbsp;<strong>{&lt;&#47;strong&gt;&nbsp;f&ouml;r att sedan avsluta alla egenskaper med en slutvinge&nbsp;<strong>}&lt;&#47;strong&gt;
+<p>[css]<br />
+h1{</p>
+<p>}<br />
+[&#47;css]</p>
+<p><strong>&lt;&#47;strong&gt;<strong>2.&nbsp;&lt;&#47;strong&gt;Fyll vingarna med olika egenskaper.
+<p>[css]<br />
+h1{<br />
+font-family: arial;<br />
+font-size: 25px;<br />
+color: #ee6ab3;<br />
+line-height: 40px;<br />
+}<br />
+[&#47;css]</p>
+<p>&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;css-styla-text-lankar.png" alt="Styla text och l&auml;nkar css" width="682" height="147" class="alignnone size-full wp-image-4039" &#47;&gt;</p>
+<p><em>Anledningen till att all &ouml;vrig text &auml;r oformaterad &auml;r p&aring; grund av v&aring;r Reset CSS.&lt;&#47;em&gt;
+<h2>Olika egenskaper&lt;&#47;h2&gt;<br />
+F&ouml;ljande css-egenskaper kan du leka med f&ouml;r att anpassa din text precis som du vill ha den.&lt;br&#47;&gt;
+<table class="cssprop" style="font-family: arial;">
+<tbody>
+<tr>
+<td width="140px"><a href="http:&#47;&#47;www.w3schools.com&#47;cssref&#47;pr_font_font-family.asp" target="_blank">font-family&lt;&#47;a&gt;&lt;&#47;td&gt;
+<td>Best&auml;mmer teckensnitt.&lt;&#47;td&gt;<br />
+&lt;&#47;tr&gt;
+<tr>
+<td><a href="http:&#47;&#47;www.w3schools.com&#47;cssref&#47;pr_font_font-size.asp" target="_blank">font-size&lt;&#47;a&gt;&lt;&#47;td&gt;
+<td>Storleken p&aring; texten.&lt;&#47;td&gt;<br />
+&lt;&#47;tr&gt;
+<tr>
+<td><a href="http:&#47;&#47;www.w3schools.com&#47;cssref&#47;pr_text_color.asp" target="_blank">color&lt;&#47;a&gt;&lt;&#47;td&gt;
+<td>Best&auml;mmer f&auml;rgen.&lt;&#47;td&gt;<br />
+&lt;&#47;tr&gt;
+<tr>
+<td><a href="http:&#47;&#47;www.w3schools.com&#47;cssref&#47;pr_font_weight.asp" target="_blank">font-weight&lt;&#47;a&gt;&lt;&#47;td&gt;
+<td>Tjockleken p&aring; texten.&lt;&#47;td&gt;<br />
+&lt;&#47;tr&gt;
+<tr>
+<td><a href="http:&#47;&#47;www.w3schools.com&#47;cssref&#47;pr_font_font-style.asp" target="_blank">font-style&lt;&#47;a&gt;&lt;&#47;td&gt;
+<td>Best&auml;mmer italic eller normal text.&lt;&#47;td&gt;<br />
+&lt;&#47;tr&gt;
+<tr>
+<td><a href="http:&#47;&#47;www.w3schools.com&#47;cssref&#47;pr_text_direction.asp" target="_blank">direction&lt;&#47;a&gt;&lt;&#47;td&gt;
+<td>Best&auml;mmer riktningen p&aring; texten.&lt;&#47;td&gt;<br />
+&lt;&#47;tr&gt;
+<tr>
+<td><a href="http:&#47;&#47;www.w3schools.com&#47;cssref&#47;pr_text_letter-spacing.asp" target="_blank">letter-spacing&lt;&#47;a&gt;&lt;&#47;td&gt;
+<td>L&auml;gger till eller tar bort utrymme mellan tecken.&lt;&#47;td&gt;<br />
+&lt;&#47;tr&gt;
+<tr>
+<td><a href="http:&#47;&#47;www.w3schools.com&#47;cssref&#47;pr_dim_line-height.asp" target="_blank">line-height&lt;&#47;a&gt;&lt;&#47;td&gt;
+<td>S&auml;tter h&ouml;jden p&aring; texten.&lt;&#47;td&gt;<br />
+&lt;&#47;tr&gt;
+<tr>
+<td><a href="http:&#47;&#47;www.w3schools.com&#47;cssref&#47;pr_text_text-align.asp" target="_blank">text-align&lt;&#47;a&gt;&lt;&#47;td&gt;
+<td>Anger den v&aring;gr&auml;ta justeringen av text.&lt;&#47;td&gt;<br />
+&lt;&#47;tr&gt;
+<tr>
+<td><a href="http:&#47;&#47;www.w3schools.com&#47;cssref&#47;pr_text_text-decoration.asp" target="_blank">text-decoration&lt;&#47;a&gt;&lt;&#47;td&gt;
+<td>Best&auml;mmer dekorationer f&ouml;r text.&lt;&#47;td&gt;<br />
+&lt;&#47;tr&gt;
+<tr>
+<td><a href="&#47;cssref&#47;pr_text_text-indent.asp" target="_blank">text-indent&lt;&#47;a&gt;&lt;&#47;td&gt;
+<td>Anger indrag av f&ouml;rsta raden.&lt;&#47;td&gt;<br />
+&lt;&#47;tr&gt;
+<tr>
+<td><a href="http:&#47;&#47;www.w3.org&#47;Style&#47;Examples&#47;007&#47;text-shadow.en.html" target="_blank">text-shadow&lt;&#47;a&gt;&lt;&#47;td&gt;
+<td>Best&auml;mmer skuggan p&aring; en text.&lt;&#47;td&gt;<br />
+&lt;&#47;tr&gt;
+<tr>
+<td><a href="http:&#47;&#47;www.w3schools.com&#47;cssref&#47;pr_text_text-transform.asp" target="_blank">text-transform&lt;&#47;a&gt;&lt;&#47;td&gt;
+<td>&Auml;ndrar till stora&#47;sm&aring; bokst&auml;ver i en text.&lt;&#47;td&gt;<br />
+&lt;&#47;tr&gt;
+<tr>
+<td><a href="http:&#47;&#47;www.w3schools.com&#47;cssref&#47;pr_pos_vertical-align.asp" target="_blank">vertical-align&lt;&#47;a&gt;&lt;&#47;td&gt;
+<td>St&auml;ller in den lodr&auml;ta justeringen av ett element.&lt;&#47;td&gt;<br />
+&lt;&#47;tr&gt;
+<tr>
+<td><a href="http:&#47;&#47;www.w3schools.com&#47;cssref&#47;pr_text_word-spacing.asp" target="_blank">word-spacing&lt;&#47;a&gt;&lt;&#47;td&gt;
+<td>L&auml;gger till eller tar bort utrymme mellan ord.&lt;&#47;td&gt;<br />
+&lt;&#47;tr&gt;<br />
+&lt;&#47;tbody&gt;<br />
+&lt;&#47;table&gt;
+<h2>F&auml;rgkarta&lt;&#47;h2&gt;<br />
+F&ouml;r att hitta r&auml;tt f&auml;rger anv&auml;nder vi en f&auml;rgkarta.<br />
+Antingen med hj&auml;lp av photoshop eller med tex &lt;a href="http:&#47;&#47;www.colorpicker.com&#47;". target="_blank"&gt;colorpicker.com&lt;&#47;a&gt;<br />
+Kom ih&aring;g att s&auml;tta ett # tecken innan din f&auml;rgkod.
+<h2>S&aring; kan det se ut&lt;&#47;h2&gt;<br />
+Om vi utg&aring;r fr&aring;n v&aring;r index.html igen s&aring; kan vi skriva ett fullst&auml;ndigt stilschema f&ouml;r alla taggar.
+<p>[css]<br />
+h1{<br />
+font-family: arial;<br />
+font-size:25px;<br />
+color: #ee6ab3;<br />
+line-height:50px;<br />
+font-weight:bold;<br />
+}</p>
+<p>h2{<br />
+font-family: arial;<br />
+font-size: 18px;<br />
+color: #676767;<br />
+line-height: 40px;<br />
+font-weight: bold;<br />
+}</p>
+<p>p{<br />
+font-family: "Times New Roman";<br />
+font-size: 13px;<br />
+color: #4f4f4f;<br />
+line-height: 20px;<br />
+}</p>
+<p>strong{<br />
+font-weight: bold;<br />
+}</p>
+<p>em{<br />
+font-style: italic;<br />
+}<br />
+[&#47;css]<br />
+&lt;img class="alignnone size-full wp-image-740" title="" src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;css-html.png" alt="" width="697" height="189" &#47;&gt;<br />
+<em>Allt blir mycket b&auml;ttre med css, ellerhur?&lt;&#47;em&gt;
+<h2>L&auml;nkar&lt;&#47;h2&gt;<br />
+L&auml;nkar skrivs med taggen <strong><a>&lt;&#47;strong&gt;, vi kan d&auml;rf&ouml;r g&ouml;ra precis som vi gjorde med <strong><br />
+<h1>&lt;&#47;strong&gt;, bara att vi byter ut h1 mot a.
+<p>[css]<br />
+a{<br />
+color: #ff6abc;<br />
+font-family: arial;<br />
+text-decoration: none;<br />
+}<br />
+[&#47;css]</p>
+<p>Med <strong>text-decoration: none;&lt;&#47;strong&gt; kan vi best&auml;mma om vi ska ha understr&auml;ck (underline) eller inte (none).
+<h2 id="hover">Hover&lt;&#47;h2&gt;<br />
+Hover anv&auml;nds f&ouml;r att ber&auml;tta hur det ska se ut n&auml;r vi tar musen &ouml;ver l&auml;nken.
+<p>[css]<br />
+a:hover{<br />
+color: #ff6abc;<br />
+font-family: arial;<br />
+text-decoration: underline;<br />
+}<br />
+[&#47;css]</p>
+<h2 id="active">Active&lt;&#47;h2&gt;<br />
+Active fungerar likadant, men anv&auml;nds f&ouml;r stilen man har n&auml;r man <strong>trycker&lt;&#47;strong&gt; p&aring; l&auml;nken.
+<h2>L&auml;nkar - Slutresultat&lt;&#47;h2&gt;<br />
+<a class="examplelink" href="#">Det h&auml;r ger oss denna stilfulla l&auml;nk!&lt;&#47;a&gt;
+</a></h2></strong></h2></h2></strong></p></h1></strong></a></strong></h2></em></p></h2></h2></td></a></td></tr></td></a></td></tr></td></a></td></tr></td></a></td></tr></td></a></td></tr></td></a></td></tr></td></a></td></tr></td></a></td></tr></td></a></td></tr></td></a></td></tr></td></a></td></tr></td></a></td></tr></td></a></td></tr></td></a></td></tr></td></a></td></tr></tbody></table></h2></em></p></strong></strong></p></strong></strong></strong></strong></p></h1></strong></strong></h3></em></strong></p></h2></em></strong></p></h1></body></title></head></html></p></strong></h3></em></em></em></strong></h2></a></h1>

@@ -1,0 +1,246 @@
+<p>&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;repitition.png" alt="" title="" width="695" height="279" class="alignnone size-full wp-image-1040" &#47;&gt;&lt;br&#47;&gt;&lt;br&#47;&gt;</p>
+<h1>Repetition&lt;&#47;h1&gt;
+<p>Vi t&auml;nkte ta en snabb genomg&aring;ng p&aring; vad vi har g&aring;tt igenom, och vad passar inte b&auml;ttre d&aring; &auml;n att verkligen skapa en hel hemsida? <a href="&#47;nyborjare-slutresultat&#47;">H&auml;r hittar du slutresultatet&lt;&#47;a&gt;&lt;&#47;p&gt;&lt;br&#47;&gt;&lt;br&#47;&gt;
+<h2>S&aring; h&auml;r t&auml;nkte vi&lt;&#47;h2&gt;<br />
+&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2013&#47;02&#47;repetition-f&ouml;rklaring1.png" alt="" title="" width="695" height="389" class="alignnone size-full wp-image-1051" &#47;&gt;
+<h2>Grunden&lt;&#47;h2&gt;<br />
+Vi b&ouml;rjar med html-grunden, samt en div f&ouml;r v&aring;r <a href="&#47;nyborjare-wrapper&#47;" target="_blank">Wrapper&lt;&#47;a&gt; och en <strong>#content&lt;&#47;strong&gt; som vi sedan ska f&auml;rga vit.<br />
+[html]<br />
+<html><br />
+    <head><br />
+    <meta charset="utf-8" />
+<link rel="stylesheet" type="text&#47;css" href="style.css" />
+    <title>Min f&ouml;rsta hemsida&lt;&#47;title&gt;<br />
+    &lt;&#47;head&gt;<br />
+    <body>
+<div id="wrapper">
+<div id="content">
+<p>        &lt;&#47;div&gt;<br />
+        &lt;&#47;div&gt;<br />
+    &lt;&#47;body&gt;<br />
+&lt;&#47;html&gt;<br />
+[&#47;html]</p>
+<h2>Headern&lt;&#47;h2&gt;<br />
+I headern l&auml;gger vi v&aring;r logga. Eftersom v&aring;r logga ska fungera som en l&auml;nk till startsidan l&auml;gger vi den inom en a-tagg.<br />
+[html]<br />
+<html><br />
+    <head><br />
+    <meta charset="utf-8" />
+<link rel="stylesheet" type="text&#47;css" href="style.css" />
+    <title>Min f&ouml;rsta hemsida&lt;&#47;title&gt;<br />
+    &lt;&#47;head&gt;<br />
+    <body>
+<div id="wrapper">
+<div id="content">
+<div id="header">
+                <a href="index.html">&lt;img src="logga.png"&#47;&gt;&lt;&#47;a&gt;<br />
+            &lt;&#47;div&gt;
+<p>        &lt;&#47;div&gt;<br />
+        &lt;&#47;div&gt;<br />
+    &lt;&#47;body&gt;<br />
+&lt;&#47;html&gt;<br />
+[&#47;html]</p>
+<h2>Boxarna&lt;&#47;h2&gt;<br />
+Vi ska ha tv&aring; boxar, en f&ouml;r texten och en f&ouml;r menyn. Boxarna l&auml;gger vi i en div som vi har d&ouml;pt till <strong>#boxar&lt;&#47;strong&gt;.<br />
+[html]<br />
+<html><br />
+    <head><br />
+    <meta charset="utf-8" />
+<link rel="stylesheet" type="text&#47;css" href="style.css" />
+    <title>Min f&ouml;rsta hemsida&lt;&#47;title&gt;<br />
+    &lt;&#47;head&gt;<br />
+    <body>
+<div id="wrapper">
+<div id="content">
+<div id="header">
+                <a href="index.html">&lt;img src="logga.png"&#47;&gt;&lt;&#47;a&gt;<br />
+            &lt;&#47;div&gt;
+<div id="boxar">
+<div id="left_box">
+                &lt;img src="bilden.png"&#47;&gt;
+<h1>V&auml;lkommen!&lt;&#47;h1&gt;
+<p>K&auml;nn dig v&auml;lkommen.&lt;&#47;p&gt;<br />
+                &lt;&#47;div&gt;</p>
+<div id="right_box">
+<h1>Min meny&lt;&#47;h1&gt;<br />
+                &lt;&#47;div&gt;<br />
+            &lt;&#47;div&gt;      
+<p>        &lt;&#47;div&gt;<br />
+        &lt;&#47;div&gt;<br />
+    &lt;&#47;body&gt;<br />
+&lt;&#47;html&gt;<br />
+[&#47;html]</p>
+<h2>Menyn&lt;&#47;h2&gt;<br />
+Menyn ska ligga inom <strong>#right-box&lt;&#47;strong&gt; och skrivs som en <a href="&#47;nyborjare-listor-tabeller&#47;" target="_blank">lista&lt;&#47;a&gt;.<br />
+[html]<br />
+<html><br />
+    <head><br />
+    <meta charset="utf-8" />
+<link rel="stylesheet" type="text&#47;css" href="style.css" />
+    <title>Min f&ouml;rsta hemsida&lt;&#47;title&gt;<br />
+    &lt;&#47;head&gt;<br />
+    <body>
+<div id="wrapper">
+<div id="content">
+<div id="header">
+                <a href="index.html">&lt;img src="logga.png"&#47;&gt;&lt;&#47;a&gt;<br />
+            &lt;&#47;div&gt;
+<div id="boxar">
+<div id="left_box">
+                &lt;img src="bilden.png"&#47;&gt;
+<h1>V&auml;lkommen!&lt;&#47;h1&gt;
+<p>K&auml;nn dig v&auml;lkommen.&lt;&#47;p&gt;<br />
+                &lt;&#47;div&gt;</p>
+<div id="right_box">
+<h1>Min meny&lt;&#47;h1&gt;
+<ul>
+<li><a href="#">Hem&lt;&#47;a&gt;&lt;&#47;li&gt;
+<li><a href="#">Om mig&lt;&#47;a&gt;&lt;&#47;li&gt;
+<li><a href="#">Kontakt&lt;&#47;a&gt;&lt;&#47;li&gt;<br />
+                &lt;&#47;ul&gt;<br />
+                &lt;&#47;div&gt;<br />
+            &lt;&#47;div&gt;
+<p>        &lt;&#47;div&gt;<br />
+        &lt;&#47;div&gt;<br />
+    &lt;&#47;body&gt;<br />
+&lt;&#47;html&gt;<br />
+[&#47;html]</p>
+<h2>Footer&lt;&#47;h2&gt;<br />
+Footern &auml;r det vi har l&auml;ngst ner, en copyright-text till exempel. Vi l&auml;gger den diven l&auml;ngst ner <strong>efter&lt;&#47;strong&gt; v&aring;r #wrapper, men <strong>innan&lt;&#47;strong&gt; Body.<br />
+[html]<br />
+<html><br />
+    <head><br />
+    <meta charset="utf-8" />
+<link rel="stylesheet" type="text&#47;css" href="style.css" />
+    <title>Min f&ouml;rsta hemsida&lt;&#47;title&gt;<br />
+    &lt;&#47;head&gt;<br />
+    <body>
+<div id="wrapper">
+<div id="content">
+<div id="header">
+                <a href="index.html">&lt;img src="logga.png"&#47;&gt;&lt;&#47;a&gt;<br />
+            &lt;&#47;div&gt;
+<div id="boxar">
+<div id="left_box">
+                &lt;img src="bilden.png"&#47;&gt;
+<h1>V&auml;lkommen!&lt;&#47;h1&gt;
+<p>K&auml;nn dig v&auml;lkommen.&lt;&#47;p&gt;<br />
+                &lt;&#47;div&gt;</p>
+<div id="right_box">
+<h1>Min meny&lt;&#47;h1&gt;
+<ul>
+<li><a href="#">Hem&lt;&#47;a&gt;&lt;&#47;li&gt;
+<li><a href="#">Om mig&lt;&#47;a&gt;&lt;&#47;li&gt;
+<li><a href="#">Kontakt&lt;&#47;a&gt;&lt;&#47;li&gt;<br />
+                &lt;&#47;ul&gt;<br />
+                &lt;&#47;div&gt;<br />
+            &lt;&#47;div&gt;
+<p>        &lt;&#47;div&gt;<br />
+        &lt;&#47;div&gt;</p>
+<div id="footer">
+<p>Copyright Min f&ouml;rsta hemsida 2012&lt;&#47;p&gt;<br />
+            &lt;&#47;div&gt;           </p>
+<p>    &lt;&#47;body&gt;<br />
+&lt;&#47;html&gt;<br />
+[&#47;html]</p>
+<h2 id="doctype">Doctype&lt;&#47;h2&gt;<br />
+Sista grejen vi ska l&auml;gga till i v&aring;rt html-dokument kallas Doctype. Det h&auml;r ska l&auml;ggas <strong>l&auml;ngst upp&lt;&#47;strong&gt; i dokumentet. Doctype hj&auml;lper webbl&auml;saren att ber&auml;tta vilken version av html som vi skrev hemsidan i.<br />
+Att hoppa &ouml;ver doctype kan resultera i att webbl&auml;saren (oftast g&auml;ller det h&auml;r Explorer) f&ouml;rst&ouml;r hemsidans layout.<br />
+[html]<br />
+&lt;!DOCTYPE HTML&gt;<br />
+[&#47;html]
+<h2>Style.css&lt;&#47;h2&gt;<br />
+Nu ska vi skriva css-filen. Vi b&ouml;rjar med bakgrunden som ska upprepas.<br />
+(Kom ih&aring;g att v&aring;r <a href="&#47;nyborjare-css-grunder&#47;#reset_css" target="_blank">reset CSS&lt;&#47;a&gt; ska finnas med innan vi b&ouml;rjar skriva CSS:en)<br />
+[css]<br />
+body {<br />
+background: url(bakgrund.png);<br />
+}<br />
+[&#47;css]
+<h2>Text stilarna&lt;&#47;h2&gt;<br />
+[css]<br />
+h1{<br />
+font-family: arial;<br />
+font-size:25px;<br />
+color: #505050;<br />
+line-height:45px;<br />
+margin-top:10px;<br />
+font-weight:bold;<br />
+}
+<p>p{<br />
+font-family: "Times New Roman";<br />
+font-size:14px;<br />
+color: #2a2a2a;<br />
+line-height:23px;<br />
+}<br />
+[&#47;css]</p>
+<h2>#Wrapper &amp; #Content&lt;&#47;h2&gt;<br />
+I wrappern s&auml;tter vi bredden p&aring; <strong>960px&lt;&#47;strong&gt;. V&aring;r content ska vi f&auml;rga vit med marginal runt om. Vi vill &auml;ven f&aring; till rundade h&ouml;rn p&aring; v&aring;r Content-ruta. Det h&auml;r fixar man med <strong>border-radius: 10px; &lt;&#47;strong&gt;<br />
+[css]<br />
+#wrapper{<br />
+width:960px;<br />
+margin-right:auto;<br />
+margin-left:auto;<br />
+}
+<p>#content{<br />
+background: #f8f8f8;<br />
+padding:20px;<br />
+margin-top:50px;<br />
+border-radius: 10px;<br />
+}<br />
+[&#47;css]</p>
+<h2>#Header&lt;&#47;h2&gt;<br />
+V&aring;r header ska vara <strong>relative&lt;&#47;strong&gt; och <strong>60px&lt;&#47;strong&gt; h&ouml;g.<br />
+[css]<br />
+#header{<br />
+position: relative;<br />
+height:60px;<br />
+}<br />
+[&#47;css]
+<h2>#Boxar&lt;&#47;h2&gt;<br />
+Boxarna skriver vi som vi gjorde i kapitlet <a href="&#47;nyborjare-div-class&#47;">Div &amp; Class&lt;&#47;a&gt;. V&aring;r v&auml;nstra box ska vara <strong>700px&lt;&#47;strong&gt; bred medan v&aring;r h&ouml;gra kan f&ouml;rbli utan n&aring;gon bredd. Den h&ouml;gra ska d&auml;remot ligga <strong>50px&lt;&#47;strong&gt; fr&aring;n v&auml;nster s&aring; att vi f&aring;r en marginal mellan boxarna.<br />
+[css]<br />
+#boxar{<br />
+overflow:auto;<br />
+width:960px;<br />
+}
+<p>#left_box{<br />
+float:left;<br />
+width:700px;<br />
+}</p>
+<p>#right_box{<br />
+float:left;<br />
+margin-left:50px;<br />
+}<br />
+[&#47;css]</p>
+<h2>Menyn&lt;&#47;h2&gt;<br />
+Vi vill styla menyn specifikt f&ouml;r v&aring;ra list-taggar, det g&ouml;r vi genom att f&ouml;rst skriva <strong>li&lt;&#47;strong&gt; och sen <strong>a&lt;&#47;strong&gt;.<br />
+[css]<br />
+li a{<br />
+color:#c65497;<br />
+text-decoration: none;<br />
+font-family:arial;<br />
+font-size:13px;<br />
+line-height: 25px;<br />
+}
+<p>li a:hover{<br />
+color:#c65497;<br />
+text-decoration: underline;<br />
+font-family:arial;<br />
+font-size:13px;<br />
+line-height: 25px;<br />
+}<br />
+[&#47;css]</p>
+<h2>#Footer&lt;&#47;h2&gt;<br />
+Footern ska ligga 20px nedanf&ouml;r #content, samt centrera v&aring;ran text.<br />
+[css]<br />
+#footer{<br />
+position: relative;<br />
+margin-top:20px;<br />
+text-align: center;<br />
+}<br />
+[&#47;css]
+<h2>F&auml;rdigt!&lt;&#47;h2&gt;<br />
+Dubbelkolla att hemsidan ser bra ut genom att h&ouml;gerklicka p&aring; index.html och &ouml;ppna i webbl&auml;saren. <a href="&#47;nyborjare-slutresultat&#47;">S&aring; h&auml;r blev v&aring;rat exempel&lt;&#47;a&gt;&lt;br&#47;&gt;<br />
+&lt;img src="http:&#47;&#47;webbdesignkurser.se&#47;wp-content&#47;uploads&#47;2012&#47;07&#47;repitition.png" alt="" title="" width="695" height="279" class="alignnone size-full wp-image-1040" &#47;&gt;
+</a></h2></h2></strong></strong></h2></strong></strong></a></h2></strong></strong></h2></strong></strong></h2></h2></a></h2></strong></h2></div></a></li></a></li></a></li></ul></h1></div></h1></div></div></a></div></div></div></body></title></head></html></strong></strong></h2></a></li></a></li></a></li></ul></h1></div></h1></div></div></a></div></div></div></body></title></head></html></a></strong></h2></h1></div></h1></div></div></a></div></div></div></body></title></head></html></strong></h2></a></div></div></div></body></title></head></html></h2></div></div></body></title></head></html></strong></a></h2></h2></a></p></h1>
