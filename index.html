@@ -30,8 +30,7 @@
 <!-- JavaScript -->
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-
-
+<script src="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-hover-dropdown/2.0.2/bootstrap-hover-dropdown.min.js"></script>
 <!--CSS-->
 <link href='/assets/main.css' rel='stylesheet' type='text/css' />
 
@@ -42,154 +41,168 @@
 
 <body>
 
-<div class="headerWrapper">
+<header class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">LOGGA</a>
+      <div class="navbar-collapse nav-collapse collapse navbar-header">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle js-activated">Dropdown <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li class="dropdown-header">Dropdown header</li>
+              <li><a href="#">Separated link</a></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown">I Have a Submenu <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a tabindex="-1" href="#">Menu Item</a></li>
+              <li><a tabindex="-1" href="#">Bootstrap 3 Does Not Support Submenus</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown">Account <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a tabindex="-1" href="#">My Account</a></li>
+              <li class="divider"></li>
+              <li><a tabindex="-1" href="#">Change Email</a></li>
+              <li><a tabindex="-1" href="#">Change Password</a></li>
+              <li class="divider"></li>
+              <li><a tabindex="-1" href="#">Logout</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Contact the President</a></li>
+
+        </ul>
+      </div> <!-- .nav-collapse -->
+    </div> <!-- .container -->
+  </header>
+
+<div class="main">
+
+    <div class="headlineWrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="headline">
+                        <h1>Hur gör man en hemsida?</h1>
+                        <h2>Vi går igenom grunderna i webbdesign</h2>
+                        <p>Gratis & Reklamfritt</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
     <div class="container">
         <div class="row">
             <div class="col-md-12">
+
                 <div class="row">
 
-                    <div class="col-md-3 col-sm-12 logo">
-                        Logga
-                    </div>
-
-                    <div class="col-md-9 col-sm-12 menu">
-                    <li class="dropdown"><a href="#">Webbkurser</a></li>
-                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
-					  <li role="presentation" class="dropdown-header">Dropdown header</li>
-					  ...
-					  <li role="presentation" class="divider"></li>
-					  <li role="presentation" class="dropdown-header">Dropdown header</li>
-					  ...
-					</ul>
-                        <ul>
-                            <li><a href="#">Vanliga frågor</a></li>
-                            <li><a href="#">Donera</a></li>
-                            <li><a href="#">Om sidan</a></li>
-                            <li class="pull-right"><a href="#">Sök på sidan...</a></li>
-
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-
-<div class="headlineWrapper">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-
-                <div class="headline">
-                    <h1>Hur gör man en hemsida?</h1>
-                    <h2>Vi går igenom grunderna i webbdesign</h2>
-                    <p>Gratis & Reklamfritt</p>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-
-            <div class="row">
-
-                <div class="col-md-4 col-sm-6 chapter">
-                	<div class="box">
-	                    <img src="assets/images/thumbnail_grunderna-i-webbdesign.jpg"/>
-	                    <div class="webbdesign">
-	                        <h3>Grunderna i webbdesign</h3>
-	                        <p>Efter den här kursen så kommer du att kunna utveckla och publicera en fungerande hemsida.</p>
-	                        <span class="btn btn-secondary">Gratis</span>
-	                        <a href="#" class="btn btn-primary pull-right">Kom igång!</a>
-	                    </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 chapter">
-                	<div class="box">
-	                    <img src="assets/images/thumbnail_grunderna-i-webbdesign.jpg"/>
-	                    <div class="responsivDesign">
-	                        <h3>Responsiv design</h3>
-	                        <p>Hur designar man för alla plattformar? Här går vi bland annat igenom Bootstrap m.fl.</p>
-	                        <span class="btn btn-secondary">Gratis</span>
-	                        <a href="#" class="btn btn-primary pull-right">Kom igång!</a>
-	                    </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 chapter">
-                	<div class="box">
-	                    <img src="assets/images/thumbnail_grunderna-i-webbdesign.jpg"/>
-	                    <div class="grafiskDesign">
-	                        <h3>Grunderna i Grafisk design</h3>
-	                        <p>En bra hemsida kräver även bra design. Här visar vi grunderna i bildhantering med Photoshop.</p>
-	                        <span class="btn btn-secondary">Gratis</span>
-	                        <a href="#" class="btn btn-primary pull-right">Kom igång!</a>
-	                    </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-4 col-sm-6 chapter">
-                	<div class="box">
-	                    <img src="assets/images/thumbnail_grunderna-i-webbdesign.jpg"/>
-	                    <div class="vektorteknik">
-	                        <h3>Grunderna i vektorteknik</h3>
-	                        <p>En bra hemsida kräver även bra design. Här visar vi grunderna i bildhantering och typografi.</p>
-	                        <span class="btn btn-secondary">Gratis</span>
-	                        <a href="#" class="btn btn-primary pull-right">Kom igång!</a>
-	                    </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 chapter">
-                	<div class="box">
-	                    <img src="assets/images/thumbnail_grunderna-i-webbdesign.jpg"/>
-	                    <div class="less">
-	                        <h3>Grunderna i LESS</h3>
-	                        <p>Optimera ditt arbetsflöde när du skriver CSS. Här visar vi hur man använder sig av LESS.</p>
-	                        <span class="btn btn-secondary">Gratis</span>
-	                        <a href="#" class="btn btn-primary pull-right">Kom igång!</a>
-	                    </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-4 col-sm-6 chapter">
-                	<div class="box">
-	                    <img src="assets/images/thumbnail_grunderna-i-webbdesign.jpg"/>
-	                    <div class="git">
-	                        <h3>Grunderna i Git</h3>
-	                        <p>I den här snabba kursen förklarar vi hur Git fungerar och hur du kan använda det i ditt arbete.</p>
-	                        <span class="btn btn-secondary">Gratis</span>
-	                        <a href="#" class="btn btn-primary pull-right">Kom igång!</a>
-	                    </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 chapter">
-                    <div class="box">
-                        <img src="assets/images/thumbnail_grunderna-i-webbdesign.jpg"/>
-                        <div class="seo">
-                            <h3>Grunderna i sökmotoroptimering</h3>
-                            <p>Hur hamnar man först i Google? I den här kursen ger vi tips på hur du kan åstadkomma det.</p>
-                            <span class="btn btn-secondary">Gratis</span>
-                            <a href="#" class="btn btn-primary pull-right">Kom igång!</a>
+                    <div class="col-md-4 col-sm-6 chapter">
+                    	<div class="box">
+    	                    <img src="assets/images/thumbnail_grunderna-i-webbdesign.jpg"/>
+    	                    <div class="webbdesign">
+    	                        <h3>Grunderna i webbdesign</h3>
+    	                        <p>Efter den här kursen så kommer du att kunna utveckla och publicera en fungerande hemsida.</p>
+    	                        <span class="btn btn-secondary">Gratis</span>
+    	                        <a href="#" class="btn btn-primary pull-right">Kom igång!</a>
+    	                    </div>
                         </div>
                     </div>
-                </div>
 
+                    <div class="col-md-4 col-sm-6 chapter">
+                    	<div class="box">
+    	                    <img src="assets/images/thumbnail_grunderna-i-webbdesign.jpg"/>
+    	                    <div class="responsivDesign">
+    	                        <h3>Responsiv design</h3>
+    	                        <p>Hur designar man för alla plattformar? Här går vi bland annat igenom Bootstrap m.fl.</p>
+    	                        <span class="btn btn-secondary">Gratis</span>
+    	                        <a href="#" class="btn btn-primary pull-right">Kom igång!</a>
+    	                    </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 chapter">
+                    	<div class="box">
+    	                    <img src="assets/images/thumbnail_grunderna-i-webbdesign.jpg"/>
+    	                    <div class="grafiskDesign">
+    	                        <h3>Grunderna i Grafisk design</h3>
+    	                        <p>En bra hemsida kräver även bra design. Här visar vi grunderna i bildhantering med Photoshop.</p>
+    	                        <span class="btn btn-secondary">Gratis</span>
+    	                        <a href="#" class="btn btn-primary pull-right">Kom igång!</a>
+    	                    </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 col-sm-6 chapter">
+                    	<div class="box">
+    	                    <img src="assets/images/thumbnail_grunderna-i-webbdesign.jpg"/>
+    	                    <div class="vektorteknik">
+    	                        <h3>Grunderna i vektorteknik</h3>
+    	                        <p>En bra hemsida kräver även bra design. Här visar vi grunderna i bildhantering och typografi.</p>
+    	                        <span class="btn btn-secondary">Gratis</span>
+    	                        <a href="#" class="btn btn-primary pull-right">Kom igång!</a>
+    	                    </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 chapter">
+                    	<div class="box">
+    	                    <img src="assets/images/thumbnail_grunderna-i-webbdesign.jpg"/>
+    	                    <div class="less">
+    	                        <h3>Grunderna i LESS</h3>
+    	                        <p>Optimera ditt arbetsflöde när du skriver CSS. Här visar vi hur man använder sig av LESS.</p>
+    	                        <span class="btn btn-secondary">Gratis</span>
+    	                        <a href="#" class="btn btn-primary pull-right">Kom igång!</a>
+    	                    </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 col-sm-6 chapter">
+                    	<div class="box">
+    	                    <img src="assets/images/thumbnail_grunderna-i-webbdesign.jpg"/>
+    	                    <div class="git">
+    	                        <h3>Grunderna i Git</h3>
+    	                        <p>I den här snabba kursen förklarar vi hur Git fungerar och hur du kan använda det i ditt arbete.</p>
+    	                        <span class="btn btn-secondary">Gratis</span>
+    	                        <a href="#" class="btn btn-primary pull-right">Kom igång!</a>
+    	                    </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 chapter">
+                        <div class="box">
+                            <img src="assets/images/thumbnail_grunderna-i-webbdesign.jpg"/>
+                            <div class="seo">
+                                <h3>Grunderna i sökmotoroptimering</h3>
+                                <p>Hur hamnar man först i Google? I den här kursen ger vi tips på hur du kan åstadkomma det.</p>
+                                <span class="btn btn-secondary">Gratis</span>
+                                <a href="#" class="btn btn-primary pull-right">Kom igång!</a>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
         </div>
     </div>
+
 </div>
 
 
