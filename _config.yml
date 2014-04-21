@@ -5,6 +5,7 @@ pygments: true
 
 title:            Webbdesignkurser
 description: "Hur gör man en hemsida? Få svaret på Webbdesignkurser där alla kurser är gratis och lätta att komma igång med! Vi hjälper dig att bli en ninja på webbdesign"
+url: /
 
 destination: ./_site/
 
