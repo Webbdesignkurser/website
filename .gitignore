@@ -14,6 +14,8 @@ tmp
 vendor
 _site
 
+!_assets/js/vendor
+
 # YARD artifacts
 .yardoc
 _yardoc

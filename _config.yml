@@ -44,6 +44,7 @@ assets:
   gzip: false
   sources:
     - _assets/js
+    - _assets/js/vendor
     - _assets/css
     - assets/images
 
@@ -54,6 +55,7 @@ lunr_search:
 # display_path: "website/assets"
 
 
+local: true
 
 courses:
   - title: Grunderna i Webbdesign

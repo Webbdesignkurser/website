@@ -21,11 +21,13 @@
 	{% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
 	<link rel="canonical" href="{{ canonical }}">
 	<link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
-  <link rel="dns-prefetch" href="//webbdesignkurser.se">
-  <link rel="dns-prefetch" href="//fonts.googleapis.com">
-  <link rel="dns-prefetch" href="//ajax.googleapis.com">
-  <link rel="dns-prefetch" href="//netdna.bootstrapcdn.com">
-  <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+	{% unless site.local %}
+	  <link rel="dns-prefetch" href="//webbdesignkurser.se">
+	  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+	  <link rel="dns-prefetch" href="//ajax.googleapis.com">
+	  <link rel="dns-prefetch" href="//netdna.bootstrapcdn.com">
+	  <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+  {% endunless %}
 	<!-- http://t.co/dKP3o1e -->
 	<meta name="HandheldFriendly" content="True">
 	<meta name="MobileOptimized" content="320">
@@ -33,15 +35,36 @@
 	<link rel="shortcut icon" href="favicon.ico">
 
 	<!-- JavaScript -->
-	<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-hover-dropdown/2.0.2/bootstrap-hover-dropdown.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/lunr.js/0.3.3/lunr.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-dateFormat/1.0/jquery.dateFormat.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/URI.js/1.11.2/URI.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.0/fastclick.min.js"></script>
+	{% unless site.local %}
+		<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-hover-dropdown/2.0.2/bootstrap-hover-dropdown.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/lunr.js/0.3.3/lunr.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-dateFormat/1.0/jquery.dateFormat.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/URI.js/1.11.2/URI.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.0/fastclick.min.js"></script>
+	  <script>
+		    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		     ga('create', 'UA-33272798-1', 'webbdesignkurser.se');
+		     ga('send', 'pageview');
+	 </script>
+	{% else %}
+		{% javascript modernizr %}
+		{% javascript jquery %}
+		{% javascript bootstrap %}
+		{% javascript bootstrap-hover-dropdown %}
+		{% javascript lunr.min %}
+		{% javascript mustache %}
+		{% javascript jquery.dateFormat %}
+		{% javascript URI.min %}
+		{% javascript fastclick %}
+	{% endunless %}
 
 	<script>
     $(function() {
@@ -50,16 +73,6 @@
       }
     });
   </script>
-
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-     ga('create', 'UA-33272798-1', 'webbdesignkurser.se');
-     ga('send', 'pageview');
- </script>
 
 {% raw %}
 <script id="search-results-template" type="text/mustache">
@@ -88,8 +101,12 @@
  <!--CSS-->
  {% stylesheet main %}
 
- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
- <link href="//fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet" type="text/css">
+ {% unless site.local %}
+	 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	 <link href="//fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet" type="text/css">
+ {% else %}
+ 		{% stylesheet vendor/bootstrap %}
+ {% endunless %}
 
 </head>
 <body>
