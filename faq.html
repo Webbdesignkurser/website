@@ -37,6 +37,12 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-hover-dropdown/2.0.2/bootstrap-hover-dropdown.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/lunr.js/0.3.3/lunr.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-dateFormat/1.0/jquery.dateFormat.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/URI.js/1.11.2/URI.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.0/fastclick.min.js"></script>
+
 	<script>
     $(function() {
       if (!Modernizr.svg) {
@@ -54,8 +60,33 @@
      ga('create', 'UA-33272798-1', 'webbdesignkurser.se');
      ga('send', 'pageview');
  </script>
+
+
+<script id="search-results-template" type="text/mustache">
+  {{#entries}}
+    <article>
+      <h3>
+        <a href="{{url}}">{{title}}</a>
+      </h3>
+    </article>
+  {{/entries}}
+</script>
+
+
+<script type="text/javascript">
+  $(function() {
+    $('#search-query').lunrSearch({
+      indexUrl: '/search.json',             // URL of the `search.json` index data for your site
+      results:  '#search-results',          // jQuery selector for the search results container
+      entries:  '.entries',                 // jQuery selector for the element to contain the results list, must be a child of the results element above.
+      template: '#search-results-template'  // jQuery selector for the Mustache.js template
+    });
+  });
+</script>
+
+ <script src="/website/assets/search-8a396e35466b8edecaaec187e571a938.js"></script>
  <!--CSS-->
- <link href='/website/assets/global-346cb8d4cbfafba426ce101c51ed8494.css' rel='stylesheet' type='text/css' />
+ <link rel="stylesheet" href="/website/assets/main-1181b0e9ff81d92201f343549868e012.css">
 
  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
  <link href="//fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet" type="text/css">
@@ -72,42 +103,53 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand logo" href="#"><img src="assets/images/logo.svg"></a>
+			<a class="navbar-brand logo" href="http://webbdesignkurser.github.io/website"><img src="/website/assets/logo-91556b45f86c948384a7aa46f1380726.svg"></a>
 		</div>
 		<div class="navbar-collapse nav-collapse collapse navbar-right" id="navbar-collapse">
 			<ul class="nav navbar-nav">
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="100" data-close-others="false">Webbkurser <span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><a tabindex="-1" href="#">Grunderna i webbdesign</a></li>
-						<li><a tabindex="-1" href="#">Responsiv design</a></li>
-						<li><a tabindex="-1" href="#">Grunderna i Grafisk design</a></li>
-						<li><a tabindex="-1" href="#">Grunderna i Illustrator</a></li>
-						<li><a tabindex="-1" href="#">Grunderna i LESS</a></li>
-						<li><a tabindex="-1" href="#">Grunderna i Git</a></li>
-						<li><a tabindex="-1" href="#">Grunderna i SEO</a></li>
+            
+            	<li><a tabindex="-1" href="webbdesign/inledning">Grunderna i Webbdesign</a></li>
+            
 					</ul>
 				</li>
 				<li><a href="/website/faq">Vanliga frågor</a></li>
 				<li><a href="#">Donera</a></li>
 				<li><a href="#">Om sidan</a></li>
-				<form class="navbar-form navbar-right" role="search">
+				<form  action="/search.html" method="get" class="navbar-form navbar-right" role="search">
 					<div class="form-group pull-right">
-						<input type="text" class="form-control" placeholder="Search">
+				    <input type="text" id="search-query" class="form-control" name="q" placeholder="Search" autocomplete="off">
 					</div>
 				</form>
 			</ul>
 		</div> <!-- .nav-collapse -->
 	</div> <!-- .container -->
 </header>
+		
+			<section id="search-results" style="display: none;">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							  <h2>Sökresultat</h2>
+							  <div class="entries">
+							  </div>
+						</div>
+					</div>
+				</div>
+			</section>
+		
 
 <div class="container">
 
     <div class="row">
 
-        <div class="col-sm-12">
-            <img src="http://webbdesignkurser.github.io/website/assets/images/header_om-sidan.jpg" class="headerImage"/>
-        </div>
+        
+            <div class="col-sm-12">
+                <img src="/website/assets/header_om-sidan-82dc1b3bf1ece49434c6c25d34a0c968.jpg" class="headerImage"/>
+            </div>
+        
 
         <div class="col-md-8 content">
             <h1 class="title">Vanliga frågor</h1>
@@ -147,21 +189,25 @@ Lägg in det här inom <code>&lt;head&gt;</code>:</p>
 <h2 id="hur-kan-jag-kontakta-er">Hur kan jag kontakta er?</h2>
 <p>Du kan kontakta oss via våran email: <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#107;&#111;&#110;&#116;&#097;&#107;&#116;&#064;&#119;&#101;&#098;&#098;&#100;&#101;&#115;&#105;&#103;&#110;&#107;&#117;&#114;&#115;&#101;&#114;&#046;&#115;&#101;">&#107;&#111;&#110;&#116;&#097;&#107;&#116;&#064;&#119;&#101;&#098;&#098;&#100;&#101;&#115;&#105;&#103;&#110;&#107;&#117;&#114;&#115;&#101;&#114;&#046;&#115;&#101;</a>.</p>
 
+            
         </div>
 
         <div class="col-md-4 sidebar">
             <div class="row">
                 
-                <div class="col-md-12 col-sm-6 chapter">
-                   <div class="box">
-                        <div class="webbdesign">
-                            <h3>Grunderna i webbdesign</h3>
-                            <p>Efter den här kursen så kommer du att kunna utveckla och publicera en fungerande hemsida.</p>
-                            <span class="btn btn-secondary">Gratis</span>
-                            <a href="#" class="btn btn-primary pull-right">Kom igång!</a>
+                
+                    <div class="col-md-12 col-sm-6 chapter">
+                       <div class="box">
+                            <div class="webbdesign">
+                                <h3>Grunderna i Webbdesign</h3>
+                                <p>Efter den här kursen så kommer du att kunna utveckla och publicera en fungerande hemsida.</p>
+                                <span class="btn btn-secondary">Gratis</span>
+                                <a href="#" class="btn btn-primary pull-right">Kom igång!</a>
+                            </div>
                         </div>
                     </div>
-                </div>
+                
+
 
                 <div class="col-md-12 col-sm-6 chapter">
                    <div class="box">
@@ -248,6 +294,14 @@ Lägg in det här inom <code>&lt;head&gt;</code>:</p>
     </div>
 
 </div>
+	<div class="container">
+	    <div class="row">
+	        <div class="col-sm-12">
+	            
+	        </div>
+	    </div>
+	</div>
+
 	<footer>
 	    <div class="container">
 	        <div class="row">
