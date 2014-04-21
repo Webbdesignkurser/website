@@ -13,6 +13,9 @@
         <div class="col-md-8 content">
             <h1 class="title">{{ page.title }}</h1>
             {{ content }}
+            {% if page.comments and site.disqus_shortname %}
+                <section id="disqus_thread"></section>
+            {% endif %}
         </div>
 
         <div class="col-md-4 sidebar">
@@ -95,7 +98,24 @@
                     </div>
                 </div>
                 {% else %}
-                    <!-- Lista kapitel -->
+                    {% assign category = page.categories[0]; %}
+                    <h2>{{ category }}</h2>
+                    <div id="kapitel">
+                        {% for post in site.categories[category] %}
+                            {% if post.title == page.title %}
+                                <a class="{{ category }} current" href="{{post.url}}">{{ post.title }}</a>
+                            {% else %}
+                                <a class="{{ category }}" href="{{post.url}}">{{ post.title }}</a>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                    <div id="kurser">
+                        {% for the_category in site.categories %}
+                            {% unless the_category[0] == category %}
+                                <h2 class="{{ the_category[0] }}">{{ the_category[0] }}</h2>    
+                            {% endunless %}
+                        {% endfor %}
+                    </div>
                 {% endunless %}
             </div>
         </div>
