@@ -37,6 +37,11 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-hover-dropdown/2.0.2/bootstrap-hover-dropdown.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/lunr.js/0.3.3/lunr.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-dateFormat/1.0/jquery.dateFormat.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/URI.js/1.11.2/URI.min.js"></script>
+
 	<script>
     $(function() {
       if (!Modernizr.svg) {
@@ -54,10 +59,33 @@
      ga('create', 'UA-33272798-1', 'webbdesignkurser.se');
      ga('send', 'pageview');
  </script>
+
+{% raw %}
+<script id="search-results-template" type="text/mustache">
+  {{#entries}}
+    <article>
+      <h3>
+        <a href="{{url}}">{{title}}</a>
+      </h3>
+    </article>
+  {{/entries}}
+</script>
+{% endraw %}
+
+<script type="text/javascript">
+  $(function() {
+    $('#search-query').lunrSearch({
+      indexUrl: '/search.json',             // URL of the `search.json` index data for your site
+      results:  '#search-results',          // jQuery selector for the search results container
+      entries:  '.entries',                 // jQuery selector for the element to contain the results list, must be a child of the results element above.
+      template: '#search-results-template'  // jQuery selector for the Mustache.js template
+    });
+  });
+</script>
+
+ {% javascript search %}
  <!--CSS-->
- {% css_asset_tag global %}
- - /_assets/css/main.css.less
- {% endcss_asset_tag %}
+ {% stylesheet main %}
 
  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
  <link href="//fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet" type="text/css">
@@ -66,3 +94,8 @@
 <body>
 	<div class="main">
 		{% include navigation.html %}
+		<section id="search-results" style="display: none;">
+		  <p>Search results</p>
+		  <div class="entries">
+		  </div>
+		</section>

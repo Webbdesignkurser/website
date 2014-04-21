@@ -36,6 +36,17 @@ exclude:
   - vendor
   - .travis.yml
 
-asset_pipeline:
- bundle: false
+assets:
+  js_compressor:  yui
+  css_compressor: yui
+  gzip: false
+  sources:
+    - _assets/js
+    - _assets/css
+    - assets/images
+
+gems: [jekyll-assets]
+
+lunr_search:
+  excludes: [sitemap.xml,feed.xml]
 # display_path: "website/assets"

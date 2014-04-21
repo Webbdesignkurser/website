@@ -1,7 +1,7 @@
 ---
 layout: page
-headerimage: assets/images/header_om-sidan.jpg
-title: Vanliga frågor
+headerimage: 'header_om-sidan.jpg'
+title: "Vanliga frågor"
 page: faq
 ---
 

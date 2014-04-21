@@ -26,11 +26,11 @@
 				<li><a href="/website/faq">Vanliga frågor</a></li>
 				<li><a href="#">Donera</a></li>
 				<li><a href="#">Om sidan</a></li>
-				<form class="navbar-form navbar-right" role="search">
-					<div class="form-group pull-right">
-						<input type="text" class="form-control" placeholder="Search">
-					</div>
-				</form>
+				<div id="search">
+				  <form action="/search" method="get">
+				    <input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off">
+				  </form>
+				</div>
 			</ul>
 		</div> <!-- .nav-collapse -->
 	</div> <!-- .container -->
