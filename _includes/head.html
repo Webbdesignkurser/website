@@ -96,15 +96,15 @@
 	<div class="main">
 		{% include navigation.html %}
 		{% unless page.search %}
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<section id="search-results" style="display: none;">
-						  <h2>Sökresultat</h2>
-						  <div class="entries">
-						  </div>
-						</section>
+			<section id="search-results" style="display: none;">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							  <h2>Sökresultat</h2>
+							  <div class="entries">
+							  </div>
+						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 		{% endunless %}
