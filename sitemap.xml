@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://webbdesignkurser.se</loc>
+        <loc>http://webbdesignkurser.github.io/website</loc>
     </url>
     
     
         
         <url>
-            <loc>http://webbdesignkurser.se/sitemap.xml</loc>
+            <loc>http://webbdesignkurser.github.io/website/sitemap.xml</loc>
         </url>
         
     
         
         <url>
-            <loc>http://webbdesignkurser.se/feed.xml</loc>
+            <loc>http://webbdesignkurser.github.io/website/index.html</loc>
         </url>
         
     
         
         <url>
-            <loc>http://webbdesignkurser.se/index.html</loc>
+            <loc>http://webbdesignkurser.github.io/website/feed.xml</loc>
         </url>
         
     
         
         <url>
-            <loc>http://webbdesignkurser.se/om.html</loc>
+            <loc>http://webbdesignkurser.github.io/website/faq.html</loc>
         </url>
         
     
