@@ -15,7 +15,7 @@
 
         <div class="col-md-4 sidebar">
             <div class="row">
-
+                {% unless page.date %}
                 <div class="col-md-12 col-sm-6 chapter">
                    <div class="box">
                         <div class="webbdesign">
@@ -92,6 +92,9 @@
                         </div>
                     </div>
                 </div>
+                {% else %}
+                    <!-- Lista kapitel -->
+                {% endunless %}
             </div>
         </div>
     </div>
