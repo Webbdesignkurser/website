@@ -57,6 +57,15 @@ p {
 	padding: 10px 25px !important;
 }
 
+// Remove Bootstrap glow
+textarea, input, .form-control{   
+	box-shadow: none !important;
+}
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {   
+	border-color: #999;
+	box-shadow: none;
+	outline: 0 none;
+}
 
 
 /// Layout ///
@@ -110,6 +119,10 @@ header {
 				}
 			}
 		}
+		.navbar-right .dropdown-menu {
+			left: 0 !important;
+			right: auto !important;
+		}
 		.navbar-toggle {
 			background-color: @brand-color;
 			.icon-bar {
@@ -123,7 +136,7 @@ header {
 				}
 			}
 			@media (max-width: 768px) {
-				margin-left: 4%;
+				margin-right: 4%;
 				width: 92%;
 			}
 		}
