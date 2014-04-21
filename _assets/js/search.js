@@ -137,7 +137,7 @@
       $entries.empty();
       
       if (entries.length === 0) {
-        $entries.append('<p>Inget hittat.</p>');
+        $entries.append('<p>Vi letade överallt men kunde tyvärr inte hitta det du sökte efter...</p>');
       } else {
         $entries.append(this.template({entries: entries}));
       }
