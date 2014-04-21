@@ -61,6 +61,8 @@ p {
 
 /// Layout ///
 
+
+//* Header *//
 header {
 	.logo {
 		img {
@@ -74,15 +76,37 @@ header {
 			}
 		}
 	}
+	#navbar-collapse{
+		width: auto !important;
+		right: 0 !important;
+		left: 0 !important;
+	}
 	&.navbar {
+		border: none;
 		background: #fff;
 		box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
-		ul li {
+		ul{
 			a {
 				color: @brand-color;
 				font-size: 15px;
+				@media (min-width: 480px) {
+					font-size: 14px;
+				}
 				&:hover {
-					background: #f5f5f5;
+					background: #f9f9f9;
+				}
+			}
+			.dropdown{
+				ul {
+					border-top: none;
+					border-left: 1px solid #eee;
+					border-right: 1px solid #eee;
+					border-bottom: 1px solid #eee;
+					box-shadow: none;
+					li a{
+						padding: 10px 15px;
+						color: #777;
+					}
 				}
 			}
 		}
@@ -98,8 +122,10 @@ header {
 					width: 100px;
 				}
 			}
-			margin-left: 4%;
-			width: 92%;
+			@media (max-width: 768px) {
+				margin-left: 4%;
+				width: 92%;
+			}
 		}
 		.navbar-collapse.in {
 			overflow-y: visible;
@@ -107,6 +133,8 @@ header {
 	}
 }
 
+
+//* Headline *//
 .headlineWrapper {
 	padding-top: 80px;
 	text-align: center;
@@ -144,6 +172,8 @@ header {
 	}
 }
 
+
+//* Page content *//
 .container {
 
 	.headerImage{
@@ -187,6 +217,8 @@ header {
 	}
 }
 
+
+//* Chapters *//
 .chapter {
 
 	// Color guides
@@ -271,6 +303,8 @@ header {
 	}
 }
 
+
+//* Contribute box *//
 .contribute {
 	background: #000 url(images/bg_contribute.jpg) center center;
 	height: 500px;
@@ -314,6 +348,8 @@ header {
 	}
 }
 
+
+//* Footer *//
 footer {
 	margin-top: 40px;
 	padding: 20px;
