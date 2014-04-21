@@ -137,7 +137,7 @@
       $entries.empty();
       
       if (entries.length === 0) {
-        $entries.append('<p>Nothing found.</p>');
+        $entries.append('<p>Inget hittat.</p>');
       } else {
         $entries.append(this.template({entries: entries}));
       }
