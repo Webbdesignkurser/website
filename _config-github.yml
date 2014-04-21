@@ -1,1 +1,3 @@
 url: http://webbdesignkurser.github.io/website
+assets:
+ baseurl: "/website/assets"

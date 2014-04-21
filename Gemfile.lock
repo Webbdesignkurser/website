@@ -46,10 +46,8 @@ GEM
       rb-inotify (>= 0.9)
       rb-kqueue (>= 0.2)
     maruku (0.7.0)
-    mini_portile (0.5.3)
     multi_json (1.9.2)
-    nokogiri (1.6.1)
-      mini_portile (~> 0.5.0)
+    nokogiri (1.5.9)
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.8)
@@ -89,7 +87,7 @@ DEPENDENCIES
   jekyll-assets (= 0.7.7)
   json (= 1.8.1)
   less
-  nokogiri
+  nokogiri (= 1.5.9)
   rake (~> 10.1.1)
   therubyracer
   yui-compressor (= 0.12.0)
