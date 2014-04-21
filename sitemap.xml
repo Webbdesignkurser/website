@@ -7,12 +7,6 @@
     
         
         <url>
-            <loc>http://webbdesignkurser.se/om.html</loc>
-        </url>
-        
-    
-        
-        <url>
             <loc>http://webbdesignkurser.se/feed.xml</loc>
         </url>
         
@@ -20,6 +14,12 @@
         
         <url>
             <loc>http://webbdesignkurser.se/index.html</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://webbdesignkurser.se/om.html</loc>
         </url>
         
     
