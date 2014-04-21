@@ -13,13 +13,19 @@
     
         
         <url>
-            <loc>http://webbdesignkurser.github.io/website/search.html</loc>
+            <loc>http://webbdesignkurser.github.io/website/sitemap.xml</loc>
         </url>
         
     
         
         <url>
-            <loc>http://webbdesignkurser.github.io/website/faq.html</loc>
+            <loc>http://webbdesignkurser.github.io/website/index.html</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://webbdesignkurser.github.io/website/search.html</loc>
         </url>
         
     
@@ -31,13 +37,7 @@
     
         
         <url>
-            <loc>http://webbdesignkurser.github.io/website/sitemap.xml</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://webbdesignkurser.github.io/website/index.html</loc>
+            <loc>http://webbdesignkurser.github.io/website/faq.html</loc>
         </url>
         
     
