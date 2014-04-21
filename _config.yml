@@ -52,9 +52,41 @@ lunr_search:
   excludes: [sitemap.xml,feed.xml]
 # display_path: "website/assets"
 
+
+
 courses:
   - title: Grunderna i Webbdesign
     id: webbdesign
     description: Efter den här kursen så kommer du att kunna utveckla och publicera en fungerande hemsida.
     class: webbdesign
     image: thumbnail_grunderna-i-webbdesign.jpg
+  - title: Responsiv design
+    id: responsiv-design
+    description: Hur designar man för alla plattformar? Här går vi bland annat igenom Bootstrap m.fl.
+    class: responsivDesign
+    image: thumbnail_responsiv-design.jpg
+  - title: Grunderna i Grafisk design
+    id: grafisk-design
+    description: En bra hemsida kräver även bra design. Här visar vi grunderna i bildhantering.
+    class: grafiskDesign
+    image: thumbnail_grafisk-design.jpg
+  - title: Grunderna i Illustrator
+    id: illustrator
+    description: Hur skapar man en bild som kan skala sig till det oändliga? Här lär du dig att jobba i Illustrator.
+    class: vektorteknik
+    image: thumbnail_vektorteknik.jpg
+  - title: Grunderna i LESS
+    id: less
+    description: Optimera ditt arbetsflöde när du skriver CSS. Här visar vi hur man använder sig av LESS.
+    class: less
+    image: thumbnail_less.jpg
+  - title: Grunderna i Git
+    id: git
+    description: I den här kursen förklarar vi hur Git fungerar och hur du kan använda det i ditt arbete.
+    class: git
+    image: thumbnail_git.jpg
+  - title: Grunderna i SEO
+    id: seo
+    description: Hur hamnar man först i Google? I den här kursen ger vi tips på hur du kan åstadkomma det.
+    class: seo
+    image: thumbnail_seo.jpg
