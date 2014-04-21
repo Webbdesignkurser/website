@@ -1,3 +1,4 @@
+url: http://webbdesignkurser.github.io/website
 asset_pipeline:
  bundle: true
  display_path: "website/assets"

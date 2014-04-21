@@ -11,12 +11,14 @@
 @color-seo: #b82a2a;
 
 @brand-font : 'Lato', sans-serif;
+@paragraf-size: 13px;
 
 
 
 /// Global ///
 
 h1 {
+	line-height: 30px;
 	font-weight: 700 !important;
 	font-family: @brand-font !important;
 }
@@ -34,6 +36,8 @@ h3 {
 
 p {
 	font-family: helvetica;
+	line-height: 25px;
+	font-size: 14px;
 }
 
 .main {
@@ -56,6 +60,49 @@ p {
 
 
 /// Layout ///
+
+.container {
+
+	.headerImage{
+		width: 100%;
+		height: auto;
+		display: block;
+		@media (min-width: 768px) and (max-width: 979px) {
+			margin-bottom: 30px;
+		}
+	}
+
+	.sidebar {
+		margin: 30px 0px;
+	}
+		
+	.content {
+			margin: 30px 0px;
+			padding-right: 40px;
+			@media (max-width: 767px) {
+				padding-right: 20px;
+			}
+		.title {
+			font-size: 40px;
+			margin-top: 0px !important;
+			margin-bottom: 15px !important;
+		}
+
+		h2 {
+			margin-top: 30px !important;
+			margin-bottom: 15px !important;
+		}
+
+		h3 {
+			margin-top: 30px !important;
+			margin-bottom: 15px !important;
+		}
+
+		p {
+			margin-top: 15px;
+		}
+	}
+}
 
 .chapter {
 
@@ -108,7 +155,7 @@ p {
 	.box{
 		margin-bottom: 30px;
 		div {
-			padding: 20px;
+			padding: 25px 20px 20px 20px;
 			color: #fff;
 		}
 		h3{
@@ -244,6 +291,7 @@ header {
 	}
 	&.navbar {
 		background: #fff;
+		box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
 		ul li {
 			a {
 				color: @brand-color;
