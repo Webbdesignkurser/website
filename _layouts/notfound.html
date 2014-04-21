@@ -1,0 +1,36 @@
+{% include head.html %}
+
+<div class="container">
+
+    <div class="row">
+
+        {% if page.headerimage %}
+            <div class="col-sm-12">
+                <img src="{{ page.headerimage | asset_path }}" class="headerImage"/>
+            </div>
+        {% endif %}
+
+        <div class="col-md-12 content text-center">
+            <h1>Vi kunde inte hitta sidan</h1>
+            <p>Vi gjorde vårat bästa men kunde inte hitta sidan, tyvärr!</p><br/>
+            {% if page.comments and site.disqus_shortname %}
+                <section id="disqus_thread"></section>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="row">
+       <div class="col-sm-12">
+           <div class="contribute">
+              <div class="box">
+                  <h3 class="text-center">Vill du bidra till ett öppnare och friare läromedel?</h3>
+                  <a class="btn btn-secondary">Donera en slant</a> eller 
+                  <a href="#" class="btn btn-primary">Bidra med eget material</a>
+              </div>
+          </div>
+
+      </div>
+    </div>
+
+</div>
+{% include footer.html %}
