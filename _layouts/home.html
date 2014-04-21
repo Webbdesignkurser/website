@@ -17,17 +17,19 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-4 col-sm-6 chapter">
-           <div class="box">
-                {% image thumbnail_grunderna-i-webbdesign.jpg %}
-                <div class="webbdesign">
-                    <h3>Grunderna i webbdesign</h3>
-                    <p>Efter den här kursen så kommer du att kunna utveckla och publicera en fungerande hemsida.</p>
-                    <span class="btn btn-secondary">Gratis</span>
-                    <a href="#" class="btn btn-primary pull-right">Kom igång!</a>
+        {% for course in site.courses %}
+            <div class="col-md-4 col-sm-6 chapter">
+               <div class="box">
+                    {{ course.image | image }}
+                    <div class="{{ course.class }}">
+                        <h3>{{ course.title }}</h3>
+                        <p>{{ course.description }}</p>
+                        <span class="btn btn-secondary">Gratis</span>
+                        <a href="#" class="btn btn-primary pull-right">Kom igång!</a>
+                    </div>
                 </div>
             </div>
-        </div>
+        {% endfor %}
 
         <div class="col-md-4 col-sm-6 chapter">
            <div class="box">

@@ -14,13 +14,9 @@
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="100" data-close-others="false">Webbkurser <span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><a tabindex="-1" href="#">Grunderna i webbdesign</a></li>
-						<li><a tabindex="-1" href="#">Responsiv design</a></li>
-						<li><a tabindex="-1" href="#">Grunderna i Grafisk design</a></li>
-						<li><a tabindex="-1" href="#">Grunderna i Illustrator</a></li>
-						<li><a tabindex="-1" href="#">Grunderna i LESS</a></li>
-						<li><a tabindex="-1" href="#">Grunderna i Git</a></li>
-						<li><a tabindex="-1" href="#">Grunderna i SEO</a></li>
+            {% for course in site.courses %}
+            	<li><a tabindex="-1" href="{{ course.id }}/inledning">{{ course.title }}</a></li>
+            {% endfor %}
 					</ul>
 				</li>
 				<li><a href="/website/faq">Vanliga frågor</a></li>

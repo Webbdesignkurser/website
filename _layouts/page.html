@@ -21,16 +21,19 @@
         <div class="col-md-4 sidebar">
             <div class="row">
                 {% unless page.date %}
-                <div class="col-md-12 col-sm-6 chapter">
-                   <div class="box">
-                        <div class="webbdesign">
-                            <h3>Grunderna i webbdesign</h3>
-                            <p>Efter den här kursen så kommer du att kunna utveckla och publicera en fungerande hemsida.</p>
-                            <span class="btn btn-secondary">Gratis</span>
-                            <a href="#" class="btn btn-primary pull-right">Kom igång!</a>
+                {% for course in site.courses %}
+                    <div class="col-md-12 col-sm-6 chapter">
+                       <div class="box">
+                            <div class="{{ course.class }}">
+                                <h3>{{ course.title }}</h3>
+                                <p>{{ course.description }}</p>
+                                <span class="btn btn-secondary">Gratis</span>
+                                <a href="#" class="btn btn-primary pull-right">Kom igång!</a>
+                            </div>
                         </div>
                     </div>
-                </div>
+                {% endfor %}
+
 
                 <div class="col-md-12 col-sm-6 chapter">
                    <div class="box">
@@ -99,7 +102,11 @@
                 </div>
                 {% else %}
                     {% assign category = page.categories[0]; %}
-                    <h2>{{ category }}</h2>
+                    {% for course in site.courses %}
+                        {% if course.id == category %}
+                            <h2>{{ course.title }}</h2>
+                        {% endif %}
+                    {% endfor %}
                     <div id="kapitel">
                         {% for post in site.categories[category] %}
                             {% if post.title == page.title %}
@@ -110,9 +117,9 @@
                         {% endfor %}
                     </div>
                     <div id="kurser">
-                        {% for the_category in site.categories %}
-                            {% unless the_category[0] == category %}
-                                <h2 class="{{ the_category[0] }}">{{ the_category[0] }}</h2>    
+                        {% for course in site.courses %}
+                            {% unless course.id == category %}
+                                <h2 class="{{ course.class }}">{{ course.title }}</h2>    
                             {% endunless %}
                         {% endfor %}
                     </div>

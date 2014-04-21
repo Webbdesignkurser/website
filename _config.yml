@@ -51,3 +51,10 @@ gems: [jekyll-assets]
 lunr_search:
   excludes: [sitemap.xml,feed.xml]
 # display_path: "website/assets"
+
+courses:
+  - title: Grunderna i Webbdesign
+    id: webbdesign
+    description: Efter den här kursen så kommer du att kunna utveckla och publicera en fungerande hemsida.
+    class: webbdesign
+    image: thumbnail_grunderna-i-webbdesign.jpg

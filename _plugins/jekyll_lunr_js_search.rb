@@ -13,7 +13,8 @@ module Jekyll
         'strip_index_html' => false,
         'min_length' => 3,
         'stopwords' => 'stopwords.txt'
-      }.merge!(Hash(config['lunr_search']))
+     # }.merge!(Hash(config['lunr_search']))
+      }.merge!(config['lunr_search'])
       
       @excludes = lunr_config['excludes']
       
