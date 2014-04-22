@@ -46,6 +46,7 @@ assets:
     - _assets/js
     - _assets/js/vendor
     - _assets/css
+    - _assets/css/vendor
     - assets/images
 
 gems: [jekyll-assets]
