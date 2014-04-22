@@ -15,6 +15,7 @@ vendor
 _site
 
 !_assets/js/vendor
+!_assets/css/vendor
 
 # YARD artifacts
 .yardoc
