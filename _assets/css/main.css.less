@@ -10,6 +10,8 @@
 @color-git: #e67a2c;
 @color-seo: #b82a2a;
 
+@color-download: #59af59;
+
 @brand-font : 'Lato', sans-serif;
 @paragraf-size: 13px;
 
@@ -44,17 +46,41 @@ p {
 	margin-top: 50px;
 }
 
+.btn-primary {
+	border: none !important;
+	border-radius: 3px !important;
+	padding: 10px 25px !important;
+	&.download{
+		background: @color-download !important;
+		&:hover{
+			background: darken(@color-download, 10%) !important;
+		}
+	}
+}
+
 .btn-secondary {
 	background: none !important;
 	border: 1px solid rgba(255,255,255,0.8) !important;
 	border-radius: 3px !important;
 	padding: 10px 25px !important;
+	&.download{
+		border: 1px solid @color-download !important;
+		color: @color-download !important;
+		&:hover{
+			color: darken(@color-download, 10%) !important;
+		}
+	}
 }
-
-.btn-primary {
-	border: none !important;
+.btn-next {
+	margin-top: 10px;
+	background: none !important;
+	border: 1px solid @brand-color !important;
 	border-radius: 3px !important;
 	padding: 10px 25px !important;
+	color: @brand-color;
+	&:hover{
+		color: darken(@brand-color, 10%) !important;
+	}
 }
 
 // Remove Bootstrap glow
@@ -244,7 +270,7 @@ header {
 //* Chapters *//
 .chapter {
 
-	@navItemBorder: 5px;
+	@navItemBorder: 0px;
 
 	// Color guides
 	.webbdesign {
@@ -367,18 +393,18 @@ header {
 						background: #f4f4f4;
 						.transition(all, 0.1s, ease-in);
 						&:hover{
-							border-right: 10px solid;
-							padding-right: 22px;
+							border-right: 15px solid;
+							padding-left: 22px;
 						}
 						&.current{
 							background: #f4f4f4;
 							color: #555;
-							border-right: 5px solid #dcdcdc;
+							border-right: 0px solid #dcdcdc;
 							&.active{
-								border-right: 10px solid #d2d2d2;
+								border-right: 15px solid #d2d2d2;
 							}
 							&:hover{
-								border-right: 10px solid #d2d2d2;
+								border-right: 15px solid #d2d2d2;
 								padding-right: 22px;
 							}
 						}
