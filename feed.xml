@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://webbdesignkurser.github.io/website/feed.xml" />
 <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website" />
-<updated>2014-04-23T07:18:05+00:00</updated>
+<updated>2014-04-24T22:11:14+00:00</updated>
 <id>http://webbdesignkurser.github.io/website/</id>
 <author>
   <name>Webbdesignkurser</name>
@@ -17,34 +17,81 @@
     <title type="html"><![CDATA[Inledning]]></title>
     <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/inledning/" />
     <id>http://webbdesignkurser.github.io/website/webbdesign/inledning</id>
-    <published>2014-04-21T00:00:00+00:00</published>
-    <updated>2014-04-21T00:00:00+00:00</updated>
+    <published>2014-04-24T00:00:00+00:00</published>
+    <updated>2014-04-24T00:00:00+00:00</updated>
     <author>
       <name>Webbdesignkurser</name>
       <uri>http://webbdesignkurser.github.io/website/</uri>
       <email>kontakt@webbdesignkurser.se<email>
     </author>
-    <content type="html">&lt;p&gt;BLABLABLABLA&lt;/p&gt;
+    <content type="html">&lt;h2 id=&quot;hur-gr-man-en-hemsida&quot;&gt;Hur gör man en hemsida?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Idag konsumerar vi hemsidor lika mycket som vi konsumerar luft.&lt;br /&gt;
+Men det är inte alla som ställer sig frågan hur det går till. Därför är vi glada att du hittade hit. Bra gjort!  &lt;/strong&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/inledning/&quot;&gt;Inledning&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 21, 2014.&lt;/p&gt;</content>
+&lt;p&gt;Ja, hur gör man en hemsida, hur laddar man upp den och hur designar man den?&lt;br /&gt;
+I den här kursen kommer vi att lära dig hur man &lt;strong&gt;skapar och publicerar en fungerande hemsida&lt;/strong&gt;.&lt;br /&gt;
+Om det låter bra så är du varmt välkommen hit.&lt;/p&gt;
+
+&lt;p&gt;Det är svårt att lära sig webbdesign från böcker, de blir snabbt utdaterade och tekniken ser ut på ett helt annat sätt imorgon. Så om du har en webbesign-bok liggandes vid skolbänken eller köksbordet just nu så ge bort den till någon behövande som saknar internet istället.  &lt;/p&gt;
+
+&lt;h3 id=&quot;kostar-det-ngot&quot;&gt;Kostar det något?&lt;/h3&gt;
+&lt;p&gt;Nej, varken den här kursen eller möjligheten att designa en hemsida kostar något. Om du däremot planerar att publicera din hemsida på internet så kan domänen (namnet) och webbhotellet (utrymmet) kosta. Det beror helt på hur du vill publicera den, vilket vi kommer till senare.  &lt;/p&gt;
+
+&lt;p&gt;Vi kommer däremot att använda köpta programvaror i den här kursen, kostnadsfria alternativ kommer att finnas. Det är upp till dig att skaffa dessa programvaror på valfritt sätt.&lt;/p&gt;
+
+&lt;h3 id=&quot;vr-policy-och-lfte-till-dig&quot;&gt;Vår policy och löfte till dig&lt;/h3&gt;
+&lt;p&gt;Vi tillåter oss inte att sponsras av kommersiella tjänster och programutvecklare. Vi har tackat nej ett flertal gånger till företag som vill betala för att rekommenderas. Vi rekommenderar inte mot betalning. Däremot rekommenderar vi det som vi anser är bäst.&lt;/p&gt;
+
+&lt;p&gt;Du är här för att lära dig, inte för att köpas upp :)&lt;/p&gt;
+
+&lt;h3 id=&quot;hjlp-under-kursens-gng&quot;&gt;Hjälp under kursens gång&lt;/h3&gt;
+&lt;p&gt;Har du några frågor under kursen så får du gärna använda kommentarsfältet längst ned på sidan. Vi försöker att svara så ofta vi kan, och du får gärna hjälpa andra.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;/webbdesign/programvaror/&quot;&gt;Redo? Då sätter vi igång!&lt;/a&gt; &lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/inledning/&quot;&gt;Inledning&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 24, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
-    <title type="html"><![CDATA[Html]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/html/" />
-    <id>http://webbdesignkurser.github.io/website/webbdesign/html</id>
-    <published>2014-04-21T00:00:00+00:00</published>
-    <updated>2014-04-21T00:00:00+00:00</updated>
+    <title type="html"><![CDATA[Programvaror]]></title>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/programvaror/" />
+    <id>http://webbdesignkurser.github.io/website/webbdesign/programvaror</id>
+    <published>2014-04-22T00:00:00+00:00</published>
+    <updated>2014-04-22T00:00:00+00:00</updated>
     <author>
       <name>Webbdesignkurser</name>
       <uri>http://webbdesignkurser.github.io/website/</uri>
       <email>kontakt@webbdesignkurser.se<email>
     </author>
-    <content type="html">&lt;p&gt;BLABLABLABLA&lt;/p&gt;
+    <content type="html">&lt;h2 id=&quot;vilka-program-behver-man-fr-att-gra-en-hemsida&quot;&gt;Vilka program behöver man för att göra en hemsida?&lt;/h2&gt;
+&lt;p&gt;Det finns de som kostar pengar och de som är gratis, i den här kursen kommer vi att använda de som kostar pengar eftersom dom är bättre. Men du kommer att kunna använda de kostnadsfria alternativet då de flesta funktioner ser likadana ut.  &lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/html/&quot;&gt;Html&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 21, 2014.&lt;/p&gt;</content>
+&lt;h3 id=&quot;webblsare&quot;&gt;Webbläsare&lt;/h3&gt;
+&lt;p&gt;Vilken webbläsare du använder har inte vi något att göra med, men om vi får rekommendera något så ladda gärna ner Google Chrome. De har bra verktyg för webbutveckling. Installera gärna även övriga program, så kan du kolla hur hemsidan ser ut i övriga webbläsare.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn-primary download&quot;&gt;Ladda ned Google Chrome&lt;/a&gt;
+&lt;a class=&quot;btn btn-secondary download&quot;&gt;Safari&lt;/a&gt;
+&lt;a class=&quot;btn btn-secondary download&quot;&gt;Firefox&lt;/a&gt;
+&lt;a class=&quot;btn btn-secondary download&quot;&gt;Opera&lt;/a&gt;
+&lt;a class=&quot;btn btn-secondary download&quot;&gt;Internet Explorer&lt;/a&gt; &lt;/p&gt;
+
+&lt;h3 id=&quot;texteditor&quot;&gt;Texteditor&lt;/h3&gt;
+&lt;p&gt;Med en texteditor kan man skriva och redigera textfiler. Du har antagligen redan det förinstallerat i datorn, Anteckningar för Windows och Textredigeraren för Mac.  &lt;/p&gt;
+
+&lt;p&gt;Vi kommer inte att använda dessa program, utan kommer istället att använda oss av Sublime Text.  &lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn-primary download&quot;&gt;Ladda ned Sublime Text&lt;/a&gt; &lt;a class=&quot;btn btn-secondary download&quot;&gt;Eller Notepad++ (Gratis)&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;bildhanteringsprogram&quot;&gt;Bildhanteringsprogram&lt;/h3&gt;
+&lt;p&gt;Med bildhanteringsprogrammet kommer vi att kunna redigera och spara ner bilder i olika format.  &lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn-primary download&quot;&gt;Ladda ned Photoshop&lt;/a&gt; &lt;a class=&quot;btn btn-secondary download&quot;&gt;Eller Gimp (Gratis)&lt;/a&gt;  &lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot;&gt;Tankat klart allt? Då fortsätter vi!&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/programvaror/&quot;&gt;Programvaror&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 22, 2014.&lt;/p&gt;</content>
   </entry>
 
 
