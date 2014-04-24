@@ -9,7 +9,7 @@ Det finns de som kostar pengar och de som är gratis, i den här kursen kommer v
 
 
 ###Webbläsare
-Vilken webbläsare du använder har inte vi något att göra med, men om vi får rekommendera något så ladda gärna ner Google Chrome. De har bra verktyg för webbutveckling. Installera gärna även övriga program, så kan du kolla hur hemsidan ser ut i lvriga webbläsare.
+Vilken webbläsare du använder har inte vi något att göra med, men om vi får rekommendera något så ladda gärna ner Google Chrome. De har bra verktyg för webbutveckling. Installera gärna även övriga program, så kan du kolla hur hemsidan ser ut i övriga webbläsare.
 
 <a class="btn btn-primary download">Ladda ned Google Chrome</a>
 <a class="btn btn-secondary download">Safari</a>
