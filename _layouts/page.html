@@ -21,45 +21,45 @@
         </div>
 
         <div class="col-md-4 sidebar">
-            <div class="row">
-                {% unless page.date %}
-                    {% for course in site.courses %}
-                        <div class="col-md-12 col-sm-6 chapter">
-                           <div class="box">
-                                <div class="{{ course.class }}">
-                                    <h3>{{ course.title }}</h3>
-                                    <p>{{ course.description }}</p>
-                                    <span class="btn btn-secondary">Gratis</span>
-                                    <a href="{{ site.url }}/{{ course.id }}/inledning" class="btn btn-primary pull-right">Kom igång!</a>
-                                </div>
+            {% unless page.date %}
+                {% for course in site.courses %}
+                    <div class="col-md-12 col-sm-6 chapter">
+                       <div class="box">
+                            <div class="{{ course.class }}">
+                                <h3>{{ course.title }}</h3>
+                                <p>{{ course.description }}</p>
+                                <span class="btn btn-secondary">Gratis</span>
+                                <a href="{{ site.url }}/{{ course.id }}/inledning" class="btn btn-primary pull-right">Kom igång!</a>
                             </div>
                         </div>
-                    {% endfor %}
-                {% else %}
+                    </div>
+                {% endfor %}
+            {% else %}
+                <div class="chapter nav">
+                    <ul>
                     {% assign category = page.categories[0]; %}
                     {% for course in site.courses %}
                         {% if course.id == category %}
-                            <h2>{{ course.title }}</h2>
+                            <li><a class="{{ category }} title">{{ course.title }}</a></li>
                         {% endif %}
                     {% endfor %}
-                    <div id="kapitel">
-                        {% for post in site.categories[category] %}
-                            {% if post.title == page.title %}
-                                <a class="{{ category }} current" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-                            {% else %}
-                                <a class="{{ category }}" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-                            {% endif %}
-                        {% endfor %}
-                    </div>
-                    <div id="kurser">
-                        {% for course in site.courses %}
-                            {% unless course.id == category %}
-                                <h2 class="{{ course.class }}"><a href="{{ site.url }}/{{ course.id }}/inledning">{{ course.title }}</a></h2>    
-                            {% endunless %}
-                        {% endfor %}
-                    </div>
-                {% endunless %}
-            </div>
+                    {% for post in site.categories[category] %}
+                        {% if post.title == page.title %}
+                            <li><a class="{{ category }} navItem current active" href="{{ site.url }}{{post.url}}">{{ post.title }}</a></li>
+                        {% else %}
+                            <li><a class="{{ category }} navItem current" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+                    </ul>
+                    <ul>
+                    {% for course in site.courses %}
+                        {% unless course.id == category %}
+                            <li><a href="{{ site.url }}/{{ course.id }}/inledning" class="navItem {{ course.class }} color">{{ course.title }}</a></li>
+                        {% endunless %}
+                    {% endfor %}
+                    </ul>
+                </div>
+            {% endunless %}
         </div>
     </div>
 
