@@ -28,4 +28,4 @@ Du är här för att lära dig, inte för att köpas upp :)
 ###Hjälp under kursens gång
 Har du några frågor under kursen så får du gärna använda kommentarsfältet längst ned på sidan. Vi försöker att svara så ofta vi kan, och du får gärna hjälpa andra.
 
-<a class="btn btn-next" href="webbdesign/programvaror/">Redo? Då sätter vi igång!</a> 
+<a class="btn btn-next" href="{{ site.url }}/webbdesign/programvaror/">Redo? Då sätter vi igång!</a> 
