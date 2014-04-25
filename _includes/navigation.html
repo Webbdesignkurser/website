@@ -16,7 +16,7 @@
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="100" data-close-others="false">Webbkurser <span class="caret"></span></a>
 					<ul class="dropdown-menu">
             {% for course in site.courses %}
-            	<li><a tabindex="-1" href="{{ course.id }}/inledning">{{ course.title }}</a></li>
+            	<li><a tabindex="-1" href="{{ site.url }}/{{ course.id }}/inledning">{{ course.title }}</a></li>
             {% endfor %}
 					</ul>
 				</li>
