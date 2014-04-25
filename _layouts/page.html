@@ -30,7 +30,7 @@
                                     <h3>{{ course.title }}</h3>
                                     <p>{{ course.description }}</p>
                                     <span class="btn btn-secondary">Gratis</span>
-                                    <a href="{{ course.id }}/inledning" class="btn btn-primary pull-right">Kom igång!</a>
+                                    <a href="{{ site.url }}/{{ course.id }}/inledning" class="btn btn-primary pull-right">Kom igång!</a>
                                 </div>
                             </div>
                         </div>
@@ -45,16 +45,16 @@
                     <div id="kapitel">
                         {% for post in site.categories[category] %}
                             {% if post.title == page.title %}
-                                <a class="{{ category }} current" href="{{post.url}}">{{ post.title }}</a>
+                                <a class="{{ category }} current" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
                             {% else %}
-                                <a class="{{ category }}" href="{{post.url}}">{{ post.title }}</a>
+                                <a class="{{ category }}" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
                             {% endif %}
                         {% endfor %}
                     </div>
                     <div id="kurser">
                         {% for course in site.courses %}
                             {% unless course.id == category %}
-                                <h2 class="{{ course.class }}"><a href="{{course.id}}/inledning">{{ course.title }}</a></h2>    
+                                <h2 class="{{ course.class }}"><a href="{{ site.url }}/{{ course.id }}/inledning">{{ course.title }}</a></h2>    
                             {% endunless %}
                         {% endfor %}
                     </div>
