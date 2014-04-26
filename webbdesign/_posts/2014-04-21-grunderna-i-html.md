@@ -124,7 +124,7 @@ Vanligtvis flyttar man in texten 2 eller 4 mellanslag, alternativt trycker man T
 ###Title
 
 ``<title>`` visar den text som syns på hemsidans flik i webbläsaren.  
-<img src="/assets/images/asset_title.png" style="border-bottom: 1px solid #999;"/>  
+<img src="{{ site.url }}/assets/images/asset_title.png" style="border-bottom: 1px solid #999;"/>  
 
 {% highlight html %}
 <!doctype html>
