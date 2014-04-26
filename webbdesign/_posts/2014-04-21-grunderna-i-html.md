@@ -17,7 +17,7 @@ Precis som en människa så består HTML av kroppsdelar, den har ett huvud som t
 
 ### *2.* Öppna texteditorn och skapa ett nytt dokument
 
-<img src="/assets/images/asset_texteditor.png" style="margin-left: -13px;"/>  
+<img src="{{ site.url }}/assets/images/asset_texteditor.png" style="margin-left: -13px;"/>  
 
 
 
@@ -26,7 +26,7 @@ Precis som en människa så består HTML av kroppsdelar, den har ett huvud som t
 Det är Index som besökaren först kommer att komma till när de besöker hemsidan, en startsida helt enkelt.  
 Filändelsen i slutet av namnet berättar för webbläsaren att det är HTML som ska visas.
 
-<img src="/assets/images/asset_save-index-html.png" style="margin-left: -10px;"/>  
+<img src="{{ site.url }}/assets/images/asset_save-index-html.png" style="margin-left: -10px;"/>  
 
 
 
@@ -34,9 +34,9 @@ Filändelsen i slutet av namnet berättar för webbläsaren att det är HTML som
 Nu ska vi öppna hemsidan i webbläsaren för att se hur den ser ut.  
 <strong>Högerklicka på filen</strong> > <strong>Öppna med</strong> > <strong>Välj en valfri webbläsare</strong>
 
-<img src="/assets/images/asset_open-with.png" style="margin-left: -10px;"/>   
+<img src="{{ site.url }}/assets/images/asset_open-with.png" style="margin-left: -10px;"/>   
 
-<img src="/assets/images/asset_blank-browser.png" style="margin-left: -10px;"/>  
+<img src="{{ site.url }}/assets/images/asset_blank-browser.png" style="margin-left: -10px;"/>  
 
 <div class="success box"><h3>Bra gjort! Du har precis besökt din första hemsida</h3>  
 <p>Den är lite tom just nu, men det beror på att vi inte har skrivit något i HTML-filen än.</p></div><br/>  
@@ -117,7 +117,7 @@ Följande meta-tagg gör det möjligt för oss att skriva å, ä och ö på hems
 
 Som du märker så flyttar vi in texten två mellanslag för varje gång som vi går djupare in i en tagg. Det här gör man för att lättare se och organisera strukturen på texten, då det kan bli för många taggar att hålla reda på om allt ligger på samma rad.  
 
-Vanligtvis flyttar man in texten 2 eller 4 mellanslag, alternativt trycker man TAB <img src="/assets/images/keyboard_tab.png" class="keyboard"/> på tangentbordet.
+Vanligtvis flyttar man in texten 2 eller 4 mellanslag, alternativt trycker man TAB <img src="{{ site.url }}/assets/images/keyboard_tab.png" class="keyboard"/> på tangentbordet.
 
 
 ###Title
