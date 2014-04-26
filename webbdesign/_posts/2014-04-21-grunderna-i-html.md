@@ -6,7 +6,7 @@ comments: true
 ---
 
 ##En hemsidas uppbyggnad
-<h4>En hemsida består av textfiler, skrivna i ren text. HTML är ett av många språk som används för att skapa hemsidor. Webbläsarens jobb är att översätta dessa språk och sedan visa den färdiga hemsidan för besökaren.</h4>
+<h4>En hemsida består utav textfiler, skrivna i ren text. HTML är ett av många språk som används för att skapa hemsidor. Webbläsarens jobb är att översätta dessa språk och sedan visa den färdiga hemsidan för besökaren.</h4>
 
 Precis som en människa så består HTML av kroppsdelar, den har ett huvud som tänker och en kropp att visa upp. För att kunna skriva in dessa kroppdelar så börjar vi med att skapa en mapp på datorn för våran första hemsida. I våra exempel använder vi en Mac, men det ser ungefär likadant ut i Windows och Linux.
 
@@ -46,7 +46,7 @@ Nu ska vi öppna hemsidan i webbläsaren för att se hur den ser ut.
 ##Hur skriver man i HTML?
 
 Vi ska nu öppna texteditorn igen och skriva in följande så kallat <strong>html-taggar</strong>.  
-Det är mellan dessa två taggar som vi sedan ska placera våran html-uppbyggnad.
+Det är inom ``<html>`` som vi sedan ska placera våran html-uppbyggnad.
 
 {% highlight html %}
 <html>
@@ -73,8 +73,8 @@ Skriv därför följande rad längst upp i dokumentet.
 
 ###Head och Body
 
-Head kommer vi senare att fylla med sådant som påverkar hemsidan globalt.  
-Body är hemsidans kropp där vi ska placera alla texter, bilder, objekt med mera.
+``<head>`` kommer vi senare att fylla med sådant som påverkar hemsidan globalt.  
+``<body>`` är hemsidans kropp där vi ska placera allt innehåll (texter, bilder, objekt med mera).
 
 {% highlight html %}
 <!doctype html>
@@ -92,9 +92,9 @@ Body är hemsidans kropp där vi ska placera alla texter, bilder, objekt med mer
 
 
 
-###Språk
+###Svenska tecken
 
-Följande meta-tagg gör det möjligt för oss att skriva å, ä och ö på hemsidan.  
+Följande ``<meta>`` gör det möjligt för oss att skriva å, ä och ö på hemsidan.  
 
 {% highlight html %}
 <!doctype html>
@@ -120,9 +120,11 @@ Som du märker så flyttar vi in texten två mellanslag för varje gång som vi 
 Vanligtvis flyttar man in texten 2 eller 4 mellanslag, alternativt trycker man TAB <img src="{{ site.url }}/assets/images/keyboard_tab.png" class="keyboard"/> på tangentbordet.
 
 
+
 ###Title
 
-Title är den texten som syns på hemsidans flik i webbläsaren.
+``<title>`` visar den text som syns på hemsidans flik i webbläsaren.  
+<img src="/assets/images/asset_title.png" style="border-bottom: 1px solid #999;"/>  
 
 {% highlight html %}
 <!doctype html>
@@ -140,4 +142,27 @@ Title är den texten som syns på hemsidans flik i webbläsaren.
 </html>
 {% endhighlight %}
 
-<a class="btn btn-next">Nästa steg!</a>
+
+
+###Kommentera i HTML
+
+Om du vill skriva något i din HTML-fil som inte ska synas i webbläsaren, utan snarare finnas där som en anteckning, då behöver du kommentera ut det med följande taggar.
+
+{% highlight html %}
+<!doctype html>
+
+<html>
+
+  <head>
+    <meta charset="utf-8"> <!-- Svenska tecken -->
+    <title>Matlagning</title> <!-- Titel för webbläsaren -->
+  </head>
+
+  <body>
+    <!-- Hemsidans innehåll kommer ligga här -->
+  </body>
+
+</html>
+{% endhighlight %}
+
+<a class="btn btn-next" href="{{ site.url }}/webbdesign/texter/">Snyggt! Gå till nästa steg!</a>
