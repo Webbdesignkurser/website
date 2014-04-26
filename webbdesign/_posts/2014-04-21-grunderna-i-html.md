@@ -22,7 +22,7 @@ Precis som en människa så består HTML av kroppsdelar, den har ett huvud som t
 
 
 <h3><em>3.</em> Spara ner HTML-filen</h3>
-<strong>Spara ner</strong> det tomma dokumentet i din nya mapp, döp filen till <strong>index.html</strong>  
+<strong>Spara ner</strong> <span class="keyboard">Ctrl/Cmd</span> + <span class="keyboard">S</span> det tomma dokumentet i din nya mapp, döp filen till <strong>index.html</strong>  
 Det är Index som besökaren först kommer att komma till när de besöker hemsidan, en startsida helt enkelt.  
 Filändelsen i slutet av namnet berättar för webbläsaren att det är HTML som ska visas.
 
