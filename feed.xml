@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://webbdesignkurser.github.io/website/feed.xml" />
 <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website" />
-<updated>2014-04-26T08:36:13+00:00</updated>
+<updated>2014-04-26T09:00:39+00:00</updated>
 <id>http://webbdesignkurser.github.io/website/</id>
 <author>
   <name>Webbdesignkurser</name>
@@ -126,22 +126,22 @@ Det är ett program (Dreamviewer tex.) där man kan göra hemsidan genom en enkl
 
 &lt;h3 id=&quot;ppna-texteditorn-och-skapa-ett-nytt-dokument&quot;&gt;&lt;em&gt;2.&lt;/em&gt; Öppna texteditorn och skapa ett nytt dokument&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/asset_texteditor.png&quot; style=&quot;margin-left: -13px;&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_texteditor.png&quot; style=&quot;margin-left: -13px;&quot; /&gt;  &lt;/p&gt;
 
 &lt;h3 id=&quot;spara-ner-html-filen&quot;&gt;&lt;em&gt;3.&lt;/em&gt; Spara ner HTML-filen&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Spara ner&lt;/strong&gt; &lt;span class=&quot;keyboard&quot;&gt;Ctrl/Cmd&lt;/span&gt; + &lt;span class=&quot;keyboard&quot;&gt;S&lt;/span&gt; det tomma dokumentet i din nya mapp, döp filen till &lt;strong&gt;index.html&lt;/strong&gt;&lt;br /&gt;
 Det är Index som besökaren först kommer att komma till när de besöker hemsidan, en startsida helt enkelt.&lt;br /&gt;
 Filändelsen i slutet av namnet berättar för webbläsaren att det är HTML som ska visas.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/asset_save-index-html.png&quot; style=&quot;margin-left: -10px;&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_save-index-html.png&quot; style=&quot;margin-left: -10px;&quot; /&gt;  &lt;/p&gt;
 
 &lt;h3 id=&quot;ppna-indexhtml-i-webblsaren&quot;&gt;&lt;em&gt;4.&lt;/em&gt; Öppna index.html i webbläsaren&lt;/h3&gt;
 &lt;p&gt;Nu ska vi öppna hemsidan i webbläsaren för att se hur den ser ut.&lt;br /&gt;
 &lt;strong&gt;Högerklicka på filen&lt;/strong&gt; &amp;gt; &lt;strong&gt;Öppna med&lt;/strong&gt; &amp;gt; &lt;strong&gt;Välj en valfri webbläsare&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/asset_open-with.png&quot; style=&quot;margin-left: -10px;&quot; /&gt;   &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_open-with.png&quot; style=&quot;margin-left: -10px;&quot; /&gt;   &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/asset_blank-browser.png&quot; style=&quot;margin-left: -10px;&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_blank-browser.png&quot; style=&quot;margin-left: -10px;&quot; /&gt;  &lt;/p&gt;
 
 &lt;div class=&quot;success box&quot;&gt;&lt;h3&gt;Bra gjort! Du har precis besökt din första hemsida&lt;/h3&gt;  
 &lt;p&gt;Den är lite tom just nu, men det beror på att vi inte har skrivit något i HTML-filen än.&lt;/p&gt;&lt;/div&gt;
@@ -209,7 +209,7 @@ Body är hemsidans kropp där vi ska placera alla texter, bilder, objekt med mer
 
 &lt;p&gt;Som du märker så flyttar vi in texten två mellanslag för varje gång som vi går djupare in i en tagg. Det här gör man för att lättare se och organisera strukturen på texten, då det kan bli för många taggar att hålla reda på om allt ligger på samma rad.  &lt;/p&gt;
 
-&lt;p&gt;Vanligtvis flyttar man in texten 2 eller 4 mellanslag, alternativt trycker man TAB &lt;img src=&quot;/assets/images/keyboard_tab.png&quot; class=&quot;keyboard&quot; /&gt; på tangentbordet.&lt;/p&gt;
+&lt;p&gt;Vanligtvis flyttar man in texten 2 eller 4 mellanslag, alternativt trycker man TAB &lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/keyboard_tab.png&quot; class=&quot;keyboard&quot; /&gt; på tangentbordet.&lt;/p&gt;
 
 &lt;h3 id=&quot;title&quot;&gt;Title&lt;/h3&gt;
 
