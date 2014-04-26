@@ -1,0 +1,10 @@
+{
+{% for page in site.pages %}
+{% unless page.layout == 'nil' or page.layout == 'notfound' or page.layout == 'short' or page.layout == 'search' %}
+	"{{ page.url | short }}" : "{{ site.url }}{{ page.url }}",
+{% endunless %}
+{% endfor %}
+{% for post in site.posts %}
+	"{{ post.url | short }}" : "{{ site.url}}{{ post.url }}"{% unless forloop.last %},{% endunless %}
+{% endfor %}
+}

@@ -9,7 +9,11 @@ notifications:
       - david@dmarby.se
     on_success: never
     on_failure: always
-
+  webhooks:
+    urls:
+      - http://wdk.se/webhook
+    on_success: always
+    on_failure: never
 env:
   global:
     secure: J+la+gLIi60xeK3515/mCu4XRCPqTjhgSQZMDFYl1yCU0luGPjbf2KXXRaRCCh31xpQ1F+YB4cZTc8T/WU2+p1fTbjIxU0RGJCB7qV9WGBgU1LTRz51E4+lazLMIclsAk+9xqO1PYUagRIVkoZ9WMv4laqoeYH2c6Z5YB1OPHtM=

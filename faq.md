@@ -3,6 +3,7 @@ layout: page
 headerimage: 'header_om-sidan.jpg'
 title: "Vanliga frågor"
 page: faq
+permalink: /faq/
 ---
 
 ## Får jag också skriva kurser?
