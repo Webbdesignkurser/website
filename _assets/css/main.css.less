@@ -11,13 +11,15 @@
 @color-seo: #b82a2a;
 
 @color-download: #59af59;
+@color-note: #f5e8ce;
+@color-success: #30a235;
 
 @brand-font : 'Lato', sans-serif;
 @paragraf-size: 13px;
 
 
 
-/// Global ///
+//***************** GLOBAL ******************//
 
 h1 {
 	line-height: 30px;
@@ -33,6 +35,14 @@ h2 {
 h3 {
 	font-size: 24px !important;
 	font-weight: 400 !important;
+	line-height: 35px !important;
+	font-family: @brand-font !important;
+}
+
+h4 {
+	font-size: 18px !important;
+	line-height: 30px !important;
+	font-weight: 300 !important;
 	font-family: @brand-font !important;
 }
 
@@ -46,12 +56,18 @@ p {
 	margin-top: 50px;
 }
 
+
+
+
+//***************** EXTRAS ******************//
+
 .btn-primary {
 	border: none !important;
 	border-radius: 3px !important;
 	padding: 10px 25px !important;
 	&.download{
 		background: @color-download !important;
+		margin: 5px 0px;
 		&:hover{
 			background: darken(@color-download, 10%) !important;
 		}
@@ -66,13 +82,14 @@ p {
 	&.download{
 		border: 1px solid @color-download !important;
 		color: @color-download !important;
+		margin: 5px 0px;
 		&:hover{
 			color: darken(@color-download, 10%) !important;
 		}
 	}
 }
 .btn-next {
-	margin-top: 10px;
+	margin-top: 40px;
 	background: none !important;
 	border: 1px solid @brand-color !important;
 	border-radius: 3px !important;
@@ -81,6 +98,44 @@ p {
 	&:hover{
 		color: darken(@brand-color, 10%) !important;
 	}
+}
+
+.note {
+	margin-top: 40px;
+	background: @color-note;
+	border-radius: 3px;
+	padding: 10px 25px;
+	color: #ac4724;
+	h3{
+		margin-top: 15px !important;
+	}
+}
+
+.success{
+	display: inline-block;
+	color: @color-success;
+	&.box{
+		border-radius: 3px;
+		padding: 10px 25px;
+		margin-top: 40px;
+		border: 1px solid @color-success;
+	}
+	h3{
+		margin-top: 15px !important;
+	}
+}
+
+.keyboard{
+	margin: 0px 3px;
+	background: #eee;
+	border: 1px solid #555;
+	padding: 5px;
+	display: inline-block;
+	border-radius: 3px;
+}
+
+#disqus_thread{
+	margin-top: 50px;
 }
 
 // Remove Bootstrap glow
@@ -104,7 +159,9 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 
 
 
-/// Layout ///
+
+
+//***************** LAYOUT ******************//
 
 
 //* Header *//
@@ -251,17 +308,32 @@ header {
 		}
 
 		h2 {
-			margin-top: 30px !important;
+			margin-top: 40px !important;
 			margin-bottom: 15px !important;
 		}
 
 		h3 {
-			margin-top: 30px !important;
-			margin-bottom: 15px !important;
+			margin-top: 40px;
+			margin-bottom: 15px;
+			em{
+				border: 1px solid @brand-color;
+				border-radius: 50px;
+				color: @brand-color;
+				padding: 8px 11px;
+				display: inline;
+				font-size: 20px;
+			}
+		}
+
+		h4{
+			color: #555;
 		}
 
 		p {
 			margin-top: 15px;
+		}
+		img{
+			max-width: 100%;
 		}
 	}
 }
