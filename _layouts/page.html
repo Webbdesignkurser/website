@@ -29,7 +29,7 @@
                                 <h3>{{ course.title }}</h3>
                                 <p>{{ course.description }}</p>
                                 <span class="btn btn-secondary">Gratis</span>
-                                <a href="{{ course.id }}/inledning" class="btn btn-primary pull-right">Kom igång!</a>
+                                <a href="{{ site.url }}/{{ course.id }}/inledning" class="btn btn-primary pull-right color">Kom igång!</a>
                             </div>
                         </div>
                     </div>
@@ -45,16 +45,16 @@
                     {% endfor %}
                     {% for post in site.categories[category] %}
                         {% if post.title == page.title %}
-                            <li><a class="{{ category }} navItem current active" href="{{post.url}}">{{ post.title }}</a></li>
+                            <li><a class="{{ category }} navItem current active" href="{{ site.url }}{{post.url}}">{{ post.title }}</a></li>
                         {% else %}
-                            <li><a class="{{ category }} navItem current" href="{{post.url}}">{{ post.title }}</a></li>
+                            <li><a class="{{ category }} navItem current" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
                         {% endif %}
                     {% endfor %}
                     </ul>
                     <ul>
                     {% for course in site.courses %}
                         {% unless course.id == category %}
-                            <li><a href="{{course.id}}/inledning" class="navItem {{ course.class }} color">{{ course.title }}</a></li>
+                            <li><a href="{{ site.url }}/{{ course.id }}/inledning" class="navItem {{ course.class }} color">{{ course.title }}</a></li>
                         {% endunless %}
                     {% endfor %}
                     </ul>

@@ -31,4 +31,4 @@ Har du några frågor under kursen så får du gärna använda kommentarsfältet
 <p>Du är här för att lära dig, inte för att köpas upp. Det är vår policy och löfte till dig.</p>
 </div>
 
-<a class="btn btn-next" href="/webbdesign/programvaror/">Redo? Då sätter vi igång!</a> 
+<a class="btn btn-next" href="{{ site.url }}/webbdesign/programvaror/">Redo? Då sätter vi igång!</a> 
