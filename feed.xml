@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://webbdesignkurser.github.io/website/feed.xml" />
 <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website" />
-<updated>2014-04-26T14:19:57+00:00</updated>
+<updated>2014-04-26T16:55:26+00:00</updated>
 <id>http://webbdesignkurser.github.io/website/</id>
 <author>
   <name>Webbdesignkurser</name>
@@ -118,7 +118,7 @@ Det är ett program (Dreamviewer tex.) där man kan göra hemsidan genom en enkl
       <email>kontakt@webbdesignkurser.se<email>
     </author>
     <content type="html">&lt;h2 id=&quot;en-hemsidas-uppbyggnad&quot;&gt;En hemsidas uppbyggnad&lt;/h2&gt;
-&lt;h4&gt;En hemsida består av textfiler, skrivna i ren text. HTML är ett av många språk som används för att skapa hemsidor. Webbläsarens jobb är att översätta dessa språk och sedan visa den färdiga hemsidan för besökaren.&lt;/h4&gt;
+&lt;h4&gt;En hemsida består utav textfiler, skrivna i ren text. HTML är ett av många språk som används för att skapa hemsidor. Webbläsarens jobb är att översätta dessa språk och sedan visa den färdiga hemsidan för besökaren.&lt;/h4&gt;
 
 &lt;p&gt;Precis som en människa så består HTML av kroppsdelar, den har ett huvud som tänker och en kropp att visa upp. För att kunna skriva in dessa kroppdelar så börjar vi med att skapa en mapp på datorn för våran första hemsida. I våra exempel använder vi en Mac, men det ser ungefär likadant ut i Windows och Linux.&lt;/p&gt;
 
@@ -150,7 +150,7 @@ Filändelsen i slutet av namnet berättar för webbläsaren att det är HTML som
 &lt;h2 id=&quot;hur-skriver-man-i-html&quot;&gt;Hur skriver man i HTML?&lt;/h2&gt;
 
 &lt;p&gt;Vi ska nu öppna texteditorn igen och skriva in följande så kallat &lt;strong&gt;html-taggar&lt;/strong&gt;.&lt;br /&gt;
-Det är mellan dessa två taggar som vi sedan ska placera våran html-uppbyggnad.&lt;/p&gt;
+Det är inom &lt;code&gt;&amp;lt;html&amp;gt;&lt;/code&gt; som vi sedan ska placera våran html-uppbyggnad.&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
 
@@ -171,8 +171,8 @@ Skriv därför följande rad längst upp i dokumentet.&lt;/p&gt;
 
 &lt;h3 id=&quot;head-och-body&quot;&gt;Head och Body&lt;/h3&gt;
 
-&lt;p&gt;Head kommer vi senare att fylla med sådant som påverkar hemsidan globalt.&lt;br /&gt;
-Body är hemsidans kropp där vi ska placera alla texter, bilder, objekt med mera.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; kommer vi senare att fylla med sådant som påverkar hemsidan globalt.&lt;br /&gt;
+&lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; är hemsidans kropp där vi ska placera allt innehåll (texter, bilder, objekt med mera).&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
 
@@ -187,9 +187,9 @@ Body är hemsidans kropp där vi ska placera alla texter, bilder, objekt med mer
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;sprk&quot;&gt;Språk&lt;/h3&gt;
+&lt;h3 id=&quot;svenska-tecken&quot;&gt;Svenska tecken&lt;/h3&gt;
 
-&lt;p&gt;Följande meta-tagg gör det möjligt för oss att skriva å, ä och ö på hemsidan.  &lt;/p&gt;
+&lt;p&gt;Följande &lt;code&gt;&amp;lt;meta&amp;gt;&lt;/code&gt; gör det möjligt för oss att skriva å, ä och ö på hemsidan.  &lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
 
@@ -213,7 +213,8 @@ Body är hemsidans kropp där vi ska placera alla texter, bilder, objekt med mer
 
 &lt;h3 id=&quot;title&quot;&gt;Title&lt;/h3&gt;
 
-&lt;p&gt;Title är den texten som syns på hemsidans flik i webbläsaren.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;title&amp;gt;&lt;/code&gt; visar den text som syns på hemsidans flik i webbläsaren.&lt;br /&gt;
+&lt;img src=&quot;/assets/images/asset_title.png&quot; style=&quot;border-bottom: 1px solid #999;&quot; /&gt;  &lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
 
@@ -230,9 +231,195 @@ Body är hemsidans kropp där vi ska placera alla texter, bilder, objekt med mer
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot;&gt;Nästa steg!&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;kommentera-i-html&quot;&gt;Kommentera i HTML&lt;/h3&gt;
+
+&lt;p&gt;Om du vill skriva något i din HTML-fil som inte ska synas i webbläsaren, utan snarare finnas där som en anteckning, då behöver du kommentera ut det med följande taggar.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;utf-8&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Svenska tecken --&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Matlagning&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Titel för webbläsaren --&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Hemsidans innehåll kommer ligga här --&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/texter/&quot;&gt;Snyggt! Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-html/&quot;&gt;Grunderna i HTML&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 21, 2014.&lt;/p&gt;</content>
+  </entry>
+
+
+  
+  <entry>
+    <title type="html"><![CDATA[Texter]]></title>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/texter/" />
+    <id>http://webbdesignkurser.github.io/website/webbdesign/texter</id>
+    <published>2014-04-20T00:00:00+00:00</published>
+    <updated>2014-04-20T00:00:00+00:00</updated>
+    <author>
+      <name>Webbdesignkurser</name>
+      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <email>kontakt@webbdesignkurser.se<email>
+    </author>
+    <content type="html">&lt;h2 id=&quot;skriva-texter-i-html&quot;&gt;Skriva texter i HTML&lt;/h2&gt;
+&lt;h4&gt;Precis som vanliga textdokument så innehåller en hemsida rubriker, underrubriker och brödtexter. I HTML så markerar vi texten med olika former av taggar, beroende på vad texten ska vara för något.&lt;/h4&gt;
+
+&lt;h3 id=&quot;innehllet-p-hemsidan&quot;&gt;Innehållet på hemsidan&lt;/h3&gt;
+&lt;p&gt;Allt innehåll som ska synas på hemsidan lägger vi inom &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;utf-8&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Svenska tecken --&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Matlagning&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Titel för webbläsaren --&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Hemsidans innehåll ska ligga här --&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;rubriker&quot;&gt;Rubriker&lt;/h3&gt;
+&lt;p&gt;Rubriker skrivs med &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; &lt;code&gt;&amp;lt;h2&amp;gt;&lt;/code&gt; &lt;code&gt;&amp;lt;h3&amp;gt;&lt;/code&gt; &lt;code&gt;&amp;lt;h4&amp;gt;&lt;/code&gt; och &lt;code&gt;&amp;lt;h5&amp;gt;&lt;/code&gt; beroende på vilken rank rubriken ska ha. Huvudrubriken ska alltid använda &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;, underrubriken använder &lt;code&gt;&amp;lt;h2&amp;gt;&lt;/code&gt;, underrubriken till underrubriken använder &lt;code&gt;&amp;lt;h3&amp;gt;&lt;/code&gt; osv.  &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Klistra in&lt;/strong&gt; detta inom &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Matlagning&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h2&amp;gt;&lt;/span&gt;Hur kokar man pasta?&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h2&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h3&amp;gt;&lt;/span&gt;Råvaror&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h3&amp;gt;&lt;/span&gt;Resurser&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Spara dokumentet&lt;/strong&gt; och &lt;strong&gt;uppdaterar hemsidan&lt;/strong&gt;. Den kommer nu att se ut såhär.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_html-rubriker.png&quot; alt=&quot;Html Rubriker&quot; style=&quot;margin-left: -10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;note box&quot;&gt;
+&lt;h3&gt;Val av rubriker&lt;/h3&gt;
+&lt;p&gt;En hemsida får endast innehålla en huvudrubrik (h1) per sida. Skriv därför det viktigaste där. Om du vill fylla på med fler rubriker så använd h2, h3, h4 osv.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;paragraf&quot;&gt;Paragraf&lt;/h3&gt;
+&lt;p&gt;Varje paragraf i brödtexten lägger man inom taggen &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt;  &lt;/p&gt;
+
+&lt;p&gt;En ny paragraf kan jämföras med att trycka &lt;span class=&quot;keyboard&quot;&gt;Enter&lt;/span&gt; i en visuell texteditor.  &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;För att koka pasta behöver du pasta, vatten, kastrull och spis. 
+Är du redo att koka pasta?&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_html-paragraf.png&quot; alt=&quot;Html Paragraf&quot; style=&quot;margin-left: -10px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;radbyten&quot;&gt;Radbyten&lt;/h3&gt;
+&lt;p&gt;Texten kommer att fortsätta på samma rad tills att du skapar en ny paragraf eller gör ett radbyte med &lt;code&gt;&amp;lt;br/&amp;gt;&lt;/code&gt;  &lt;/p&gt;
+
+&lt;p&gt;Ett radbyte är detsamma som att trycka &lt;span class=&quot;keyboard&quot;&gt;Shift&lt;/span&gt; + &lt;span class=&quot;keyboard&quot;&gt;Enter&lt;/span&gt; i en visuell texteditor.  &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;För att koka pasta behöver du pasta, vatten, kastrull och spis. &lt;span class=&quot;nt&quot;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt; 
+Är du redo att koka pasta?&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_html-radbyte.png&quot; alt=&quot;Html Radbyte&quot; style=&quot;margin-left: -13px;&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;success box&quot;&gt;
+&lt;h3&gt;Bra gjort!&lt;/h3&gt;
+&lt;p&gt;Nu kan du grunderna i att skriva texter i HTML. Nästa steg för oss är att visa bilder.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/bilder/&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/texter/&quot;&gt;Texter&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 20, 2014.&lt;/p&gt;</content>
+  </entry>
+
+
+  
+  <entry>
+    <title type="html"><![CDATA[Bilder]]></title>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/bilder/" />
+    <id>http://webbdesignkurser.github.io/website/webbdesign/bilder</id>
+    <published>2014-04-20T00:00:00+00:00</published>
+    <updated>2014-04-20T00:00:00+00:00</updated>
+    <author>
+      <name>Webbdesignkurser</name>
+      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <email>kontakt@webbdesignkurser.se<email>
+    </author>
+    <content type="html">&lt;h2 id=&quot;visa-bilder-med-html&quot;&gt;Visa bilder med HTML&lt;/h2&gt;
+&lt;h4&gt;För att visa en bild på hemsidan kräver det att bilden är av rätt filtyp. Det finns tre primära filtyper av bilder som används på webben, och det är JPG, PNG &amp;amp; GIF.&lt;/h4&gt;
+
+&lt;p&gt;För att hämta in en bild i HTML använder du dig av &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;bild.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;namnge-bilden&quot;&gt;Namnge bilden&lt;/h3&gt;
+&lt;p&gt;Med hjälp av &lt;code&gt;alt&lt;/code&gt; kan vi ge bilden en beskrivning som inte är synligt av ögat, utan används av sökmotorer och blinda som inte kan se vad bilden föreställer.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;bild.jpg&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;En fågel&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;visa-bild-frn-annan-mapp&quot;&gt;Visa bild från annan mapp&lt;/h3&gt;
+
+&lt;p&gt;Om bilden inte ligger i samma mapp som html-filen måste du länka den till rätt mapp. &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/undermapp/bild.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Hämtar bilden från undermapp --&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;../bild.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Hämtar bilden från övermapp --&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://wdk.se/bild.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Hämtar bilden från adress --&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;note box&quot;&gt;
+Du får inte använda å, ä, ö, mellanrum eller konstiga tecken i bildens namn. Du får däremot använda bindestreck och understreck i filnamnet, så använd det istället för mellanrum.
+&lt;/div&gt;
+
+&lt;h2 id=&quot;spara-bild-fr-webben&quot;&gt;Spara bild för webben&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Det är viktigt&lt;/strong&gt; att optimera bilderna för webben. Du kan inte använda det där semesterfotot på 8 MB direkt på hemsidan. Då laddar hemsidan långsammare och besökaren tröttnar. Om man surfar över mobilt bredband vill man dessutom inte att hemsidan ska dra för mycket av månadens betalsurf.  &lt;/p&gt;
+
+&lt;p&gt;I Photoshop finns alternativet att spara för webben. Skillnaden mellan att spara för webben och spara en bild är att du kan komprimera ner bilden för att minska storleken om du sparar för webben. Om du använder ett annat bildhanteringsprogram kan den här funktionen se annorlunda ut.  &lt;/p&gt;
+
+&lt;h3 id=&quot;ppna-bild&quot;&gt;&lt;em&gt;1.&lt;/em&gt; Öppna bild&lt;/h3&gt;
+
+&lt;p&gt;Öppna din bild i bildhanteringsprogrammet &lt;span class=&quot;keyboard&quot;&gt;Ctrl/Cmd&lt;/span&gt; + &lt;span class=&quot;keyboard&quot;&gt;O&lt;/span&gt; och förminska bildstorleken med de verktyg som finns tillgängliga, i Photoshop kan du ändra bildstorleken under &lt;strong&gt;Image&lt;/strong&gt; &amp;gt; &lt;strong&gt;Image Size&lt;/strong&gt;. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_html-bild-exempel.jpg&quot; /&gt; &lt;/p&gt;
+
+&lt;h3 id=&quot;spara-fr-webben&quot;&gt;&lt;em&gt;2.&lt;/em&gt; Spara för webben&lt;/h3&gt;
+
+&lt;p&gt;Tryck sedan &lt;span class=&quot;keyboard&quot;&gt;Shift&lt;/span&gt; + &lt;span class=&quot;keyboard&quot;&gt;Alt&lt;/span&gt; + &lt;span class=&quot;keyboard&quot;&gt;Ctrl/Cmd&lt;/span&gt; + &lt;span class=&quot;keyboard&quot;&gt;S&lt;/span&gt; för att spara för webben.&lt;/p&gt;
+
+&lt;h3 id=&quot;bestm-filtyp-och-kvallit&quot;&gt;&lt;em&gt;3.&lt;/em&gt; Bestäm filtyp och kvallité&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_save-for-web-1.jpg&quot; /&gt;  &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_save-for-web-2.jpg&quot; /&gt;  &lt;/p&gt;
+
+&lt;h3 id=&quot;spara&quot;&gt;&lt;em&gt;4.&lt;/em&gt; Spara&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_save-for-web-3.jpg&quot; /&gt;  &lt;/p&gt;
+
+&lt;div class=&quot;success box&quot;&gt;
+&lt;h3&gt;Snyggt! Nu kan du visa bilder på din hemsida.&lt;/h3&gt; 
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/texter/&quot;&gt;Snyggt! Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/bilder/&quot;&gt;Bilder&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 20, 2014.&lt;/p&gt;</content>
   </entry>
 
 

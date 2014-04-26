@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>Programvaror &#8211; Webbdesignkurser</title>
+	<title>Bilder &#8211; Webbdesignkurser</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="Webbdesign, Kurser, Hemsidor, Html, Css">
 	<!-- meta name="keywords" content=""> -->
@@ -13,13 +13,13 @@
 	<!-- Open Graph -->
 	<meta property="og:locale" content="sv_SE">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Programvaror">
+	<meta property="og:title" content="Bilder">
 	<meta property="og:description" content="Hur gör man en hemsida? Få svaret på Webbdesignkurser där alla kurser är gratis och lätta att komma igång med! Vi hjälper dig att bli en ninja på webbdesign">
-	<meta property="og:url" content="http://webbdesignkurser.github.io/website/webbdesign/programvaror/">
+	<meta property="og:url" content="http://webbdesignkurser.github.io/website/webbdesign/bilder/">
 	<meta property="og:site_name" content="Webbdesignkurser">
 
 	
-	<link rel="canonical" href="http://webbdesignkurser.github.io/website/webbdesign/programvaror/">
+	<link rel="canonical" href="http://webbdesignkurser.github.io/website/webbdesign/bilder/">
 	<link href="http://webbdesignkurser.github.io/website/feed.xml" type="application/atom+xml" rel="alternate" title="Webbdesignkurser Feed">
 	
 	  <link rel="dns-prefetch" href="//webbdesignkurser.se">
@@ -166,48 +166,75 @@
 
         
             <div class="col-sm-12">
-                <img src="/website/assets/header_programvaror-d4317fd8f0eb5025611f216f9ed9417d.jpg" class="headerImage"/>
+                <img src="/website/assets/header_html-bilder-918b4c35f4f3ba41cef6dfc52dd6b5e7.jpg" class="headerImage"/>
             </div>
         
 
         <div class="col-md-8 content">
             
-                <h1 class="title">Programvaror</h1>
+                <h1 class="title">Bilder</h1>
             
-            <h2 id="vilka-program-behver-man-fr-att-gra-en-hemsida">Vilka program behöver man för att göra en hemsida?</h2>
-<p>Det finns de som kostar pengar och de som är gratis, i den här kursen kommer vi att använda de som kostar pengar eftersom dom är bättre. Du kommer att kunna använda de kostnadsfria alternativet lika väl, då de flesta funktioner ser likadana ut.  </p>
+            <h2 id="visa-bilder-med-html">Visa bilder med HTML</h2>
+<h4>För att visa en bild på hemsidan kräver det att bilden är av rätt filtyp. Det finns tre primära filtyper av bilder som används på webben, och det är JPG, PNG &amp; GIF.</h4>
 
-<h3 id="webblsare">Webbläsare</h3>
-<p>Vilken webbläsare du använder har vi inte något något att säga till om, men om vi får rekommendera något så ladda gärna ner Google Chrome. De har bra verktyg för webbutveckling. Installera gärna även övriga program, så kan du kolla hur hemsidan ser ut i övriga webbläsare.</p>
+<p>För att hämta in en bild i HTML använder du dig av <code>&lt;img&gt;</code></p>
 
-<p><a class="btn btn-primary download">Ladda ned Google Chrome</a>
-<a class="btn btn-secondary download">Safari</a>
-<a class="btn btn-secondary download">Firefox</a>
-<a class="btn btn-secondary download">Opera</a>
-<a class="btn btn-secondary download">Internet Explorer</a> </p>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;bild.jpg&quot;</span><span class="nt">/&gt;</span>
+</code></pre></div>
 
-<h3 id="texteditor">Texteditor</h3>
-<p>Med en texteditor kan man skriva och redigera textfiler. Du har antagligen redan det förinstallerat på datorn, Anteckningar för Windows och Textredigeraren för Mac.  </p>
+<h3 id="namnge-bilden">Namnge bilden</h3>
+<p>Med hjälp av <code>alt</code> kan vi ge bilden en beskrivning som inte är synligt av ögat, utan används av sökmotorer och blinda som inte kan se vad bilden föreställer.</p>
 
-<p><strong>Vi kommer inte</strong> att använda dessa program, utan kommer istället att använda oss av Sublime Text.  </p>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;bild.jpg&quot;</span> <span class="na">alt=</span><span class="s">&quot;En fågel&quot;</span><span class="nt">/&gt;</span>
+</code></pre></div>
 
-<p><a class="btn btn-primary download">Ladda ned Sublime Text</a> <a class="btn btn-secondary download">Eller Notepad++ (Gratis)</a></p>
+<h3 id="visa-bild-frn-annan-mapp">Visa bild från annan mapp</h3>
+
+<p>Om bilden inte ligger i samma mapp som html-filen måste du länka den till rätt mapp. </p>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;/undermapp/bild.jpg&quot;</span><span class="nt">/&gt;</span> <span class="c">&lt;!-- Hämtar bilden från undermapp --&gt;</span>
+
+<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;../bild.jpg&quot;</span><span class="nt">/&gt;</span> <span class="c">&lt;!-- Hämtar bilden från övermapp --&gt;</span>
+
+<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;http://wdk.se/bild.jpg&quot;</span><span class="nt">/&gt;</span> <span class="c">&lt;!-- Hämtar bilden från adress --&gt;</span>
+</code></pre></div>
 
 <div class="note box">
-<h3>WYSIWYG-editor</h3>
-<p>Om du går en utbildning i webbdesign får du säkert lära dig om WYSIWYG-editorer.  
-Det är ett program (Dreamviewer tex.) där man kan göra hemsidan genom en enklare form av redigeringsverktyg.</p>
-<p>Du kommer inte att behöva den här typen av programvara.</p>
+Du får inte använda å, ä, ö, mellanrum eller konstiga tecken i bildens namn. Du får däremot använda bindestreck och understreck i filnamnet, så använd det istället för mellanrum.
 </div>
 
-<h3 id="bildhanteringsprogram">Bildhanteringsprogram</h3>
-<p>Med bildhanteringsprogrammet kommer vi att kunna redigera och spara ner bilder i olika format.  </p>
+<h2 id="spara-bild-fr-webben">Spara bild för webben</h2>
+<p><strong>Det är viktigt</strong> att optimera bilderna för webben. Du kan inte använda det där semesterfotot på 8 MB direkt på hemsidan. Då laddar hemsidan långsammare och besökaren tröttnar. Om man surfar över mobilt bredband vill man dessutom inte att hemsidan ska dra för mycket av månadens betalsurf.  </p>
 
-<p><a class="btn btn-primary download">Ladda ned Photoshop</a> <a class="btn btn-secondary download">Eller Gimp (Gratis)</a>  </p>
+<p>I Photoshop finns alternativet att spara för webben. Skillnaden mellan att spara för webben och spara en bild är att du kan komprimera ner bilden för att minska storleken om du sparar för webben. Om du använder ett annat bildhanteringsprogram kan den här funktionen se annorlunda ut.  </p>
 
-<p><a class="btn btn-next" href="http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-html/">Tankat klart allt? Då fortsätter vi!</a></p>
+<h3 id="ppna-bild"><em>1.</em> Öppna bild</h3>
 
-            <a href="http://wdk.se/75504">Kortlänk</a>
+<p>Öppna din bild i bildhanteringsprogrammet <span class="keyboard">Ctrl/Cmd</span> + <span class="keyboard">O</span> och förminska bildstorleken med de verktyg som finns tillgängliga, i Photoshop kan du ändra bildstorleken under <strong>Image</strong> &gt; <strong>Image Size</strong>. </p>
+
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_html-bild-exempel.jpg" /> </p>
+
+<h3 id="spara-fr-webben"><em>2.</em> Spara för webben</h3>
+
+<p>Tryck sedan <span class="keyboard">Shift</span> + <span class="keyboard">Alt</span> + <span class="keyboard">Ctrl/Cmd</span> + <span class="keyboard">S</span> för att spara för webben.</p>
+
+<h3 id="bestm-filtyp-och-kvallit"><em>3.</em> Bestäm filtyp och kvallité</h3>
+
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_save-for-web-1.jpg" />  </p>
+
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_save-for-web-2.jpg" />  </p>
+
+<h3 id="spara"><em>4.</em> Spara</h3>
+
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_save-for-web-3.jpg" />  </p>
+
+<div class="success box">
+<h3>Snyggt! Nu kan du visa bilder på din hemsida.</h3> 
+</div>
+
+<p><a class="btn btn-next" href="http://webbdesignkurser.github.io/website/webbdesign/texter/">Snyggt! Gå till nästa steg!</a></p>
+
+            <a href="http://wdk.se/8af4e">Kortlänk</a>
             
                 <section id="disqus_thread"></section>
             
@@ -241,7 +268,7 @@ Det är ett program (Dreamviewer tex.) där man kan göra hemsidan genom en enkl
                         
                     
                         
-                            <li><a class="webbdesign navItem current active" href="http://webbdesignkurser.github.io/website/webbdesign/programvaror/">Programvaror</a></li>
+                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/programvaror/">Programvaror</a></li>
                         
                     
                         
@@ -253,7 +280,7 @@ Det är ett program (Dreamviewer tex.) där man kan göra hemsidan genom en enkl
                         
                     
                         
-                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/bilder/">Bilder</a></li>
+                            <li><a class="webbdesign navItem current active" href="http://webbdesignkurser.github.io/website/webbdesign/bilder/">Bilder</a></li>
                         
                     
                     </ul>

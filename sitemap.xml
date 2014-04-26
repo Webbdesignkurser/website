@@ -7,19 +7,7 @@
     
         
         <url>
-            <loc>http://webbdesignkurser.github.io/website/sitemap.xml</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://webbdesignkurser.github.io/website/feed.xml</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://webbdesignkurser.github.io/website/search.html</loc>
+            <loc>http://webbdesignkurser.github.io/website/faq/</loc>
         </url>
         
     
@@ -31,7 +19,19 @@
     
         
         <url>
-            <loc>http://webbdesignkurser.github.io/website/faq/</loc>
+            <loc>http://webbdesignkurser.github.io/website/sitemap.xml</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://webbdesignkurser.github.io/website/search.html</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://webbdesignkurser.github.io/website/404.html</loc>
         </url>
         
     
@@ -43,7 +43,7 @@
     
         
         <url>
-            <loc>http://webbdesignkurser.github.io/website/404.html</loc>
+            <loc>http://webbdesignkurser.github.io/website/feed.xml</loc>
         </url>
         
     
@@ -64,6 +64,18 @@
         
         <url>
             <loc>http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-html/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://webbdesignkurser.github.io/website/webbdesign/texter/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://webbdesignkurser.github.io/website/webbdesign/bilder/</loc>
         </url>
         
     

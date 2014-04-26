@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>Programvaror &#8211; Webbdesignkurser</title>
+	<title>Texter &#8211; Webbdesignkurser</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="Webbdesign, Kurser, Hemsidor, Html, Css">
 	<!-- meta name="keywords" content=""> -->
@@ -13,13 +13,13 @@
 	<!-- Open Graph -->
 	<meta property="og:locale" content="sv_SE">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Programvaror">
+	<meta property="og:title" content="Texter">
 	<meta property="og:description" content="Hur gör man en hemsida? Få svaret på Webbdesignkurser där alla kurser är gratis och lätta att komma igång med! Vi hjälper dig att bli en ninja på webbdesign">
-	<meta property="og:url" content="http://webbdesignkurser.github.io/website/webbdesign/programvaror/">
+	<meta property="og:url" content="http://webbdesignkurser.github.io/website/webbdesign/texter/">
 	<meta property="og:site_name" content="Webbdesignkurser">
 
 	
-	<link rel="canonical" href="http://webbdesignkurser.github.io/website/webbdesign/programvaror/">
+	<link rel="canonical" href="http://webbdesignkurser.github.io/website/webbdesign/texter/">
 	<link href="http://webbdesignkurser.github.io/website/feed.xml" type="application/atom+xml" rel="alternate" title="Webbdesignkurser Feed">
 	
 	  <link rel="dns-prefetch" href="//webbdesignkurser.se">
@@ -166,48 +166,89 @@
 
         
             <div class="col-sm-12">
-                <img src="/website/assets/header_programvaror-d4317fd8f0eb5025611f216f9ed9417d.jpg" class="headerImage"/>
+                <img src="/website/assets/header_texter-html-15f17d062b9249bff2b8b053568c7a21.jpg" class="headerImage"/>
             </div>
         
 
         <div class="col-md-8 content">
             
-                <h1 class="title">Programvaror</h1>
+                <h1 class="title">Texter</h1>
             
-            <h2 id="vilka-program-behver-man-fr-att-gra-en-hemsida">Vilka program behöver man för att göra en hemsida?</h2>
-<p>Det finns de som kostar pengar och de som är gratis, i den här kursen kommer vi att använda de som kostar pengar eftersom dom är bättre. Du kommer att kunna använda de kostnadsfria alternativet lika väl, då de flesta funktioner ser likadana ut.  </p>
+            <h2 id="skriva-texter-i-html">Skriva texter i HTML</h2>
+<h4>Precis som vanliga textdokument så innehåller en hemsida rubriker, underrubriker och brödtexter. I HTML så markerar vi texten med olika former av taggar, beroende på vad texten ska vara för något.</h4>
 
-<h3 id="webblsare">Webbläsare</h3>
-<p>Vilken webbläsare du använder har vi inte något något att säga till om, men om vi får rekommendera något så ladda gärna ner Google Chrome. De har bra verktyg för webbutveckling. Installera gärna även övriga program, så kan du kolla hur hemsidan ser ut i övriga webbläsare.</p>
+<h3 id="innehllet-p-hemsidan">Innehållet på hemsidan</h3>
+<p>Allt innehåll som ska synas på hemsidan lägger vi inom <code>&lt;body&gt;</code></p>
 
-<p><a class="btn btn-primary download">Ladda ned Google Chrome</a>
-<a class="btn btn-secondary download">Safari</a>
-<a class="btn btn-secondary download">Firefox</a>
-<a class="btn btn-secondary download">Opera</a>
-<a class="btn btn-secondary download">Internet Explorer</a> </p>
+<div class="highlight"><pre><code class="html"><span class="cp">&lt;!doctype html&gt;</span>
 
-<h3 id="texteditor">Texteditor</h3>
-<p>Med en texteditor kan man skriva och redigera textfiler. Du har antagligen redan det förinstallerat på datorn, Anteckningar för Windows och Textredigeraren för Mac.  </p>
+<span class="nt">&lt;html&gt;</span>
 
-<p><strong>Vi kommer inte</strong> att använda dessa program, utan kommer istället att använda oss av Sublime Text.  </p>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">&quot;utf-8&quot;</span><span class="nt">&gt;</span> <span class="c">&lt;!-- Svenska tecken --&gt;</span>
+    <span class="nt">&lt;title&gt;</span>Matlagning<span class="nt">&lt;/title&gt;</span> <span class="c">&lt;!-- Titel för webbläsaren --&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
 
-<p><a class="btn btn-primary download">Ladda ned Sublime Text</a> <a class="btn btn-secondary download">Eller Notepad++ (Gratis)</a></p>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="c">&lt;!-- Hemsidans innehåll ska ligga här --&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div>
+
+<h3 id="rubriker">Rubriker</h3>
+<p>Rubriker skrivs med <code>&lt;h1&gt;</code> <code>&lt;h2&gt;</code> <code>&lt;h3&gt;</code> <code>&lt;h4&gt;</code> och <code>&lt;h5&gt;</code> beroende på vilken rank rubriken ska ha. Huvudrubriken ska alltid använda <code>&lt;h1&gt;</code>, underrubriken använder <code>&lt;h2&gt;</code>, underrubriken till underrubriken använder <code>&lt;h3&gt;</code> osv.  </p>
+
+<p><strong>Klistra in</strong> detta inom <code>&lt;body&gt;</code></p>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;h1&gt;</span>Matlagning<span class="nt">&lt;/h1&gt;</span>
+
+<span class="nt">&lt;h2&gt;</span>Hur kokar man pasta?<span class="nt">&lt;/h2&gt;</span>
+
+<span class="nt">&lt;h3&gt;</span>Råvaror<span class="nt">&lt;/h3&gt;</span>
+
+<span class="nt">&lt;h3&gt;</span>Resurser<span class="nt">&lt;/h3&gt;</span>
+</code></pre></div>
+
+<p><strong>Spara dokumentet</strong> och <strong>uppdaterar hemsidan</strong>. Den kommer nu att se ut såhär.</p>
+
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_html-rubriker.png" alt="Html Rubriker" style="margin-left: -10px;" /></p>
 
 <div class="note box">
-<h3>WYSIWYG-editor</h3>
-<p>Om du går en utbildning i webbdesign får du säkert lära dig om WYSIWYG-editorer.  
-Det är ett program (Dreamviewer tex.) där man kan göra hemsidan genom en enklare form av redigeringsverktyg.</p>
-<p>Du kommer inte att behöva den här typen av programvara.</p>
+<h3>Val av rubriker</h3>
+<p>En hemsida får endast innehålla en huvudrubrik (h1) per sida. Skriv därför det viktigaste där. Om du vill fylla på med fler rubriker så använd h2, h3, h4 osv.</p>
 </div>
 
-<h3 id="bildhanteringsprogram">Bildhanteringsprogram</h3>
-<p>Med bildhanteringsprogrammet kommer vi att kunna redigera och spara ner bilder i olika format.  </p>
+<h3 id="paragraf">Paragraf</h3>
+<p>Varje paragraf i brödtexten lägger man inom taggen <code>&lt;p&gt;</code>  </p>
 
-<p><a class="btn btn-primary download">Ladda ned Photoshop</a> <a class="btn btn-secondary download">Eller Gimp (Gratis)</a>  </p>
+<p>En ny paragraf kan jämföras med att trycka <span class="keyboard">Enter</span> i en visuell texteditor.  </p>
 
-<p><a class="btn btn-next" href="http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-html/">Tankat klart allt? Då fortsätter vi!</a></p>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;p&gt;</span>För att koka pasta behöver du pasta, vatten, kastrull och spis. 
+Är du redo att koka pasta?<span class="nt">&lt;/p&gt;</span>
+</code></pre></div>
 
-            <a href="http://wdk.se/75504">Kortlänk</a>
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_html-paragraf.png" alt="Html Paragraf" style="margin-left: -10px;" /></p>
+
+<h3 id="radbyten">Radbyten</h3>
+<p>Texten kommer att fortsätta på samma rad tills att du skapar en ny paragraf eller gör ett radbyte med <code>&lt;br/&gt;</code>  </p>
+
+<p>Ett radbyte är detsamma som att trycka <span class="keyboard">Shift</span> + <span class="keyboard">Enter</span> i en visuell texteditor.  </p>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;p&gt;</span>För att koka pasta behöver du pasta, vatten, kastrull och spis. <span class="nt">&lt;br/&gt;</span> 
+Är du redo att koka pasta?<span class="nt">&lt;/p&gt;</span>
+</code></pre></div>
+
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_html-radbyte.png" alt="Html Radbyte" style="margin-left: -13px;" /></p>
+
+<div class="success box">
+<h3>Bra gjort!</h3>
+<p>Nu kan du grunderna i att skriva texter i HTML. Nästa steg för oss är att visa bilder.</p>
+</div>
+
+<p><a class="btn btn-next" href="http://webbdesignkurser.github.io/website/webbdesign/bilder/">Gå till nästa steg!</a></p>
+
+            <a href="http://wdk.se/da2ae">Kortlänk</a>
             
                 <section id="disqus_thread"></section>
             
@@ -241,7 +282,7 @@ Det är ett program (Dreamviewer tex.) där man kan göra hemsidan genom en enkl
                         
                     
                         
-                            <li><a class="webbdesign navItem current active" href="http://webbdesignkurser.github.io/website/webbdesign/programvaror/">Programvaror</a></li>
+                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/programvaror/">Programvaror</a></li>
                         
                     
                         
@@ -249,7 +290,7 @@ Det är ett program (Dreamviewer tex.) där man kan göra hemsidan genom en enkl
                         
                     
                         
-                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/texter/">Texter</a></li>
+                            <li><a class="webbdesign navItem current active" href="http://webbdesignkurser.github.io/website/webbdesign/texter/">Texter</a></li>
                         
                     
                         
