@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://webbdesignkurser.github.io/website/feed.xml" />
 <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website" />
-<updated>2014-04-26T17:19:04+00:00</updated>
+<updated>2014-04-27T10:32:58+00:00</updated>
 <id>http://webbdesignkurser.github.io/website/</id>
 <author>
   <name>Webbdesignkurser</name>
@@ -85,7 +85,7 @@ I den här kursen kommer vi att lära dig hur man &lt;strong&gt;skapar och publi
 
 &lt;p&gt;&lt;strong&gt;Vi kommer inte&lt;/strong&gt; att använda dessa program, utan kommer istället att använda oss av Sublime Text.  &lt;/p&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-primary download&quot;&gt;Ladda ned Sublime Text&lt;/a&gt; &lt;a class=&quot;btn btn-secondary download&quot;&gt;Eller Notepad++ (Gratis)&lt;/a&gt;&lt;/p&gt;
+&lt;div&gt;&lt;a class=&quot;btn btn-primary download&quot;&gt;Ladda ned Sublime Text&lt;/a&gt; &lt;a class=&quot;btn btn-secondary download&quot;&gt;Eller Notepad++ (Gratis)&lt;/a&gt;&lt;/div&gt;
 
 &lt;div class=&quot;note box&quot;&gt;
 &lt;h3&gt;WYSIWYG-editor&lt;/h3&gt;
@@ -211,6 +211,8 @@ Skriv därför följande rad längst upp i dokumentet.&lt;/p&gt;
 
 &lt;p&gt;Vanligtvis flyttar man in texten 2 eller 4 mellanslag, alternativt trycker man TAB &lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/keyboard_tab.png&quot; class=&quot;keyboard&quot; /&gt; på tangentbordet.&lt;/p&gt;
 
+&lt;p&gt;&lt;span class=&quot;success&quot;&gt;&lt;strong&gt;Tips:&lt;/strong&gt; Med Sublime Text kan du markera flera rader och sedan trycka TAB.&lt;/span&gt;&lt;/p&gt;
+
 &lt;h3 id=&quot;title&quot;&gt;Title&lt;/h3&gt;
 
 &lt;p&gt;&lt;code&gt;&amp;lt;title&amp;gt;&lt;/code&gt; visar den text som syns på hemsidans flik i webbläsaren.&lt;br /&gt;
@@ -307,7 +309,7 @@ Skriv därför följande rad längst upp i dokumentet.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Spara dokumentet&lt;/strong&gt; och &lt;strong&gt;uppdaterar hemsidan&lt;/strong&gt;. Den kommer nu att se ut såhär.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_html-rubriker.png&quot; alt=&quot;Html Rubriker&quot; style=&quot;margin-left: -10px;&quot; /&gt;&lt;/p&gt;
+&lt;div&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_html-rubriker.png&quot; alt=&quot;Html Rubriker&quot; style=&quot;margin-left: -10px;&quot; /&gt;&lt;/div&gt;
 
 &lt;div class=&quot;note box&quot;&gt;
 &lt;h3&gt;Val av rubriker&lt;/h3&gt;
@@ -360,7 +362,7 @@ Skriv därför följande rad längst upp i dokumentet.&lt;/p&gt;
       <email>kontakt@webbdesignkurser.se<email>
     </author>
     <content type="html">&lt;h2 id=&quot;visa-bilder-med-html&quot;&gt;Visa bilder med HTML&lt;/h2&gt;
-&lt;h4&gt;För att visa en bild på hemsidan kräver det att bilden är av rätt filtyp. Det finns tre primära filtyper av bilder som används på webben, och det är JPG, PNG &amp;amp; GIF.&lt;/h4&gt;
+&lt;h4&gt;För att visa en bild på hemsidan kräver det att bilden är av rätt filtyp. Det finns tre primära filtyper för bilder som används på webben, och det är JPG, GIF &amp;amp; PNG.&lt;/h4&gt;
 
 &lt;p&gt;För att hämta in en bild i HTML använder du dig av &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt;&lt;/p&gt;
 
@@ -373,7 +375,7 @@ Skriv därför följande rad längst upp i dokumentet.&lt;/p&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;bild.jpg&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;En fågel&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;visa-bild-frn-annan-mapp&quot;&gt;Visa bild från annan mapp&lt;/h3&gt;
+&lt;h3 id=&quot;visa-bild-frn-en-annan-mapp&quot;&gt;Visa bild från en annan mapp&lt;/h3&gt;
 
 &lt;p&gt;Om bilden inte ligger i samma mapp som html-filen måste du länka den till rätt mapp. &lt;/p&gt;
 
@@ -384,9 +386,50 @@ Skriv därför följande rad längst upp i dokumentet.&lt;/p&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://wdk.se/bild.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Hämtar bilden från adress --&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
+&lt;h3 id=&quot;ndra-storlek-p-bilden&quot;&gt;Ändra storlek på bilden&lt;/h3&gt;
+&lt;p&gt;För att ändra storlek med hjälp av HTML så kan man använda &lt;code&gt;width&lt;/code&gt; och &lt;code&gt;height&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;bild.jpg&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;100px&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 &lt;div class=&quot;note box&quot;&gt;
 Du får inte använda å, ä, ö, mellanrum eller konstiga tecken i bildens namn. Du får däremot använda bindestreck och understreck i filnamnet, så använd det istället för mellanrum.
 &lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_bilder-format.png&quot; style=&quot;margin-top: 40px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;skillnaden-mellan-jpg-gif-och-png&quot;&gt;Skillnaden mellan JPG, GIF och PNG&lt;/h2&gt;
+
+&lt;h3 id=&quot;jpg-joint-photographic-experts-group&quot;&gt;JPG (Joint Photographic Experts Group)&lt;/h3&gt;
+&lt;p&gt;JPG utvecklades av Joint Photographic Experts Group (JPEG) som en standard för fotografer. Det praktiska med JPG var att man kunde redusera bildens storlek genom att minska antalet pixelområden. Man kunde alltså dra ner på antalet färger som man behövde hämta i bilden och på så sätt dra ner på filstorleken.  &lt;/p&gt;
+
+&lt;p&gt;Det här gjorde att JPG blev ett populärt filformat på den tiden då uppkopplingen var som långsammast.&lt;/p&gt;
+
+&lt;p&gt;JPG passar däremot inte för grafisk design eller typografi, även en högupplöst JPG tappar kvallité och resulterar i dåliga pixlar på grafiska element.&lt;/p&gt;
+
+&lt;div class=&quot;success box no-margin&quot;&gt;+ JPG passar för foton&lt;/div&gt;
+
+&lt;div class=&quot;note box no-margin&quot;&gt;- JPG passar inte för grafisk design eller typografi&lt;/div&gt;
+
+&lt;h3 id=&quot;gif-graphics-interchange-format&quot;&gt;GIF (Graphics Interchange Format)&lt;/h3&gt;
+&lt;p&gt;Precis som JPG så är GIF ett rätt så gammalt format. I grunden är GIF en 8-bitars färgfil, vilket betyder att den endast kan innehålla 256 färger. Skillnaden mellan GIF och JPG är att GIF har möjligheten att vara transparant och stödjer dessutom animationer.&lt;/p&gt;
+
+&lt;p&gt;GIF är däremot ett gammalt och begränsat filformat, och du bör inte använda det för foton eller typografi.&lt;/p&gt;
+
+&lt;div class=&quot;success box no-margin&quot;&gt;+ GIF passar för animationer&lt;/div&gt;
+
+&lt;div class=&quot;note box no-margin&quot;&gt;- GIF passar inte för foton eller grafisk design&lt;/div&gt;
+
+&lt;h3 id=&quot;png-portable-network-graphics&quot;&gt;PNG (Portable Network Graphics)&lt;/h3&gt;
+&lt;p&gt;PNG skapades som ett alternativ till GIF och har stöd för fler färger (24-bit) och klarar transparans mycket bättre. Det är det mest använda formatet idag på internet och perfekt för grafisk design och typografi.&lt;/p&gt;
+
+&lt;div class=&quot;success box no-margin&quot;&gt;+ PNG passar för grafisk design och typografi&lt;/div&gt;
+
+&lt;div class=&quot;note box no-margin&quot;&gt;- PNG passar inte för stora foton&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_html-bild-exempel.jpg&quot; /&gt; &lt;/p&gt;
 
 &lt;h2 id=&quot;spara-bild-fr-webben&quot;&gt;Spara bild för webben&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Det är viktigt&lt;/strong&gt; att optimera bilderna för webben. Du kan inte använda det där semesterfotot på 8 MB direkt på hemsidan. Då laddar hemsidan långsammare och besökaren tröttnar. Om man surfar över mobilt bredband vill man dessutom inte att hemsidan ska dra för mycket av månadens betalsurf.  &lt;/p&gt;
@@ -396,8 +439,6 @@ Du får inte använda å, ä, ö, mellanrum eller konstiga tecken i bildens namn
 &lt;h3 id=&quot;ppna-bild&quot;&gt;&lt;em&gt;1.&lt;/em&gt; Öppna bild&lt;/h3&gt;
 
 &lt;p&gt;Öppna din bild i bildhanteringsprogrammet &lt;span class=&quot;keyboard&quot;&gt;Ctrl/Cmd&lt;/span&gt; + &lt;span class=&quot;keyboard&quot;&gt;O&lt;/span&gt; och förminska bildstorleken med de verktyg som finns tillgängliga, i Photoshop kan du ändra bildstorleken under &lt;strong&gt;Image&lt;/strong&gt; &amp;gt; &lt;strong&gt;Image Size&lt;/strong&gt;. &lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_html-bild-exempel.jpg&quot; /&gt; &lt;/p&gt;
 
 &lt;h3 id=&quot;spara-fr-webben&quot;&gt;&lt;em&gt;2.&lt;/em&gt; Spara för webben&lt;/h3&gt;
 
@@ -413,13 +454,47 @@ Du får inte använda å, ä, ö, mellanrum eller konstiga tecken i bildens namn
 
 &lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_save-for-web-3.jpg&quot; /&gt;  &lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_save-for-web-4.jpg&quot; style=&quot;margin-left: -13px;&quot; /&gt;  &lt;/p&gt;
+
 &lt;div class=&quot;success box&quot;&gt;
-&lt;h3&gt;Snyggt! Nu kan du visa bilder på din hemsida.&lt;/h3&gt; 
+&lt;h3&gt;Toppen!&lt;/h3&gt;
+&lt;p&gt;Nu vet du hur man sparar bilder och hämtar in dom på hemsidan.&lt;/p&gt; 
 &lt;/div&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/texter/&quot;&gt;Snyggt! Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/texter/&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/bilder/&quot;&gt;Bilder&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 20, 2014.&lt;/p&gt;</content>
+  </entry>
+
+
+  
+  <entry>
+    <title type="html"><![CDATA[Länkar]]></title>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/lankar/" />
+    <id>http://webbdesignkurser.github.io/website/webbdesign/lankar</id>
+    <published>2014-04-19T00:00:00+00:00</published>
+    <updated>2014-04-19T00:00:00+00:00</updated>
+    <author>
+      <name>Webbdesignkurser</name>
+      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <email>kontakt@webbdesignkurser.se<email>
+    </author>
+    <content type="html">&lt;h2 id=&quot;lnka-till-andra-sidor-med-html&quot;&gt;Länka till andra sidor med HTML&lt;/h2&gt;
+&lt;h4&gt;En hemsida består (förhoppningsvis) av fler än en sida. För att länka besökaren till dessa sidor gäller det först att du vet vart sidorna ligger, och därefter vad dom heter.&lt;/h4&gt;
+
+&lt;p&gt;För att hämta in en bild i HTML använder du dig. av &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;bild.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;success box&quot;&gt;
+&lt;h3&gt;Toppen!&lt;/h3&gt;
+&lt;p&gt;Nu vet du hur man sparar bilder och hämtar in dom på hemsidan.&lt;/p&gt; 
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/texter/&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/lankar/&quot;&gt;Länkar&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 19, 2014.&lt;/p&gt;</content>
   </entry>
 
 
