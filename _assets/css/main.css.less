@@ -1,4 +1,16 @@
-// Shortcuts //
+
+
+/****************************/
+/*                          */
+/* 	 Webbdesignkurser.se 	*/
+/* 	 Design: Per Lööv  		*/
+/* 	 Code: David Marby  	*/
+/*                          */
+/****************************/
+
+
+
+//***************** VARIABLES ******************//
 
 @brand-color: #eb4f9a;
 
@@ -90,24 +102,28 @@ p {
 }
 .btn-next {
 	margin-top: 40px;
-	background: none !important;
-	border: 1px solid @brand-color !important;
+	background: @brand-color !important;
 	border-radius: 3px !important;
 	padding: 10px 25px !important;
-	color: @brand-color;
+	color: #fff;
 	&:hover{
-		color: darken(@brand-color, 10%) !important;
+		background: darken(@brand-color, 5%) !important;
+		color: #fff !important;
 	}
 }
 
 .note {
-	margin-top: 40px;
-	background: @color-note;
-	border-radius: 3px;
-	padding: 10px 25px;
+	display: inline-block;
 	color: #ac4724;
+	&.box{
+		background: @color-note;
+		border-radius: 3px;
+		padding: 10px 25px;
+		margin-top: 40px;
+		border: 1px solid @color-note;
+	}
 	h3{
-		margin-top: 15px !important;
+		margin-top: 10px !important;
 	}
 }
 
@@ -138,6 +154,10 @@ p {
 	margin-top: 50px;
 }
 
+.no-margin{
+	margin: 0 !important;
+}
+
 // Remove Bootstrap glow
 textarea, input, .form-control{   
 	box-shadow: none !important;
@@ -148,7 +168,13 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	outline: 0 none;
 }
 
-// Mixin 
+
+
+
+
+
+//***************** MIXINS ******************//
+
 .transition (@prop: all, @time: 1s, @ease: linear) {
     -webkit-transition: @prop @time @ease;
     -moz-transition: @prop @time @ease;
@@ -164,7 +190,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 //***************** LAYOUT ******************//
 
 
-//* Header *//
+//* Header and Menu *//
 header {
 	.logo {
 		img {
@@ -240,7 +266,8 @@ header {
 }
 
 
-//* Headline *//
+
+//* Headline on startpage *//
 .headlineWrapper {
 	padding-top: 80px;
 	text-align: center;
@@ -277,6 +304,7 @@ header {
 		font-family: 'Lato';
 	}
 }
+
 
 
 //* Page content *//
@@ -340,6 +368,7 @@ header {
 		}
 	}
 }
+
 
 
 //* Chapters *//
@@ -501,6 +530,7 @@ header {
 		}
 	}
 }
+
 
 
 //* Contribute box *//

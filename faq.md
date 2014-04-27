@@ -1,6 +1,6 @@
 ---
 layout: page
-headerimage: 'header_om-sidan.jpg'
+headerimage: 'header_faq.jpg'
 title: "Vanliga frågor"
 page: faq
 permalink: /faq/

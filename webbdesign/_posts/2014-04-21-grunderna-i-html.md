@@ -119,6 +119,8 @@ Som du märker så flyttar vi in texten två mellanslag för varje gång som vi 
 
 Vanligtvis flyttar man in texten 2 eller 4 mellanslag, alternativt trycker man TAB <img src="{{ site.url }}/assets/images/keyboard_tab.png" class="keyboard"/> på tangentbordet.
 
+<span class="success"><strong>Tips:</strong> Med Sublime Text kan du markera flera rader och sedan trycka TAB.</span>
+
 
 
 ###Title

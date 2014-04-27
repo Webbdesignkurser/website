@@ -24,7 +24,7 @@ Med en texteditor kan man skriva och redigera textfiler. Du har antagligen redan
 
 <strong>Vi kommer inte</strong> att använda dessa program, utan kommer istället att använda oss av Sublime Text.  
 
-<a class="btn btn-primary download">Ladda ned Sublime Text</a> <a class="btn btn-secondary download">Eller Notepad++ (Gratis)</a>
+<div><a class="btn btn-primary download">Ladda ned Sublime Text</a> <a class="btn btn-secondary download">Eller Notepad++ (Gratis)</a></div>
 
 <div class="note box">
 <h3>WYSIWYG-editor</h3>
