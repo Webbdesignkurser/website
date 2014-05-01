@@ -22,7 +22,7 @@ then
   gem install travis
 fi
  
-travis login --pro --auto
+travis login --org --auto
  
 for l in $(cat ${SSH_KEY_PATH}_base64);
 do
