@@ -37,6 +37,7 @@ module Jekyll
       index = []
 
       items.each do |item|
+        next if item.to_liquid['draft']
         entry = SearchEntry.create(item, content_renderer)
 
         entry.strip_index_suffix_from_url! if @strip_index_html
