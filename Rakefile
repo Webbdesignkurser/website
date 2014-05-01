@@ -88,7 +88,7 @@ end
 
 def check_destination
   unless Dir.exist? CONFIG["destination"]
-    sh "git clone ssh://git@github.com/#{USERNAME}/#{REPO}.git #{CONFIG["destination"]}"
+    sh "git clone https://#{ENV['GIT_NAME']}:#{ENV['GH_TOKEN']}@github.com/#{USERNAME}/#{REPO}.git #{CONFIG["destination"]}"
   end
 end
 
@@ -199,8 +199,8 @@ namespace :site do
 
     # Configure git if this is run in Travis CI
     if ENV["TRAVIS"]
-      sh "git config --global user.name 'DMarby'"
-      sh "git config --global user.email 'david@dmarby.se'"
+      sh "git config --global user.name '#{ENV['GIT_NAME']}'"
+      sh "git config --global user.email '#{ENV['GIT_EMAIL']}'"
       sh "git config --global push.default simple"
     end
 
