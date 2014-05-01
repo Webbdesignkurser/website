@@ -221,7 +221,7 @@ namespace :site do
       sh "touch .nojekyll"
       sh "git add --all ."
       sh "git commit -m 'Updating to #{USERNAME}/#{REPO}@#{sha}.'"
-      sh "git push origin #{DESTINATION_BRANCH}"
+      sh "git push origin #{DESTINATION_BRANCH} -q" 
       puts "Pushed updated branch #{DESTINATION_BRANCH} to GitHub Pages"
     end
   end
