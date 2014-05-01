@@ -9,6 +9,8 @@ require 'rake'
 require 'date'
 require 'yaml'
 
+verbose(false)
+
 CONFIG = YAML.load(File.read('_config.yml'))
 USERNAME = CONFIG["username"] || ENV['GIT_NAME']
 REPO = CONFIG["repo"] || "#{USERNAME}.github.io"
@@ -88,9 +90,7 @@ end
 
 def check_destination
   unless Dir.exist? CONFIG["destination"]
-    verbose(false) do
-      sh "git clone https://#{ENV['GIT_NAME']}:#{ENV['GH_TOKEN']}@github.com/#{USERNAME}/#{REPO}.git #{CONFIG["destination"]}"
-    end
+    sh "git clone https://#{ENV['GIT_NAME']}:#{ENV['GH_TOKEN']}@github.com/#{USERNAME}/#{REPO}.git #{CONFIG["destination"]}"
   end
 end
 
