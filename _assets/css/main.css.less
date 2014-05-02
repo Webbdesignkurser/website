@@ -12,22 +12,24 @@
 
 //***************** VARIABLES ******************//
 
-@brand-color: #eb4f9a;
+@brand-color: 			#eb4f9a;
 
-@color-webbdesign: #eb4f9a;
+@color-webbdesign: 		#eb4f9a;
 @color-responsivDesign: #6abf6b;
-@color-grafiskDesign: #151440;
-@color-vektorteknik: #de9d25;
-@color-less: #00a5cc;
-@color-git: #e67a2c;
-@color-seo: #b82a2a;
+@color-grafiskDesign: 	#151440;
+@color-vektorteknik: 	#de9d25;
+@color-less: 			#00a5cc;
+@color-git: 			#e67a2c;
+@color-seo: 			#b82a2a;
 
-@color-download: #59af59;
-@color-note: #f5e8ce;
-@color-success: #30a235;
+@color-download: 		#59af59;
+@color-note: 			#f5e8ce;
+@color-success: 		#30a235;
+@color-contribute: 		#2f2e29;
+@color-contribute-sec: 	#dee6ed;
 
-@brand-font : 'Lato', sans-serif;
-@paragraf-size: 13px;
+@brand-font: 			'Lato', sans-serif;
+@paragraf-size: 		13px;
 
 
 
@@ -67,7 +69,6 @@ p {
 .main {
 	margin-top: 50px;
 }
-
 
 
 
@@ -192,7 +193,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 
 //* Header and Menu *//
 header {
-	.logo {
+	.logo { //Logo
 		img {
 			margin-top: -2px;
 			@media (min-width: 768px) and (max-width: 979px) {
@@ -248,7 +249,7 @@ header {
 				background: #fff;
 			}
 		}
-		.form-group {
+		.form-group { //Searchform
 			.form-control {
 				@media (min-width: 768px) and (max-width: 979px) {
 					width: 100px;
@@ -301,7 +302,7 @@ header {
 		display: inline-block;
 		padding: 15px 25px;
 		font-weight: 400 !important;
-		font-family: 'Lato';
+		font-family: @brand-font;
 	}
 }
 
@@ -484,6 +485,9 @@ header {
 			margin-bottom: 30px;
 			li{
 				list-style: none;
+				h4{
+					margin: 0;
+				}
 				a{
 					width: 100%;
 					margin: 0px;
@@ -540,14 +544,14 @@ header {
 	.box {
 		padding: 20px;
 		text-align: center;
-		padding-top: 180px;
-		color: #fff;
+		padding-top: 150px;
+		color: @color-contribute;
 		font-size: 18px;
 		font-weight: 300 !important;
-		font-family: 'Lato';
+		font-family: @brand-font;
 		@media (max-width: 480px) {padding-top: 140px;}
 		h3{
-			color: #fff;
+			color: @color-contribute;
 			font-weight: 300 !important;
 			margin-bottom: 10px;
 		}
@@ -555,21 +559,22 @@ header {
 	.btn-primary {
 		margin: 10px;
 		font-size:  18px;
-		background: #fff;
-		color: #255381;
+		background: @color-contribute;
+		color: @color-contribute-sec;
 		&:hover {
 			opacity: 0.9;
-			background: #fff;
-			color: #255381;
+			background: @color-contribute;
+			color: @color-contribute-sec;
 		}
 	}
 	.btn-secondary {
 		margin: 10px;
 		font-size: 18px;
-		color: #fff;
+		color: @color-contribute;
+		border: 1px solid @color-contribute !important;
 		&:hover {
 			background: rgba(255,255,255,0.1) !important;
-			color: #fff;
+			color: @color-contribute;
 		}
 		&:active {
 			box-shadow: none;

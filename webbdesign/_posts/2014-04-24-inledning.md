@@ -6,15 +6,10 @@ comments: true
 ---
 
 ##Hur gör man en hemsida?
-<h4>Idag konsumerar vi hemsidor lika mycket som vi konsumerar luft.  
-Men det är inte alla som ställer sig frågan hur det går till. Därför är vi glada att du hittade hit. <span class="success">Bra gjort!</span></h4>
+<h4>Hur gör man en hemsida, hur laddar man upp den på internet och hur designar man den?  
+I den här kursen kommer vi att lära dig hur man skapar och publicerar en fungerande hemsida.</h4>
 
-Hur gör man då en hemsida, hur laddar man upp den och hur designar man den?  
-I den här kursen kommer vi att lära dig hur man <strong>skapar och publicerar en fungerande hemsida</strong>.  
-
-Om det låter bra så sätter vi igång direkt.
-
-Det är svårt att lära sig webbdesign från böcker, de blir snabbt utdaterade och tekniken ser ut på ett helt annat sätt imorgon. Så om du har en webbesign-bok liggandes vid skolbänken eller köksbordet just nu så ge bort den till någon behövande som saknar internet istället.  
+Det är rätt svårt att lära sig webbdesign från böcker, de blir snabbt utdaterade och tekniken ser ut på ett helt annat sätt imorgon. Så om du har en webbesign-bok liggandes vid skolbänken eller köksbordet just nu så släng bort den, här kommer vi att gå igenom allt du behöver veta.
 
 ###Kostar det något?
 Nej, varken den här kursen eller möjligheten att designa en hemsida kostar något. Om du däremot planerar att publicera din hemsida på internet så kan domänen (namnet) och webbhotellet (utrymmet) kosta. Det beror helt på hur du vill publicera den, vilket vi kommer till senare.  
