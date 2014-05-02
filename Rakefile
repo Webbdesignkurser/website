@@ -9,6 +9,8 @@ require 'rake'
 require 'date'
 require 'yaml'
 
+verbose(false)
+
 CONFIG = YAML.load(File.read('_config.yml'))
 USERNAME = CONFIG["username"] || ENV['GIT_NAME']
 REPO = CONFIG["repo"] || "#{USERNAME}.github.io"
@@ -88,7 +90,7 @@ end
 
 def check_destination
   unless Dir.exist? CONFIG["destination"]
-    sh "git clone https://#{ENV['GIT_NAME']}:#{ENV['GH_TOKEN']}@github.com/#{USERNAME}/#{REPO}.git #{CONFIG["destination"]}"
+    sh "git clone -q https://#{ENV['GIT_NAME']}:#{ENV['GH_TOKEN']}@github.com/#{USERNAME}/#{REPO}.git #{CONFIG["destination"]}"
   end
 end
 
@@ -219,7 +221,7 @@ namespace :site do
       sh "touch .nojekyll"
       sh "git add --all ."
       sh "git commit -m 'Updating to #{USERNAME}/#{REPO}@#{sha}.'"
-      sh "git push origin #{DESTINATION_BRANCH}"
+      sh "git push origin #{DESTINATION_BRANCH} -q" 
       puts "Pushed updated branch #{DESTINATION_BRANCH} to GitHub Pages"
     end
   end
