@@ -89,7 +89,7 @@
 
  <script src="/website/assets/search-573d37cbc3f04ac57b09a188e5e0926a.js"></script>
  <!--CSS-->
- <link rel="stylesheet" href="/website/assets/main-6c01b7cd171cccb02b5c5eea21af0fc5.css">
+ <link rel="stylesheet" href="/website/assets/main-1a4ec313fd4a57286755022882052aeb.css">
  <link rel="stylesheet" href="/website/assets/highlight-cfca618c692f56f5eb1391aba9e8df2d.css">
 
  
@@ -175,22 +175,64 @@
                 <h1 class="title">Länkar</h1>
             
             <h2 id="lnka-till-andra-sidor-med-html">Länka till andra sidor med HTML</h2>
-<h4>En hemsida består (förhoppningsvis) av fler än en sida. För att länka besökaren till dessa sidor gäller det först att du vet vart sidorna ligger, och därefter vad dom heter.</h4>
+<h4>En hemsida består (förhoppningsvis) av fler än en sida. För att länka besökaren till dessa sidor gäller det att du vet vart sidorna ligger och vad dom heter.</h4>
 
-<p>För att hämta in en bild i HTML använder du dig. av <code>&lt;img&gt;</code></p>
+<p>För att skapa en länk använder du dig av <code>&lt;a&gt;</code> och därefter <code>href</code> för att bestämma destination.</p>
 
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;bild.jpg&quot;</span><span class="nt">/&gt;</span>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;min-sida.html&quot;</span><span class="nt">&gt;</span>Tryck här<span class="nt">&lt;/a&gt;</span>
+</code></pre></div>
+
+<h3 id="ppna-lnk-i-nytt-fnster">Öppna länk i nytt fönster</h3>
+<p>Om du vill att länken ska öppna sidan i ett nytt fönster lägger du till <code>target="_blank"</code></p>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;min-sida.html&quot;</span> <span class="na">target=</span><span class="s">&quot;_blank&quot;</span><span class="nt">&gt;</span>Tryck här<span class="nt">&lt;/a&gt;</span>
+</code></pre></div>
+
+<h3 id="titel-p-lnken-nr-man-har-musen-ver">Titel på länken när man har musen över</h3>
+<p><code>title</code> används för att visa en titel på html-objekt när man tar musen över det.</p>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;min-sida.html&quot;</span> <span class="na">title=</span><span class="s">&quot;En titel på länken&quot;</span><span class="nt">&gt;</span>Tryck här<span class="nt">&lt;/a&gt;</span>
+</code></pre></div>
+
+<h3 id="lnka-till-en-annan-mapp">Länka till en annan mapp</h3>
+<p>Om sidan som du ska länka till inte ligger i samma mapp som länken så räcker det inte att skriva sida.html som adress, utan du blir tvungen att skriva vilken mapp den ligger i.</p>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;/undermapp/sida.html&quot;</span><span class="nt">&gt;</span>Länk<span class="nt">&lt;/a&gt;</span> <span class="c">&lt;!-- Länka till undermapp --&gt;</span>
+
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;../sida.html&quot;</span><span class="nt">&gt;</span>Länk<span class="nt">&lt;/a&gt;</span> <span class="c">&lt;!-- Länka till övermapp --&gt;</span>
+</code></pre></div>
+
+<hr />
+
+<h2 id="exempel">Exempel</h2>
+<p>I det här exemplet har vi två html-sidor som heter <code>hundar.html</code> och <code>katter.html</code><br />
+Vi ska länka dessa till varandra.</p>
+
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_html-links-example.png" style="margin-left: -13px;" />  </p>
+
+<h3 id="i-hundarhtml-skriver-vi-fljande">I <code>hundar.html</code> skriver vi följande</h3>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;h1&gt;</span>Hundar<span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;p&gt;</span>Det här är en hemsida om hundar<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;katter.html&quot;</span><span class="nt">&gt;</span>Tryck här för att läsa om katter<span class="nt">&lt;/a&gt;&lt;/p&gt;</span>
+</code></pre></div>
+
+<h3 id="och-i-katterhtml-skriver-vi-fljande">Och i <code>katter.html</code> skriver vi följande</h3>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;h1&gt;</span>Katter<span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;p&gt;</span>Det här är en hemsida om katter<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;hundar.html&quot;</span><span class="nt">&gt;</span>Tryck här för att läsa om hundar<span class="nt">&lt;/a&gt;&lt;/p&gt;</span>
 </code></pre></div>
 
 <div class="success box">
-<h3>Toppen!</h3>
-<p>Nu vet du hur man sparar bilder och hämtar in dom på hemsidan.</p> 
+<h3>Sådär ja!</h3>
+<p>Det är så man länkar sidor, nu ska vi visa bilder i HTML.</p> 
 </div>
 
-<p><a class="btn btn-next" href="http://webbdesignkurser.github.io/website/webbdesign/lankar/">Gå till nästa steg!</a></p>
+<p><a class="btn btn-next" href="http://webbdesignkurser.github.io/website/webbdesign/bilder/">Gå till nästa steg!</a></p>
 
             <hr/>
-            <h4>Dela</h4>
+            <h4 class="share">Dela </h4>
             <input class="form-control" style="width: auto;" type="text" value="http://wdk.se/ef596"> 
             
                 <section id="disqus_thread"></section>
@@ -204,7 +246,7 @@
                     
                     
                         
-                            <li><a class="webbdesign title">Grunderna i Webbdesign</a></li>
+                            <li><h4><a class="webbdesign title">Grunderna i Webbdesign</a></h4></li>
                         
                     
                         
@@ -237,11 +279,19 @@
                         
                     
                         
+                            <li><a class="webbdesign navItem current active" href="http://webbdesignkurser.github.io/website/webbdesign/lankar/">Länkar</a></li>
+                        
+                    
+                        
                             <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/bilder/">Bilder</a></li>
                         
                     
                         
-                            <li><a class="webbdesign navItem current active" href="http://webbdesignkurser.github.io/website/webbdesign/lankar/">Länkar</a></li>
+                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/listor/">Listor</a></li>
+                        
+                    
+                        
+                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/tabeller/">Tabeller</a></li>
                         
                     
                     </ul>

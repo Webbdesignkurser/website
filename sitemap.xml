@@ -7,31 +7,7 @@
     
         
         <url>
-            <loc>http://webbdesignkurser.github.io/website/404.html</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://webbdesignkurser.github.io/website/short.json</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://webbdesignkurser.github.io/website/index.html</loc>
-        </url>
-        
-    
-        
-        <url>
             <loc>http://webbdesignkurser.github.io/website/feed.xml</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://webbdesignkurser.github.io/website/sitemap.xml</loc>
         </url>
         
     
@@ -43,13 +19,37 @@
     
         
         <url>
+            <loc>http://webbdesignkurser.github.io/website/faq/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://webbdesignkurser.github.io/website/index.html</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://webbdesignkurser.github.io/website/sitemap.xml</loc>
+        </url>
+        
+    
+        
+        <url>
             <loc>http://webbdesignkurser.github.io/website/search.html</loc>
         </url>
         
     
         
         <url>
-            <loc>http://webbdesignkurser.github.io/website/faq/</loc>
+            <loc>http://webbdesignkurser.github.io/website/short.json</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://webbdesignkurser.github.io/website/404.html</loc>
         </url>
         
     
@@ -81,13 +81,25 @@
     
         
         <url>
+            <loc>http://webbdesignkurser.github.io/website/webbdesign/lankar/</loc>
+        </url>
+        
+    
+        
+        <url>
             <loc>http://webbdesignkurser.github.io/website/webbdesign/bilder/</loc>
         </url>
         
     
         
         <url>
-            <loc>http://webbdesignkurser.github.io/website/webbdesign/lankar/</loc>
+            <loc>http://webbdesignkurser.github.io/website/webbdesign/listor/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://webbdesignkurser.github.io/website/webbdesign/tabeller/</loc>
         </url>
         
     

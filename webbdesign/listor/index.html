@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>Grunderna i HTML &#8211; Webbdesignkurser</title>
+	<title>Listor &#8211; Webbdesignkurser</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="Webbdesign, Kurser, Hemsidor, Html, Css">
 	<!-- meta name="keywords" content=""> -->
@@ -13,13 +13,13 @@
 	<!-- Open Graph -->
 	<meta property="og:locale" content="sv_SE">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Grunderna i HTML">
+	<meta property="og:title" content="Listor">
 	<meta property="og:description" content="Hur gör man en hemsida? Få svaret på Webbdesignkurser där alla kurser är gratis och lätta att komma igång med! Vi hjälper dig att bli en ninja på webbdesign">
-	<meta property="og:url" content="http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-html/">
+	<meta property="og:url" content="http://webbdesignkurser.github.io/website/webbdesign/listor/">
 	<meta property="og:site_name" content="Webbdesignkurser">
 
 	
-	<link rel="canonical" href="http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-html/">
+	<link rel="canonical" href="http://webbdesignkurser.github.io/website/webbdesign/listor/">
 	<link href="http://webbdesignkurser.github.io/website/feed.xml" type="application/atom+xml" rel="alternate" title="Webbdesignkurser Feed">
 	
 	  <link rel="dns-prefetch" href="//webbdesignkurser.se">
@@ -166,155 +166,62 @@
 
         
             <div class="col-sm-12">
-                <img src="/website/assets/header_grunderna-i-html-d061d39dcfec5b4ca4d620c7f2408286.jpg" class="headerImage"/>
+                <img src="/website/assets/header_html-listor-0a28119a1387ee4de8af7fbfcfef59be.jpg" class="headerImage"/>
             </div>
         
 
         <div class="col-md-8 content">
             
-                <h1 class="title">Grunderna i HTML</h1>
+                <h1 class="title">Listor</h1>
             
-            <h2 id="en-hemsidas-uppbyggnad">En hemsidas uppbyggnad</h2>
-<h4>En hemsida består utav textfiler, skrivna i ren text. HTML är ett av många språk som används för att skapa hemsidor. Webbläsarens jobb är att översätta dessa språk och sedan visa den färdiga hemsidan för besökaren.</h4>
+            <h2 id="skriva-listor-i-html">Skriva listor i HTML</h2>
 
-<p>Precis som en människa så består HTML av kroppsdelar, den har ett huvud som tänker och en kropp att visa upp. För att kunna skriva in dessa kroppdelar så börjar vi med att skapa en mapp på datorn för våran första hemsida. I våra exempel använder vi en Mac, men det ser ungefär likadant ut i Windows och Linux.</p>
+<p>För att skriva en lista börjar du med <code>&lt;ul&gt;</code></p>
 
-<h3 id="skapa-en-ny-mapp-i-datorn"><em>1.</em> Skapa en ny mapp i datorn</h3>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;ul&gt;</span>
 
-<h3 id="ppna-texteditorn-och-skapa-ett-nytt-dokument"><em>2.</em> Öppna texteditorn och skapa ett nytt dokument</h3>
-
-<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_texteditor.png" style="margin-left: -13px;" />  </p>
-
-<h3 id="spara-ner-html-filen"><em>3.</em> Spara ner HTML-filen</h3>
-<p><strong>Spara ner</strong> <span class="keyboard">Ctrl/Cmd</span> + <span class="keyboard">S</span> det tomma dokumentet i din nya mapp, döp filen till <strong>index.html</strong><br />
-Det är Index som besökaren först kommer att komma till när de besöker hemsidan, en startsida helt enkelt.<br />
-Filändelsen i slutet av namnet berättar för webbläsaren att det är HTML som ska visas.</p>
-
-<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_save-index-html.png" style="margin-left: -10px;" />  </p>
-
-<h3 id="ppna-indexhtml-i-webblsaren"><em>4.</em> Öppna index.html i webbläsaren</h3>
-<p>Nu ska vi öppna hemsidan i webbläsaren för att se hur den ser ut.<br />
-<strong>Högerklicka på filen</strong> &gt; <strong>Öppna med</strong> &gt; <strong>Välj en valfri webbläsare</strong></p>
-
-<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_open-with.png" style="margin-left: -10px;" />   </p>
-
-<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_blank-browser.png" style="margin-left: -10px;" />  </p>
-
-<div class="success box"><h3>Bra gjort! Du har precis besökt din första hemsida</h3>  
-<p>Den är lite tom just nu, men det beror på att vi inte har skrivit något i HTML-filen än.</p></div>
-<p><br />  </p>
-
-<h2 id="hur-skriver-man-i-html">Hur skriver man i HTML?</h2>
-
-<p>Vi ska nu öppna texteditorn igen och skriva in följande så kallat <strong>html-taggar</strong>.<br />
-Det är inom <code>&lt;html&gt;</code> som vi sedan ska placera våran html-uppbyggnad.</p>
-
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;html&gt;</span>
-
-<span class="nt">&lt;/html&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
 </code></pre></div>
 
-<h3 id="html-5">HTML 5</h3>
+<p>Därefter använder du <code>&lt;li&gt;</code> för varje objekt som ska listas.</p>
 
-<p>HTML finns däremot i flera olika versioner. Den senaste versionen heter HTML 5 och har ett annat sätt att börja uppbyggnaden på.
-Skriv därför följande rad längst upp i dokumentet.</p>
-
-<div class="highlight"><pre><code class="html"><span class="cp">&lt;!doctype html&gt;</span>
-
-<span class="nt">&lt;html&gt;</span>
-
-<span class="nt">&lt;/html&gt;</span>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;ul&gt;</span>
+  <span class="nt">&lt;li&gt;</span>Objekt 1<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;</span>Objekt 2<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;</span>Objekt 3<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
 </code></pre></div>
 
-<h3 id="head-och-body">Head och Body</h3>
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_html-list.png" style="margin-left: -12px;" />  </p>
 
-<p><code>&lt;head&gt;</code> kommer vi senare att fylla med sådant som påverkar hemsidan globalt.<br />
-<code>&lt;body&gt;</code> är hemsidans kropp där vi ska placera allt innehåll (texter, bilder, objekt med mera).</p>
+<h2 id="lista-i-listan">Lista i listan</h2>
 
-<div class="highlight"><pre><code class="html"><span class="cp">&lt;!doctype html&gt;</span>
+<p>För att lista en lista i en lista skriver du en ny lista under det objekt där den ska ligga.</p>
 
-<span class="nt">&lt;html&gt;</span>
-
-  <span class="nt">&lt;head&gt;</span>
-  <span class="nt">&lt;/head&gt;</span>
-
-  <span class="nt">&lt;body&gt;</span>
-  <span class="nt">&lt;/body&gt;</span>
-
-<span class="nt">&lt;/html&gt;</span>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;ul&gt;</span>
+  <span class="nt">&lt;li&gt;</span>Objekt 1<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;</span>Objekt 2<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;ul&gt;</span>
+    <span class="nt">&lt;li&gt;</span>Objekt 2.1<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>Objekt 2.2<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>Objekt 2.3<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;/ul&gt;</span>
+  <span class="nt">&lt;li&gt;</span>Objekt 3<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
 </code></pre></div>
 
-<h3 id="svenska-tecken">Svenska tecken</h3>
+<div><img src="http://webbdesignkurser.github.io/website/assets/images/asset_html-list-sub.png" style="margin-left: -12px;" /></div>
 
-<p>Följande <code>&lt;meta&gt;</code> gör det möjligt för oss att skriva å, ä och ö på hemsidan.  </p>
+<div class="success box">
+<h3>Så lätt var det</h3>
+<p>Vi vet att det inte ser så jättesnyggt ut, vi har bara inte kommit till själva designdelen än.</p> 
+</div>
 
-<div class="highlight"><pre><code class="html"><span class="cp">&lt;!doctype html&gt;</span>
-
-<span class="nt">&lt;html&gt;</span>
-
-  <span class="nt">&lt;head&gt;</span>
-    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">&quot;utf-8&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;/head&gt;</span>
-
-  <span class="nt">&lt;body&gt;</span>
-  <span class="nt">&lt;/body&gt;</span>
-
-<span class="nt">&lt;/html&gt;</span>
-</code></pre></div>
-
-<h3 id="indrag-nr-man-skriver-html">Indrag när man skriver HTML</h3>
-
-<p>Som du märker så flyttar vi in texten två mellanslag för varje gång som vi går djupare in i en tagg. Det här gör man för att lättare se och organisera strukturen på texten, då det kan bli för många taggar att hålla reda på om allt ligger på samma rad.  </p>
-
-<p>Vanligtvis flyttar man in texten 2 eller 4 mellanslag, alternativt trycker man TAB <img src="http://webbdesignkurser.github.io/website/assets/images/keyboard_tab.png" class="keyboard" /> på tangentbordet.</p>
-
-<p><span class="success"><strong>Tips:</strong> Med Sublime Text kan du markera flera rader och sedan trycka TAB.</span></p>
-
-<h3 id="title">Title</h3>
-
-<p><code>&lt;title&gt;</code> visar den text som syns på hemsidans flik i webbläsaren.<br />
-<img src="http://webbdesignkurser.github.io/website/assets/images/asset_title.png" style="border-bottom: 1px solid #999;" />  </p>
-
-<div class="highlight"><pre><code class="html"><span class="cp">&lt;!doctype html&gt;</span>
-
-<span class="nt">&lt;html&gt;</span>
-
-  <span class="nt">&lt;head&gt;</span>
-    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">&quot;utf-8&quot;</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;title&gt;</span>Matlagning<span class="nt">&lt;/title&gt;</span>
-  <span class="nt">&lt;/head&gt;</span>
-
-  <span class="nt">&lt;body&gt;</span>
-  <span class="nt">&lt;/body&gt;</span>
-
-<span class="nt">&lt;/html&gt;</span>
-</code></pre></div>
-
-<h3 id="kommentera-i-html">Kommentera i HTML</h3>
-
-<p>Om du vill skriva något i din HTML-fil som inte ska synas i webbläsaren, utan snarare finnas där som en anteckning, då behöver du kommentera ut det med följande taggar.</p>
-
-<div class="highlight"><pre><code class="html"><span class="cp">&lt;!doctype html&gt;</span>
-
-<span class="nt">&lt;html&gt;</span>
-
-  <span class="nt">&lt;head&gt;</span>
-    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">&quot;utf-8&quot;</span><span class="nt">&gt;</span> <span class="c">&lt;!-- Svenska tecken --&gt;</span>
-    <span class="nt">&lt;title&gt;</span>Matlagning<span class="nt">&lt;/title&gt;</span> <span class="c">&lt;!-- Titel för webbläsaren --&gt;</span>
-  <span class="nt">&lt;/head&gt;</span>
-
-  <span class="nt">&lt;body&gt;</span>
-    <span class="c">&lt;!-- Hemsidans innehåll kommer ligga här --&gt;</span>
-  <span class="nt">&lt;/body&gt;</span>
-
-<span class="nt">&lt;/html&gt;</span>
-</code></pre></div>
-
-<p><a class="btn btn-next" href="http://webbdesignkurser.github.io/website/webbdesign/texter/">Snyggt! Gå till nästa steg!</a></p>
+<p><a class="btn btn-next" href="http://webbdesignkurser.github.io/website/webbdesign/tabeller/">Gå till nästa steg!</a></p>
 
             <hr/>
             <h4 class="share">Dela </h4>
-            <input class="form-control" style="width: auto;" type="text" value="http://wdk.se/26515"> 
+            <input class="form-control" style="width: auto;" type="text" value="http://wdk.se/2fee1"> 
             
                 <section id="disqus_thread"></section>
             
@@ -352,7 +259,7 @@ Skriv därför följande rad längst upp i dokumentet.</p>
                         
                     
                         
-                            <li><a class="webbdesign navItem current active" href="http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-html/">Grunderna i HTML</a></li>
+                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-html/">Grunderna i HTML</a></li>
                         
                     
                         
@@ -368,7 +275,7 @@ Skriv därför följande rad längst upp i dokumentet.</p>
                         
                     
                         
-                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/listor/">Listor</a></li>
+                            <li><a class="webbdesign navItem current active" href="http://webbdesignkurser.github.io/website/webbdesign/listor/">Listor</a></li>
                         
                     
                         
