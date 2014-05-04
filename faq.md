@@ -6,10 +6,7 @@ page: faq
 permalink: /faq/
 ---
 
-## Får jag också skriva kurser?
-Självklart! Vi letar alltid efter nya webbintresserade som vill bidra till nya kurser. Om du brinner för att skapa webb-relaterat kursmaterial och känner att du är bra på det dessutom, så Kontakta oss gärna. Du är varmt välkommen!
-
-## Hur skapar man en hemsida?
+## Hur gör man en hemsida?
 Hemsidor är uppbyggda av ren text, sparade i små filer som man laddar upp på sitt webbhotell. Dom här texterna kan till exempel vara skrivna i ett språk kallat HTML. Med HTML kan man hämta in bilder och texter på hemsidan, samt skapa länkar till andra filer.  
 
 För att få större inblick på hur en hemsida kan vara uppbyggd kan du högerklicka på en hemsida för att visa källkoden, då dyker dom här texterna upp. Vill du lära dig mer hur man verkligen skapar en hemsida kan du följa vår nybörjarkurs i HTML & CSS.
@@ -41,4 +38,4 @@ Vi är en oberoende tjänst när det gäller val av webbhotell och kan inte ge n
 Bästa sättet är att ha bra innehåll på sidan som besökarna vill läsa och dela med sig av. Sedan brukar det mesta gå av sig själv. Annars kan man köpa reklamplats på till exempel Facebook, Twitter, Google med flera.
 
 ## Hur kan jag kontakta er?
-Du kan kontakta oss via våran email: [kontakt@webbdesignkurser.se](mailto:kontakt@webbdesignkurser.se).
+Du kan kontakta oss på: [kontakt@webbdesignkurser.se](mailto:kontakt@webbdesignkurser.se).

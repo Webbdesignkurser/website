@@ -22,7 +22,7 @@ Precis som en människa så består HTML av kroppsdelar, den har ett huvud som t
 
 
 ### *3.* Spara ner HTML-filen
-<strong>Spara ner</strong> <span class="keyboard">Ctrl/Cmd</span> + <span class="keyboard">S</span> det tomma dokumentet i din nya mapp, döp filen till <strong>index.html</strong>  
+<strong>Spara ner</strong> <span class="keyboard">Ctrl / Cmd</span> <span class="keyboard">S</span> det tomma dokumentet i din nya mapp, döp filen till <strong>index.html</strong>  
 Det är Index som besökaren först kommer att komma till när de besöker hemsidan, en startsida helt enkelt.  
 Filändelsen i slutet av namnet berättar för webbläsaren att det är HTML som ska visas.
 
@@ -34,9 +34,9 @@ Filändelsen i slutet av namnet berättar för webbläsaren att det är HTML som
 Nu ska vi öppna hemsidan i webbläsaren för att se hur den ser ut.  
 <strong>Högerklicka på filen</strong> > <strong>Öppna med</strong> > <strong>Välj en valfri webbläsare</strong>
 
-<img src="{{ site.url }}/assets/images/asset_open-with.png" style="margin-left: -10px;"/>   
+<img src="{{ site.url }}/assets/images/asset_open-with.png" style="margin-left: -5px;"/>   
 
-<img src="{{ site.url }}/assets/images/asset_blank-browser.png" style="margin-left: -10px;"/>  
+<img src="{{ site.url }}/assets/images/asset_blank-browser.png" style="margin-left: -15px;"/>  
 
 <div class="success box"><h3>Bra gjort! Du har precis besökt din första hemsida</h3>  
 <p>Den är lite tom just nu, men det beror på att vi inte har skrivit något i HTML-filen än.</p></div><br/>  
@@ -117,9 +117,12 @@ Följande ``<meta>`` gör det möjligt för oss att skriva å, ä och ö på hem
 
 Som du märker så flyttar vi in texten två mellanslag för varje gång som vi går djupare in i en tagg. Det här gör man för att lättare se och organisera strukturen på texten, då det kan bli för många taggar att hålla reda på om allt ligger på samma rad.  
 
-Vanligtvis flyttar man in texten 2 eller 4 mellanslag, alternativt trycker man TAB <img src="{{ site.url }}/assets/images/keyboard_tab.png" class="keyboard"/> på tangentbordet.
+Vanligtvis flyttar man in texten 2 eller 4 mellanslag, alternativt trycker man <span class="keyboard">Tab <img src="{{ site.url }}/assets/images/keyboard_tab.png"/></span> på tangentbordet.
 
-<span class="success"><strong>Tips:</strong> Med Sublime Text kan du markera flera rader och sedan trycka TAB.</span>
+<div class="success box" style="margin-top: 10px;">
+<p><strong>Tips: </strong> Med Sublime Text kan du markera flera rader och sedan trycka <span class="keyboard">Tab <img src="{{ site.url }}/assets/images/keyboard_tab.png"/></span></p>
+<p>Tryck <span class="keyboard">Shift</span> <span class="keyboard">Tab <img src="{{ site.url }}/assets/images/keyboard_tab.png"/></span> för att flytta in texten.</p>
+</div>
 
 
 

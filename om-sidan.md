@@ -7,9 +7,9 @@ permalink: /om-sidan/
 ---
 
 ## Ett modernare sätt att lära sig webbdesign  
-<a href="http://perloov.com">Per Lööv</a> och David Marby heter vi som står bakom sidan. Vi kände båda att det inte fanns något bra alternativ för att lära sig webbdesign på. Det fanns såklart böcker och gamla hemsidor där man kunde läsa om webbdesign, men de hade några år på nacken. Och några år är en evighet inom webben.  
+<a href="http://perloov.com" target="_blank">Per Lööv</a> och <a href="http://dmarby.se" target="_blank">David Marby</a> heter vi som står bakom sidan. Vi kände båda att det inte fanns något bra alternativ för att lära sig webbdesign på. Det fanns såklart böcker och gamla hemsidor där man kunde läsa om webbdesign, men de hade några år på nacken. Och några år är en evighet inom webben.  
 
-Vi bestämde oss för att utveckla en gratis kurs i webbdesign. Reklam på sidan var inget att prata om. Hemsidan skulle rikta sig åt utbildningar och vi kände båda att vi inte ville rikta reklam åt den målgruppen.
+Vi bestämde oss för att utveckla en gratis kurs i webbdesign. Den är dessutom fri från reklam och sponsringar. Vi känner båda att vi inte vill rikta reklam åt utbildningar, då vi är ett oberoende läromedel. 
 
 ###Den perfekta plattformen för skolan
 Vårat konsept bygger på att dela kunskap gratis, utan några kommersiella syften.
