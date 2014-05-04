@@ -53,7 +53,7 @@ Därefter skriver vi så kallade måsvingar ``{}``. Om du har Mac så trycker du
 h1 {}
 {% endhighlight %}
 
-Nu har vi möjligheten att ge elementet olika stilar. Det finns en mängd olika att välja på, men vi börjar med något enkelt - färgen.
+Nu har vi möjligheten att ge elementet olika stilar/attribut. Det finns en mängd olika att välja på, men vi börjar med något enkelt - färgen.
 
 {% highlight css %}
 
@@ -73,4 +73,4 @@ h1 {
 
 
 
-<a class="btn btn-next" href="{{ site.url }}/webbdesign/listor/">Gå till nästa steg!</a>
+<a class="btn btn-next" href="{{ site.url }}#">Gå till nästa steg!</a>
