@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://webbdesignkurser.github.io/website/feed.xml" />
 <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website" />
-<updated>2014-05-04T17:47:08+00:00</updated>
+<updated>2014-05-04T18:14:57+00:00</updated>
 <id>http://webbdesignkurser.github.io/website/</id>
 <author>
   <name>Webbdesignkurser</name>
@@ -786,7 +786,7 @@ För det så behöver vi skriva in en &lt;code&gt;style&lt;/code&gt; i &lt;code&
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;Nu har vi möjligheten att ge elementet olika stilar. Det finns en mängd olika att välja på, men vi börjar med något enkelt - färgen.&lt;/p&gt;
+&lt;p&gt;Nu har vi möjligheten att ge elementet olika stilar/attribut. Det finns en mängd olika att välja på, men vi börjar med något enkelt - färgen.&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;darkblue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -800,7 +800,7 @@ För det så behöver vi skriva in en &lt;code&gt;style&lt;/code&gt; i &lt;code&
   &lt;p&gt;Nu kan du grunden i hur CSS fungerar. Nästa steg blir att lära sig alla attribut som går att tillämpa i CSS.&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/listor/&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website#&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-css/&quot;&gt;Grunderna i CSS&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 15, 2014.&lt;/p&gt;</content>
   </entry>
