@@ -8,7 +8,9 @@ description: "Hur gör man en hemsida? Få svaret på Webbdesignkurser där alla
 url: http://localhost:4000
 searchUrl: /search.json
 
-destination: ./_site/
+source: ./
+destination: ./_site
+
 
 # Settings for deploy rake task
 # Username and repo of Github repo, e.g.
@@ -37,6 +39,7 @@ exclude:
   - "*.Rmd"
   - vendor
   - .travis.yml
+  - _site
 
 assets:
   js_compressor:  yui
