@@ -6,8 +6,8 @@ comments: true
 ---
 
 ##Hur gör man en hemsida?
-<h4>Hur gör man en hemsida, hur laddar man upp den på internet och hur designar man den?  
-I den här kursen kommer vi att lära dig hur man skapar och publicerar en fungerande hemsida.</h4>
+<p class="preamble">Hur gör man en hemsida, hur laddar man upp den på internet och hur designar man den?  
+I den här kursen kommer vi att lära dig hur man skapar och publicerar en fungerande hemsida.</p>
 
 Det är rätt svårt att lära sig webbdesign från böcker, de blir snabbt utdaterade och tekniken ser ut på ett helt annat sätt imorgon. Så om du har en webbesign-bok liggandes vid skolbänken eller köksbordet just nu så släng bort den, här kommer vi att gå igenom allt du behöver veta.
 

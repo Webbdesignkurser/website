@@ -6,7 +6,7 @@ comments: true
 ---
 
 ##En hemsidas uppbyggnad
-<h4>En hemsida består utav textfiler, skrivna i ren text. HTML är ett av många språk som används för att skapa hemsidor. Webbläsarens jobb är att översätta dessa språk och sedan visa den färdiga hemsidan för besökaren.</h4>
+<p class="preamble">En hemsida består utav textfiler, skrivna i ren text. HTML är ett av många språk som används för att skapa hemsidor. Webbläsarens jobb är att översätta dessa språk och sedan visa den färdiga hemsidan för besökaren.</p>
 
 Precis som en människa så består HTML av kroppsdelar, den har ett huvud som tänker och en kropp att visa upp. För att kunna skriva in dessa kroppdelar så börjar vi med att skapa en mapp på datorn för våran första hemsida. I våra exempel använder vi en Mac, men det ser ungefär likadant ut i Windows och Linux.
 
@@ -22,7 +22,7 @@ Precis som en människa så består HTML av kroppsdelar, den har ett huvud som t
 
 
 ### *3.* Spara ner HTML-filen
-<strong>Spara ner</strong> <span class="keyboard">Ctrl / Cmd</span> <span class="keyboard">S</span> det tomma dokumentet i din nya mapp, döp filen till <strong>index.html</strong>  
+<strong>Spara ner</strong> <span class="keyboard">Ctrl / Cmd</span> <span class="keyboard">S</span> det tomma dokumentet i din nya mapp, döp filen till <strong>``index.html``</strong>  
 Det är Index som besökaren först kommer att komma till när de besöker hemsidan, en startsida helt enkelt.  
 Filändelsen i slutet av namnet berättar för webbläsaren att det är HTML som ska visas.
 
@@ -30,7 +30,7 @@ Filändelsen i slutet av namnet berättar för webbläsaren att det är HTML som
 
 
 
-### *4.* Öppna index.html i webbläsaren
+### *4.* Öppna ``index.html`` i webbläsaren
 Nu ska vi öppna hemsidan i webbläsaren för att se hur den ser ut.  
 <strong>Högerklicka på filen</strong> > <strong>Öppna med</strong> > <strong>Välj en valfri webbläsare</strong>
 
@@ -121,14 +121,14 @@ Vanligtvis flyttar man in texten 2 eller 4 mellanslag, alternativt trycker man <
 
 <div class="success box" style="margin-top: 10px;">
 <p><strong>Tips: </strong> Med Sublime Text kan du markera flera rader och sedan trycka <span class="keyboard">Tab <img src="{{ site.url }}/assets/images/keyboard_tab.png"/></span></p>
-<p>Tryck <span class="keyboard">Shift</span> <span class="keyboard">Tab <img src="{{ site.url }}/assets/images/keyboard_tab.png"/></span> för att flytta in texten.</p>
+<p>Tryck <span class="keyboard">Shift</span> <span class="keyboard">Tab <img src="{{ site.url }}/assets/images/keyboard_tab.png"/></span> för att trycka in texten igen.</p>
 </div>
 
 
 
 ###Title
 
-``<title>`` visar den text som syns på hemsidans flik i webbläsaren.  
+``<title>`` visar den text som syns i hemsidans flik på webbläsaren.  
 <img src="{{ site.url }}/assets/images/asset_title.png" style="border-bottom: 1px solid #999;"/>  
 
 {% highlight html %}

@@ -6,15 +6,17 @@ comments: true
 ---
 
 ##Vilka program behöver man för att göra en hemsida?
-Det finns de som kostar pengar och de som är gratis, i den här kursen kommer vi att använda de som kostar pengar eftersom dom är bättre. Du kommer att kunna använda de kostnadsfria alternativet lika väl, då de flesta funktioner ser likadana ut.  
+Det finns de som kostar pengar och de som är gratis, i den här kursen kommer vi att använda de som kostar pengar eftersom de är bättre. Du kommer att kunna använda de kostnadsfria alternativet lika väl, då de flesta funktioner ser likadana ut.  
 
 
 ###Webbläsare
-Vilken webbläsare du använder har vi inte något något att säga till om, men om vi får rekommendera något så ladda gärna ner Google Chrome. De har bra verktyg för webbutveckling. Installera gärna även övriga program, så kan du kolla hur hemsidan ser ut i övriga webbläsare.
+Om vi får rekommendera något så ladda gärna ner <strong>Google Chrome</strong> eller <strong>Firefox</strong>. De har bra verktyg för webbutveckling. Installera även övriga program, så kan du hålla koll på hur din kommande hemsida ser ut i övriga webbläsare.  
 
-<a class="btn btn-primary download">Ladda ned Google Chrome</a>
+Internet Explorer kan vara webbutvecklarens värsta fiende av egen erfarenhet. Den brukar nämligen inte ha stöd för det senaste inom webbdesign vilket kan begränsa dig om du vill att hemsidan ska se bra ut även i Explorer. Ha därför lite extra koll på just den webbläsaren, då det fortfarande är många användare som använder den.
+
+<a class="btn btn-primary download">Google Chrome</a>
+<a class="btn btn-primary download">Firefox</a>
 <a class="btn btn-secondary download">Safari</a>
-<a class="btn btn-secondary download">Firefox</a>
 <a class="btn btn-secondary download">Opera</a>
 <a class="btn btn-secondary download">Internet Explorer</a> 
 
@@ -22,7 +24,7 @@ Vilken webbläsare du använder har vi inte något något att säga till om, men
 ###Texteditor
 Med en texteditor kan man skriva och redigera textfiler. Du har antagligen redan det förinstallerat på datorn, Anteckningar för Windows och Textredigeraren för Mac.  
 
-<strong>Vi kommer inte</strong> att använda dessa program, utan kommer istället att använda oss av Sublime Text.  
+<strong>Vi kommer inte</strong> att använda dessa program, utan kommer istället att använda oss av Sublime Text som är speciellt utvecklad för att göra hemsidor.  
 
 <div><a class="btn btn-primary download">Ladda ned Sublime Text</a> <a class="btn btn-secondary download">Eller Notepad++ (Gratis)</a></div>
 

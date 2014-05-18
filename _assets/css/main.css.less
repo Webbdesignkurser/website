@@ -10,13 +10,16 @@
 
 
 
+
+
+
 //***************** VARIABLES ******************//
 
 @brand-color: 			#eb4f9a;
 
 @color-webbdesign: 		#eb4f9a;
-@color-responsivDesign: #6abf6b;
-@color-grafiskDesign: 	#151440;
+@color-responsivDesign: #5a7bbf;
+@color-grafiskDesign: 	#5cb850;
 @color-vektorteknik: 	#de9d25;
 @color-less: 			#00a5cc;
 @color-git: 			#e67a2c;
@@ -30,6 +33,9 @@
 
 @brand-font: 			'Lato', sans-serif;
 @paragraf-size: 		13px;
+
+
+
 
 
 
@@ -60,6 +66,15 @@ h4 {
 	font-family: @brand-font !important;
 }
 
+.preamble{
+	font-size: 20px !important;
+	line-height: 30px !important;
+	font-weight: 300 !important;
+	font-family: @brand-font !important;
+	color: #555;
+	margin-bottom: 10px !important;
+}
+
 p {
 	font-family: helvetica;
 	line-height: 25px;
@@ -72,12 +87,29 @@ p {
 
 
 
+
+
+
+//***************** SHORTCUTS ******************//
+
+.no-margin {
+	margin: 0 !important;
+}
+
+.full-width{
+	width: 100%;
+}
+
+
+
+
 //***************** EXTRAS ******************//
 
 .btn-primary {
 	border: none !important;
 	border-radius: 3px !important;
 	padding: 10px 25px !important;
+	.transition(all, 0.05s, ease-in);
 	&.download{
 		background: @color-download !important;
 		margin: 5px 0px;
@@ -92,6 +124,7 @@ p {
 	border: 1px solid rgba(255,255,255,0.8) !important;
 	border-radius: 3px !important;
 	padding: 10px 25px !important;
+	.transition(all, 0.05s, ease-in);
 	&.download{
 		border: 1px solid @color-download !important;
 		color: @color-download !important;
@@ -107,6 +140,7 @@ p {
 	border-radius: 3px !important;
 	padding: 10px 25px !important;
 	color: #fff;
+	.transition(all, 0.05s, ease-in);
 	&:hover{
 		background: darken(@brand-color, 5%) !important;
 		color: #fff !important;
@@ -132,7 +166,6 @@ p {
 	display: inline-block;
 	color: @color-success;
 	&.box {
-		width: 100%;
 		border-radius: 3px;
 		padding: 10px 25px;
 		margin-top: 40px;
@@ -158,19 +191,9 @@ p {
 	margin-top: 50px;
 }
 
-.no-margin {
-	margin: 0 !important;
-}
-
-// Remove Bootstrap glow
-textarea, input, .form-control {   
-	box-shadow: none !important;
-}
-textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {   
-	border-color: #999;
-	box-shadow: none;
-	outline: 0 none;
-}
+//* Remove Bootstrap Glow *//
+textarea, input, .form-control {box-shadow: none !important;}
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {border-color: #999;box-shadow: none;outline: 0 none;}
 
 
 
@@ -191,6 +214,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 
 
 
+
 //***************** LAYOUT ******************//
 
 
@@ -201,7 +225,6 @@ header {
 			margin-top: -2px;
 			@media (min-width: 768px) and (max-width: 979px) {
 				width: 160px;
-				margin-top: 2x;
 			}
 			@media (max-width: 767px) {
 				width: 200px;
@@ -216,7 +239,10 @@ header {
 	&.navbar {
 		border: none;
 		background: #fff;
-		box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
+		box-shadow: 0px 0px 10px rgba(0,0,0,0.07);
+		@media (max-width: 480px) {
+			box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+		}
 		ul{
 			a {
 				color: @brand-color;
@@ -236,8 +262,14 @@ header {
 					border-bottom: 1px solid #eee;
 					box-shadow: none;
 					li a{
-						padding: 10px 15px;
+						.transition(all, 0.05s, ease-in);
+						background: #fff;
+						padding: 10px 15px 10px 15px;
 						color: #777;
+						&:hover{
+							padding: 10px 12px 10px 18px;
+							background: #eee;
+						}
 					}
 				}
 			}
@@ -268,6 +300,8 @@ header {
 		}
 	}
 }
+
+
 
 
 
@@ -311,6 +345,8 @@ header {
 
 
 
+
+
 //* Page content *//
 .container {
 
@@ -328,18 +364,18 @@ header {
 	}
 		
 	.content {
-			margin: 30px 0px;
-			padding-right: 40px;
-			@media (min-width: 992px) and (max-width: 1200px) {
-				padding-right: 20px;
-			}
-			@media (max-width: 767px) {
-				padding-right: 20px;
-			}
+		margin: 30px 0px;
+		padding-right: 40px;
+		@media (min-width: 992px) and (max-width: 1200px) {
+			padding-right: 20px;
+		}
+		@media (max-width: 767px) {
+			padding-right: 20px;
+		}
 		.title {
 			font-size: 40px;
 			margin-top: 20px !important;
-			margin-bottom: 20px !important;
+			margin-bottom: 15px !important;
 		}
 
 		h2 {
@@ -349,7 +385,6 @@ header {
 
 		h3 {
 			margin-top: 40px;
-			margin-bottom: 15px;
 			em{
 				border: 1px solid @brand-color;
 				border-radius: 50px;
@@ -360,18 +395,17 @@ header {
 			}
 		}
 
-		h4{
-			color: #555;
+		p {
+			margin-bottom: 20px;
 		}
 
-		p {
-			margin: 15px 0px;
-		}
 		img{
 			max-width: 100%;
 		}
 	}
 }
+
+
 
 
 
@@ -445,6 +479,7 @@ header {
 		}
 	}
 
+
 	// Chapter box on startpage
 	.box{
 		margin-bottom: 30px;
@@ -480,6 +515,9 @@ header {
 			}
 		}
 	}
+
+
+
 
 	// Chapter sidebar navigation
 	&.nav{
@@ -540,6 +578,8 @@ header {
 
 
 
+
+
 //* Contribute box *//
 .contribute {
 	background: #000 url(images/bg_contribute.jpg) center center;
@@ -586,6 +626,9 @@ header {
 }
 
 
+
+
+
 //* Search results *//
 #search-results{
 	background: #eee;
@@ -594,14 +637,15 @@ header {
 		margin-top: 0px;
 		color: #777;
 	}
-	p{
-		
-	}
 	&.single{
 		background: none;
 		padding: 0px;
 	}
 }
+
+
+
+
 
 //* Footer *//
 footer {
