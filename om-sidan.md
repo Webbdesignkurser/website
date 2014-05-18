@@ -19,4 +19,4 @@ Hela vår hemsida får kopieras, delas och byggas vidare på. Den ligger nämlig
 Vi skulle tycka det vore jätteroligt om ni kunde berätta om er upplevelse, vi försöker alltid att göra hemsidan bättre och fylla de krav som skolverket har. Kontakta oss på [kontakt@webbdesignkurser.se](mailto:kontakt@webbdesignkurser.se).
 
 ###Vart kommer våra bilder ifrån?
-Alla bilder är hämtade från <a href="http://unsplash.com" target="_blank">Unsplash.com</a> och är fria att använda och tjäna pengar på. Fantastiskt va?
+De flesta bilder är hämtade från <a href="http://unsplash.com" target="_blank">Unsplash.com</a> och är fria att använda och tjäna pengar på. Fantastiskt va?
