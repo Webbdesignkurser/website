@@ -55,7 +55,7 @@ assets:
 gems: [jekyll-assets]
 
 lunr_search:
-  excludes: [sitemap.xml,feed.xml]
+  excludes: [sitemap.xml,feed.xml,404.html]
 # display_path: "website/assets"
 
 
