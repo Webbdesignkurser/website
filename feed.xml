@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://webbdesignkurser.github.io/website/feed.xml" />
 <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website" />
-<updated>2014-05-05T06:09:26+00:00</updated>
+<updated>2014-05-18T14:34:00+00:00</updated>
 <id>http://webbdesignkurser.github.io/website/</id>
 <author>
   <name>Webbdesignkurser</name>
@@ -25,8 +25,8 @@
       <email>kontakt@webbdesignkurser.se<email>
     </author>
     <content type="html">&lt;h2 id=&quot;hur-gr-man-en-hemsida&quot;&gt;Hur gör man en hemsida?&lt;/h2&gt;
-&lt;h4&gt;Hur gör man en hemsida, hur laddar man upp den på internet och hur designar man den?  
-I den här kursen kommer vi att lära dig hur man skapar och publicerar en fungerande hemsida.&lt;/h4&gt;
+&lt;p class=&quot;preamble&quot;&gt;Hur gör man en hemsida, hur laddar man upp den på internet och hur designar man den?  
+I den här kursen kommer vi att lära dig hur man skapar och publicerar en fungerande hemsida.&lt;/p&gt;
 
 &lt;p&gt;Det är rätt svårt att lära sig webbdesign från böcker, de blir snabbt utdaterade och tekniken ser ut på ett helt annat sätt imorgon. Så om du har en webbesign-bok liggandes vid skolbänken eller köksbordet just nu så släng bort den, här kommer vi att gå igenom allt du behöver veta.&lt;/p&gt;
 
@@ -64,21 +64,23 @@ I den här kursen kommer vi att lära dig hur man skapar och publicerar en funge
       <email>kontakt@webbdesignkurser.se<email>
     </author>
     <content type="html">&lt;h2 id=&quot;vilka-program-behver-man-fr-att-gra-en-hemsida&quot;&gt;Vilka program behöver man för att göra en hemsida?&lt;/h2&gt;
-&lt;p&gt;Det finns de som kostar pengar och de som är gratis, i den här kursen kommer vi att använda de som kostar pengar eftersom dom är bättre. Du kommer att kunna använda de kostnadsfria alternativet lika väl, då de flesta funktioner ser likadana ut.  &lt;/p&gt;
+&lt;p&gt;Det finns de som kostar pengar och de som är gratis, i den här kursen kommer vi att använda de som kostar pengar eftersom de är bättre. Du kommer att kunna använda de kostnadsfria alternativet lika väl, då de flesta funktioner ser likadana ut.  &lt;/p&gt;
 
 &lt;h3 id=&quot;webblsare&quot;&gt;Webbläsare&lt;/h3&gt;
-&lt;p&gt;Vilken webbläsare du använder har vi inte något något att säga till om, men om vi får rekommendera något så ladda gärna ner Google Chrome. De har bra verktyg för webbutveckling. Installera gärna även övriga program, så kan du kolla hur hemsidan ser ut i övriga webbläsare.&lt;/p&gt;
+&lt;p&gt;Om vi får rekommendera något så ladda gärna ner &lt;strong&gt;Google Chrome&lt;/strong&gt; eller &lt;strong&gt;Firefox&lt;/strong&gt;. De har bra verktyg för webbutveckling. Installera även övriga program, så kan du hålla koll på hur din kommande hemsida ser ut i övriga webbläsare.  &lt;/p&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-primary download&quot;&gt;Ladda ned Google Chrome&lt;/a&gt;
+&lt;p&gt;Internet Explorer kan vara webbutvecklarens värsta fiende av egen erfarenhet. Den brukar nämligen inte ha stöd för det senaste inom webbdesign vilket kan begränsa dig om du vill att hemsidan ska se bra ut även i Explorer. Ha därför lite extra koll på just den webbläsaren, då det fortfarande är många användare som använder den.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn-primary download&quot;&gt;Google Chrome&lt;/a&gt;
+&lt;a class=&quot;btn btn-primary download&quot;&gt;Firefox&lt;/a&gt;
 &lt;a class=&quot;btn btn-secondary download&quot;&gt;Safari&lt;/a&gt;
-&lt;a class=&quot;btn btn-secondary download&quot;&gt;Firefox&lt;/a&gt;
 &lt;a class=&quot;btn btn-secondary download&quot;&gt;Opera&lt;/a&gt;
 &lt;a class=&quot;btn btn-secondary download&quot;&gt;Internet Explorer&lt;/a&gt; &lt;/p&gt;
 
 &lt;h3 id=&quot;texteditor&quot;&gt;Texteditor&lt;/h3&gt;
 &lt;p&gt;Med en texteditor kan man skriva och redigera textfiler. Du har antagligen redan det förinstallerat på datorn, Anteckningar för Windows och Textredigeraren för Mac.  &lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Vi kommer inte&lt;/strong&gt; att använda dessa program, utan kommer istället att använda oss av Sublime Text.  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vi kommer inte&lt;/strong&gt; att använda dessa program, utan kommer istället att använda oss av Sublime Text som är speciellt utvecklad för att göra hemsidor.  &lt;/p&gt;
 
 &lt;div&gt;&lt;a class=&quot;btn btn-primary download&quot;&gt;Ladda ned Sublime Text&lt;/a&gt; &lt;a class=&quot;btn btn-secondary download&quot;&gt;Eller Notepad++ (Gratis)&lt;/a&gt;&lt;/div&gt;
 
@@ -113,7 +115,7 @@ Det är ett program (Dreamviewer tex.) där man kan göra hemsidan genom en enkl
       <email>kontakt@webbdesignkurser.se<email>
     </author>
     <content type="html">&lt;h2 id=&quot;en-hemsidas-uppbyggnad&quot;&gt;En hemsidas uppbyggnad&lt;/h2&gt;
-&lt;h4&gt;En hemsida består utav textfiler, skrivna i ren text. HTML är ett av många språk som används för att skapa hemsidor. Webbläsarens jobb är att översätta dessa språk och sedan visa den färdiga hemsidan för besökaren.&lt;/h4&gt;
+&lt;p class=&quot;preamble&quot;&gt;En hemsida består utav textfiler, skrivna i ren text. HTML är ett av många språk som används för att skapa hemsidor. Webbläsarens jobb är att översätta dessa språk och sedan visa den färdiga hemsidan för besökaren.&lt;/p&gt;
 
 &lt;p&gt;Precis som en människa så består HTML av kroppsdelar, den har ett huvud som tänker och en kropp att visa upp. För att kunna skriva in dessa kroppdelar så börjar vi med att skapa en mapp på datorn för våran första hemsida. I våra exempel använder vi en Mac, men det ser ungefär likadant ut i Windows och Linux.&lt;/p&gt;
 
@@ -124,13 +126,13 @@ Det är ett program (Dreamviewer tex.) där man kan göra hemsidan genom en enkl
 &lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_texteditor.png&quot; style=&quot;margin-left: -13px;&quot; /&gt;  &lt;/p&gt;
 
 &lt;h3 id=&quot;spara-ner-html-filen&quot;&gt;&lt;em&gt;3.&lt;/em&gt; Spara ner HTML-filen&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Spara ner&lt;/strong&gt; &lt;span class=&quot;keyboard&quot;&gt;Ctrl / Cmd&lt;/span&gt; &lt;span class=&quot;keyboard&quot;&gt;S&lt;/span&gt; det tomma dokumentet i din nya mapp, döp filen till &lt;strong&gt;index.html&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;Spara ner&lt;/strong&gt; &lt;span class=&quot;keyboard&quot;&gt;Ctrl / Cmd&lt;/span&gt; &lt;span class=&quot;keyboard&quot;&gt;S&lt;/span&gt; det tomma dokumentet i din nya mapp, döp filen till &lt;strong&gt;&lt;code&gt;index.html&lt;/code&gt;&lt;/strong&gt;&lt;br /&gt;
 Det är Index som besökaren först kommer att komma till när de besöker hemsidan, en startsida helt enkelt.&lt;br /&gt;
 Filändelsen i slutet av namnet berättar för webbläsaren att det är HTML som ska visas.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_save-index-html.png&quot; style=&quot;margin-left: -10px;&quot; /&gt;  &lt;/p&gt;
 
-&lt;h3 id=&quot;ppna-indexhtml-i-webblsaren&quot;&gt;&lt;em&gt;4.&lt;/em&gt; Öppna index.html i webbläsaren&lt;/h3&gt;
+&lt;h3 id=&quot;ppna-indexhtml-i-webblsaren&quot;&gt;&lt;em&gt;4.&lt;/em&gt; Öppna &lt;code&gt;index.html&lt;/code&gt; i webbläsaren&lt;/h3&gt;
 &lt;p&gt;Nu ska vi öppna hemsidan i webbläsaren för att se hur den ser ut.&lt;br /&gt;
 &lt;strong&gt;Högerklicka på filen&lt;/strong&gt; &amp;gt; &lt;strong&gt;Öppna med&lt;/strong&gt; &amp;gt; &lt;strong&gt;Välj en valfri webbläsare&lt;/strong&gt;&lt;/p&gt;
 
@@ -208,12 +210,12 @@ Skriv därför följande rad längst upp i dokumentet.&lt;/p&gt;
 
 &lt;div class=&quot;success box&quot; style=&quot;margin-top: 10px;&quot;&gt;
 &lt;p&gt;&lt;strong&gt;Tips: &lt;/strong&gt; Med Sublime Text kan du markera flera rader och sedan trycka &lt;span class=&quot;keyboard&quot;&gt;Tab &lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/keyboard_tab.png&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Tryck &lt;span class=&quot;keyboard&quot;&gt;Shift&lt;/span&gt; &lt;span class=&quot;keyboard&quot;&gt;Tab &lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/keyboard_tab.png&quot; /&gt;&lt;/span&gt; för att flytta in texten.&lt;/p&gt;
+&lt;p&gt;Tryck &lt;span class=&quot;keyboard&quot;&gt;Shift&lt;/span&gt; &lt;span class=&quot;keyboard&quot;&gt;Tab &lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/keyboard_tab.png&quot; /&gt;&lt;/span&gt; för att trycka in texten igen.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;h3 id=&quot;title&quot;&gt;Title&lt;/h3&gt;
 
-&lt;p&gt;&lt;code&gt;&amp;lt;title&amp;gt;&lt;/code&gt; visar den text som syns på hemsidans flik i webbläsaren.&lt;br /&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;title&amp;gt;&lt;/code&gt; visar den text som syns i hemsidans flik på webbläsaren.&lt;br /&gt;
 &lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_title.png&quot; style=&quot;border-bottom: 1px solid #999;&quot; /&gt;  &lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
@@ -259,7 +261,7 @@ Skriv därför följande rad längst upp i dokumentet.&lt;/p&gt;
 
   
   <entry>
-    <title type="html"><![CDATA[Texter]]></title>
+    <title type="html"><![CDATA[Skriva texter]]></title>
     <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/texter/" />
     <id>http://webbdesignkurser.github.io/website/webbdesign/texter</id>
     <published>2014-04-20T00:00:00+00:00</published>
@@ -270,7 +272,7 @@ Skriv därför följande rad längst upp i dokumentet.&lt;/p&gt;
       <email>kontakt@webbdesignkurser.se<email>
     </author>
     <content type="html">&lt;h2 id=&quot;skriva-texter-i-html&quot;&gt;Skriva texter i HTML&lt;/h2&gt;
-&lt;h4&gt;Precis som vanliga textdokument så innehåller en hemsida rubriker, underrubriker och brödtexter. I HTML så markerar vi texten med olika former av taggar, beroende på vad texten ska vara för något.&lt;/h4&gt;
+&lt;p class=&quot;preamble&quot;&gt;Precis som vanliga textdokument så innehåller en hemsida rubriker, underrubriker och brödtexter. I HTML så markerar vi texten med olika former av taggar, beroende på vad texten ska vara för något.&lt;/p&gt;
 
 &lt;h3 id=&quot;innehllet-p-hemsidan&quot;&gt;Innehållet på hemsidan&lt;/h3&gt;
 &lt;p&gt;Allt innehåll som ska synas på hemsidan lägger vi inom &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;&lt;/p&gt;
@@ -343,7 +345,7 @@ Skriv därför följande rad längst upp i dokumentet.&lt;/p&gt;
 
 &lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/lankar/&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/texter/&quot;&gt;Texter&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 20, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/texter/&quot;&gt;Skriva texter&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 20, 2014.&lt;/p&gt;</content>
   </entry>
 
 
@@ -360,7 +362,7 @@ Skriv därför följande rad längst upp i dokumentet.&lt;/p&gt;
       <email>kontakt@webbdesignkurser.se<email>
     </author>
     <content type="html">&lt;h2 id=&quot;lnka-till-andra-sidor-med-html&quot;&gt;Länka till andra sidor med HTML&lt;/h2&gt;
-&lt;h4&gt;En hemsida består (förhoppningsvis) av fler än en sida. För att länka besökaren till dessa sidor gäller det att du vet vart sidorna ligger och vad dom heter.&lt;/h4&gt;
+&lt;p class=&quot;preamble&quot;&gt;En hemsida består (förhoppningsvis) av fler än en sida. För att länka besökaren till dessa sidor gäller det att du vet vart sidorna ligger och vad dom heter.&lt;/p&gt;
 
 &lt;p&gt;För att skapa en länk använder du dig av &lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt; och därefter &lt;code&gt;href&lt;/code&gt; för att bestämma destination.&lt;/p&gt;
 
@@ -433,7 +435,7 @@ Vi ska länka dessa till varandra.&lt;/p&gt;
       <email>kontakt@webbdesignkurser.se<email>
     </author>
     <content type="html">&lt;h2 id=&quot;visa-bilder-med-html&quot;&gt;Visa bilder med HTML&lt;/h2&gt;
-&lt;h4&gt;För att visa en bild på hemsidan kräver det att bilden är av rätt filtyp. Det finns tre primära filtyper för bilder som används på webben, och det är JPG, GIF &amp;amp; PNG.&lt;/h4&gt;
+&lt;p class=&quot;preamble&quot;&gt;För att visa en bild på hemsidan kräver det att bilden är av rätt filtyp. Det finns tre primära filtyper för bilder som används på webben, och det är JPG, GIF &amp;amp; PNG.&lt;/p&gt;
 
 &lt;p&gt;För att hämta in en bild i HTML använder du dig av &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; och därefter &lt;code&gt;src&lt;/code&gt; för att bestämma vilken bild.&lt;/p&gt;
 
@@ -803,6 +805,274 @@ För det så behöver vi skriva in en &lt;code&gt;style&lt;/code&gt; i &lt;code&
 &lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website#&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-css/&quot;&gt;Grunderna i CSS&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 15, 2014.&lt;/p&gt;</content>
+  </entry>
+
+
+  
+  <entry>
+    <title type="html"><![CDATA[Reset CSS]]></title>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/reset-css/" />
+    <id>http://webbdesignkurser.github.io/website/webbdesign/reset-css</id>
+    <published>2014-04-14T00:00:00+00:00</published>
+    <updated>2014-04-14T00:00:00+00:00</updated>
+    <author>
+      <name>Webbdesignkurser</name>
+      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <email>kontakt@webbdesignkurser.se<email>
+    </author>
+    <content type="html">&lt;h2 id=&quot;nollstll-css-i-alla-webblsare&quot;&gt;Nollställ CSS i alla webbläsare&lt;/h2&gt;
+
+&lt;p class=&quot;preamble&quot;&gt;På grund av att alla webbläsare vill visa hemsidor på sitt eget sätt så kan det vara krångligt att få hemsidan att se likadan ut i alla webbläsare. Det här kan vi lösa enkelt med hjälp av en Reset CSS.&lt;/p&gt;
+
+&lt;p&gt;Det fungerar så att varje webbläsare har en egen style.css kan man säga. De sätter ett eget typsnitt och storlek om du själv inte valt något. Reset CSS är en CSS-fil med en rad olika CSS attribut som nollställer dessa värden.  &lt;/p&gt;
+
+&lt;p&gt;Det finns en mängd olika Reset CSS, men just &lt;a href=&quot;http://meyerweb.com/eric/tools/css/reset/&quot; target=&quot;_blank&quot; alt=&quot;Eric Mayer Reset CSS&quot;&gt;Eric Meyers Reset CSS&lt;/a&gt; är populärast i skrivande stund 2014.  &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Klistra in följande&lt;/strong&gt; i en ny CSS-fil och spara den som &lt;code&gt;reset.css&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;c&quot;&gt;/**&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt; * Eric Meyer&amp;#39;s Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt; * http://cssreset.com&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt; */&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;span&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;applet&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;object&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;iframe&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;h2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;h3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;h4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;h5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;h6&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;blockquote&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;pre&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;abbr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;acronym&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;address&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;big&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;cite&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;del&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;dfn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;em&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;img&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;ins&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;kbd&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;samp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;small&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;strike&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;strong&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;sub&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;sup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;tt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;var&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;u&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;center&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;dl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;dt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;dd&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;ol&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;ul&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;li&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;fieldset&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;form&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;label&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;legend&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;caption&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;tbody&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;tfoot&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;thead&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;tr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;th&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;td&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;article&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;aside&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;canvas&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;details&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;embed&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; 
+&lt;span class=&quot;nt&quot;&gt;figure&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;figcaption&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;footer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;hgroup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; 
+&lt;span class=&quot;nt&quot;&gt;menu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;nav&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;output&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;ruby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;section&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;summary&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;mark&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;audio&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;video&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;font&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;inherit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;vertical-align&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;baseline&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;/* HTML5 display-role reset for older browsers */&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;article&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;aside&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;details&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;figcaption&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;figure&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; 
+&lt;span class=&quot;nt&quot;&gt;footer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;hgroup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;menu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;nav&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;section&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;line-height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;ol&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;ul&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;list-style&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;blockquote&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;q&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;quotes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;blockquote&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:before&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;blockquote&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:after&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:before&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:after&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;table&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;border-collapse&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;collapse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;border-spacing&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Hämta därefter in din reset.css &lt;strong&gt;innan&lt;/strong&gt; din style.css&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;stylesheet&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;assets/reset.css&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;stylesheet&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;assets/style.css&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;note box full-width&quot;&gt;
+  &lt;h3&gt;Andra alternativ&lt;/h3&gt;
+  &lt;p&gt;Om du inte vill skapa en ny CSS-fil för din Reset så går det lika bra att klistra in det längst upp i style.css. Men vi kände att det blir mer sorterat på det här sättet.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website#&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/reset-css/&quot;&gt;Reset CSS&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 14, 2014.&lt;/p&gt;</content>
+  </entry>
+
+
+  
+  <entry>
+    <title type="html"><![CDATA[Färger]]></title>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/css-farger/" />
+    <id>http://webbdesignkurser.github.io/website/webbdesign/css-farger</id>
+    <published>2014-04-13T00:00:00+00:00</published>
+    <updated>2014-04-13T00:00:00+00:00</updated>
+    <author>
+      <name>Webbdesignkurser</name>
+      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <email>kontakt@webbdesignkurser.se<email>
+    </author>
+    <content type="html">&lt;h2 id=&quot;frgstt-element-med-css&quot;&gt;Färgsätt element med CSS&lt;/h2&gt;
+
+&lt;p class=&quot;preamble&quot;&gt;Det finns två olika färgprofiler i webbdesign, HEX och RGBA. Med hjälp av dessa profiler kan man tilldela färger på html-element. Till exempel textfärg eller bakgrundsfärg.&lt;/p&gt;
+
+&lt;h3 id=&quot;hex-frger&quot;&gt;HEX-färger&lt;/h3&gt;
+
+&lt;p&gt;HEX-färger, eller webbfärger som det också kallas, innehåller en kombination på 6 stycken tecken som tillsammans bildar en färg. Röd färg skrivs till exempel såhär &lt;code&gt;#c2322f&lt;/code&gt;. Oavsett vilket bildhanteringsprogram du använder så finns det ett verktyg för att välja färger, där kan du kopiera HEX-kombinationen. &lt;/p&gt;
+
+&lt;p&gt;Om en färgkombination innehåller samma tecken, till exempel svart &lt;code&gt;#000000&lt;/code&gt; så räcker det att skriva &lt;code&gt;#000&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Klistra in följande&lt;/strong&gt; för att ändra textfärgen på en rubrik.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#d44da6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;rgba-frger&quot;&gt;RGBA-färger&lt;/h3&gt;
+
+&lt;p&gt;RGBA står för Red, Green, Blue och Alpha. Här blandar man rött, blått och grönt för att bestämma färg. Varje färg har en skala från 0 - 255. Alpha är opaciteten på färgen, alltså hur genomskinlig färgen ska vara. Här är det även bra att ha ett bildhanteringsprogram för att kunna välja färger.&lt;/p&gt;
+
+&lt;p&gt;Vi börjar med att skriva de tre färgkombinationerna &lt;code&gt;rgba(0, 0, 0)&lt;/code&gt;.&lt;br /&gt;
+Opaciteten kan sedan skrivas från &lt;code&gt;0&lt;/code&gt; till &lt;code&gt;1&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;En svart RGBA-färg med 50% opacitet skrivs som följande.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rgba&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;success box full-width&quot;&gt;
+	&lt;h3&gt;Tips&lt;/h3&gt;
+	&lt;p&gt;Om du använder Mac och skriver i Sublime Text så kan du trycka &lt;span class=&quot;keyboard&quot;&gt;Cmd&lt;/span&gt; &lt;span class=&quot;keyboard&quot;&gt;Shift&lt;/span&gt; &lt;span class=&quot;keyboard&quot;&gt;C&lt;/span&gt; för att ta fram en färgpalett direkt i texteditorn.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website#&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-farger/&quot;&gt;Färger&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 13, 2014.&lt;/p&gt;</content>
+  </entry>
+
+
+  
+  <entry>
+    <title type="html"><![CDATA[Typografi]]></title>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/css-text/" />
+    <id>http://webbdesignkurser.github.io/website/webbdesign/css-text</id>
+    <published>2014-04-12T00:00:00+00:00</published>
+    <updated>2014-04-12T00:00:00+00:00</updated>
+    <author>
+      <name>Webbdesignkurser</name>
+      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <email>kontakt@webbdesignkurser.se<email>
+    </author>
+    <content type="html">&lt;h2 id=&quot;typografi-med-css&quot;&gt;Typografi med CSS&lt;/h2&gt;
+
+&lt;p class=&quot;preamble&quot;&gt;Det är mer än bara textstorlek när det kommer till typografi på webben. Här kommer vi att gå igenom de viktigaste variablarna i CSS som används för typografi.&lt;/p&gt;
+
+&lt;h3 id=&quot;textstorlek&quot;&gt;Textstorlek&lt;/h3&gt;
+
+&lt;p&gt;Textstorleken anges i pixlar och skrivs &lt;code&gt;font-size: 14px&lt;/code&gt; om texten ska vara 14 pixlar hög.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;30px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;14px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Rubrik&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, ut voluptas at quis rerum tempore eligendi quas vitae sint expedita voluptatum tenetur blanditiis architecto vel itaque recusandae facere commodi eius!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Labore magnam veritatis asperiores quod quaerat reiciendis?&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_css-typografi-2.png&quot; style=&quot;margin-left: -13px;&quot; /&gt;  &lt;/p&gt;
+
+&lt;h3 id=&quot;linjehjd&quot;&gt;Linjehöjd&lt;/h3&gt;
+
+&lt;p&gt;Linjehöjden avgör hur hög en rad ska vara. Du vill inte att raderna ska vara för nära varandra och samtidigt inte för långt borta. Höjden bestäms med hjälp av &lt;code&gt;line-height&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;30px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;line-height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;32px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;14px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;line-height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;21px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_css-typografi-3.png&quot; style=&quot;margin-left: -13px;&quot; /&gt;  &lt;/p&gt;
+
+&lt;h3 id=&quot;radavstnd&quot;&gt;Radavstånd&lt;/h3&gt;
+
+&lt;p&gt;Radavståndet är avståndet mellan rubriker och paragrafer.&lt;br /&gt;
+Här använder vi &lt;code&gt;margin-bottom: 15px&lt;/code&gt; för att skilja dom åt.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;30px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;line-height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;32px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;margin-bottom&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;15px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;14px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;line-height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;21px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;margin-bottom&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;15px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_css-typografi-4.png&quot; style=&quot;margin-left: -13px;&quot; /&gt;  &lt;/p&gt;
+
+&lt;h3 id=&quot;typsnitt&quot;&gt;Typsnitt&lt;/h3&gt;
+
+&lt;p&gt;Med hjälp av &lt;code&gt;font-family&lt;/code&gt; så tilldelar vi texten ett typsnitt. En fullständig lista på alla tillgängliga typsnitt hittar du &lt;a href=&quot;http://cssfontstack.com&quot; target=&quot;_blank&quot;&gt;här&lt;/a&gt;. Om du vill importera ett eget typsnitt så hänvisar vi dig till vår &lt;a href=&quot;http://webbdesignkurser.github.io/website/typsnitt/&quot;&gt;fördjupning av typsnitt&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;30px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;line-height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;32px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;margin-bottom&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;15px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;helvetica&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;14px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;line-height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;21px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;margin-bottom&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;15px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;helvetica&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_css-typografi-5.png&quot; style=&quot;margin-left: -13px;&quot; /&gt;  &lt;/p&gt;
+
+&lt;h3 id=&quot;tjocklek-och-kursivt&quot;&gt;Tjocklek och kursivt&lt;/h3&gt;
+
+&lt;p&gt;I HTML finns det två taggar som används för tjock text och kursiv text, nämligen &lt;code&gt;&amp;lt;strong&amp;gt;&lt;/code&gt; och &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt;. Eftersom vi tidigare i kurser nollställde alla CSS-värden med en &lt;a href=&quot;http://webbdesignkurser.github.io/websitewebbdesign/reset-css/&quot;&gt;Reset CSS&lt;/a&gt; så ska vi nu ta in dessa stilar igen till respektve HTML-tag.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;strong&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;font-weight&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;bold&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;em&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;font-style&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;italic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;strong&amp;gt;&lt;/span&gt;Tjock text&lt;span class=&quot;nt&quot;&gt;&amp;lt;/strong&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;em&amp;gt;&lt;/span&gt;Kursiv text&lt;span class=&quot;nt&quot;&gt;&amp;lt;/em&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;success box full-width&quot;&gt;
+	&lt;h3&gt;Tips&lt;/h3&gt;
+	&lt;p&gt;Om du använder Mac och skriver i Sublime Text så kan du trycka &lt;span class=&quot;keyboard&quot;&gt;Cmd&lt;/span&gt; &lt;span class=&quot;keyboard&quot;&gt;Shift&lt;/span&gt; &lt;span class=&quot;keyboard&quot;&gt;C&lt;/span&gt; för att ta fram en färgpalett direkt i texteditorn.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website#&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-text/&quot;&gt;Typografi&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 12, 2014.&lt;/p&gt;</content>
   </entry>
 
 

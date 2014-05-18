@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>Listor &#8211; Webbdesignkurser</title>
+	<title>Reset CSS &#8211; Webbdesignkurser</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="Webbdesign, Kurser, Hemsidor, Html, Css">
 	<!-- meta name="keywords" content=""> -->
@@ -13,13 +13,13 @@
 	<!-- Open Graph -->
 	<meta property="og:locale" content="sv_SE">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Listor">
+	<meta property="og:title" content="Reset CSS">
 	<meta property="og:description" content="Hur gör man en hemsida? Få svaret på Webbdesignkurser där alla kurser är gratis och lätta att komma igång med!">
-	<meta property="og:url" content="http://webbdesignkurser.github.io/website/webbdesign/listor/">
+	<meta property="og:url" content="http://webbdesignkurser.github.io/website/webbdesign/reset-css/">
 	<meta property="og:site_name" content="Webbdesignkurser">
 
 	
-	<link rel="canonical" href="http://webbdesignkurser.github.io/website/webbdesign/listor/">
+	<link rel="canonical" href="http://webbdesignkurser.github.io/website/webbdesign/reset-css/">
 	<link href="http://webbdesignkurser.github.io/website/feed.xml" type="application/atom+xml" rel="alternate" title="Webbdesignkurser Feed">
 	
 	  <link rel="dns-prefetch" href="//webbdesignkurser.se">
@@ -166,62 +166,90 @@
 
         
             <div class="col-sm-12">
-                <img src="/website/assets/header_html-listor-0a28119a1387ee4de8af7fbfcfef59be.jpg" class="headerImage"/>
+                <img src="/website/assets/header_reset-css-05abe8acf2edc1d633af0dba05c0a369.jpg" class="headerImage"/>
             </div>
         
 
         <div class="col-md-8 content">
             
-                <h1 class="title">Listor</h1>
+                <h1 class="title">Reset CSS</h1>
             
-            <h2 id="skriva-listor-i-html">Skriva listor i HTML</h2>
+            <h2 id="nollstll-css-i-alla-webblsare">Nollställ CSS i alla webbläsare</h2>
 
-<p>För att skriva en lista börjar du med <code>&lt;ul&gt;</code></p>
+<p class="preamble">På grund av att alla webbläsare vill visa hemsidor på sitt eget sätt så kan det vara krångligt att få hemsidan att se likadan ut i alla webbläsare. Det här kan vi lösa enkelt med hjälp av en Reset CSS.</p>
 
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;ul&gt;</span>
+<p>Det fungerar så att varje webbläsare har en egen style.css kan man säga. De sätter ett eget typsnitt och storlek om du själv inte valt något. Reset CSS är en CSS-fil med en rad olika CSS attribut som nollställer dessa värden.  </p>
 
-<span class="nt">&lt;/ul&gt;</span>
+<p>Det finns en mängd olika Reset CSS, men just <a href="http://meyerweb.com/eric/tools/css/reset/" target="_blank" alt="Eric Mayer Reset CSS">Eric Meyers Reset CSS</a> är populärast i skrivande stund 2014.  </p>
+
+<p><strong>Klistra in följande</strong> i en ny CSS-fil och spara den som <code>reset.css</code></p>
+
+<div class="highlight"><pre><code class="css"><span class="c">/**</span>
+<span class="c"> * Eric Meyer&#39;s Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)</span>
+<span class="c"> * http://cssreset.com</span>
+<span class="c"> */</span>
+<span class="nt">html</span><span class="o">,</span> <span class="nt">body</span><span class="o">,</span> <span class="nt">div</span><span class="o">,</span> <span class="nt">span</span><span class="o">,</span> <span class="nt">applet</span><span class="o">,</span> <span class="nt">object</span><span class="o">,</span> <span class="nt">iframe</span><span class="o">,</span>
+<span class="nt">h1</span><span class="o">,</span> <span class="nt">h2</span><span class="o">,</span> <span class="nt">h3</span><span class="o">,</span> <span class="nt">h4</span><span class="o">,</span> <span class="nt">h5</span><span class="o">,</span> <span class="nt">h6</span><span class="o">,</span> <span class="nt">p</span><span class="o">,</span> <span class="nt">blockquote</span><span class="o">,</span> <span class="nt">pre</span><span class="o">,</span>
+<span class="nt">a</span><span class="o">,</span> <span class="nt">abbr</span><span class="o">,</span> <span class="nt">acronym</span><span class="o">,</span> <span class="nt">address</span><span class="o">,</span> <span class="nt">big</span><span class="o">,</span> <span class="nt">cite</span><span class="o">,</span> <span class="nt">code</span><span class="o">,</span>
+<span class="nt">del</span><span class="o">,</span> <span class="nt">dfn</span><span class="o">,</span> <span class="nt">em</span><span class="o">,</span> <span class="nt">img</span><span class="o">,</span> <span class="nt">ins</span><span class="o">,</span> <span class="nt">kbd</span><span class="o">,</span> <span class="nt">q</span><span class="o">,</span> <span class="nt">s</span><span class="o">,</span> <span class="nt">samp</span><span class="o">,</span>
+<span class="nt">small</span><span class="o">,</span> <span class="nt">strike</span><span class="o">,</span> <span class="nt">strong</span><span class="o">,</span> <span class="nt">sub</span><span class="o">,</span> <span class="nt">sup</span><span class="o">,</span> <span class="nt">tt</span><span class="o">,</span> <span class="nt">var</span><span class="o">,</span>
+<span class="nt">b</span><span class="o">,</span> <span class="nt">u</span><span class="o">,</span> <span class="nt">i</span><span class="o">,</span> <span class="nt">center</span><span class="o">,</span>
+<span class="nt">dl</span><span class="o">,</span> <span class="nt">dt</span><span class="o">,</span> <span class="nt">dd</span><span class="o">,</span> <span class="nt">ol</span><span class="o">,</span> <span class="nt">ul</span><span class="o">,</span> <span class="nt">li</span><span class="o">,</span>
+<span class="nt">fieldset</span><span class="o">,</span> <span class="nt">form</span><span class="o">,</span> <span class="nt">label</span><span class="o">,</span> <span class="nt">legend</span><span class="o">,</span>
+<span class="nt">table</span><span class="o">,</span> <span class="nt">caption</span><span class="o">,</span> <span class="nt">tbody</span><span class="o">,</span> <span class="nt">tfoot</span><span class="o">,</span> <span class="nt">thead</span><span class="o">,</span> <span class="nt">tr</span><span class="o">,</span> <span class="nt">th</span><span class="o">,</span> <span class="nt">td</span><span class="o">,</span>
+<span class="nt">article</span><span class="o">,</span> <span class="nt">aside</span><span class="o">,</span> <span class="nt">canvas</span><span class="o">,</span> <span class="nt">details</span><span class="o">,</span> <span class="nt">embed</span><span class="o">,</span> 
+<span class="nt">figure</span><span class="o">,</span> <span class="nt">figcaption</span><span class="o">,</span> <span class="nt">footer</span><span class="o">,</span> <span class="nt">header</span><span class="o">,</span> <span class="nt">hgroup</span><span class="o">,</span> 
+<span class="nt">menu</span><span class="o">,</span> <span class="nt">nav</span><span class="o">,</span> <span class="nt">output</span><span class="o">,</span> <span class="nt">ruby</span><span class="o">,</span> <span class="nt">section</span><span class="o">,</span> <span class="nt">summary</span><span class="o">,</span>
+<span class="nt">time</span><span class="o">,</span> <span class="nt">mark</span><span class="o">,</span> <span class="nt">audio</span><span class="o">,</span> <span class="nt">video</span> <span class="p">{</span>
+	<span class="k">margin</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span>
+	<span class="k">padding</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span>
+	<span class="k">border</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span>
+	<span class="k">font-size</span><span class="o">:</span> <span class="m">100</span><span class="o">%</span><span class="p">;</span>
+	<span class="k">font</span><span class="o">:</span> <span class="k">inherit</span><span class="p">;</span>
+	<span class="k">vertical-align</span><span class="o">:</span> <span class="k">baseline</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="c">/* HTML5 display-role reset for older browsers */</span>
+<span class="nt">article</span><span class="o">,</span> <span class="nt">aside</span><span class="o">,</span> <span class="nt">details</span><span class="o">,</span> <span class="nt">figcaption</span><span class="o">,</span> <span class="nt">figure</span><span class="o">,</span> 
+<span class="nt">footer</span><span class="o">,</span> <span class="nt">header</span><span class="o">,</span> <span class="nt">hgroup</span><span class="o">,</span> <span class="nt">menu</span><span class="o">,</span> <span class="nt">nav</span><span class="o">,</span> <span class="nt">section</span> <span class="p">{</span>
+	<span class="k">display</span><span class="o">:</span> <span class="k">block</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nt">body</span> <span class="p">{</span>
+	<span class="k">line-height</span><span class="o">:</span> <span class="m">1</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nt">ol</span><span class="o">,</span> <span class="nt">ul</span> <span class="p">{</span>
+	<span class="k">list-style</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nt">blockquote</span><span class="o">,</span> <span class="nt">q</span> <span class="p">{</span>
+	<span class="k">quotes</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nt">blockquote</span><span class="nd">:before</span><span class="o">,</span> <span class="nt">blockquote</span><span class="nd">:after</span><span class="o">,</span>
+<span class="nt">q</span><span class="nd">:before</span><span class="o">,</span> <span class="nt">q</span><span class="nd">:after</span> <span class="p">{</span>
+	<span class="k">content</span><span class="o">:</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
+	<span class="k">content</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nt">table</span> <span class="p">{</span>
+	<span class="k">border-collapse</span><span class="o">:</span> <span class="k">collapse</span><span class="p">;</span>
+	<span class="k">border-spacing</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span>
+<span class="p">}</span>
 </code></pre></div>
 
-<p>Därefter använder du <code>&lt;li&gt;</code> för varje objekt som ska listas.</p>
+<p><br />
+Hämta därefter in din reset.css <strong>innan</strong> din style.css</p>
 
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;ul&gt;</span>
-  <span class="nt">&lt;li&gt;</span>Objekt 1<span class="nt">&lt;/li&gt;</span>
-  <span class="nt">&lt;li&gt;</span>Objekt 2<span class="nt">&lt;/li&gt;</span>
-  <span class="nt">&lt;li&gt;</span>Objekt 3<span class="nt">&lt;/li&gt;</span>
-<span class="nt">&lt;/ul&gt;</span>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href=</span><span class="s">&quot;assets/reset.css&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href=</span><span class="s">&quot;assets/style.css&quot;</span><span class="nt">&gt;</span>
 </code></pre></div>
 
-<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_html-list.png" style="margin-left: -12px;" />  </p>
-
-<h2 id="lista-i-listan">Lista i listan</h2>
-
-<p>För att lista en lista i en lista skriver du en ny lista under det objekt där den ska ligga.</p>
-
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;ul&gt;</span>
-  <span class="nt">&lt;li&gt;</span>Objekt 1<span class="nt">&lt;/li&gt;</span>
-  <span class="nt">&lt;li&gt;</span>Objekt 2<span class="nt">&lt;/li&gt;</span>
-  <span class="nt">&lt;ul&gt;</span>
-    <span class="nt">&lt;li&gt;</span>Objekt 2.1<span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>Objekt 2.2<span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;</span>Objekt 2.3<span class="nt">&lt;/li&gt;</span>
-  <span class="nt">&lt;/ul&gt;</span>
-  <span class="nt">&lt;li&gt;</span>Objekt 3<span class="nt">&lt;/li&gt;</span>
-<span class="nt">&lt;/ul&gt;</span>
-</code></pre></div>
-
-<div><img src="http://webbdesignkurser.github.io/website/assets/images/asset_html-list-sub.png" style="margin-left: -12px;" /></div>
-
-<div class="success box">
-<h3>Så lätt var det</h3>
-<p>Vi vet att det inte ser så jättesnyggt ut, vi har bara inte kommit till själva designdelen än.</p> 
+<div class="note box full-width">
+  <h3>Andra alternativ</h3>
+  <p>Om du inte vill skapa en ny CSS-fil för din Reset så går det lika bra att klistra in det längst upp i style.css. Men vi kände att det blir mer sorterat på det här sättet.</p>
 </div>
 
-<p><a class="btn btn-next" href="http://webbdesignkurser.github.io/website/webbdesign/tabeller/">Gå till nästa steg!</a></p>
+<p><a class="btn btn-next" href="http://webbdesignkurser.github.io/website#">Gå till nästa steg!</a></p>
 
             <hr/>
             <h4 class="share">Dela </h4>
-            <input class="form-control" style="width: auto;" type="text" value="http://wdk.se/2fee1"> 
+            <input class="form-control" style="width: auto;" type="text" value="http://wdk.se/0af43"> 
             
                 <section id="disqus_thread"></section>
             
@@ -275,7 +303,7 @@
                         
                     
                         
-                            <li><a class="webbdesign navItem current active" href="http://webbdesignkurser.github.io/website/webbdesign/listor/">Listor</a></li>
+                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/listor/">Listor</a></li>
                         
                     
                         
@@ -287,7 +315,7 @@
                         
                     
                         
-                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/reset-css/">Reset CSS</a></li>
+                            <li><a class="webbdesign navItem current active" href="http://webbdesignkurser.github.io/website/webbdesign/reset-css/">Reset CSS</a></li>
                         
                     
                         

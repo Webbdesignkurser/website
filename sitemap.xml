@@ -7,13 +7,7 @@
     
         
         <url>
-            <loc>http://webbdesignkurser.github.io/website/404.html</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://webbdesignkurser.github.io/website/sitemap.xml</loc>
+            <loc>http://webbdesignkurser.github.io/website/search.html</loc>
         </url>
         
     
@@ -31,19 +25,7 @@
     
         
         <url>
-            <loc>http://webbdesignkurser.github.io/website/om-sidan/</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://webbdesignkurser.github.io/website/search.html</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://webbdesignkurser.github.io/website/short.json</loc>
+            <loc>http://webbdesignkurser.github.io/website/sitemap.xml</loc>
         </url>
         
     
@@ -55,7 +37,25 @@
     
         
         <url>
+            <loc>http://webbdesignkurser.github.io/website/404.html</loc>
+        </url>
+        
+    
+        
+        <url>
             <loc>http://webbdesignkurser.github.io/website/faq/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://webbdesignkurser.github.io/website/short.json</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://webbdesignkurser.github.io/website/om-sidan/</loc>
         </url>
         
     
@@ -112,6 +112,24 @@
         
         <url>
             <loc>http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-css/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://webbdesignkurser.github.io/website/webbdesign/reset-css/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://webbdesignkurser.github.io/website/webbdesign/css-farger/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://webbdesignkurser.github.io/website/webbdesign/css-text/</loc>
         </url>
         
     
