@@ -50,9 +50,17 @@
                     {% endfor %}
                     {% for post in site.categories[category] %}
                         {% if post.title == page.title %}
-                            <li><a class="{{ category }} navItem current active" href="{{ site.url }}{{post.url}}">{{ post.title }}</a></li>
+                            {% if post.submenu %}
+                                <li class="sub"><a class="{{ category }} navItem current active" href="{{ site.url }}{{post.url}}">{{ post.title }}</a></li>
+                            {% else %}
+                                <li><a class="{{ category }} navItem current active" href="{{ site.url }}{{post.url}}">{{ post.title }}</a></li>
+                            {% endif %}
                         {% else %}
-                            <li><a class="{{ category }} navItem current" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+                            {% if post.submenu %}
+                                <li class="sub"><a class="{{ category }} navItem current" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+                            {% else %}
+                                <li><a class="{{ category }} navItem current" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+                            {% endif %}
                         {% endif %}
                     {% endfor %}
                     </ul>
