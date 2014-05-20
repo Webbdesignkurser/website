@@ -532,7 +532,7 @@ header {
 				a{
 					width: 100%;
 					margin: 0px;
-					padding: 15px 25px;
+					padding: 14px 25px;
 					display: block;
 					color: #fff;
 					&:hover{
@@ -550,15 +550,20 @@ header {
 							color: #555;
 							border-right: 0px solid #dcdcdc;
 							&.active{
-								border-right: 15px solid #d2d2d2;
+								color: #fff;
+								background: #333 !important;
+								border-right: 15px solid #000;
+								&:hover{
+									border-right: 20px solid #000;
+								}
 							}
 							&:hover{
-								border-right: 15px solid #d2d2d2;
+								border-right: 15px solid #d6d6d6;
 								padding-right: 22px;
 							}
 						}
 						&:hover{
-							background: #e9e9e9;
+							background: #fbfbfb;
 						}
 					}
 				}
@@ -568,7 +573,12 @@ header {
 				&:nth-child(odd) a.navItem{
 					background: #f0f0f0;
 					&:hover{
-						background: #e9e9e9;
+						background: #fbfbfb;
+					}
+				}
+				&.sub{
+					border-top: 10px solid #fff;
+					a{
 					}
 				}
 			}

@@ -65,6 +65,7 @@
                     {% endfor %}
                     </ul>
                     <ul>
+                    <li><h4 class="webbdesign title"><a>Övriga kurser</a></h4></li>
                     {% for course in site.courses %}
                         {% unless course.id == category %}
                             <li><a href="{{ site.url }}/{{ course.id }}/inledning" class="navItem {{ course.class }} color">{{ course.title }}</a></li>

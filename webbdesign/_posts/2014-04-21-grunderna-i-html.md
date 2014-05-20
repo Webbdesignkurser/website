@@ -3,6 +3,7 @@ layout: page
 headerimage: 'header_grunderna-i-html.jpg'
 title: Grunderna i HTML
 comments: true
+submenu: true
 ---
 
 ##En hemsidas uppbyggnad
