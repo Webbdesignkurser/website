@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>Reset CSS &#8211; Webbdesignkurser</title>
+	<title>Typografi &#8211; Webbdesignkurser</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="Webbdesign, Kurser, Hemsidor, Html, Css">
 	<!-- meta name="keywords" content=""> -->
@@ -13,13 +13,13 @@
 	<!-- Open Graph -->
 	<meta property="og:locale" content="sv_SE">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Reset CSS">
+	<meta property="og:title" content="Typografi">
 	<meta property="og:description" content="Hur gör man en hemsida? Få svaret på Webbdesignkurser där alla kurser är gratis och lätta att komma igång med!">
-	<meta property="og:url" content="http://webbdesignkurser.github.io/website/webbdesign/reset-css/">
+	<meta property="og:url" content="http://webbdesignkurser.github.io/website/webbdesign/css-typografi/">
 	<meta property="og:site_name" content="Webbdesignkurser">
 
 	
-	<link rel="canonical" href="http://webbdesignkurser.github.io/website/webbdesign/reset-css/">
+	<link rel="canonical" href="http://webbdesignkurser.github.io/website/webbdesign/css-typografi/">
 	<link href="http://webbdesignkurser.github.io/website/feed.xml" type="application/atom+xml" rel="alternate" title="Webbdesignkurser Feed">
 	
 	  <link rel="dns-prefetch" href="//webbdesignkurser.se">
@@ -166,90 +166,126 @@
 
         
             <div class="col-sm-12">
-                <img src="/website/assets/header_reset-css-05abe8acf2edc1d633af0dba05c0a369.jpg" class="headerImage"/>
+                <img src="/website/assets/header_css-text-ca3274959fdae91a06d7abcf7e409d0c.jpg" class="headerImage"/>
             </div>
         
 
         <div class="col-md-8 content">
             
-                <h1 class="title">Reset CSS</h1>
+                <h1 class="title">Typografi</h1>
             
-            <h2 id="nollstll-css-i-alla-webblsare">Nollställ CSS i alla webbläsare</h2>
+            <h2 id="typografi-med-css">Typografi med CSS</h2>
 
-<p class="preamble">På grund av att alla webbläsare vill visa hemsidor på sitt eget sätt så kan det vara krångligt att få hemsidan att se likadan ut i alla webbläsare. Det här kan vi lösa enkelt med hjälp av en Reset CSS.</p>
+<p class="preamble">Det är mer än bara textstorlek när det kommer till typografi på webben. Här kommer vi att gå igenom de viktigaste variablarna i CSS som används för typografi.</p>
 
-<p>Det fungerar så att varje webbläsare har en egen style.css kan man säga. De sätter ett eget typsnitt och storlek om du själv inte valt något. Reset CSS är en CSS-fil med en rad olika CSS attribut som nollställer dessa värden.  </p>
+<h3 id="textstorlek">Textstorlek</h3>
 
-<p>Det finns en mängd olika Reset CSS, men just <a href="http://meyerweb.com/eric/tools/css/reset/" target="_blank" alt="Eric Mayer Reset CSS">Eric Meyers Reset CSS</a> är populärast i skrivande stund 2014.  </p>
+<p>Textstorleken anges i pixlar och skrivs <code>font-size: 14px</code> om texten ska vara 14 pixlar hög.</p>
 
-<p><strong>Klistra in följande</strong> i en ny CSS-fil och spara den som <code>reset.css</code></p>
+<div class="highlight"><pre><code class="css"><span class="nt">h1</span> <span class="p">{</span>
+  <span class="k">font-size</span><span class="o">:</span> <span class="m">30px</span><span class="p">;</span>
+<span class="p">}</span>
 
-<div class="highlight"><pre><code class="css"><span class="c">/**</span>
-<span class="c"> * Eric Meyer&#39;s Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)</span>
-<span class="c"> * http://cssreset.com</span>
-<span class="c"> */</span>
-<span class="nt">html</span><span class="o">,</span> <span class="nt">body</span><span class="o">,</span> <span class="nt">div</span><span class="o">,</span> <span class="nt">span</span><span class="o">,</span> <span class="nt">applet</span><span class="o">,</span> <span class="nt">object</span><span class="o">,</span> <span class="nt">iframe</span><span class="o">,</span>
-<span class="nt">h1</span><span class="o">,</span> <span class="nt">h2</span><span class="o">,</span> <span class="nt">h3</span><span class="o">,</span> <span class="nt">h4</span><span class="o">,</span> <span class="nt">h5</span><span class="o">,</span> <span class="nt">h6</span><span class="o">,</span> <span class="nt">p</span><span class="o">,</span> <span class="nt">blockquote</span><span class="o">,</span> <span class="nt">pre</span><span class="o">,</span>
-<span class="nt">a</span><span class="o">,</span> <span class="nt">abbr</span><span class="o">,</span> <span class="nt">acronym</span><span class="o">,</span> <span class="nt">address</span><span class="o">,</span> <span class="nt">big</span><span class="o">,</span> <span class="nt">cite</span><span class="o">,</span> <span class="nt">code</span><span class="o">,</span>
-<span class="nt">del</span><span class="o">,</span> <span class="nt">dfn</span><span class="o">,</span> <span class="nt">em</span><span class="o">,</span> <span class="nt">img</span><span class="o">,</span> <span class="nt">ins</span><span class="o">,</span> <span class="nt">kbd</span><span class="o">,</span> <span class="nt">q</span><span class="o">,</span> <span class="nt">s</span><span class="o">,</span> <span class="nt">samp</span><span class="o">,</span>
-<span class="nt">small</span><span class="o">,</span> <span class="nt">strike</span><span class="o">,</span> <span class="nt">strong</span><span class="o">,</span> <span class="nt">sub</span><span class="o">,</span> <span class="nt">sup</span><span class="o">,</span> <span class="nt">tt</span><span class="o">,</span> <span class="nt">var</span><span class="o">,</span>
-<span class="nt">b</span><span class="o">,</span> <span class="nt">u</span><span class="o">,</span> <span class="nt">i</span><span class="o">,</span> <span class="nt">center</span><span class="o">,</span>
-<span class="nt">dl</span><span class="o">,</span> <span class="nt">dt</span><span class="o">,</span> <span class="nt">dd</span><span class="o">,</span> <span class="nt">ol</span><span class="o">,</span> <span class="nt">ul</span><span class="o">,</span> <span class="nt">li</span><span class="o">,</span>
-<span class="nt">fieldset</span><span class="o">,</span> <span class="nt">form</span><span class="o">,</span> <span class="nt">label</span><span class="o">,</span> <span class="nt">legend</span><span class="o">,</span>
-<span class="nt">table</span><span class="o">,</span> <span class="nt">caption</span><span class="o">,</span> <span class="nt">tbody</span><span class="o">,</span> <span class="nt">tfoot</span><span class="o">,</span> <span class="nt">thead</span><span class="o">,</span> <span class="nt">tr</span><span class="o">,</span> <span class="nt">th</span><span class="o">,</span> <span class="nt">td</span><span class="o">,</span>
-<span class="nt">article</span><span class="o">,</span> <span class="nt">aside</span><span class="o">,</span> <span class="nt">canvas</span><span class="o">,</span> <span class="nt">details</span><span class="o">,</span> <span class="nt">embed</span><span class="o">,</span> 
-<span class="nt">figure</span><span class="o">,</span> <span class="nt">figcaption</span><span class="o">,</span> <span class="nt">footer</span><span class="o">,</span> <span class="nt">header</span><span class="o">,</span> <span class="nt">hgroup</span><span class="o">,</span> 
-<span class="nt">menu</span><span class="o">,</span> <span class="nt">nav</span><span class="o">,</span> <span class="nt">output</span><span class="o">,</span> <span class="nt">ruby</span><span class="o">,</span> <span class="nt">section</span><span class="o">,</span> <span class="nt">summary</span><span class="o">,</span>
-<span class="nt">time</span><span class="o">,</span> <span class="nt">mark</span><span class="o">,</span> <span class="nt">audio</span><span class="o">,</span> <span class="nt">video</span> <span class="p">{</span>
-	<span class="k">margin</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span>
-	<span class="k">padding</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span>
-	<span class="k">border</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span>
-	<span class="k">font-size</span><span class="o">:</span> <span class="m">100</span><span class="o">%</span><span class="p">;</span>
-	<span class="k">font</span><span class="o">:</span> <span class="k">inherit</span><span class="p">;</span>
-	<span class="k">vertical-align</span><span class="o">:</span> <span class="k">baseline</span><span class="p">;</span>
-<span class="p">}</span>
-<span class="c">/* HTML5 display-role reset for older browsers */</span>
-<span class="nt">article</span><span class="o">,</span> <span class="nt">aside</span><span class="o">,</span> <span class="nt">details</span><span class="o">,</span> <span class="nt">figcaption</span><span class="o">,</span> <span class="nt">figure</span><span class="o">,</span> 
-<span class="nt">footer</span><span class="o">,</span> <span class="nt">header</span><span class="o">,</span> <span class="nt">hgroup</span><span class="o">,</span> <span class="nt">menu</span><span class="o">,</span> <span class="nt">nav</span><span class="o">,</span> <span class="nt">section</span> <span class="p">{</span>
-	<span class="k">display</span><span class="o">:</span> <span class="k">block</span><span class="p">;</span>
-<span class="p">}</span>
-<span class="nt">body</span> <span class="p">{</span>
-	<span class="k">line-height</span><span class="o">:</span> <span class="m">1</span><span class="p">;</span>
-<span class="p">}</span>
-<span class="nt">ol</span><span class="o">,</span> <span class="nt">ul</span> <span class="p">{</span>
-	<span class="k">list-style</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span>
-<span class="p">}</span>
-<span class="nt">blockquote</span><span class="o">,</span> <span class="nt">q</span> <span class="p">{</span>
-	<span class="k">quotes</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span>
-<span class="p">}</span>
-<span class="nt">blockquote</span><span class="nd">:before</span><span class="o">,</span> <span class="nt">blockquote</span><span class="nd">:after</span><span class="o">,</span>
-<span class="nt">q</span><span class="nd">:before</span><span class="o">,</span> <span class="nt">q</span><span class="nd">:after</span> <span class="p">{</span>
-	<span class="k">content</span><span class="o">:</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
-	<span class="k">content</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span>
-<span class="p">}</span>
-<span class="nt">table</span> <span class="p">{</span>
-	<span class="k">border-collapse</span><span class="o">:</span> <span class="k">collapse</span><span class="p">;</span>
-	<span class="k">border-spacing</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span>
+<span class="nt">p</span> <span class="p">{</span>
+  <span class="k">font-size</span><span class="o">:</span> <span class="m">14px</span><span class="p">;</span>
 <span class="p">}</span>
 </code></pre></div>
 
-<p><br />
-Hämta därefter in din reset.css <strong>innan</strong> din style.css</p>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;h1&gt;</span>Rubrik<span class="nt">&lt;/h1&gt;</span>
 
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href=</span><span class="s">&quot;assets/reset.css&quot;</span><span class="nt">&gt;</span>
-<span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href=</span><span class="s">&quot;assets/style.css&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, ut voluptas at quis rerum tempore eligendi quas vitae sint expedita voluptatum tenetur blanditiis architecto vel itaque recusandae facere commodi eius!<span class="nt">&lt;/p&gt;</span>
+
+<span class="nt">&lt;p&gt;</span>Labore magnam veritatis asperiores quod quaerat reiciendis?<span class="nt">&lt;/p&gt;</span>
 </code></pre></div>
 
-<div class="note box full-width">
-  <h3>Andra alternativ</h3>
-  <p>Om du inte vill skapa en ny CSS-fil för din Reset så går det lika bra att klistra in det längst upp i style.css. Men vi kände att det blir mer sorterat på det här sättet.</p>
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_css-typografi-2.png" style="margin-left: -13px;" />  </p>
+
+<h3 id="linjehjd">Linjehöjd</h3>
+
+<p>Linjehöjden avgör hur hög en rad ska vara. Du vill inte att raderna ska vara för nära varandra och samtidigt inte för långt borta. Höjden bestäms med hjälp av <code>line-height</code>.</p>
+
+<div class="highlight"><pre><code class="css"><span class="nt">h1</span> <span class="p">{</span>
+  <span class="k">font-size</span><span class="o">:</span> <span class="m">30px</span><span class="p">;</span>
+  <span class="k">line-height</span><span class="o">:</span> <span class="m">32px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">p</span> <span class="p">{</span>
+  <span class="k">font-size</span><span class="o">:</span> <span class="m">14px</span><span class="p">;</span>
+  <span class="k">line-height</span><span class="o">:</span> <span class="m">21px</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_css-typografi-3.png" style="margin-left: -13px;" />  </p>
+
+<h3 id="radavstnd">Radavstånd</h3>
+
+<p>Radavståndet är avståndet mellan rubriker och paragrafer.<br />
+Här använder vi <code>margin-bottom: 15px</code> för att skilja dom åt.</p>
+
+<div class="highlight"><pre><code class="css"><span class="nt">h1</span> <span class="p">{</span>
+  <span class="k">font-size</span><span class="o">:</span> <span class="m">30px</span><span class="p">;</span>
+  <span class="k">line-height</span><span class="o">:</span> <span class="m">32px</span><span class="p">;</span>
+  <span class="k">margin-bottom</span><span class="o">:</span> <span class="m">15px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">p</span> <span class="p">{</span>
+  <span class="k">font-size</span><span class="o">:</span> <span class="m">14px</span><span class="p">;</span>
+  <span class="k">line-height</span><span class="o">:</span> <span class="m">21px</span><span class="p">;</span>
+  <span class="k">margin-bottom</span><span class="o">:</span> <span class="m">15px</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_css-typografi-4.png" style="margin-left: -13px;" />  </p>
+
+<h3 id="typsnitt">Typsnitt</h3>
+
+<p>Med hjälp av <code>font-family</code> så tilldelar vi texten ett typsnitt. En fullständig lista på alla tillgängliga typsnitt hittar du <a href="http://cssfontstack.com" target="_blank">här</a>. Om du vill importera ett eget typsnitt så hänvisar vi dig till vår <a href="http://webbdesignkurser.github.io/website/typsnitt/">fördjupning av typsnitt</a>.</p>
+
+<div class="highlight"><pre><code class="css"><span class="nt">h1</span> <span class="p">{</span>
+  <span class="k">font-size</span><span class="o">:</span> <span class="m">30px</span><span class="p">;</span>
+  <span class="k">line-height</span><span class="o">:</span> <span class="m">32px</span><span class="p">;</span>
+  <span class="k">margin-bottom</span><span class="o">:</span> <span class="m">15px</span><span class="p">;</span>
+  <span class="k">font-family</span><span class="o">:</span> <span class="n">helvetica</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">p</span> <span class="p">{</span>
+  <span class="k">font-size</span><span class="o">:</span> <span class="m">14px</span><span class="p">;</span>
+  <span class="k">line-height</span><span class="o">:</span> <span class="m">21px</span><span class="p">;</span>
+  <span class="k">margin-bottom</span><span class="o">:</span> <span class="m">15px</span><span class="p">;</span>
+  <span class="k">font-family</span><span class="o">:</span> <span class="n">helvetica</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_css-typografi-5.png" style="margin-left: -13px;" />  </p>
+
+<h3 id="tjocklek-och-kursivt">Tjocklek och kursivt</h3>
+
+<p>I HTML finns det två taggar som används för tjock text och kursiv text, nämligen <code>&lt;strong&gt;</code> och <code>&lt;em&gt;</code>. Eftersom vi tidigare i kurser nollställde alla CSS-värden med en <a href="http://webbdesignkurser.github.io/websitewebbdesign/reset-css/">Reset CSS</a> så ska vi nu ta in dessa stilar igen till respektve HTML-tag.</p>
+
+<div class="highlight"><pre><code class="css"><span class="nt">strong</span> <span class="p">{</span>
+  <span class="k">font-weight</span><span class="o">:</span> <span class="k">bold</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">em</span> <span class="p">{</span>
+  <span class="k">font-style</span><span class="o">:</span> <span class="k">italic</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;strong&gt;</span>Tjock text<span class="nt">&lt;/strong&gt;</span>
+
+<span class="nt">&lt;em&gt;</span>Kursiv text<span class="nt">&lt;/em&gt;</span>
+</code></pre></div>
+
+<div class="success box full-width">
+	<h3>Tips</h3>
+	<p>Om du använder Mac och skriver i Sublime Text så kan du trycka <span class="keyboard">Cmd</span> <span class="keyboard">Shift</span> <span class="keyboard">C</span> för att ta fram en färgpalett direkt i texteditorn.</p>
 </div>
 
 <p><a class="btn btn-next" href="http://webbdesignkurser.github.io/website#">Gå till nästa steg!</a></p>
 
             <hr/>
             <h4 class="share">Dela </h4>
-            <input class="form-control" style="width: auto;" type="text" value="http://wdk.se/0af43"> 
+            <input class="form-control" style="width: auto;" type="text" value="http://wdk.se/cd876"> 
             
                 <section id="disqus_thread"></section>
             
@@ -291,23 +327,23 @@ Hämta därefter in din reset.css <strong>innan</strong> din style.css</p>
                         
                     
                         
-                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/texter/">Skriva texter</a></li>
+                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/html-texter/">Skriva texter</a></li>
                         
                     
                         
-                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/lankar/">Länkar</a></li>
+                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/html-lankar/">Länkar</a></li>
                         
                     
                         
-                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/bilder/">Bilder</a></li>
+                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/html-bilder/">Bilder</a></li>
                         
                     
                         
-                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/listor/">Listor</a></li>
+                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/html-listor/">Listor</a></li>
                         
                     
                         
-                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/tabeller/">Tabeller</a></li>
+                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/html-tabeller/">Tabeller</a></li>
                         
                     
                         
@@ -315,7 +351,7 @@ Hämta därefter in din reset.css <strong>innan</strong> din style.css</p>
                         
                     
                         
-                            <li><a class="webbdesign navItem current active" href="http://webbdesignkurser.github.io/website/webbdesign/reset-css/">Reset CSS</a></li>
+                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-reset/">Reset CSS</a></li>
                         
                     
                         
@@ -323,7 +359,7 @@ Hämta därefter in din reset.css <strong>innan</strong> din style.css</p>
                         
                     
                         
-                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-text/">Typografi</a></li>
+                            <li><a class="webbdesign navItem current active" href="http://webbdesignkurser.github.io/website/webbdesign/css-typografi/">Typografi</a></li>
                         
                     
                     </ul>

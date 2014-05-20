@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>Skriva texter &#8211; Webbdesignkurser</title>
+	<title>Bilder &#8211; Webbdesignkurser</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="Webbdesign, Kurser, Hemsidor, Html, Css">
 	<!-- meta name="keywords" content=""> -->
@@ -13,13 +13,13 @@
 	<!-- Open Graph -->
 	<meta property="og:locale" content="sv_SE">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Skriva texter">
+	<meta property="og:title" content="Bilder">
 	<meta property="og:description" content="Hur gör man en hemsida? Få svaret på Webbdesignkurser där alla kurser är gratis och lätta att komma igång med!">
-	<meta property="og:url" content="http://webbdesignkurser.github.io/website/webbdesign/texter/">
+	<meta property="og:url" content="http://webbdesignkurser.github.io/website/webbdesign/html-bilder/">
 	<meta property="og:site_name" content="Webbdesignkurser">
 
 	
-	<link rel="canonical" href="http://webbdesignkurser.github.io/website/webbdesign/texter/">
+	<link rel="canonical" href="http://webbdesignkurser.github.io/website/webbdesign/html-bilder/">
 	<link href="http://webbdesignkurser.github.io/website/feed.xml" type="application/atom+xml" rel="alternate" title="Webbdesignkurser Feed">
 	
 	  <link rel="dns-prefetch" href="//webbdesignkurser.se">
@@ -166,91 +166,119 @@
 
         
             <div class="col-sm-12">
-                <img src="/website/assets/header_texter-html-15f17d062b9249bff2b8b053568c7a21.jpg" class="headerImage"/>
+                <img src="/website/assets/header_html-bilder-918b4c35f4f3ba41cef6dfc52dd6b5e7.jpg" class="headerImage"/>
             </div>
         
 
         <div class="col-md-8 content">
             
-                <h1 class="title">Skriva texter</h1>
+                <h1 class="title">Bilder</h1>
             
-            <h2 id="skriva-texter-i-html">Skriva texter i HTML</h2>
-<p class="preamble">Precis som vanliga textdokument så innehåller en hemsida rubriker, underrubriker och brödtexter. I HTML så markerar vi texten med olika former av taggar, beroende på vad texten ska vara för något.</p>
+            <h2 id="visa-bilder-med-html">Visa bilder med HTML</h2>
+<p class="preamble">För att visa en bild på hemsidan kräver det att bilden är av rätt filtyp. Det finns tre primära filtyper för bilder som används på webben, och det är JPG, GIF &amp; PNG.</p>
 
-<h3 id="innehllet-p-hemsidan">Innehållet på hemsidan</h3>
-<p>Allt innehåll som ska synas på hemsidan lägger vi inom <code>&lt;body&gt;</code></p>
+<p>För att hämta in en bild i HTML använder du dig av <code>&lt;img&gt;</code> och därefter <code>src</code> för att bestämma vilken bild.</p>
 
-<div class="highlight"><pre><code class="html"><span class="cp">&lt;!doctype html&gt;</span>
-
-<span class="nt">&lt;html&gt;</span>
-
-  <span class="nt">&lt;head&gt;</span>
-    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">&quot;utf-8&quot;</span><span class="nt">&gt;</span> <span class="c">&lt;!-- Svenska tecken --&gt;</span>
-    <span class="nt">&lt;title&gt;</span>Matlagning<span class="nt">&lt;/title&gt;</span> <span class="c">&lt;!-- Titel för webbläsaren --&gt;</span>
-  <span class="nt">&lt;/head&gt;</span>
-
-  <span class="nt">&lt;body&gt;</span>
-    <span class="c">&lt;!-- Hemsidans innehåll ska ligga här --&gt;</span>
-  <span class="nt">&lt;/body&gt;</span>
-
-<span class="nt">&lt;/html&gt;</span>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;bild.jpg&quot;</span><span class="nt">/&gt;</span>
 </code></pre></div>
 
-<h3 id="rubriker">Rubriker</h3>
-<p>Rubriker skrivs med <code>&lt;h1&gt;</code> <code>&lt;h2&gt;</code> <code>&lt;h3&gt;</code> <code>&lt;h4&gt;</code> och <code>&lt;h5&gt;</code> beroende på vilken rank rubriken ska ha. Huvudrubriken ska alltid använda <code>&lt;h1&gt;</code>, underrubriken använder <code>&lt;h2&gt;</code>, underrubriken till underrubriken använder <code>&lt;h3&gt;</code> osv.  </p>
+<h3 id="namnge-bilden">Namnge bilden</h3>
+<p>Med hjälp av <code>alt</code> kan vi ge bilden en beskrivning som inte är synligt av ögat, utan används av sökmotorer och blinda som inte kan se vad bilden föreställer.</p>
 
-<p><strong>Klistra in</strong> detta inom <code>&lt;body&gt;</code></p>
-
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;h1&gt;</span>Matlagning<span class="nt">&lt;/h1&gt;</span>
-
-<span class="nt">&lt;h2&gt;</span>Hur kokar man pasta?<span class="nt">&lt;/h2&gt;</span>
-
-<span class="nt">&lt;h3&gt;</span>Råvaror<span class="nt">&lt;/h3&gt;</span>
-
-<span class="nt">&lt;h3&gt;</span>Resurser<span class="nt">&lt;/h3&gt;</span>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;bild.jpg&quot;</span> <span class="na">alt=</span><span class="s">&quot;En fågel&quot;</span><span class="nt">/&gt;</span>
 </code></pre></div>
 
-<p><strong>Spara dokumentet</strong> och <strong>uppdaterar hemsidan</strong>. Den kommer nu att se ut såhär.</p>
+<h3 id="visa-bild-frn-en-annan-mapp">Visa bild från en annan mapp</h3>
 
-<div><img src="http://webbdesignkurser.github.io/website/assets/images/asset_html-rubriker.png" alt="Html Rubriker" style="margin-left: -10px;" /></div>
+<p>Om bilden inte ligger i samma mapp som html-filen måste du länka den till rätt mapp. </p>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;/undermapp/bild.jpg&quot;</span><span class="nt">/&gt;</span> <span class="c">&lt;!-- Hämtar bilden från undermapp --&gt;</span>
+
+<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;../bild.jpg&quot;</span><span class="nt">/&gt;</span> <span class="c">&lt;!-- Hämtar bilden från övermapp --&gt;</span>
+
+<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;http://wdk.se/bild.jpg&quot;</span><span class="nt">/&gt;</span> <span class="c">&lt;!-- Hämtar bilden från adress --&gt;</span>
+</code></pre></div>
+
+<h3 id="ndra-storlek-p-bilden">Ändra storlek på bilden</h3>
+<p>För att ändra storlek med hjälp av HTML så kan man använda <code>width</code> och <code>height</code>.</p>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;bild.jpg&quot;</span> <span class="na">width=</span><span class="s">&quot;100px&quot;</span><span class="nt">/&gt;</span>
+</code></pre></div>
 
 <div class="note box">
-<h3>Val av rubriker</h3>
-<p>En hemsida får endast innehålla en huvudrubrik (h1) per sida. Skriv därför det viktigaste där. Om du vill fylla på med fler rubriker så använd h2, h3, h4 osv.</p>
+Du får inte använda å, ä, ö, mellanrum eller konstiga tecken i bildens namn. Du får däremot använda bindestreck och understreck i filnamnet, så använd det istället för mellanrum.
 </div>
 
-<h3 id="paragraf">Paragraf</h3>
-<p>Varje paragraf i brödtexten lägger man inom taggen <code>&lt;p&gt;</code>  </p>
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_bilder-format.png" style="margin-top: 40px;" /></p>
 
-<p>En ny paragraf kan jämföras med att trycka <span class="keyboard">Enter</span> i en visuell texteditor.  </p>
+<h2 id="skillnaden-mellan-jpg-gif-och-png">Skillnaden mellan JPG, GIF och PNG</h2>
 
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;p&gt;</span>För att koka pasta behöver du pasta, vatten, kastrull och spis. 
-Är du redo att koka pasta?<span class="nt">&lt;/p&gt;</span>
-</code></pre></div>
+<h3 id="jpg-joint-photographic-experts-group">JPG (Joint Photographic Experts Group)</h3>
+<p>JPG utvecklades av Joint Photographic Experts Group (JPEG) som en standard för fotografer. Det praktiska med JPG var att man kunde redusera bildens storlek genom att minska antalet pixelområden. Man kunde alltså dra ner på antalet färger som man behövde hämta i bilden och på så sätt dra ner på filstorleken.  </p>
 
-<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_html-paragraf.png" alt="Html Paragraf" style="margin-left: -10px;" /></p>
+<p>Det här gjorde att JPG blev ett populärt filformat på den tiden då uppkopplingen var som långsammast.</p>
 
-<h3 id="radbyten">Radbyten</h3>
-<p>Texten kommer att fortsätta på samma rad tills att du skapar en ny paragraf eller gör ett radbyte med <code>&lt;br/&gt;</code>  </p>
+<p>JPG passar däremot inte för grafisk design eller typografi, även en högupplöst JPG tappar kvallité och resulterar i dåliga pixlar på grafiska element.</p>
 
-<p>Ett radbyte är detsamma som att trycka <span class="keyboard">Shift</span> <span class="keyboard">Enter</span> i en visuell texteditor.  </p>
+<div class="success box no-margin">+ JPG passar för foton</div>
 
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;p&gt;</span>För att koka pasta behöver du pasta, vatten, kastrull och spis. <span class="nt">&lt;br/&gt;</span> 
-Är du redo att koka pasta?<span class="nt">&lt;/p&gt;</span>
-</code></pre></div>
+<div class="note box no-margin">- JPG passar inte för grafisk design eller typografi</div>
 
-<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_html-radbyte.png" alt="Html Radbyte" style="margin-left: -13px;" /></p>
+<h3 id="gif-graphics-interchange-format">GIF (Graphics Interchange Format)</h3>
+<p>Precis som JPG så är GIF ett rätt så gammalt format. I grunden är GIF en 8-bitars färgfil, vilket betyder att den endast kan innehålla 256 färger. Skillnaden mellan GIF och JPG är att GIF har möjligheten att vara transparant och stödjer dessutom animationer.</p>
+
+<p>GIF är däremot ett gammalt och begränsat filformat, och du bör inte använda det för foton eller grafisk design.</p>
+
+<div class="success box no-margin">+ GIF passar för animationer</div>
+
+<div class="note box no-margin">- GIF passar inte för foton eller grafisk design</div>
+
+<h3 id="png-portable-network-graphics">PNG (Portable Network Graphics)</h3>
+<p>PNG skapades som ett alternativ till GIF. Det har stöd för fler färger (24-bit) och klarar transparans mycket bättre. Det är det mest använda formatet idag på internet och perfekt för grafisk design och typografi.</p>
+
+<div class="success box no-margin">+ PNG passar för grafisk design och typografi</div>
+
+<div class="note box no-margin">- PNG passar inte för stora foton</div>
+
+<hr />
+
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_html-bild-exempel.jpg" /> </p>
+
+<h2 id="spara-bild-fr-webben">Spara bild för webben</h2>
+<p><strong>Det är viktigt</strong> att optimera bilderna för webben. Du kan inte använda det där semesterfotot på 8 MB direkt på hemsidan. Då laddar hemsidan långsammare och besökaren tröttnar. Om man surfar över mobilt bredband vill man dessutom inte att hemsidan ska dra för mycket av månadens betalsurf.  </p>
+
+<p>I Photoshop finns alternativet att spara för webben. Skillnaden mellan att spara för webben och spara en bild är att du kan komprimera ner bilden för att minska storleken om du sparar för webben. Om du använder ett annat bildhanteringsprogram kan den här funktionen se annorlunda ut.  </p>
+
+<h3 id="ppna-bild"><em>1.</em> Öppna bild</h3>
+
+<p>Öppna din bild i bildhanteringsprogrammet <span class="keyboard">Ctrl/Cmd</span> + <span class="keyboard">O</span> och förminska bildstorleken med de verktyg som finns tillgängliga, i Photoshop kan du ändra bildstorleken under <strong>Image</strong> &gt; <strong>Image Size</strong>. </p>
+
+<h3 id="spara-fr-webben"><em>2.</em> Spara för webben</h3>
+
+<p>Tryck sedan <span class="keyboard">Shift</span> + <span class="keyboard">Alt</span> + <span class="keyboard">Ctrl/Cmd</span> + <span class="keyboard">S</span> för att spara för webben.</p>
+
+<h3 id="bestm-filtyp-och-kvallit"><em>3.</em> Bestäm filtyp och kvallité</h3>
+
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_save-for-web-1.jpg" />  </p>
+
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_save-for-web-2.jpg" />  </p>
+
+<h3 id="spara"><em>4.</em> Spara</h3>
+
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_save-for-web-3.jpg" />  </p>
+
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_save-for-web-4.jpg" style="margin-left: -13px;" />  </p>
 
 <div class="success box">
-<h3>Bra gjort!</h3>
-<p>Nu kan du grunderna i att skriva texter i HTML. Nästa steg för oss är att länka en html-sida till en annan.</p>
+<h3>Toppen!</h3>
+<p>Nu vet du hur man sparar bilder och hämtar in dom på hemsidan.</p> 
 </div>
 
-<p><a class="btn btn-next" href="http://webbdesignkurser.github.io/website/webbdesign/lankar/">Gå till nästa steg!</a></p>
+<p><a class="btn btn-next" href="http://webbdesignkurser.github.io/website/webbdesign/listor/">Gå till nästa steg!</a></p>
 
             <hr/>
             <h4 class="share">Dela </h4>
-            <input class="form-control" style="width: auto;" type="text" value="http://wdk.se/da2ae"> 
+            <input class="form-control" style="width: auto;" type="text" value="http://wdk.se/7a721"> 
             
                 <section id="disqus_thread"></section>
             
@@ -292,23 +320,23 @@
                         
                     
                         
-                            <li><a class="webbdesign navItem current active" href="http://webbdesignkurser.github.io/website/webbdesign/texter/">Skriva texter</a></li>
+                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/html-texter/">Skriva texter</a></li>
                         
                     
                         
-                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/lankar/">Länkar</a></li>
+                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/html-lankar/">Länkar</a></li>
                         
                     
                         
-                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/bilder/">Bilder</a></li>
+                            <li><a class="webbdesign navItem current active" href="http://webbdesignkurser.github.io/website/webbdesign/html-bilder/">Bilder</a></li>
                         
                     
                         
-                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/listor/">Listor</a></li>
+                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/html-listor/">Listor</a></li>
                         
                     
                         
-                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/tabeller/">Tabeller</a></li>
+                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/html-tabeller/">Tabeller</a></li>
                         
                     
                         
@@ -316,7 +344,7 @@
                         
                     
                         
-                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/reset-css/">Reset CSS</a></li>
+                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-reset/">Reset CSS</a></li>
                         
                     
                         
@@ -324,7 +352,7 @@
                         
                     
                         
-                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-text/">Typografi</a></li>
+                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-typografi/">Typografi</a></li>
                         
                     
                     </ul>

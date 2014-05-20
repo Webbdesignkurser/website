@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>Bilder &#8211; Webbdesignkurser</title>
+	<title>Länkar &#8211; Webbdesignkurser</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="Webbdesign, Kurser, Hemsidor, Html, Css">
 	<!-- meta name="keywords" content=""> -->
@@ -13,13 +13,13 @@
 	<!-- Open Graph -->
 	<meta property="og:locale" content="sv_SE">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Bilder">
+	<meta property="og:title" content="Länkar">
 	<meta property="og:description" content="Hur gör man en hemsida? Få svaret på Webbdesignkurser där alla kurser är gratis och lätta att komma igång med!">
-	<meta property="og:url" content="http://webbdesignkurser.github.io/website/webbdesign/bilder/">
+	<meta property="og:url" content="http://webbdesignkurser.github.io/website/webbdesign/html-lankar/">
 	<meta property="og:site_name" content="Webbdesignkurser">
 
 	
-	<link rel="canonical" href="http://webbdesignkurser.github.io/website/webbdesign/bilder/">
+	<link rel="canonical" href="http://webbdesignkurser.github.io/website/webbdesign/html-lankar/">
 	<link href="http://webbdesignkurser.github.io/website/feed.xml" type="application/atom+xml" rel="alternate" title="Webbdesignkurser Feed">
 	
 	  <link rel="dns-prefetch" href="//webbdesignkurser.se">
@@ -166,119 +166,74 @@
 
         
             <div class="col-sm-12">
-                <img src="/website/assets/header_html-bilder-918b4c35f4f3ba41cef6dfc52dd6b5e7.jpg" class="headerImage"/>
+                <img src="/website/assets/header_html-lankar-fdd0aea48bf08ce9258893a8d5966c2a.jpg" class="headerImage"/>
             </div>
         
 
         <div class="col-md-8 content">
             
-                <h1 class="title">Bilder</h1>
+                <h1 class="title">Länkar</h1>
             
-            <h2 id="visa-bilder-med-html">Visa bilder med HTML</h2>
-<p class="preamble">För att visa en bild på hemsidan kräver det att bilden är av rätt filtyp. Det finns tre primära filtyper för bilder som används på webben, och det är JPG, GIF &amp; PNG.</p>
+            <h2 id="lnka-till-andra-sidor-med-html">Länka till andra sidor med HTML</h2>
+<p class="preamble">En hemsida består (förhoppningsvis) av fler än en sida. För att länka besökaren till dessa sidor gäller det att du vet vart sidorna ligger och vad dom heter.</p>
 
-<p>För att hämta in en bild i HTML använder du dig av <code>&lt;img&gt;</code> och därefter <code>src</code> för att bestämma vilken bild.</p>
+<p>För att skapa en länk använder du dig av <code>&lt;a&gt;</code> och därefter <code>href</code> för att bestämma destination.</p>
 
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;bild.jpg&quot;</span><span class="nt">/&gt;</span>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;min-sida.html&quot;</span><span class="nt">&gt;</span>Tryck här<span class="nt">&lt;/a&gt;</span>
 </code></pre></div>
 
-<h3 id="namnge-bilden">Namnge bilden</h3>
-<p>Med hjälp av <code>alt</code> kan vi ge bilden en beskrivning som inte är synligt av ögat, utan används av sökmotorer och blinda som inte kan se vad bilden föreställer.</p>
+<h3 id="ppna-lnk-i-nytt-fnster">Öppna länk i nytt fönster</h3>
+<p>Om du vill att länken ska öppna sidan i ett nytt fönster lägger du till <code>target="_blank"</code></p>
 
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;bild.jpg&quot;</span> <span class="na">alt=</span><span class="s">&quot;En fågel&quot;</span><span class="nt">/&gt;</span>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;min-sida.html&quot;</span> <span class="na">target=</span><span class="s">&quot;_blank&quot;</span><span class="nt">&gt;</span>Tryck här<span class="nt">&lt;/a&gt;</span>
 </code></pre></div>
 
-<h3 id="visa-bild-frn-en-annan-mapp">Visa bild från en annan mapp</h3>
+<h3 id="titel-p-lnken-nr-man-har-musen-ver">Titel på länken när man har musen över</h3>
+<p><code>title</code> används för att visa en titel på html-objekt när man tar musen över det.</p>
 
-<p>Om bilden inte ligger i samma mapp som html-filen måste du länka den till rätt mapp. </p>
-
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;/undermapp/bild.jpg&quot;</span><span class="nt">/&gt;</span> <span class="c">&lt;!-- Hämtar bilden från undermapp --&gt;</span>
-
-<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;../bild.jpg&quot;</span><span class="nt">/&gt;</span> <span class="c">&lt;!-- Hämtar bilden från övermapp --&gt;</span>
-
-<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;http://wdk.se/bild.jpg&quot;</span><span class="nt">/&gt;</span> <span class="c">&lt;!-- Hämtar bilden från adress --&gt;</span>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;min-sida.html&quot;</span> <span class="na">title=</span><span class="s">&quot;En titel på länken&quot;</span><span class="nt">&gt;</span>Tryck här<span class="nt">&lt;/a&gt;</span>
 </code></pre></div>
 
-<h3 id="ndra-storlek-p-bilden">Ändra storlek på bilden</h3>
-<p>För att ändra storlek med hjälp av HTML så kan man använda <code>width</code> och <code>height</code>.</p>
+<h3 id="lnka-till-en-annan-mapp">Länka till en annan mapp</h3>
+<p>Om sidan som du ska länka till inte ligger i samma mapp som länken så räcker det inte att skriva sida.html som adress, utan du blir tvungen att skriva vilken mapp den ligger i.</p>
 
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;bild.jpg&quot;</span> <span class="na">width=</span><span class="s">&quot;100px&quot;</span><span class="nt">/&gt;</span>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;/undermapp/sida.html&quot;</span><span class="nt">&gt;</span>Länk<span class="nt">&lt;/a&gt;</span> <span class="c">&lt;!-- Länka till undermapp --&gt;</span>
+
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;../sida.html&quot;</span><span class="nt">&gt;</span>Länk<span class="nt">&lt;/a&gt;</span> <span class="c">&lt;!-- Länka till övermapp --&gt;</span>
 </code></pre></div>
-
-<div class="note box">
-Du får inte använda å, ä, ö, mellanrum eller konstiga tecken i bildens namn. Du får däremot använda bindestreck och understreck i filnamnet, så använd det istället för mellanrum.
-</div>
-
-<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_bilder-format.png" style="margin-top: 40px;" /></p>
-
-<h2 id="skillnaden-mellan-jpg-gif-och-png">Skillnaden mellan JPG, GIF och PNG</h2>
-
-<h3 id="jpg-joint-photographic-experts-group">JPG (Joint Photographic Experts Group)</h3>
-<p>JPG utvecklades av Joint Photographic Experts Group (JPEG) som en standard för fotografer. Det praktiska med JPG var att man kunde redusera bildens storlek genom att minska antalet pixelområden. Man kunde alltså dra ner på antalet färger som man behövde hämta i bilden och på så sätt dra ner på filstorleken.  </p>
-
-<p>Det här gjorde att JPG blev ett populärt filformat på den tiden då uppkopplingen var som långsammast.</p>
-
-<p>JPG passar däremot inte för grafisk design eller typografi, även en högupplöst JPG tappar kvallité och resulterar i dåliga pixlar på grafiska element.</p>
-
-<div class="success box no-margin">+ JPG passar för foton</div>
-
-<div class="note box no-margin">- JPG passar inte för grafisk design eller typografi</div>
-
-<h3 id="gif-graphics-interchange-format">GIF (Graphics Interchange Format)</h3>
-<p>Precis som JPG så är GIF ett rätt så gammalt format. I grunden är GIF en 8-bitars färgfil, vilket betyder att den endast kan innehålla 256 färger. Skillnaden mellan GIF och JPG är att GIF har möjligheten att vara transparant och stödjer dessutom animationer.</p>
-
-<p>GIF är däremot ett gammalt och begränsat filformat, och du bör inte använda det för foton eller grafisk design.</p>
-
-<div class="success box no-margin">+ GIF passar för animationer</div>
-
-<div class="note box no-margin">- GIF passar inte för foton eller grafisk design</div>
-
-<h3 id="png-portable-network-graphics">PNG (Portable Network Graphics)</h3>
-<p>PNG skapades som ett alternativ till GIF. Det har stöd för fler färger (24-bit) och klarar transparans mycket bättre. Det är det mest använda formatet idag på internet och perfekt för grafisk design och typografi.</p>
-
-<div class="success box no-margin">+ PNG passar för grafisk design och typografi</div>
-
-<div class="note box no-margin">- PNG passar inte för stora foton</div>
 
 <hr />
 
-<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_html-bild-exempel.jpg" /> </p>
+<h2 id="exempel">Exempel</h2>
+<p>I det här exemplet har vi två html-sidor som heter <code>hundar.html</code> och <code>katter.html</code><br />
+Vi ska länka dessa till varandra.</p>
 
-<h2 id="spara-bild-fr-webben">Spara bild för webben</h2>
-<p><strong>Det är viktigt</strong> att optimera bilderna för webben. Du kan inte använda det där semesterfotot på 8 MB direkt på hemsidan. Då laddar hemsidan långsammare och besökaren tröttnar. Om man surfar över mobilt bredband vill man dessutom inte att hemsidan ska dra för mycket av månadens betalsurf.  </p>
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_html-links-example.png" style="margin-left: -13px;" />  </p>
 
-<p>I Photoshop finns alternativet att spara för webben. Skillnaden mellan att spara för webben och spara en bild är att du kan komprimera ner bilden för att minska storleken om du sparar för webben. Om du använder ett annat bildhanteringsprogram kan den här funktionen se annorlunda ut.  </p>
+<h3 id="i-hundarhtml-skriver-vi-fljande">I <code>hundar.html</code> skriver vi följande</h3>
 
-<h3 id="ppna-bild"><em>1.</em> Öppna bild</h3>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;h1&gt;</span>Hundar<span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;p&gt;</span>Det här är en hemsida om hundar<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;katter.html&quot;</span><span class="nt">&gt;</span>Tryck här för att läsa om katter<span class="nt">&lt;/a&gt;&lt;/p&gt;</span>
+</code></pre></div>
 
-<p>Öppna din bild i bildhanteringsprogrammet <span class="keyboard">Ctrl/Cmd</span> + <span class="keyboard">O</span> och förminska bildstorleken med de verktyg som finns tillgängliga, i Photoshop kan du ändra bildstorleken under <strong>Image</strong> &gt; <strong>Image Size</strong>. </p>
+<h3 id="och-i-katterhtml-skriver-vi-fljande">Och i <code>katter.html</code> skriver vi följande</h3>
 
-<h3 id="spara-fr-webben"><em>2.</em> Spara för webben</h3>
-
-<p>Tryck sedan <span class="keyboard">Shift</span> + <span class="keyboard">Alt</span> + <span class="keyboard">Ctrl/Cmd</span> + <span class="keyboard">S</span> för att spara för webben.</p>
-
-<h3 id="bestm-filtyp-och-kvallit"><em>3.</em> Bestäm filtyp och kvallité</h3>
-
-<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_save-for-web-1.jpg" />  </p>
-
-<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_save-for-web-2.jpg" />  </p>
-
-<h3 id="spara"><em>4.</em> Spara</h3>
-
-<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_save-for-web-3.jpg" />  </p>
-
-<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_save-for-web-4.jpg" style="margin-left: -13px;" />  </p>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;h1&gt;</span>Katter<span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;p&gt;</span>Det här är en hemsida om katter<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;hundar.html&quot;</span><span class="nt">&gt;</span>Tryck här för att läsa om hundar<span class="nt">&lt;/a&gt;&lt;/p&gt;</span>
+</code></pre></div>
 
 <div class="success box">
-<h3>Toppen!</h3>
-<p>Nu vet du hur man sparar bilder och hämtar in dom på hemsidan.</p> 
+<h3>Sådär ja!</h3>
+<p>Det är så man länkar sidor, nu ska vi visa bilder i HTML.</p> 
 </div>
 
-<p><a class="btn btn-next" href="http://webbdesignkurser.github.io/website/webbdesign/listor/">Gå till nästa steg!</a></p>
+<p><a class="btn btn-next" href="http://webbdesignkurser.github.io/website/webbdesign/bilder/">Gå till nästa steg!</a></p>
 
             <hr/>
             <h4 class="share">Dela </h4>
-            <input class="form-control" style="width: auto;" type="text" value="http://wdk.se/8af4e"> 
+            <input class="form-control" style="width: auto;" type="text" value="http://wdk.se/9138a"> 
             
                 <section id="disqus_thread"></section>
             
@@ -320,23 +275,23 @@ Du får inte använda å, ä, ö, mellanrum eller konstiga tecken i bildens namn
                         
                     
                         
-                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/texter/">Skriva texter</a></li>
+                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/html-texter/">Skriva texter</a></li>
                         
                     
                         
-                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/lankar/">Länkar</a></li>
+                            <li><a class="webbdesign navItem current active" href="http://webbdesignkurser.github.io/website/webbdesign/html-lankar/">Länkar</a></li>
                         
                     
                         
-                            <li><a class="webbdesign navItem current active" href="http://webbdesignkurser.github.io/website/webbdesign/bilder/">Bilder</a></li>
+                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/html-bilder/">Bilder</a></li>
                         
                     
                         
-                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/listor/">Listor</a></li>
+                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/html-listor/">Listor</a></li>
                         
                     
                         
-                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/tabeller/">Tabeller</a></li>
+                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/html-tabeller/">Tabeller</a></li>
                         
                     
                         
@@ -344,7 +299,7 @@ Du får inte använda å, ä, ö, mellanrum eller konstiga tecken i bildens namn
                         
                     
                         
-                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/reset-css/">Reset CSS</a></li>
+                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-reset/">Reset CSS</a></li>
                         
                     
                         
@@ -352,7 +307,7 @@ Du får inte använda å, ä, ö, mellanrum eller konstiga tecken i bildens namn
                         
                     
                         
-                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-text/">Typografi</a></li>
+                            <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-typografi/">Typografi</a></li>
                         
                     
                     </ul>

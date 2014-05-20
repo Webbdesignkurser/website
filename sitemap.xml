@@ -7,25 +7,7 @@
     
         
         <url>
-            <loc>http://webbdesignkurser.github.io/website/feed.xml</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://webbdesignkurser.github.io/website/index.html</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://webbdesignkurser.github.io/website/search.html</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://webbdesignkurser.github.io/website/faq/</loc>
+            <loc>http://webbdesignkurser.github.io/website/404.html</loc>
         </url>
         
     
@@ -43,19 +25,37 @@
     
         
         <url>
-            <loc>http://webbdesignkurser.github.io/website/short.json</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://webbdesignkurser.github.io/website/404.html</loc>
+            <loc>http://webbdesignkurser.github.io/website/index.html</loc>
         </url>
         
     
         
         <url>
             <loc>http://webbdesignkurser.github.io/website/om-sidan/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://webbdesignkurser.github.io/website/search.html</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://webbdesignkurser.github.io/website/short.json</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://webbdesignkurser.github.io/website/feed.xml</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://webbdesignkurser.github.io/website/faq/</loc>
         </url>
         
     
@@ -81,31 +81,31 @@
     
         
         <url>
-            <loc>http://webbdesignkurser.github.io/website/webbdesign/texter/</loc>
+            <loc>http://webbdesignkurser.github.io/website/webbdesign/html-texter/</loc>
         </url>
         
     
         
         <url>
-            <loc>http://webbdesignkurser.github.io/website/webbdesign/lankar/</loc>
+            <loc>http://webbdesignkurser.github.io/website/webbdesign/html-lankar/</loc>
         </url>
         
     
         
         <url>
-            <loc>http://webbdesignkurser.github.io/website/webbdesign/bilder/</loc>
+            <loc>http://webbdesignkurser.github.io/website/webbdesign/html-bilder/</loc>
         </url>
         
     
         
         <url>
-            <loc>http://webbdesignkurser.github.io/website/webbdesign/listor/</loc>
+            <loc>http://webbdesignkurser.github.io/website/webbdesign/html-listor/</loc>
         </url>
         
     
         
         <url>
-            <loc>http://webbdesignkurser.github.io/website/webbdesign/tabeller/</loc>
+            <loc>http://webbdesignkurser.github.io/website/webbdesign/html-tabeller/</loc>
         </url>
         
     
@@ -117,7 +117,7 @@
     
         
         <url>
-            <loc>http://webbdesignkurser.github.io/website/webbdesign/reset-css/</loc>
+            <loc>http://webbdesignkurser.github.io/website/webbdesign/css-reset/</loc>
         </url>
         
     
@@ -129,7 +129,7 @@
     
         
         <url>
-            <loc>http://webbdesignkurser.github.io/website/webbdesign/css-text/</loc>
+            <loc>http://webbdesignkurser.github.io/website/webbdesign/css-typografi/</loc>
         </url>
         
     

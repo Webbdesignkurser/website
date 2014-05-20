@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://webbdesignkurser.github.io/website/feed.xml" />
 <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website" />
-<updated>2014-05-18T16:30:45+00:00</updated>
+<updated>2014-05-20T15:24:10+00:00</updated>
 <id>http://webbdesignkurser.github.io/website/</id>
 <author>
   <name>Webbdesignkurser</name>
@@ -17,8 +17,8 @@
     <title type="html"><![CDATA[Inledning]]></title>
     <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/inledning/" />
     <id>http://webbdesignkurser.github.io/website/webbdesign/inledning</id>
-    <published>2014-04-24T00:00:00+00:00</published>
-    <updated>2014-04-24T00:00:00+00:00</updated>
+    <published>2014-04-23T00:00:00+00:00</published>
+    <updated>2014-04-23T00:00:00+00:00</updated>
     <author>
       <name>Webbdesignkurser</name>
       <uri>http://webbdesignkurser.github.io/website/</uri>
@@ -47,7 +47,7 @@ I den här kursen kommer vi att lära dig hur man skapar och publicerar en funge
 
 &lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/programvaror/&quot;&gt;Redo? Då sätter vi igång!&lt;/a&gt; &lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/inledning/&quot;&gt;Inledning&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 24, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/inledning/&quot;&gt;Inledning&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 23, 2014.&lt;/p&gt;</content>
   </entry>
 
 
@@ -262,8 +262,8 @@ Skriv därför följande rad längst upp i dokumentet.&lt;/p&gt;
   
   <entry>
     <title type="html"><![CDATA[Skriva texter]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/texter/" />
-    <id>http://webbdesignkurser.github.io/website/webbdesign/texter</id>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/html-texter/" />
+    <id>http://webbdesignkurser.github.io/website/webbdesign/html-texter</id>
     <published>2014-04-20T00:00:00+00:00</published>
     <updated>2014-04-20T00:00:00+00:00</updated>
     <author>
@@ -345,15 +345,15 @@ Skriv därför följande rad längst upp i dokumentet.&lt;/p&gt;
 
 &lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/lankar/&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/texter/&quot;&gt;Skriva texter&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 20, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/html-texter/&quot;&gt;Skriva texter&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 20, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Länkar]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/lankar/" />
-    <id>http://webbdesignkurser.github.io/website/webbdesign/lankar</id>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/html-lankar/" />
+    <id>http://webbdesignkurser.github.io/website/webbdesign/html-lankar</id>
     <published>2014-04-19T00:00:00+00:00</published>
     <updated>2014-04-19T00:00:00+00:00</updated>
     <author>
@@ -418,15 +418,15 @@ Vi ska länka dessa till varandra.&lt;/p&gt;
 
 &lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/bilder/&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/lankar/&quot;&gt;Länkar&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 19, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/html-lankar/&quot;&gt;Länkar&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 19, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Bilder]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/bilder/" />
-    <id>http://webbdesignkurser.github.io/website/webbdesign/bilder</id>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/html-bilder/" />
+    <id>http://webbdesignkurser.github.io/website/webbdesign/html-bilder</id>
     <published>2014-04-18T00:00:00+00:00</published>
     <updated>2014-04-18T00:00:00+00:00</updated>
     <author>
@@ -536,15 +536,15 @@ Du får inte använda å, ä, ö, mellanrum eller konstiga tecken i bildens namn
 
 &lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/listor/&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/bilder/&quot;&gt;Bilder&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 18, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/html-bilder/&quot;&gt;Bilder&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 18, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Listor]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/listor/" />
-    <id>http://webbdesignkurser.github.io/website/webbdesign/listor</id>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/html-listor/" />
+    <id>http://webbdesignkurser.github.io/website/webbdesign/html-listor</id>
     <published>2014-04-17T00:00:00+00:00</published>
     <updated>2014-04-17T00:00:00+00:00</updated>
     <author>
@@ -597,15 +597,15 @@ Du får inte använda å, ä, ö, mellanrum eller konstiga tecken i bildens namn
 
 &lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/tabeller/&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/listor/&quot;&gt;Listor&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 17, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/html-listor/&quot;&gt;Listor&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 17, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Tabeller]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/tabeller/" />
-    <id>http://webbdesignkurser.github.io/website/webbdesign/tabeller</id>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/html-tabeller/" />
+    <id>http://webbdesignkurser.github.io/website/webbdesign/html-tabeller</id>
     <published>2014-04-16T00:00:00+00:00</published>
     <updated>2014-04-16T00:00:00+00:00</updated>
     <author>
@@ -737,7 +737,7 @@ För det så behöver vi skriva in en &lt;code&gt;style&lt;/code&gt; i &lt;code&
 
 &lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-css/&quot;&gt;Dags att styla hemsidan - Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/tabeller/&quot;&gt;Tabeller&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 16, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/html-tabeller/&quot;&gt;Tabeller&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 16, 2014.&lt;/p&gt;</content>
   </entry>
 
 
@@ -811,8 +811,8 @@ För det så behöver vi skriva in en &lt;code&gt;style&lt;/code&gt; i &lt;code&
   
   <entry>
     <title type="html"><![CDATA[Reset CSS]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/reset-css/" />
-    <id>http://webbdesignkurser.github.io/website/webbdesign/reset-css</id>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/css-reset/" />
+    <id>http://webbdesignkurser.github.io/website/webbdesign/css-reset</id>
     <published>2014-04-14T00:00:00+00:00</published>
     <updated>2014-04-14T00:00:00+00:00</updated>
     <author>
@@ -893,7 +893,7 @@ Hämta därefter in din reset.css &lt;strong&gt;innan&lt;/strong&gt; din style.c
 
 &lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website#&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/reset-css/&quot;&gt;Reset CSS&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 14, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-reset/&quot;&gt;Reset CSS&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 14, 2014.&lt;/p&gt;</content>
   </entry>
 
 
@@ -954,8 +954,8 @@ Opaciteten kan sedan skrivas från &lt;code&gt;0&lt;/code&gt; till &lt;code&gt;1
   
   <entry>
     <title type="html"><![CDATA[Typografi]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/css-text/" />
-    <id>http://webbdesignkurser.github.io/website/webbdesign/css-text</id>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/css-typografi/" />
+    <id>http://webbdesignkurser.github.io/website/webbdesign/css-typografi</id>
     <published>2014-04-12T00:00:00+00:00</published>
     <updated>2014-04-12T00:00:00+00:00</updated>
     <author>
@@ -1072,7 +1072,7 @@ Här använder vi &lt;code&gt;margin-bottom: 15px&lt;/code&gt; för att skilja d
 
 &lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website#&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-text/&quot;&gt;Typografi&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 12, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-typografi/&quot;&gt;Typografi&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 12, 2014.&lt;/p&gt;</content>
   </entry>
 
 
