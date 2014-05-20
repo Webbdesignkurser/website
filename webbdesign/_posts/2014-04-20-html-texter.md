@@ -3,6 +3,7 @@ layout: page
 headerimage: 'header_texter-html.jpg'
 title: Skriva texter
 comments: true
+submenu: true
 ---
 
 ##Skriva texter i HTML
