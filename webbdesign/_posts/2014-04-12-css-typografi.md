@@ -116,7 +116,7 @@ p {
 
 ###Tjocklek och kursivt
 
-I HTML finns det två taggar som används för tjock text och kursiv text, nämligen ``<strong>`` och ``<em>``. Eftersom vi tidigare i kurser nollställde alla CSS-värden med en <a href="{{ site.url }}webbdesign/reset-css/">Reset CSS</a> så ska vi nu ta in dessa stilar igen till respektve HTML-tag.
+I HTML finns det två taggar som används för tjock text och kursiv text, nämligen ``<strong>`` och ``<em>``. Eftersom vi tidigare i kursen nollställde alla CSS-värden med en <a href="{{ site.url }}webbdesign/reset-css/">Reset CSS</a> så måste vi nu ta in dessa stilar igen till respektve HTML-tag.
 
 {% highlight css %}
 
@@ -132,18 +132,82 @@ em {
 
 {% highlight html %}
 
-<strong>Tjock text</strong>
+<strong>Tjock text</strong> <br/>
 
 <em>Kursiv text</em>
 
 {% endhighlight %}
 
+<div class="example box full-width">
 
+<strong>Tjock text</strong> <br/>
 
+<em>Kursiv text</em>
 
-<div class="success box full-width">
-	<h3>Tips</h3>
-	<p>Om du använder Mac och skriver i Sublime Text så kan du trycka <span class="keyboard">Cmd</span> <span class="keyboard">Shift</span> <span class="keyboard">C</span> för att ta fram en färgpalett direkt i texteditorn.</p>
 </div>
+
+##Länkar
+
+För att ändra css-stilen när man har <strong>musen över</strong> eller <strong>trycker</strong> på en länk så krävs det några extra attribut, nämligen ``hover`` och ``active``.
+
+{% highlight css %}
+
+a {
+  /* När länken är oberörd */
+}
+
+a:hover {
+  /* När länken hålls över */
+}
+
+a:active {
+  /* När länken trycks på */
+}
+
+{% endhighlight %}
+
+
+###Exempel
+
+{% highlight css %}
+
+a {
+  color: #38b857; /* Grön */
+  text-decoration: none; /* Inget understreck */
+}
+
+a:hover {
+  color: #44d96c; /* Ljusare grön */
+  text-decoration: underline; /* Understreck */
+}
+
+a:active {
+  color: #47e672; /* Ännu ljusare grön */
+}
+
+{% endhighlight %}
+
+{% highlight html %}
+
+<a href="#">Håll musen över mig</a>
+
+{% endhighlight %}
+
+<style>
+.examplelink {
+  font-size: 20px;
+  color: #38b857; /* Grön */
+  text-decoration: none; /* Inget understreck */
+}
+.examplelink:hover {
+  color: #44d96c; /* Ljusare grön */
+  text-decoration: underline; /* Understreck */
+}
+.examplelink:active {
+  color: #47e672; /* Ännu ljusare grön */
+}
+</style>
+
+<p><a href="#" class="examplelink">Håll musen över mig</a></p>
 
 <a class="btn btn-next" href="{{ site.url }}#">Gå till nästa steg!</a>

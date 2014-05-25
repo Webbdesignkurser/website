@@ -17,11 +17,11 @@ Nej, varken den här kursen eller möjligheten att designa en hemsida kostar nå
 Vi kommer däremot att använda köpta programvaror i den här kursen, kostnadsfria alternativ kommer att finnas. Det är upp till dig att skaffa dessa programvaror på valfritt sätt.
 
 ###Hjälp under kursens gång
-Har du några frågor under kursen så får du gärna använda kommentarsfältet längst ned på sidan. Vi försöker att svara så ofta vi kan, och du får gärna hjälpa andra.
+Har du några frågor under kursen så får du gärna använda kommentarsfältet längst ned på sidan. Vi försöker att svara så ofta vi kan, och du får gärna hjälpa andra.  
 
 <div class="success box">
 <h3>Vår policy och löfte till dig</h3>
-<p>Vi tillåter oss inte att sponsras av kommersiella tjänster och programutvecklare. Vi har tackat nej ett flertal gånger till företag som vill betala för att rekommenderas. Vi rekommenderar inte mot betalning. Däremot rekommenderar vi det som vi anser är bäst.</p>
+<p>Vi tillåter oss inte att sponsras av kommersiella tjänster eller programutvecklare. Vi rekommenderar helt enkelt inte sponsrat material. Däremot rekommenderar vi det som vi personligen anser är bäst just nu.</p>
 
 <p>Du är här för att lära dig, inte för att köpas upp. Det är vår policy och löfte till dig.</p>
 </div>

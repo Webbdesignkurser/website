@@ -66,12 +66,25 @@ h1 {
 <img src="{{ site.url }}/assets/images/asset_css-basics.png" style="margin-left: -11px;"/> 
 
 
+###Skriva kommentarer i CSS
+Precis som i HTML så kan vi kommentera ut texter i filen som inte påverkar hur webbläsaren ska läsa sidan.
+Om det endast gäller en rad skriver du ``//`` medan flera rader kommenteras ut genom ``/*`` i början och ``*/`` i slutet.
 
-<div class="success box" style="margin-top: 10px;">
+{% highlight css %}
+
+// En rad
+
+/* Flera rader
+som kommenteras 
+ut här */
+
+{% endhighlight %}
+
+<div class="success box full-width">
   <h3>Bra!</h3>
   <p>Nu kan du grunden i hur CSS fungerar. Nästa steg blir att lära sig alla attribut som går att tillämpa i CSS.</p>
 </div>
 
 
 
-<a class="btn btn-next" href="{{ site.url }}#">Gå till nästa steg!</a>
+<a class="btn btn-next" href="{{ site.url }}/webbdesign/reset-css">Gå till nästa steg!</a>
