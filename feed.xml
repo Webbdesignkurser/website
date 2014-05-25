@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://webbdesignkurser.github.io/website/feed.xml" />
 <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website" />
-<updated>2014-05-21T08:22:50+00:00</updated>
+<updated>2014-05-25T14:07:37+00:00</updated>
 <id>http://webbdesignkurser.github.io/website/</id>
 <author>
   <name>Webbdesignkurser</name>
@@ -36,11 +36,11 @@ I den här kursen kommer vi att lära dig hur man skapar och publicerar en funge
 &lt;p&gt;Vi kommer däremot att använda köpta programvaror i den här kursen, kostnadsfria alternativ kommer att finnas. Det är upp till dig att skaffa dessa programvaror på valfritt sätt.&lt;/p&gt;
 
 &lt;h3 id=&quot;hjlp-under-kursens-gng&quot;&gt;Hjälp under kursens gång&lt;/h3&gt;
-&lt;p&gt;Har du några frågor under kursen så får du gärna använda kommentarsfältet längst ned på sidan. Vi försöker att svara så ofta vi kan, och du får gärna hjälpa andra.&lt;/p&gt;
+&lt;p&gt;Har du några frågor under kursen så får du gärna använda kommentarsfältet längst ned på sidan. Vi försöker att svara så ofta vi kan, och du får gärna hjälpa andra.  &lt;/p&gt;
 
 &lt;div class=&quot;success box&quot;&gt;
 &lt;h3&gt;Vår policy och löfte till dig&lt;/h3&gt;
-&lt;p&gt;Vi tillåter oss inte att sponsras av kommersiella tjänster och programutvecklare. Vi har tackat nej ett flertal gånger till företag som vill betala för att rekommenderas. Vi rekommenderar inte mot betalning. Däremot rekommenderar vi det som vi anser är bäst.&lt;/p&gt;
+&lt;p&gt;Vi tillåter oss inte att sponsras av kommersiella tjänster eller programutvecklare. Vi rekommenderar helt enkelt inte sponsrat material. Däremot rekommenderar vi det som vi personligen anser är bäst just nu.&lt;/p&gt;
 
 &lt;p&gt;Du är här för att lära dig, inte för att köpas upp. Det är vår policy och löfte till dig.&lt;/p&gt;
 &lt;/div&gt;
@@ -797,12 +797,23 @@ För det så behöver vi skriva in en &lt;code&gt;style&lt;/code&gt; i &lt;code&
 
 &lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_css-basics.png&quot; style=&quot;margin-left: -11px;&quot; /&gt; &lt;/p&gt;
 
-&lt;div class=&quot;success box&quot; style=&quot;margin-top: 10px;&quot;&gt;
+&lt;h3 id=&quot;skriva-kommentarer-i-css&quot;&gt;Skriva kommentarer i CSS&lt;/h3&gt;
+&lt;p&gt;Precis som i HTML så kan vi kommentera ut texter i filen som inte påverkar hur webbläsaren ska läsa sidan.
+Om det endast gäller en rad skriver du &lt;code&gt;//&lt;/code&gt; medan flera rader kommenteras ut genom &lt;code&gt;/*&lt;/code&gt; i början och &lt;code&gt;*/&lt;/code&gt; i slutet.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;En&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;rad&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;/* Flera rader&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;som kommenteras &lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;ut här */&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;success box full-width&quot;&gt;
   &lt;h3&gt;Bra!&lt;/h3&gt;
   &lt;p&gt;Nu kan du grunden i hur CSS fungerar. Nästa steg blir att lära sig alla attribut som går att tillämpa i CSS.&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website#&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/reset-css&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-css/&quot;&gt;Grunderna i CSS&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 15, 2014.&lt;/p&gt;</content>
   </entry>
@@ -811,8 +822,8 @@ För det så behöver vi skriva in en &lt;code&gt;style&lt;/code&gt; i &lt;code&
   
   <entry>
     <title type="html"><![CDATA[Reset CSS]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/css-reset/" />
-    <id>http://webbdesignkurser.github.io/website/webbdesign/css-reset</id>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/reset-css/" />
+    <id>http://webbdesignkurser.github.io/website/webbdesign/reset-css</id>
     <published>2014-04-14T00:00:00+00:00</published>
     <updated>2014-04-14T00:00:00+00:00</updated>
     <author>
@@ -824,15 +835,13 @@ För det så behöver vi skriva in en &lt;code&gt;style&lt;/code&gt; i &lt;code&
 
 &lt;p class=&quot;preamble&quot;&gt;På grund av att alla webbläsare vill visa hemsidor på sitt eget sätt så kan det vara krångligt att få hemsidan att se likadan ut i alla webbläsare. Det här kan vi lösa enkelt med hjälp av en Reset CSS.&lt;/p&gt;
 
-&lt;p&gt;Det fungerar så att varje webbläsare har en egen style.css kan man säga. De sätter ett eget typsnitt och storlek om du själv inte valt något. Reset CSS är en CSS-fil med en rad olika CSS attribut som nollställer dessa värden.  &lt;/p&gt;
-
-&lt;p&gt;Det finns en mängd olika Reset CSS, men just &lt;a href=&quot;http://meyerweb.com/eric/tools/css/reset/&quot; target=&quot;_blank&quot; alt=&quot;Eric Mayer Reset CSS&quot;&gt;Eric Meyers Reset CSS&lt;/a&gt; är populärast i skrivande stund 2014.  &lt;/p&gt;
+&lt;p&gt;Det fungerar så att varje webbläsare har en egen style.css kan man säga. De sätter ett eget typsnitt och storlek om du själv inte valt något. Reset CSS är en CSS-fil med en rad olika CSS attribut som nollställer dessa värden.&lt;br /&gt;
+Det finns en mängd olika Reset CSS, men &lt;a href=&quot;http://meyerweb.com/eric/tools/css/reset/&quot; target=&quot;_blank&quot; alt=&quot;Eric Mayer Reset CSS&quot;&gt;Eric Meyers Reset CSS&lt;/a&gt; är populärast i skrivande stund 2014.  &lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Klistra in följande&lt;/strong&gt; i en ny CSS-fil och spara den som &lt;code&gt;reset.css&lt;/code&gt;&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;c&quot;&gt;/**&lt;/span&gt;
 &lt;span class=&quot;c&quot;&gt; * Eric Meyer&amp;#39;s Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt; * http://cssreset.com&lt;/span&gt;
 &lt;span class=&quot;c&quot;&gt; */&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;span&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;applet&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;object&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;iframe&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;h2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;h3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;h4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;h5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;h6&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;blockquote&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;pre&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
@@ -893,7 +902,7 @@ Hämta därefter in din reset.css &lt;strong&gt;innan&lt;/strong&gt; din style.c
 
 &lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website#&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-reset/&quot;&gt;Reset CSS&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 14, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/reset-css/&quot;&gt;Reset CSS&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 14, 2014.&lt;/p&gt;</content>
   </entry>
 
 
@@ -1049,7 +1058,7 @@ Här använder vi &lt;code&gt;margin-bottom: 15px&lt;/code&gt; för att skilja d
 
 &lt;h3 id=&quot;tjocklek-och-kursivt&quot;&gt;Tjocklek och kursivt&lt;/h3&gt;
 
-&lt;p&gt;I HTML finns det två taggar som används för tjock text och kursiv text, nämligen &lt;code&gt;&amp;lt;strong&amp;gt;&lt;/code&gt; och &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt;. Eftersom vi tidigare i kurser nollställde alla CSS-värden med en &lt;a href=&quot;http://webbdesignkurser.github.io/websitewebbdesign/reset-css/&quot;&gt;Reset CSS&lt;/a&gt; så ska vi nu ta in dessa stilar igen till respektve HTML-tag.&lt;/p&gt;
+&lt;p&gt;I HTML finns det två taggar som används för tjock text och kursiv text, nämligen &lt;code&gt;&amp;lt;strong&amp;gt;&lt;/code&gt; och &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt;. Eftersom vi tidigare i kursen nollställde alla CSS-värden med en &lt;a href=&quot;http://webbdesignkurser.github.io/websitewebbdesign/reset-css/&quot;&gt;Reset CSS&lt;/a&gt; så måste vi nu ta in dessa stilar igen till respektve HTML-tag.&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;strong&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;font-weight&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;bold&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -1060,15 +1069,72 @@ Här använder vi &lt;code&gt;margin-bottom: 15px&lt;/code&gt; för att skilja d
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;strong&amp;gt;&lt;/span&gt;Tjock text&lt;span class=&quot;nt&quot;&gt;&amp;lt;/strong&amp;gt;&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;strong&amp;gt;&lt;/span&gt;Tjock text&lt;span class=&quot;nt&quot;&gt;&amp;lt;/strong&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
 
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;em&amp;gt;&lt;/span&gt;Kursiv text&lt;span class=&quot;nt&quot;&gt;&amp;lt;/em&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;div class=&quot;success box full-width&quot;&gt;
-	&lt;h3&gt;Tips&lt;/h3&gt;
-	&lt;p&gt;Om du använder Mac och skriver i Sublime Text så kan du trycka &lt;span class=&quot;keyboard&quot;&gt;Cmd&lt;/span&gt; &lt;span class=&quot;keyboard&quot;&gt;Shift&lt;/span&gt; &lt;span class=&quot;keyboard&quot;&gt;C&lt;/span&gt; för att ta fram en färgpalett direkt i texteditorn.&lt;/p&gt;
+&lt;div class=&quot;example box full-width&quot;&gt;
+
+&lt;strong&gt;Tjock text&lt;/strong&gt; &lt;br /&gt;
+
+&lt;em&gt;Kursiv text&lt;/em&gt;
+
 &lt;/div&gt;
+
+&lt;h2 id=&quot;lnkar&quot;&gt;Länkar&lt;/h2&gt;
+
+&lt;p&gt;För att ändra css-stilen när man har &lt;strong&gt;musen över&lt;/strong&gt; eller &lt;strong&gt;trycker&lt;/strong&gt; på en länk så krävs det några extra attribut, nämligen &lt;code&gt;hover&lt;/code&gt; och &lt;code&gt;active&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;c&quot;&gt;/* När länken är oberörd */&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:hover&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;c&quot;&gt;/* När länken hålls över */&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:active&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;c&quot;&gt;/* När länken trycks på */&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;exempel&quot;&gt;Exempel&lt;/h3&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#38b857&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;/* Grön */&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;text-decoration&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;/* Inget understreck */&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:hover&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#44d96c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;/* Ljusare grön */&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;text-decoration&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;underline&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;/* Understreck */&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:active&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#47e672&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;/* Ännu ljusare grön */&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;#&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Håll musen över mig&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;style&gt;
+.examplelink {
+  font-size: 20px;
+  color: #38b857; /* Grön */
+  text-decoration: none; /* Inget understreck */
+}
+.examplelink:hover {
+  color: #44d96c; /* Ljusare grön */
+  text-decoration: underline; /* Understreck */
+}
+.examplelink:active {
+  color: #47e672; /* Ännu ljusare grön */
+}
+&lt;/style&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;examplelink&quot;&gt;Håll musen över mig&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website#&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
