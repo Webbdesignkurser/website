@@ -13,7 +13,7 @@ En tysk designer vid namn <strong>Dieter Rams</strong> som länge jobbat med bla
 Hur som helst, här kommer vår försvenskade webbdesignversion av de 10 riktlinjerna.
 
 ### *1* Bra design är innovativ
-Ha ett nytänk i din design, istället för att härma andra så ta steget längre och förbättra det som redan finns.
+Ha ett nytänk i din design, istället för att härma andra så ta steget längre och skapa något nytt.
 
 <img src="{{ site.url }}/assets/images/asset_bra-design7.png"/> 
 
