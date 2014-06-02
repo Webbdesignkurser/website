@@ -6,14 +6,14 @@ comments: true
 ---
 
 ##Innan vi börjar
-Innan vi sätter igång att designa vår hemsida tänkte vi gå egenom vad bra design är. Det är en fråga man kanske inte ställer sig så ofta. Bra design är ju... snyggt bara? Helt rätt, men är design bara estetiskt?
+Innan vi sätter igång att designa vår hemsida tänkte vi gå igenom vad bra design är. Det är en fråga man kanske inte ställer sig så ofta. Bra design är ju... snyggt bara? Helt rätt, men är design bara estetiskt?
 
 En tysk designer vid namn <strong>Dieter Rams</strong> som länge jobbat med bland annat Braun, stiftade <a href="https://www.vitsoe.com/eu/about/good-design" target="_blank" alt="Bra design">10 riktlinjer</a> vad som gör en design bra. Om du vill fördjupa dig mer i det här rekommenderar vi filmen <a href="http://www.imdb.com/title/tt1241325/" target="_blank">Objectified</a>.  
 
 Hur som helst, här kommer vår försvenskade webbdesignversion av de 10 riktlinjerna.
 
 ### *1* Bra design är innovativ
-Innovativ design utvecklas alltid tillsammans med innovativ teknik. Använd dig av den senaste tekniken när du designar en hemsida.
+Ha ett nytänk i din design, istället för att härma andra så ta steget längre och förbättra det som redan finns.
 
 <img src="{{ site.url }}/assets/images/asset_bra-design7.png"/> 
 
