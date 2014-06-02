@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://webbdesignkurser.github.io/website/feed.xml" />
 <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website" />
-<updated>2014-05-25T14:24:27+00:00</updated>
+<updated>2014-06-02T07:50:16+00:00</updated>
 <id>http://webbdesignkurser.github.io/website/</id>
 <author>
   <name>Webbdesignkurser</name>
@@ -104,6 +104,81 @@ Det är ett program (Dreamviewer tex.) där man kan göra hemsidan genom en enkl
 
   
   <entry>
+    <title type="html"><![CDATA[Vad är bra design?]]></title>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/bra-design/" />
+    <id>http://webbdesignkurser.github.io/website/webbdesign/bra-design</id>
+    <published>2014-04-22T00:00:00+00:00</published>
+    <updated>2014-04-22T00:00:00+00:00</updated>
+    <author>
+      <name>Webbdesignkurser</name>
+      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <email>kontakt@webbdesignkurser.se<email>
+    </author>
+    <content type="html">&lt;h2 id=&quot;innan-vi-brjar&quot;&gt;Innan vi börjar&lt;/h2&gt;
+&lt;p&gt;Innan vi sätter igång att designa vår hemsida tänkte vi gå egenom vad bra design är. Det är en fråga man kanske inte ställer sig så ofta. Bra design är ju… snyggt bara? Helt rätt, men är design bara estetiskt?&lt;/p&gt;
+
+&lt;p&gt;En tysk designer vid namn &lt;strong&gt;Dieter Rams&lt;/strong&gt; som länge jobbat med bland annat Braun, stiftade &lt;a href=&quot;https://www.vitsoe.com/eu/about/good-design&quot; target=&quot;_blank&quot; alt=&quot;Bra design&quot;&gt;10 riktlinjer&lt;/a&gt; vad som gör en design bra. Om du vill fördjupa dig mer i det här rekommenderar vi filmen &lt;a href=&quot;http://www.imdb.com/title/tt1241325/&quot; target=&quot;_blank&quot;&gt;Objectified&lt;/a&gt;.  &lt;/p&gt;
+
+&lt;p&gt;Hur som helst, här kommer vår försvenskade webbdesignversion av de 10 riktlinjerna.&lt;/p&gt;
+
+&lt;h3 id=&quot;bra-design-r-innovativ&quot;&gt;&lt;em&gt;1&lt;/em&gt; Bra design är innovativ&lt;/h3&gt;
+&lt;p&gt;Innovativ design utvecklas alltid tillsammans med innovativ teknik. Använd dig av den senaste tekniken när du designar en hemsida.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_bra-design7.png&quot; /&gt; &lt;/p&gt;
+
+&lt;h3 id=&quot;bra-design-gr-en-hemsida-anvndbar&quot;&gt;&lt;em&gt;2&lt;/em&gt; Bra design gör en hemsida användbar&lt;/h3&gt;
+&lt;p&gt;Allt måste fylla ett särskilt syfte, inte bara funktionsmässigt utan också psykiskt och estetiskt. Användaren distaheras lätt så var tydlig med syftet i din design.  &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_bra-design1.png&quot; /&gt;  &lt;/p&gt;
+
+&lt;h3 id=&quot;bra-design-r-estetisk&quot;&gt;&lt;em&gt;3&lt;/em&gt; Bra design är estetisk&lt;/h3&gt;
+&lt;p&gt;En hemsida ska vara snygg och bekväm att kolla på. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_bra-design6.png&quot; /&gt;  &lt;/p&gt;
+
+&lt;h3 id=&quot;bra-design-r-tydlig&quot;&gt;&lt;em&gt;4&lt;/em&gt; Bra design är tydlig&lt;/h3&gt;
+&lt;p&gt;Bra design ska kunna tala för sig själv, vad man ska göra och vart man ska trycka.  &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_bra-design5.png&quot; /&gt;  &lt;/p&gt;
+
+&lt;h3 id=&quot;bra-design-r-diskret&quot;&gt;&lt;em&gt;5&lt;/em&gt; Bra design är diskret&lt;/h3&gt;
+&lt;p&gt;Innehållet på hemsidan ska bara synas när besökaren behöver se det. Det ska inte störa användarupplevelsen.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_bra-design3.png&quot; /&gt;  &lt;/p&gt;
+
+&lt;h3 id=&quot;bra-design-r-rlig&quot;&gt;&lt;em&gt;6&lt;/em&gt; Bra design är ärlig&lt;/h3&gt;
+&lt;p&gt;Ingen gillar när man luras. Lova inte besökaren något som hemsidan inte kan erbjuda.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_bra-design2.png&quot; /&gt;  &lt;/p&gt;
+
+&lt;h3 id=&quot;bra-design-r-tidls&quot;&gt;&lt;em&gt;7&lt;/em&gt; Bra design är tidlös&lt;/h3&gt;
+&lt;p&gt;Teknik kan föråldras, men bra design är tidlös. Använd tekniken du har idag och skapa något hållbart.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_bra-design8.png&quot; /&gt; &lt;/p&gt;
+
+&lt;h3 id=&quot;bra-design-r-pixelperfektion&quot;&gt;&lt;em&gt;8&lt;/em&gt; Bra design är pixelperfektion&lt;/h3&gt;
+&lt;p&gt;Genom att du är noga i din design så visar du respekt gentemot användaren.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_bra-design4.png&quot; /&gt;  &lt;/p&gt;
+
+&lt;h3 id=&quot;bra-design-r-miljvnlig&quot;&gt;&lt;em&gt;9&lt;/em&gt; Bra design är miljövänlig&lt;/h3&gt;
+&lt;p&gt;Varje kilobyte i dina bilder tar utrymme och kraft från internetleverantörer. Det kan dessutom vara frustrerande för en användare med långa laddningstider. Var därför noga med att bara ta så mycket utrymme som du behöver.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_bra-design10.png&quot; /&gt;  &lt;/p&gt;
+
+&lt;h3 id=&quot;bra-design-r-s-lite-design-som-mjligt&quot;&gt;&lt;em&gt;10&lt;/em&gt; Bra design är så lite design som möjligt&lt;/h3&gt;
+&lt;p&gt;Sist med inte minst, bra design är så lite design som möjligt. Mindre, men bättre. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_bra-design9.png&quot; /&gt;  &lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-html/&quot;&gt;Då sätter vi igång!&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/bra-design/&quot;&gt;Vad är bra design?&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 22, 2014.&lt;/p&gt;</content>
+  </entry>
+
+
+  
+  <entry>
     <title type="html"><![CDATA[Grunderna i HTML]]></title>
     <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-html/" />
     <id>http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-html</id>
@@ -119,20 +194,20 @@ Det är ett program (Dreamviewer tex.) där man kan göra hemsidan genom en enkl
 
 &lt;p&gt;Precis som en människa så består HTML av kroppsdelar, den har ett huvud som tänker och en kropp att visa upp. För att kunna skriva in dessa kroppdelar så börjar vi med att skapa en mapp på datorn för våran första hemsida. I våra exempel använder vi en Mac, men det ser ungefär likadant ut i Windows och Linux.&lt;/p&gt;
 
-&lt;h3 id=&quot;skapa-en-ny-mapp-i-datorn&quot;&gt;&lt;em&gt;1.&lt;/em&gt; Skapa en ny mapp i datorn&lt;/h3&gt;
+&lt;h3 id=&quot;skapa-en-ny-mapp-i-datorn&quot;&gt;&lt;em&gt;1&lt;/em&gt; Skapa en ny mapp i datorn&lt;/h3&gt;
 
-&lt;h3 id=&quot;ppna-texteditorn-och-skapa-ett-nytt-dokument&quot;&gt;&lt;em&gt;2.&lt;/em&gt; Öppna texteditorn och skapa ett nytt dokument&lt;/h3&gt;
+&lt;h3 id=&quot;ppna-texteditorn-och-skapa-ett-nytt-dokument&quot;&gt;&lt;em&gt;2&lt;/em&gt; Öppna texteditorn och skapa ett nytt dokument&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_texteditor.png&quot; style=&quot;margin-left: -13px;&quot; /&gt;  &lt;/p&gt;
 
-&lt;h3 id=&quot;spara-ner-html-filen&quot;&gt;&lt;em&gt;3.&lt;/em&gt; Spara ner HTML-filen&lt;/h3&gt;
+&lt;h3 id=&quot;spara-ner-html-filen&quot;&gt;&lt;em&gt;3&lt;/em&gt; Spara ner HTML-filen&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Spara ner&lt;/strong&gt; &lt;span class=&quot;keyboard&quot;&gt;Ctrl / Cmd&lt;/span&gt; &lt;span class=&quot;keyboard&quot;&gt;S&lt;/span&gt; det tomma dokumentet i din nya mapp, döp filen till &lt;strong&gt;&lt;code&gt;index.html&lt;/code&gt;&lt;/strong&gt;&lt;br /&gt;
 Det är Index som besökaren först kommer att komma till när de besöker hemsidan, en startsida helt enkelt.&lt;br /&gt;
 Filändelsen i slutet av namnet berättar för webbläsaren att det är HTML som ska visas.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_save-index-html.png&quot; style=&quot;margin-left: -10px;&quot; /&gt;  &lt;/p&gt;
 
-&lt;h3 id=&quot;ppna-indexhtml-i-webblsaren&quot;&gt;&lt;em&gt;4.&lt;/em&gt; Öppna &lt;code&gt;index.html&lt;/code&gt; i webbläsaren&lt;/h3&gt;
+&lt;h3 id=&quot;ppna-indexhtml-i-webblsaren&quot;&gt;&lt;em&gt;4&lt;/em&gt; Öppna &lt;code&gt;index.html&lt;/code&gt; i webbläsaren&lt;/h3&gt;
 &lt;p&gt;Nu ska vi öppna hemsidan i webbläsaren för att se hur den ser ut.&lt;br /&gt;
 &lt;strong&gt;Högerklicka på filen&lt;/strong&gt; &amp;gt; &lt;strong&gt;Öppna med&lt;/strong&gt; &amp;gt; &lt;strong&gt;Välj en valfri webbläsare&lt;/strong&gt;&lt;/p&gt;
 
@@ -1134,11 +1209,57 @@ Här använder vi &lt;code&gt;margin-bottom: 15px&lt;/code&gt; för att skilja d
 }
 &lt;/style&gt;
 
-&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;examplelink&quot;&gt;Håll musen över mig&lt;/a&gt;&lt;/p&gt;
-
+&lt;div class=&quot;example box full-width&quot;&gt;
+  &lt;a href=&quot;#&quot; class=&quot;examplelink&quot;&gt;Håll musen över mig&lt;/a&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website#&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-typografi/&quot;&gt;Typografi&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 12, 2014.&lt;/p&gt;</content>
+  </entry>
+
+
+  
+  <entry>
+    <title type="html"><![CDATA[Positionering]]></title>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/css-positionering/" />
+    <id>http://webbdesignkurser.github.io/website/webbdesign/css-positionering</id>
+    <published>2014-04-11T00:00:00+00:00</published>
+    <updated>2014-04-11T00:00:00+00:00</updated>
+    <author>
+      <name>Webbdesignkurser</name>
+      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <email>kontakt@webbdesignkurser.se<email>
+    </author>
+    <content type="html">&lt;h2 id=&quot;stt-position-med-css&quot;&gt;Sätt position med CSS&lt;/h2&gt;
+
+&lt;p class=&quot;preamble&quot;&gt;Hur placerar man ut ett element på hemsidan? För att svara på frågan måste vi först veta hur vi vill placera ut det. Element kan nämligen ha olika beteenden som reagerar annorlunda med omgivningen.&lt;/p&gt;
+
+&lt;h3 id=&quot;relative-absolute-fixed--static&quot;&gt;Relative, Absolute, Fixed &amp;amp; Static&lt;/h3&gt;
+&lt;p&gt;Dessa variablar används för att ge HTML-element olika typer av beteenden som påverkar positionen. De skrivs i CSS som &lt;code&gt;position: relative&lt;/code&gt; om elementet ska ha en relativ position. Men vad betyder då dessa variablar? För att göra det enkelt så kan vi jämföra dessa med LEGO-block, där varje variabel har en färg. &lt;em&gt;(LEGO sponsrar ej denna kurs)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;position-relative&quot;&gt;Position: Relative&lt;/h3&gt;
+&lt;p&gt;Med &lt;code&gt;position: relative&lt;/code&gt; utgår man från den &lt;strong&gt;nuvarande positionen&lt;/strong&gt; när man ska positionera ut elementet.  &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_position-relative.png&quot; /&gt;  &lt;/p&gt;
+
+&lt;h3 id=&quot;position-absolute&quot;&gt;Position: Absolute&lt;/h3&gt;
+&lt;p&gt;Med &lt;code&gt;position: absolute&lt;/code&gt; utgår man från &lt;strong&gt;områdets absoluta nollpunkt&lt;/strong&gt;, vilket är vänstra hörnet av området som elementet ligger inom.  &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_position-absolute.png&quot; /&gt;  &lt;/p&gt;
+
+&lt;h3 id=&quot;position-fixed&quot;&gt;Position: Fixed&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;position: fixed&lt;/code&gt; har samma värden som absolute, förutom att den följer med när man scrollar i webbläsaren.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_position-fixed.png&quot; /&gt; &lt;/p&gt;
+
+&lt;h3 id=&quot;position-static&quot;&gt;Position: Static&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;position: static&lt;/code&gt; nollställer alla värden, det är variabeln som alla element har innan man har valt någon.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_position-static.png&quot; /&gt;  &lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website#&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-positionering/&quot;&gt;Positionering&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 11, 2014.&lt;/p&gt;</content>
   </entry>
 
 
