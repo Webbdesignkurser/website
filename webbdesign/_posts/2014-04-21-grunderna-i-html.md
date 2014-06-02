@@ -12,17 +12,17 @@ submenu: true
 Precis som en människa så består HTML av kroppsdelar, den har ett huvud som tänker och en kropp att visa upp. För att kunna skriva in dessa kroppdelar så börjar vi med att skapa en mapp på datorn för våran första hemsida. I våra exempel använder vi en Mac, men det ser ungefär likadant ut i Windows och Linux.
 
 
-### *1.* Skapa en ny mapp i datorn
+### *1* Skapa en ny mapp i datorn
 
 
 
-### *2.* Öppna texteditorn och skapa ett nytt dokument
+### *2* Öppna texteditorn och skapa ett nytt dokument
 
 <img src="{{ site.url }}/assets/images/asset_texteditor.png" style="margin-left: -13px;"/>  
 
 
 
-### *3.* Spara ner HTML-filen
+### *3* Spara ner HTML-filen
 <strong>Spara ner</strong> <span class="keyboard">Ctrl / Cmd</span> <span class="keyboard">S</span> det tomma dokumentet i din nya mapp, döp filen till <strong>``index.html``</strong>  
 Det är Index som besökaren först kommer att komma till när de besöker hemsidan, en startsida helt enkelt.  
 Filändelsen i slutet av namnet berättar för webbläsaren att det är HTML som ska visas.
@@ -31,7 +31,7 @@ Filändelsen i slutet av namnet berättar för webbläsaren att det är HTML som
 
 
 
-### *4.* Öppna ``index.html`` i webbläsaren
+### *4* Öppna ``index.html`` i webbläsaren
 Nu ska vi öppna hemsidan i webbläsaren för att se hur den ser ut.  
 <strong>Högerklicka på filen</strong> > <strong>Öppna med</strong> > <strong>Välj en valfri webbläsare</strong>
 

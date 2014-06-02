@@ -207,7 +207,7 @@ a:active {
   color: #47e672; /* Ännu ljusare grön */
 }
 </style>
-
-<p><a href="#" class="examplelink">Håll musen över mig</a></p>
-
+<div class="example box full-width">
+  <a href="#" class="examplelink">Håll musen över mig</a>
+</div>
 <a class="btn btn-next" href="{{ site.url }}#">Gå till nästa steg!</a>
