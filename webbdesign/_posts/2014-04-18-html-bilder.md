@@ -105,19 +105,19 @@ I Photoshop finns alternativet att spara för webben. Skillnaden mellan att spar
 
 
 
-### *1.* Öppna bild
+### *1* Öppna bild
 
 Öppna din bild i bildhanteringsprogrammet <span class="keyboard">Ctrl/Cmd</span> + <span class="keyboard">O</span> och förminska bildstorleken med de verktyg som finns tillgängliga, i Photoshop kan du ändra bildstorleken under <strong>Image</strong> > <strong>Image Size</strong>. 
 
 
 
-### *2.* Spara för webben
+### *2* Spara för webben
 
 Tryck sedan <span class="keyboard">Shift</span> + <span class="keyboard">Alt</span> + <span class="keyboard">Ctrl/Cmd</span> + <span class="keyboard">S</span> för att spara för webben.
 
 
 
-### *3.* Bestäm filtyp och kvallité 
+### *3* Bestäm filtyp och kvallité 
 
 <img src="{{ site.url }}/assets/images/asset_save-for-web-1.jpg"/>  
 
@@ -125,7 +125,7 @@ Tryck sedan <span class="keyboard">Shift</span> + <span class="keyboard">Alt</sp
 
 
 
-### *4.* Spara
+### *4* Spara
 
 <img src="{{ site.url }}/assets/images/asset_save-for-web-3.jpg"/>  
 

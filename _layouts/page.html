@@ -29,7 +29,7 @@
                     {% for course in site.courses %}
                         <div class="col-md-12 col-sm-6 chapter">
                            <div class="box">
-                                <div class="{{ course.class }}">
+                                <div class="{{ course.class }} background">
                                     <h3>{{ course.title }}</h3>
                                     <p>{{ course.description }}</p>
                                     <span class="btn btn-secondary">Gratis</span>
@@ -45,7 +45,7 @@
                     {% assign category = page.categories[0]; %}
                     {% for course in site.courses %}
                         {% if course.id == category %}
-                            <li><h4><a class="{{ category }} title">{{ course.title }}</a></h4></li>
+                            <li><h4><a class="{{ category }} title background">{{ course.title }}</a></h4></li>
                         {% endif %}
                     {% endfor %}
                     {% for post in site.categories[category] %}
@@ -64,8 +64,8 @@
                         {% endif %}
                     {% endfor %}
                     </ul>
-                    <ul>
-                    <li><h4 class="webbdesign title"><a>Övriga kurser</a></h4></li>
+                    <ul class="others">
+                    <li><h4 class="{{ category }} title background"><a>Övriga kurser</a></h4></li>
                     {% for course in site.courses %}
                         {% unless course.id == category %}
                             <li><a href="{{ site.url }}/{{ course.id }}/inledning" class="navItem {{ course.class }} color">{{ course.title }}</a></li>

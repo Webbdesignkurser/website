@@ -26,7 +26,7 @@ Authors: Per Lööv & David Marby
 @color-success: 		#30a235;
 @color-example: 		#9e9e9e;
 @color-contribute: 		#2f2e29;
-@color-contribute-sec: 	#dee6ed;
+@color-contribute-sec: 	#e4e4e4;
 
 @brand-font: 			'Lato', sans-serif;
 @paragraf-size: 		13px;
@@ -38,28 +38,32 @@ Authors: Per Lööv & David Marby
 
 //***************** GLOBAL ******************//
 
+body{
+	.antialiased;
+}
+
 h1 {
-	line-height: 30px;
+	line-height: 1.2 !important;
 	font-weight: 700 !important;
 	font-family: @brand-font !important;
 }
 
 h2 {
-	font-weight: 400 !important;
+	line-height: 1.2 !important;
+	font-weight: 700 !important;
 	font-family: @brand-font !important;
 }
 
 h3 {
 	font-size: 24px !important;
 	font-weight: 400 !important;
-	line-height: 35px !important;
+	line-height: 1.2 !important;
 	font-family: @brand-font !important;
 }
 
 h4 {
 	font-size: 20px !important;
-	line-height: 30px !important;
-	font-weight: 300 !important;
+	line-height: 1.2 !important;
 	font-family: @brand-font !important;
 }
 
@@ -75,7 +79,7 @@ h4 {
 p {
 	font-family: helvetica;
 	line-height: 25px;
-	font-size: 14px;
+	font-size: 15px;
 }
 
 .main {
@@ -97,6 +101,9 @@ p {
 	width: 100%;
 }
 
+.antialiased{
+	-webkit-font-smoothing: antialiased;
+}
 
 
 
@@ -106,6 +113,7 @@ p {
 	border: none !important;
 	border-radius: 3px !important;
 	padding: 10px 25px !important;
+	font-weight: bold !important;
 	.transition(all, 0.05s, ease-in);
 	&.download{
 		background: @color-download !important;
@@ -121,6 +129,7 @@ p {
 	border: 1px solid rgba(255,255,255,0.8) !important;
 	border-radius: 3px !important;
 	padding: 10px 25px !important;
+	font-weight: bold !important;
 	.transition(all, 0.05s, ease-in);
 	&.download{
 		border: 1px solid @color-download !important;
@@ -137,6 +146,7 @@ p {
 	border-radius: 3px !important;
 	padding: 10px 25px !important;
 	color: #fff;
+	font-weight: bold !important;
 	.transition(all, 0.05s, ease-in);
 	&:hover{
 		background: darken(@brand-color, 5%) !important;
@@ -430,7 +440,9 @@ header {
 
 	// Color guides
 	.webbdesign {
-		background: @color-webbdesign;
+		&.background, .background{
+			background: @color-webbdesign;
+		}
 		&.color, .color {
 			color: @color-webbdesign;
 		}
@@ -439,7 +451,9 @@ header {
 		}
 	}
 	.responsivDesign {
-		background: @color-responsivDesign;
+		&.background, .background{
+			background: @color-responsivDesign;
+		}
 		&.color, .color {
 			color: @color-responsivDesign;
 		}
@@ -448,7 +462,9 @@ header {
 		}
 	}
 	.grafiskDesign {
-		background: @color-grafiskDesign;
+		&.background, .background{
+			background: @color-grafiskDesign;
+		}
 		&.color, .color {
 			color: @color-grafiskDesign;
 		}
@@ -457,7 +473,9 @@ header {
 		}
 	}
 	.vektorteknik {
-		background: @color-vektorteknik;
+		&.background, .background{
+			background: @color-vektorteknik;
+		}
 		&.color, .color {
 			color: @color-vektorteknik;
 		}
@@ -466,7 +484,9 @@ header {
 		}
 	}
 	.less {
-		background: @color-less;
+		&.background, .background{
+			background: @color-less;
+		}
 		&.color, .color {
 			color: @color-less;
 		}
@@ -475,7 +495,9 @@ header {
 		}
 	}
 	.git {
-		background: @color-git;
+		&.background, .background{
+			background: @color-git;
+		}
 		&.color, .color {
 			color: @color-git;
 		}
@@ -484,7 +506,9 @@ header {
 		}
 	}
 	.seo {
-		background: @color-seo;
+		&.background, .background{
+			background: @color-seo;
+		}
 		&.color, .color {
 			color: @color-seo;
 		}
@@ -535,25 +559,32 @@ header {
 
 	// Chapter sidebar navigation
 	&.nav{
+		.title a{
+			font-weight: normal !important;
+		}
 		ul{
+			border-radius: 5px;
+			overflow: hidden;
 			padding: 0px;
 			margin-bottom: 30px;
 			li{
 				list-style: none;
 				h4{
 					margin: 0;
+					a{color: #fff;}
 				}
 				a{
 					width: 100%;
 					margin: 0px;
 					padding: 14px 25px;
 					display: block;
-					color: #fff;
+					color: #555;
 					&:hover{
 						text-decoration: none;
 					}
 					&.navItem{
 						background: #f4f4f4;
+
 						.transition(all, 0.1s, ease-in);
 						&:hover{
 							border-right: 15px solid;
@@ -565,38 +596,32 @@ header {
 							border-right: 0px solid #dcdcdc;
 							&.active{
 								color: #fff;
+								font-weight: bold;
 								background: #333 !important;
 								border-right: 15px solid #000;
 								&:hover{
 									border-right: 20px solid #000;
 								}
 							}
-							&:hover{
+							&:hover {
 								border-right: 15px solid #d6d6d6;
 								padding-right: 22px;
 							}
 						}
-						&:hover{
-							background: #fbfbfb;
-						}
 					}
 				}
-				&:nth-child(odd) a.navItem.current{
+				&:nth-child(odd) a.navItem {
 					background: #f0f0f0;
-				}
-				&:nth-child(odd) a.navItem{
-					background: #f0f0f0;
-					&:hover{
-						background: #fbfbfb;
-					}
 				}
 				&.sub a{
-					margin-top: 10px;
+					font-weight: bold;
 					background: #e4e4e4 !important;
-					&:hover{
-						background: #fbfbfb !important;
-					}
 				}
+			}
+		}
+		.others{
+			li a{
+				font-weight: bold;
 			}
 		}
 	}
@@ -632,8 +657,7 @@ header {
 		background: @color-contribute;
 		color: @color-contribute-sec;
 		&:hover {
-			opacity: 0.9;
-			background: @color-contribute;
+			background: darken(@color-contribute, 5%);
 			color: @color-contribute-sec;
 		}
 	}

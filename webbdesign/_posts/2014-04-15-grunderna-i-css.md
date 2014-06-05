@@ -11,7 +11,7 @@ submenu: true
 
 CSS är ett språk inom webbdesign som används för att ge HTML-element olika stilar, så som storlek, färg, typsnitt, form med mera. Om du vill designa din hemsida så är det CSS du behöver. Det är ett väldigt lätt språk att lära sig och möjligheterna i webbdesign är enorma när man väl lärt sig det.
 
-###Skapa nytt dokument
+### *1* Skapa nytt dokument
 <strong>Skapa en ny mapp</strong> i samma mapp som index.html och döp den till ``assets`` (förslagsvis).  
 
 <strong>Skapa ett nytt dokument</strong> i assets och döp det till ``style.css``   
@@ -20,7 +20,7 @@ Vi väljer att lägga style.css i en enskild mapp eftersom det kan tillkomma fle
 
 
 
-###Länka in CSS i HTML
+### *2* Länka in CSS i HTML
 För att CSS'en ska fungera på vår hemsida måste vi länka in den i vår HTML.
 
 <strong>Klistra</strong> in följande inom ``<head>``
