@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://webbdesignkurser.github.io/website/feed.xml" />
 <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website" />
-<updated>2014-06-02T16:59:43+00:00</updated>
+<updated>2014-06-05T07:13:58+00:00</updated>
 <id>http://webbdesignkurser.github.io/website/</id>
 <author>
   <name>Webbdesignkurser</name>
@@ -584,21 +584,21 @@ Du får inte använda å, ä, ö, mellanrum eller konstiga tecken i bildens namn
 
 &lt;p&gt;I Photoshop finns alternativet att spara för webben. Skillnaden mellan att spara för webben och spara en bild är att du kan komprimera ner bilden för att minska storleken om du sparar för webben. Om du använder ett annat bildhanteringsprogram kan den här funktionen se annorlunda ut.  &lt;/p&gt;
 
-&lt;h3 id=&quot;ppna-bild&quot;&gt;&lt;em&gt;1.&lt;/em&gt; Öppna bild&lt;/h3&gt;
+&lt;h3 id=&quot;ppna-bild&quot;&gt;&lt;em&gt;1&lt;/em&gt; Öppna bild&lt;/h3&gt;
 
 &lt;p&gt;Öppna din bild i bildhanteringsprogrammet &lt;span class=&quot;keyboard&quot;&gt;Ctrl/Cmd&lt;/span&gt; + &lt;span class=&quot;keyboard&quot;&gt;O&lt;/span&gt; och förminska bildstorleken med de verktyg som finns tillgängliga, i Photoshop kan du ändra bildstorleken under &lt;strong&gt;Image&lt;/strong&gt; &amp;gt; &lt;strong&gt;Image Size&lt;/strong&gt;. &lt;/p&gt;
 
-&lt;h3 id=&quot;spara-fr-webben&quot;&gt;&lt;em&gt;2.&lt;/em&gt; Spara för webben&lt;/h3&gt;
+&lt;h3 id=&quot;spara-fr-webben&quot;&gt;&lt;em&gt;2&lt;/em&gt; Spara för webben&lt;/h3&gt;
 
 &lt;p&gt;Tryck sedan &lt;span class=&quot;keyboard&quot;&gt;Shift&lt;/span&gt; + &lt;span class=&quot;keyboard&quot;&gt;Alt&lt;/span&gt; + &lt;span class=&quot;keyboard&quot;&gt;Ctrl/Cmd&lt;/span&gt; + &lt;span class=&quot;keyboard&quot;&gt;S&lt;/span&gt; för att spara för webben.&lt;/p&gt;
 
-&lt;h3 id=&quot;bestm-filtyp-och-kvallit&quot;&gt;&lt;em&gt;3.&lt;/em&gt; Bestäm filtyp och kvallité&lt;/h3&gt;
+&lt;h3 id=&quot;bestm-filtyp-och-kvallit&quot;&gt;&lt;em&gt;3&lt;/em&gt; Bestäm filtyp och kvallité&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_save-for-web-1.jpg&quot; /&gt;  &lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_save-for-web-2.jpg&quot; /&gt;  &lt;/p&gt;
 
-&lt;h3 id=&quot;spara&quot;&gt;&lt;em&gt;4.&lt;/em&gt; Spara&lt;/h3&gt;
+&lt;h3 id=&quot;spara&quot;&gt;&lt;em&gt;4&lt;/em&gt; Spara&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_save-for-web-3.jpg&quot; /&gt;  &lt;/p&gt;
 
@@ -832,14 +832,14 @@ För det så behöver vi skriva in en &lt;code&gt;style&lt;/code&gt; i &lt;code&
 
 &lt;p&gt;CSS är ett språk inom webbdesign som används för att ge HTML-element olika stilar, så som storlek, färg, typsnitt, form med mera. Om du vill designa din hemsida så är det CSS du behöver. Det är ett väldigt lätt språk att lära sig och möjligheterna i webbdesign är enorma när man väl lärt sig det.&lt;/p&gt;
 
-&lt;h3 id=&quot;skapa-nytt-dokument&quot;&gt;Skapa nytt dokument&lt;/h3&gt;
+&lt;h3 id=&quot;skapa-nytt-dokument&quot;&gt;&lt;em&gt;1&lt;/em&gt; Skapa nytt dokument&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Skapa en ny mapp&lt;/strong&gt; i samma mapp som index.html och döp den till &lt;code&gt;assets&lt;/code&gt; (förslagsvis).  &lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Skapa ett nytt dokument&lt;/strong&gt; i assets och döp det till &lt;code&gt;style.css&lt;/code&gt;   &lt;/p&gt;
 
 &lt;p&gt;Vi väljer att lägga style.css i en enskild mapp eftersom det kan tillkomma fler tillgångar (assets) framöver, och då har vi allt samlat på samma ställe. Filändelsen i slutet av namnet (.css) berättar för webbläsaren att att det är CSS som ska hämtas.&lt;/p&gt;
 
-&lt;h3 id=&quot;lnka-in-css-i-html&quot;&gt;Länka in CSS i HTML&lt;/h3&gt;
+&lt;h3 id=&quot;lnka-in-css-i-html&quot;&gt;&lt;em&gt;2&lt;/em&gt; Länka in CSS i HTML&lt;/h3&gt;
 &lt;p&gt;För att CSS’en ska fungera på vår hemsida måste vi länka in den i vår HTML.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Klistra&lt;/strong&gt; in följande inom &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;&lt;/p&gt;
