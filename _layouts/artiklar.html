@@ -1,0 +1,99 @@
+{% include head.html %}
+
+<div class="container">
+
+    <div class="row">
+
+        {% if page.headerimage %}
+            <div class="col-sm-12">
+                <img src="{{ page.headerimage | asset_path }}" class="headerImage"/>
+            </div>
+        {% endif %}
+
+        <div class="col-md-8 content">
+            {% unless page.customTitle %}
+                <h1 class="title">{{ page.title }}</h1>
+            {% endunless %}
+            {{ content }}
+            <!-- Change 'webbdesign' to 'artiklar' once done -->
+            {% for post in site.categories['webbdesign'] %}
+              <img src="{{ post.headerimage | asset_path }}"/>
+              <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }} - {{ post.date | date: "%-d %B %Y" }}</a></h2>
+              <p>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 300 }}{% endif %} <a href="{{ site.url }}{{ post.url }}">Läs mer</a></p>
+            {% endfor %}
+            <hr/>
+            <h4 class="share">Dela </h4>
+            <input class="form-control" style="width: auto;" type="text" value="http://wdk.se/{{ page.url | short }}"> 
+            {% if page.comments and site.disqus_shortname %}
+                <section id="disqus_thread"></section>
+            {% endif %}
+        </div>
+
+        <div class="col-md-4 sidebar">
+            {% unless page.date %}
+                <div class="row">
+                    {% for course in site.courses %}
+                        <div class="col-md-12 col-sm-6 chapter">
+                           <div class="box">
+                                <div class="{{ course.class }}">
+                                    <h3>{{ course.title }}</h3>
+                                    <p>{{ course.description }}</p>
+                                    <span class="btn btn-secondary">Gratis</span>
+                                    <a href="{{ site.url }}/{{ course.id }}/inledning" class="btn btn-primary pull-right color">Kom igång!</a>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <div class="chapter nav">
+                    <ul>
+                    {% assign category = page.categories[0]; %}
+                    {% for course in site.courses %}
+                        {% if course.id == category %}
+                            <li><h4><a class="{{ category }} title">{{ course.title }}</a></h4></li>
+                        {% endif %}
+                    {% endfor %}
+                    {% for post in site.categories[category] %}
+                        {% if post.title == page.title %}
+                            {% if post.submenu %}
+                                <li class="sub"><a class="{{ category }} navItem current active" href="{{ site.url }}{{post.url}}">{{ post.title }}</a></li>
+                            {% else %}
+                                <li><a class="{{ category }} navItem current active" href="{{ site.url }}{{post.url}}">{{ post.title }}</a></li>
+                            {% endif %}
+                        {% else %}
+                            {% if post.submenu %}
+                                <li class="sub"><a class="{{ category }} navItem current" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+                            {% else %}
+                                <li><a class="{{ category }} navItem current" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                    </ul>
+                    <ul>
+                    {% for course in site.courses %}
+                        {% unless course.id == category %}
+                            <li><a href="{{ site.url }}/{{ course.id }}/inledning" class="navItem {{ course.class }} color">{{ course.title }}</a></li>
+                        {% endunless %}
+                    {% endfor %}
+                    </ul>
+                </div>
+            {% endunless %}
+        </div>
+    </div>
+
+    <div class="row">
+       <div class="col-sm-12">
+           <div class="contribute">
+              <div class="box">
+                  <h3 class="text-center">Vill du bidra till ett öppnare och friare läromedel?</h3>
+                  <a class="btn btn-secondary">Donera en slant</a> eller 
+                  <a href="#" class="btn btn-primary">Bidra med eget material</a>
+              </div>
+          </div>
+
+      </div>
+    </div>
+
+</div>
+{% include footer.html %}
