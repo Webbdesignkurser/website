@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://webbdesignkurser.github.io/website/feed.xml" />
 <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website" />
-<updated>2014-06-07T12:12:43+00:00</updated>
+<updated>2014-06-07T12:31:19+00:00</updated>
 <id>http://webbdesignkurser.github.io/website/</id>
 <author>
   <name>Webbdesignkurser</name>
@@ -192,7 +192,7 @@ Det är ett program (Dreamviewer tex.) där man kan göra hemsidan genom en enkl
     <content type="html">&lt;h2 id=&quot;en-hemsidas-uppbyggnad&quot;&gt;En hemsidas uppbyggnad&lt;/h2&gt;
 &lt;p class=&quot;preamble&quot;&gt;En hemsida består utav textfiler, skrivna i ren text. HTML är ett av många språk som används för att skapa hemsidor. Webbläsarens jobb är att översätta dessa språk och sedan visa den färdiga hemsidan för besökaren.&lt;/p&gt;
 
-&lt;p&gt;Precis som en människa så består HTML av kroppsdelar, den har ett huvud som tänker och en kropp att visa upp. För att kunna skriva in dessa kroppdelar så börjar vi med att skapa en mapp på datorn för våran första hemsida. I våra exempel använder vi en Mac, men det ser ungefär likadant ut i Windows och Linux.&lt;/p&gt;
+&lt;p&gt;Precis som en människa så består HTML av kroppsdelar, den har ett huvud som tänker och en kropp att visa upp. För att kunna skriva in dessa kroppsdelar så börjar vi med att skapa en mapp på datorn för våran första hemsida. I våra exempel använder vi en Mac, men det ser ungefär likadant ut i Windows och Linux.&lt;/p&gt;
 
 &lt;h3 id=&quot;skapa-en-ny-mapp-i-datorn&quot;&gt;&lt;em&gt;1&lt;/em&gt; Skapa en ny mapp i datorn&lt;/h3&gt;
 
@@ -202,8 +202,7 @@ Det är ett program (Dreamviewer tex.) där man kan göra hemsidan genom en enkl
 
 &lt;h3 id=&quot;spara-ner-html-filen&quot;&gt;&lt;em&gt;3&lt;/em&gt; Spara ner HTML-filen&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Spara ner&lt;/strong&gt; &lt;span class=&quot;keyboard&quot;&gt;Ctrl / Cmd&lt;/span&gt; &lt;span class=&quot;keyboard&quot;&gt;S&lt;/span&gt; det tomma dokumentet i din nya mapp, döp filen till &lt;strong&gt;&lt;code&gt;index.html&lt;/code&gt;&lt;/strong&gt;&lt;br /&gt;
-Det är Index som besökaren först kommer att komma till när de besöker hemsidan, en startsida helt enkelt.&lt;br /&gt;
-Filändelsen i slutet av namnet berättar för webbläsaren att det är HTML som ska visas.&lt;/p&gt;
+Det är Index som besökaren först kommer att komma till när de besöker hemsidan, en startsida helt enkelt. Filändelsen i slutet av namnet berättar för webbläsaren att det är HTML som ska visas.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_save-index-html.png&quot; style=&quot;margin-left: -10px;&quot; /&gt;  &lt;/p&gt;
 
