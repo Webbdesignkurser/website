@@ -60,4 +60,4 @@ För att lista en lista i en lista skriver du en ny lista under det objekt där 
 </div>
 
 
-<a class="btn btn-next" href="{{ site.url }}/webbdesign/tabeller/">Gå till nästa steg!</a>
+<a class="btn btn-next" href="{{ site.url }}/webbdesign/html-tabeller/">Gå till nästa steg!</a>

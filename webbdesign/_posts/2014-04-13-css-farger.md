@@ -50,4 +50,4 @@ h1 {
 	<p>Om du använder Mac och skriver i Sublime Text så kan du trycka <span class="keyboard">Cmd</span> <span class="keyboard">Shift</span> <span class="keyboard">C</span> för att ta fram en färgpalett direkt i texteditorn.</p>
 </div>
 
-<a class="btn btn-next" href="{{ site.url }}#">Gå till nästa steg!</a>
+<a class="btn btn-next" href="{{ site.url }}/webbdesign/css-typografi">Gå till nästa steg!</a>

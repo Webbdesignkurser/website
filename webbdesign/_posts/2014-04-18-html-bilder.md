@@ -138,4 +138,4 @@ Tryck sedan <span class="keyboard">Shift</span> + <span class="keyboard">Alt</sp
 </div>
 
 
-<a class="btn btn-next" href="{{ site.url }}/webbdesign/listor/">Gå till nästa steg!</a>
+<a class="btn btn-next" href="{{ site.url }}/webbdesign/html-listor/">Gå till nästa steg!</a>

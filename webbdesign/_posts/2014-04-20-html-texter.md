@@ -94,4 +94,4 @@ Ett radbyte är detsamma som att trycka <span class="keyboard">Shift</span> <spa
 <p>Nu kan du grunderna i att skriva texter i HTML. Nästa steg för oss är att länka en html-sida till en annan.</p>
 </div>
 
-<a class="btn btn-next" href="{{ site.url }}/webbdesign/lankar/">Gå till nästa steg!</a>
+<a class="btn btn-next" href="{{ site.url }}/webbdesign/html-lankar/">Gå till nästa steg!</a>

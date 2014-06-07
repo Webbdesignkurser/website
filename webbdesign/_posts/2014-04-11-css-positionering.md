@@ -37,4 +37,4 @@ Med ``position: absolute`` utgår man från <strong>områdets absoluta nollpunkt
 
 
 
-<a class="btn btn-next" href="{{ site.url }}#">Gå till nästa steg!</a>
+<a class="btn btn-next" href="{{ site.url }}">Gå till nästa steg!</a>

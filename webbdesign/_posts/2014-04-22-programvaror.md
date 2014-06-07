@@ -41,4 +41,4 @@ Med bildhanteringsprogrammet kommer vi att kunna redigera och spara ner bilder i
 <a class="btn btn-primary download">Ladda ned Photoshop</a> <a class="btn btn-secondary download">Eller Gimp (Gratis)</a>  
 
 
-<a class="btn btn-next" href="{{ site.url }}/webbdesign/grunderna-i-html/">Tankat klart allt? Då fortsätter vi!</a>
+<a class="btn btn-next" href="{{ site.url }}/webbdesign/bra-design/">Tankat klart allt? Då fortsätter vi!</a>

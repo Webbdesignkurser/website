@@ -83,4 +83,4 @@ Vi ska länka dessa till varandra.
 </div>
 
 
-<a class="btn btn-next" href="{{ site.url }}/webbdesign/bilder/">Gå till nästa steg!</a>
+<a class="btn btn-next" href="{{ site.url }}/webbdesign/html-bilder/">Gå till nästa steg!</a>

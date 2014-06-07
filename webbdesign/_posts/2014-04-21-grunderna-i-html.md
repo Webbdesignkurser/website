@@ -170,4 +170,4 @@ Om du vill skriva något i din HTML-fil som inte ska synas i webbläsaren, utan 
 </html>
 {% endhighlight %}
 
-<a class="btn btn-next" href="{{ site.url }}/webbdesign/texter/">Snyggt! Gå till nästa steg!</a>
+<a class="btn btn-next" href="{{ site.url }}/webbdesign/html-texter/">Snyggt! Gå till nästa steg!</a>
