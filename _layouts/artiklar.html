@@ -18,7 +18,7 @@
             <!-- Change 'webbdesign' to 'artiklar' once done -->
             {% for post in site.categories['artiklar'] %}
               <img src="{{ post.headerimage | asset_path }}"/>
-              <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }} - {{ post.date | date: "%-d %B %Y" }}</a></h2>
+              <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
               <p>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 300 }}{% endif %} <a href="{{ site.url }}{{ post.url }}">Läs mer</a></p>
             {% endfor %}
             <hr/>
