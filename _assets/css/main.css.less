@@ -70,10 +70,10 @@ h4 {
 .preamble{
 	font-size: 20px !important;
 	line-height: 30px !important;
-	font-weight: 300 !important;
+	font-weight: 400 !important;
 	font-family: @brand-font !important;
-	color: #555;
-	margin-bottom: 10px !important;
+	color: #888;
+	margin-bottom: 15px !important;
 }
 
 p {
@@ -266,24 +266,31 @@ header {
 		}
 		ul{
 			a {
-				color: @brand-color;
+				.transition(all, 0.1s, ease-in);
+				color: #555;
+				font-weight: bold;
 				font-size: 15px;
+				@media (max-width: 979px) {
+					padding: 15px 10px;
+				}
 				@media (min-width: 480px) {
 					font-size: 14px;
 				}
 				&:hover {
+					color: #333;
 					background: #f9f9f9;
 				}
 			}
 			.dropdown{
 				ul {
+					min-width: 230px;
 					border-top: none;
 					border-left: 1px solid #eee;
 					border-right: 1px solid #eee;
 					border-bottom: 1px solid #eee;
 					box-shadow: none;
 					li a{
-						.transition(all, 0.05s, ease-in);
+						.transition(all, 0.1s, ease-in);
 						background: #fff;
 						padding: 10px 15px 10px 15px;
 						color: #777;
@@ -307,7 +314,10 @@ header {
 		}
 		.form-group { //Searchform
 			.form-control {
-				@media (min-width: 768px) and (max-width: 979px) {
+				@media (min-width: 979px) and (max-width: 1200px) {
+					width: 100px;
+				}
+				@media (max-width: 979px) {
 					width: 100px;
 				}
 			}
@@ -642,12 +652,12 @@ header {
 		padding-top: 150px;
 		color: @color-contribute;
 		font-size: 18px;
-		font-weight: 300 !important;
+		font-weight: 400 !important;
 		font-family: @brand-font;
 		@media (max-width: 480px) {padding-top: 140px;}
 		h3{
 			color: @color-contribute;
-			font-weight: 300 !important;
+			font-weight: 400 !important;
 			margin-bottom: 10px;
 		}
 	}
