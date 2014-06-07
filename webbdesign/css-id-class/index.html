@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>Färger &#8211; Webbdesignkurser</title>
+	<title>Id och class &#8211; Webbdesignkurser</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="Webbdesign, Kurser, Hemsidor, Html, Css">
 	<!-- meta name="keywords" content=""> -->
@@ -13,13 +13,13 @@
 	<!-- Open Graph -->
 	<meta property="og:locale" content="sv_SE">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Färger">
+	<meta property="og:title" content="Id och class">
 	<meta property="og:description" content="Hur gör man en hemsida? Få svaret på Webbdesignkurser där alla kurser är gratis och lätta att komma igång med!">
-	<meta property="og:url" content="http://webbdesignkurser.github.io/website/webbdesign/css-farger/">
+	<meta property="og:url" content="http://webbdesignkurser.github.io/website/webbdesign/css-id-class/">
 	<meta property="og:site_name" content="Webbdesignkurser">
 
 	
-	<link rel="canonical" href="http://webbdesignkurser.github.io/website/webbdesign/css-farger/">
+	<link rel="canonical" href="http://webbdesignkurser.github.io/website/webbdesign/css-id-class/">
 	<link href="http://webbdesignkurser.github.io/website/feed.xml" type="application/atom+xml" rel="alternate" title="Webbdesignkurser Feed">
 	
 	  <link rel="dns-prefetch" href="//webbdesignkurser.se">
@@ -167,55 +167,140 @@
 
         
             <div class="col-sm-12">
-                <img src="/website/assets/header_css-farger-d3af9ca8f11efabfb1dc00d09a15c2ca.jpg" class="headerImage"/>
+                <img src="/website/assets/header_css-id-class-f0bc51d9cede865e5def35f59a4b0888.jpg" class="headerImage"/>
             </div>
         
 
         <div class="col-md-8 content">
             
-                <h1 class="title">Färger</h1>
+                <h1 class="title">Id och class</h1>
             
-            <h2 id="frgstt-element-med-css">Färgsätt element med CSS</h2>
+            <h2 id="namnge-html-element-med-id-och-class">Namnge html-element med id och class</h2>
 
-<p class="preamble">Det finns två olika färgprofiler i webbdesign, HEX och RGBA. Med hjälp av dessa profiler kan man tilldela färger på html-element. Till exempel textfärg eller bakgrundsfärg.</p>
+<p class="preamble">Vare sig du vill styla ett helt område på hemsidan, eller två h2-rubriker på olika sätt så behöver du namnge dessa html-element. Det här gör vi med id och class, två värdefulla delar i webbdesign.</p>
 
-<h3 id="hex-frger">HEX-färger</h3>
+<h3 id="div-fr-att-markera-omrden">Div för att markera områden</h3>
+<p>Html-elementet <strong><code>&lt;div&gt;</code></strong> används för att markera områden på hemsidan, så som sidhuvud, boxar, menyer, sidfot med mera. Exempelvis såhär:</p>
 
-<p>HEX-färger, eller webbfärger som det också kallas, innehåller en kombination på 6 stycken tecken som tillsammans bildar en färg. Röd färg skrivs till exempel såhär <code>#c2322f</code>. Oavsett vilket bildhanteringsprogram du använder så finns det ett verktyg för att välja färger, där kan du kopiera HEX-kombinationen. </p>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;div&gt;</span>
+  <span class="nt">&lt;h1&gt;</span>Ett område på hemsidan<span class="nt">&lt;/h1&gt;</span>
+  <span class="nt">&lt;p&gt;</span>Det här området kommer vi att kunna styla senare i CSS<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div>
 
-<p>Om en färgkombination innehåller samma tecken, till exempel svart <code>#000000</code> så räcker det att skriva <code>#000</code>.</p>
+<h3 id="id">Id</h3>
+<p>Id används för att namnge <strong>ett</strong> element på hemsidan, det måste alltså vara unikt. <br />
+Det appliceras på html-element som följande.</p>
 
-<p><strong>Klistra in följande</strong> för att ändra textfärgen på en rubrik.</p>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;uniktBlock&quot;</span><span class="nt">&gt;</span>
+  Jag är unik
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div>
 
-<div class="highlight"><pre><code class="css"><span class="nt">h1</span> <span class="p">{</span>
-  <span class="k">color</span><span class="o">:</span> <span class="m">#d44da6</span><span class="p">;</span>
+<p>Vi använder sedan en hashtag <code>#</code> i CSS’en för att styla området med valfria attribut.</p>
+
+<div class="highlight"><pre><code class="css"><span class="nf">#uniktBlock</span><span class="p">{</span>
+
 <span class="p">}</span>
 </code></pre></div>
 
-<h3 id="rgba-frger">RGBA-färger</h3>
+<h3 id="class">Class</h3>
+<p>Class är till för att namnge <strong>flera</strong> element på hemsidan, vilket passar bra om du har flera områden på hemsidan som ska tilldelas samma stiler. <br />
+Det appliceras på html-element som följande.</p>
 
-<p>RGBA står för Red, Green, Blue och Alpha. Här blandar man rött, blått och grönt för att bestämma färg. Varje färg har en skala från 0 - 255. Alpha är opaciteten på färgen, alltså hur genomskinlig färgen ska vara. Här är det även bra att ha ett bildhanteringsprogram för att kunna välja färger.</p>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;ettBlock&quot;</span><span class="nt">&gt;</span>
+  Jag är inte unik
+<span class="nt">&lt;/div&gt;</span>
 
-<p>Vi börjar med att skriva de tre färgkombinationerna <code>rgba(0, 0, 0)</code>.<br />
-Opaciteten kan sedan skrivas från <code>0</code> till <code>1</code>.</p>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;ettBlock&quot;</span><span class="nt">&gt;</span>
+  Jag är inte unik
+<span class="nt">&lt;/div&gt;</span>
 
-<p>En svart RGBA-färg med 50% opacitet skrivs som följande.</p>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;ettBlock&quot;</span><span class="nt">&gt;</span>
+  Jag är inte unik
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div>
 
-<div class="highlight"><pre><code class="css"><span class="nt">h1</span> <span class="p">{</span>
-  <span class="k">color</span><span class="o">:</span> <span class="n">rgba</span><span class="p">(</span><span class="m">0</span><span class="o">,</span> <span class="m">0</span><span class="o">,</span> <span class="m">0</span><span class="o">,</span> <span class="m">0</span><span class="o">.</span><span class="m">5</span><span class="p">);</span>
+<p>Istället för en hashtag så använder vi här en punkt <code>.</code> för att styla classen.</p>
+
+<div class="highlight"><pre><code class="css"><span class="nc">.ettBlock</span><span class="p">{</span>
+
 <span class="p">}</span>
 </code></pre></div>
 
-<div class="success box full-width">
-	<h3>Tips</h3>
-	<p>Om du använder Mac och skriver i Sublime Text så kan du trycka <span class="keyboard">Cmd</span> <span class="keyboard">Shift</span> <span class="keyboard">C</span> för att ta fram en färgpalett direkt i texteditorn.</p>
-</div>
+<h3 id="lgga-till-flera-classer-i-en-div">Lägga till flera classer i en div</h3>
+<p>Om vi vill att alla divar ska se likadan ut <strong>förutom en</strong>, så funkar det utmärkt att lägga till classer i diven. </p>
 
-<p><a class="btn btn-next" href="http://webbdesignkurser.github.io/website/webbdesign/css-typografi">Gå till nästa steg!</a></p>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;ettBlock specialerbjudande&quot;</span><span class="nt">&gt;</span>
+  Jag är speciell
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;ettBlock&quot;</span><span class="nt">&gt;</span>
+  Jag är inte speciell
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;ettBlock&quot;</span><span class="nt">&gt;</span>
+  Jag är inte speciell
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div>
+
+<p>Och i CSS’en skapar vi nu en specialstil till classen.</p>
+
+<div class="highlight"><pre><code class="css"><span class="nc">.ettBlock</span><span class="p">{</span>
+
+<span class="p">}</span>
+
+<span class="nc">.specialerbjudande</span><span class="p">{</span>
+
+<span class="p">}</span>
+</code></pre></div>
+
+<h3 id="scoping">Scoping</h3>
+<p>Det är ibland svårt att veta vilken class som tillhör vart på hemsidan om man har ett tiotal classer. Det finns en enkel lösning på det, scoping. Man kan översätta det till avgränsning på svenska.   </p>
+
+<p>Om vi har en div som ligger inom en div, till exempel såhär:</p>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;sidhuvud&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;meny&quot;</span><span class="nt">&gt;</span>
+    Här ligger menyn
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div>
+
+<p>Så kan du scopa det i CSS’en på det här viset och på så sätt hålla det sorterat.</p>
+
+<div class="highlight"><pre><code class="css"><span class="nc">.sidhuvud</span><span class="p">{</span>
+
+<span class="p">}</span>
+
+<span class="nc">.sidhuvud.meny</span><span class="p">{</span>
+
+<span class="p">}</span>
+</code></pre></div>
+
+<p>Stilen i <code>.sidhuvud.meny</code> kommer bara att påverka diven <code>.meny</code> som ligger inom <code>.sidhuvud</code>.</p>
+
+<h3 id="understreck-bindestreck-eller-camelcase">Understreck, bindestreck eller CamelCase?</h3>
+<p>Som du har märkt använder vi inte mellanrum när vi namnger html-elementen, det beror på att man inte kan det helt enkelt. Istället kan man använda understreck, bindestreck eller så kallat CamelCase när man skriver. Vi föredrar camelCase men det är en smaksak.</p>
+
+<div class="highlight"><pre><code class="css"><span class="nc">.ett_block</span><span class="p">{</span>
+	
+<span class="p">}</span>
+
+<span class="nc">.ett-block</span><span class="p">{</span>
+	
+<span class="p">}</span>
+
+<span class="nc">.ettBlock</span><span class="p">{</span>
+	
+<span class="p">}</span>
+</code></pre></div>
+
+<p><a class="btn btn-next" href="http://webbdesignkurser.github.io/website#">Gå till nästa steg!</a></p>
 
             <hr/>
             <h4 class="share">Dela </h4>
-            <input class="form-control" style="width: auto;" type="text" value="http://wdk.se/749a0"> 
+            <input class="form-control" style="width: auto;" type="text" value="http://wdk.se/0ee66"> 
             
                 <section id="disqus_thread"></section>
             
@@ -310,7 +395,7 @@ Opaciteten kan sedan skrivas från <code>0</code> till <code>1</code>.</p>
                     
                         
                             
-                                <li><a class="webbdesign navItem current active" href="http://webbdesignkurser.github.io/website/webbdesign/css-farger/">Färger</a></li>
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-farger/">Färger</a></li>
                             
                         
                     
@@ -322,7 +407,7 @@ Opaciteten kan sedan skrivas från <code>0</code> till <code>1</code>.</p>
                     
                         
                             
-                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-id-class/">Id och class</a></li>
+                                <li><a class="webbdesign navItem current active" href="http://webbdesignkurser.github.io/website/webbdesign/css-id-class/">Id och class</a></li>
                             
                         
                     

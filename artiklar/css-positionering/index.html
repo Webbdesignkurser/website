@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>Färger &#8211; Webbdesignkurser</title>
+	<title>Positionering &#8211; Webbdesignkurser</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="Webbdesign, Kurser, Hemsidor, Html, Css">
 	<!-- meta name="keywords" content=""> -->
@@ -13,13 +13,13 @@
 	<!-- Open Graph -->
 	<meta property="og:locale" content="sv_SE">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Färger">
+	<meta property="og:title" content="Positionering">
 	<meta property="og:description" content="Hur gör man en hemsida? Få svaret på Webbdesignkurser där alla kurser är gratis och lätta att komma igång med!">
-	<meta property="og:url" content="http://webbdesignkurser.github.io/website/webbdesign/css-farger/">
+	<meta property="og:url" content="http://webbdesignkurser.github.io/website/artiklar/css-positionering/">
 	<meta property="og:site_name" content="Webbdesignkurser">
 
 	
-	<link rel="canonical" href="http://webbdesignkurser.github.io/website/webbdesign/css-farger/">
+	<link rel="canonical" href="http://webbdesignkurser.github.io/website/artiklar/css-positionering/">
 	<link href="http://webbdesignkurser.github.io/website/feed.xml" type="application/atom+xml" rel="alternate" title="Webbdesignkurser Feed">
 	
 	  <link rel="dns-prefetch" href="//webbdesignkurser.se">
@@ -167,55 +167,46 @@
 
         
             <div class="col-sm-12">
-                <img src="/website/assets/header_css-farger-d3af9ca8f11efabfb1dc00d09a15c2ca.jpg" class="headerImage"/>
+                <img src="/website/assets/header_css-positionering-c7054f2944305429c2a37a74daf4043f.jpg" class="headerImage"/>
             </div>
         
 
         <div class="col-md-8 content">
             
-                <h1 class="title">Färger</h1>
+                <h1 class="title">Positionering</h1>
             
-            <h2 id="frgstt-element-med-css">Färgsätt element med CSS</h2>
+            <h2 id="stt-position-med-css">Sätt position med CSS</h2>
 
-<p class="preamble">Det finns två olika färgprofiler i webbdesign, HEX och RGBA. Med hjälp av dessa profiler kan man tilldela färger på html-element. Till exempel textfärg eller bakgrundsfärg.</p>
+<p class="preamble">Hur placerar man ut ett element på hemsidan? För att svara på frågan måste vi först veta hur vi vill placera ut det. Element kan nämligen ha olika beteenden som reagerar annorlunda med omgivningen.</p>
 
-<h3 id="hex-frger">HEX-färger</h3>
+<h3 id="relative-absolute-fixed--static">Relative, Absolute, Fixed &amp; Static</h3>
+<p>Dessa variablar används för att ge HTML-element olika typer av beteenden som påverkar positionen. De skrivs i CSS som <code>position: relative</code> om elementet ska ha en relativ position. Men vad betyder då dessa variablar? För att göra det enkelt så kan vi jämföra dessa med LEGO-block, där varje variabel har en färg. <em>(LEGO sponsrar ej denna kurs)</em></p>
 
-<p>HEX-färger, eller webbfärger som det också kallas, innehåller en kombination på 6 stycken tecken som tillsammans bildar en färg. Röd färg skrivs till exempel såhär <code>#c2322f</code>. Oavsett vilket bildhanteringsprogram du använder så finns det ett verktyg för att välja färger, där kan du kopiera HEX-kombinationen. </p>
+<h3 id="position-relative">Position: Relative</h3>
+<p>Med <code>position: relative</code> utgår man från den <strong>nuvarande positionen</strong> när man ska positionera ut elementet.  </p>
 
-<p>Om en färgkombination innehåller samma tecken, till exempel svart <code>#000000</code> så räcker det att skriva <code>#000</code>.</p>
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_position-relative.png" />  </p>
 
-<p><strong>Klistra in följande</strong> för att ändra textfärgen på en rubrik.</p>
+<h3 id="position-absolute">Position: Absolute</h3>
+<p>Med <code>position: absolute</code> utgår man från <strong>områdets absoluta nollpunkt</strong>, vilket är vänstra hörnet av området som elementet ligger inom.  </p>
 
-<div class="highlight"><pre><code class="css"><span class="nt">h1</span> <span class="p">{</span>
-  <span class="k">color</span><span class="o">:</span> <span class="m">#d44da6</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div>
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_position-absolute.png" />  </p>
 
-<h3 id="rgba-frger">RGBA-färger</h3>
+<h3 id="position-fixed">Position: Fixed</h3>
+<p><code>position: fixed</code> har samma värden som absolute, förutom att den följer med när man scrollar i webbläsaren.</p>
 
-<p>RGBA står för Red, Green, Blue och Alpha. Här blandar man rött, blått och grönt för att bestämma färg. Varje färg har en skala från 0 - 255. Alpha är opaciteten på färgen, alltså hur genomskinlig färgen ska vara. Här är det även bra att ha ett bildhanteringsprogram för att kunna välja färger.</p>
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_position-fixed.png" /> </p>
 
-<p>Vi börjar med att skriva de tre färgkombinationerna <code>rgba(0, 0, 0)</code>.<br />
-Opaciteten kan sedan skrivas från <code>0</code> till <code>1</code>.</p>
+<h3 id="position-static">Position: Static</h3>
+<p><code>position: static</code> nollställer alla värden, det är variabeln som alla element har innan man har valt någon.</p>
 
-<p>En svart RGBA-färg med 50% opacitet skrivs som följande.</p>
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_position-static.png" />  </p>
 
-<div class="highlight"><pre><code class="css"><span class="nt">h1</span> <span class="p">{</span>
-  <span class="k">color</span><span class="o">:</span> <span class="n">rgba</span><span class="p">(</span><span class="m">0</span><span class="o">,</span> <span class="m">0</span><span class="o">,</span> <span class="m">0</span><span class="o">,</span> <span class="m">0</span><span class="o">.</span><span class="m">5</span><span class="p">);</span>
-<span class="p">}</span>
-</code></pre></div>
-
-<div class="success box full-width">
-	<h3>Tips</h3>
-	<p>Om du använder Mac och skriver i Sublime Text så kan du trycka <span class="keyboard">Cmd</span> <span class="keyboard">Shift</span> <span class="keyboard">C</span> för att ta fram en färgpalett direkt i texteditorn.</p>
-</div>
-
-<p><a class="btn btn-next" href="http://webbdesignkurser.github.io/website/webbdesign/css-typografi">Gå till nästa steg!</a></p>
+<p><a class="btn btn-next" href="http://webbdesignkurser.github.io/website#">Gå till nästa steg!</a></p>
 
             <hr/>
             <h4 class="share">Dela </h4>
-            <input class="form-control" style="width: auto;" type="text" value="http://wdk.se/749a0"> 
+            <input class="form-control" style="width: auto;" type="text" value="http://wdk.se/3145b"> 
             
                 <section id="disqus_thread"></section>
             
@@ -228,8 +219,6 @@ Opaciteten kan sedan skrivas från <code>0</code> till <code>1</code>.</p>
                     
                     
                         
-                            <li><h4><a class="webbdesign title background">Grunderna i Webbdesign</a></h4></li>
-                        
                     
                         
                     
@@ -244,98 +233,22 @@ Opaciteten kan sedan skrivas från <code>0</code> till <code>1</code>.</p>
                     
                         
                             
-                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/inledning/">Inledning</a></li>
+                                <li><a class="artiklar navItem current" href="http://webbdesignkurser.github.io/website/artiklar/nya-webbdesignkurser/">Nya Webbdesignkurser</a></li>
                             
                         
                     
                         
                             
-                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/programvaror/">Programvaror</a></li>
-                            
-                        
-                    
-                        
-                            
-                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/bra-design/">Vad är bra design?</a></li>
-                            
-                        
-                    
-                        
-                            
-                                <li class="sub"><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-html/">Grunderna i HTML</a></li>
-                            
-                        
-                    
-                        
-                            
-                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/html-texter/">Skriva texter</a></li>
-                            
-                        
-                    
-                        
-                            
-                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/html-lankar/">Länkar</a></li>
-                            
-                        
-                    
-                        
-                            
-                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/html-bilder/">Bilder</a></li>
-                            
-                        
-                    
-                        
-                            
-                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/html-listor/">Listor</a></li>
-                            
-                        
-                    
-                        
-                            
-                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/html-tabeller/">Tabeller</a></li>
-                            
-                        
-                    
-                        
-                            
-                                <li class="sub"><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-css/">Grunderna i CSS</a></li>
-                            
-                        
-                    
-                        
-                            
-                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/reset-css/">Reset CSS</a></li>
-                            
-                        
-                    
-                        
-                            
-                                <li><a class="webbdesign navItem current active" href="http://webbdesignkurser.github.io/website/webbdesign/css-farger/">Färger</a></li>
-                            
-                        
-                    
-                        
-                            
-                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-typografi/">Typografi</a></li>
-                            
-                        
-                    
-                        
-                            
-                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-id-class/">Id och class</a></li>
-                            
-                        
-                    
-                        
-                            
-                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-positionering/">Positionering</a></li>
+                                <li><a class="artiklar navItem current active" href="http://webbdesignkurser.github.io/website/artiklar/css-positionering/">Positionering</a></li>
                             
                         
                     
                     </ul>
                     <ul class="others">
-                    <!-- Enable this when we have courses <li><h4 class="webbdesign title background"><a>Övriga kurser</a></h4></li> -->
+                    <!-- Enable this when we have courses <li><h4 class="artiklar title background"><a>Övriga kurser</a></h4></li> -->
                     
+                        
+                            <li><a href="http://webbdesignkurser.github.io/website/webbdesign/inledning" class="navItem webbdesign color">Grunderna i Webbdesign</a></li>
                         
                     
                         
