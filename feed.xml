@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://webbdesignkurser.github.io/website/feed.xml" />
 <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website" />
-<updated>2014-06-07T18:18:22+00:00</updated>
+<updated>2014-06-07T21:48:30+00:00</updated>
 <id>http://webbdesignkurser.github.io/website/</id>
 <author>
   <name>Webbdesignkurser</name>
@@ -50,7 +50,7 @@ Den är byggd på Jekyll, LESS &amp;amp; Bootstrap.&lt;/p&gt;
 &lt;p class=&quot;preamble&quot;&gt;Hur gör man en hemsida, hur laddar man upp den på internet och hur designar man den?  
 I den här kursen kommer vi att lära dig hur man skapar och publicerar en fungerande hemsida.&lt;/p&gt;
 
-&lt;p&gt;Det är rätt svårt att lära sig webbdesign från böcker, de blir snabbt utdaterade och tekniken ser ut på ett helt annat sätt imorgon. Så om du har en webbesign-bok liggandes vid skolbänken eller köksbordet just nu så släng bort den, här kommer vi att gå igenom allt du behöver veta.&lt;/p&gt;
+&lt;p&gt;Det är rätt svårt att lära sig webbdesign från böcker, de blir snabbt utdaterade och tekniken ser ut på ett helt annat sätt imorgon. Så om du har en webbdesign-bok liggandes vid skolbänken eller köksbordet just nu så släng bort den, här kommer vi att gå igenom allt du behöver veta.&lt;/p&gt;
 
 &lt;h3 id=&quot;kostar-det-ngot&quot;&gt;Kostar det något?&lt;/h3&gt;
 &lt;p&gt;Nej, varken den här kursen eller möjligheten att designa en hemsida kostar något. Om du däremot planerar att publicera din hemsida på internet så kan domänen (namnet) och webbhotellet (utrymmet) kosta. Det beror helt på hur du vill publicera den, vilket vi kommer till senare.  &lt;/p&gt;
@@ -1331,95 +1331,69 @@ Det appliceras på html-element som följande.&lt;/p&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;scoping&quot;&gt;Scoping&lt;/h3&gt;
+&lt;h3 id=&quot;understreck-bindestreck-eller-camelcase&quot;&gt;Understreck, bindestreck eller CamelCase?&lt;/h3&gt;
+&lt;p&gt;Som du har märkt använder vi inte mellanrum när vi namnger html-elementen, det beror på att man inte kan det helt enkelt. Istället kan man använda understreck, bindestreck eller så kallat CamelCase när man skriver. Vi föredrar camelCase men det är en smaksak.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.ett_block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nc&quot;&gt;.ett-block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nc&quot;&gt;.ettBlock&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;scoping&quot;&gt;Scoping&lt;/h2&gt;
+
 &lt;p&gt;Det är ibland svårt att veta vilken class som tillhör vart på hemsidan om man har ett tiotal classer. Det finns en enkel lösning på det, scoping. Man kan översätta det till avgränsning på svenska.   &lt;/p&gt;
+
+&lt;h3 id=&quot;scopa-inom-flera-element&quot;&gt;Scopa inom flera element&lt;/h3&gt;
 
 &lt;p&gt;Om vi har en div som ligger inom en div, till exempel såhär:&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;sidhuvud&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;meny&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    Här ligger menyn
+    Den här menyn kommer att påverkas
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;meny&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  Den här menyn kommer inte att påverkas
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Så kan du scopa det i CSS’en på det här viset och på så sätt hålla det sorterat.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.sidhuvud&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nc&quot;&gt;.sidhuvud.meny&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.sidhuvud&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.meny&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;c&quot;&gt;/* Den här kommer endast att påverka .meny som ligger inom .sidhuvud */&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;Stilen i &lt;code&gt;.sidhuvud.meny&lt;/code&gt; kommer bara att påverka diven &lt;code&gt;.meny&lt;/code&gt; som ligger inom &lt;code&gt;.sidhuvud&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Stilen i &lt;code&gt;.sidhuvud .meny&lt;/code&gt; kommer bara att påverka diven &lt;code&gt;.meny&lt;/code&gt; som ligger inom &lt;code&gt;.sidhuvud&lt;/code&gt;.&lt;/p&gt;
 
-&lt;h3 id=&quot;understreck-bindestreck-eller-camelcase&quot;&gt;Understreck, bindestreck eller CamelCase?&lt;/h3&gt;
-&lt;p&gt;Som du har märkt använder vi inte mellanrum när vi namnger html-elementen, det beror på att man inte kan det helt enkelt. Istället kan man använda understreck, bindestreck eller så kallat CamelCase när man skriver. Vi föredrar camelCase men det är en smaksak.&lt;/p&gt;
+&lt;h3 id=&quot;scopa-inom-ett-element&quot;&gt;Scopa inom ett element&lt;/h3&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.ett_block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;p&gt;Om vi vill scopa inom ett element, till exempel styla en h2-rubrik som har classen &lt;code&gt;.special&lt;/code&gt; och endast påverka alla h2 som finns på sidan med den classen, skriver vi precis som ovan fast utan mellanrummet.&lt;/p&gt;
 
-&lt;span class=&quot;nc&quot;&gt;.ett-block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h2&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;special&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Den här rubriken kommer att påverkas&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h2&amp;gt;&lt;/span&gt;
 
-&lt;span class=&quot;nc&quot;&gt;.ettBlock&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h3&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;special&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Den här rubriken kommer inte att påverkas&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;h2&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.special&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website#&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-id-class/&quot;&gt;Id och class&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 12, 2014.&lt;/p&gt;</content>
-  </entry>
-
-
-  
-  <entry>
-    <title type="html"><![CDATA[Positionering]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/css-positionering/" />
-    <id>http://webbdesignkurser.github.io/website/webbdesign/css-positionering</id>
-    <published>2014-04-11T00:00:00+00:00</published>
-    <updated>2014-04-11T00:00:00+00:00</updated>
-    <author>
-      <name>Webbdesignkurser</name>
-      <uri>http://webbdesignkurser.github.io/website/</uri>
-      <email>kontakt@webbdesignkurser.se<email>
-    </author>
-    <content type="html">&lt;h2 id=&quot;stt-position-med-css&quot;&gt;Sätt position med CSS&lt;/h2&gt;
-
-&lt;p class=&quot;preamble&quot;&gt;Hur placerar man ut ett element på hemsidan? För att svara på frågan måste vi först veta hur vi vill placera ut det. Element kan nämligen ha olika beteenden som reagerar annorlunda med omgivningen.&lt;/p&gt;
-
-&lt;h3 id=&quot;relative-absolute-fixed--static&quot;&gt;Relative, Absolute, Fixed &amp;amp; Static&lt;/h3&gt;
-&lt;p&gt;Dessa variablar används för att ge HTML-element olika typer av beteenden som påverkar positionen. De skrivs i CSS som &lt;code&gt;position: relative&lt;/code&gt; om elementet ska ha en relativ position. Men vad betyder då dessa variablar? För att göra det enkelt så kan vi jämföra dessa med LEGO-block, där varje variabel har en färg. &lt;em&gt;(LEGO sponsrar ej denna kurs)&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;position-relative&quot;&gt;Position: Relative&lt;/h3&gt;
-&lt;p&gt;Med &lt;code&gt;position: relative&lt;/code&gt; utgår man från den &lt;strong&gt;nuvarande positionen&lt;/strong&gt; när man ska positionera ut elementet.  &lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_position-relative.png&quot; /&gt;  &lt;/p&gt;
-
-&lt;h3 id=&quot;position-absolute&quot;&gt;Position: Absolute&lt;/h3&gt;
-&lt;p&gt;Med &lt;code&gt;position: absolute&lt;/code&gt; utgår man från &lt;strong&gt;områdets absoluta nollpunkt&lt;/strong&gt;, vilket är vänstra hörnet av området som elementet ligger inom.  &lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_position-absolute.png&quot; /&gt;  &lt;/p&gt;
-
-&lt;h3 id=&quot;position-fixed&quot;&gt;Position: Fixed&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;position: fixed&lt;/code&gt; har samma värden som absolute, förutom att den följer med när man scrollar i webbläsaren.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_position-fixed.png&quot; /&gt; &lt;/p&gt;
-
-&lt;h3 id=&quot;position-static&quot;&gt;Position: Static&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;position: static&lt;/code&gt; nollställer alla värden, det är variabeln som alla element har innan man har valt någon.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_position-static.png&quot; /&gt;  &lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-positionering/&quot;&gt;Positionering&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 11, 2014.&lt;/p&gt;</content>
   </entry>
 
 
@@ -1465,6 +1439,203 @@ Det appliceras på html-element som följande.&lt;/p&gt;
 &lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website#&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/artiklar/css-positionering/&quot;&gt;Positionering&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 11, 2014.&lt;/p&gt;</content>
+  </entry>
+
+
+  
+  <entry>
+    <title type="html"><![CDATA[Margin och padding]]></title>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/css-margin-padding/" />
+    <id>http://webbdesignkurser.github.io/website/webbdesign/css-margin-padding</id>
+    <published>2014-04-11T00:00:00+00:00</published>
+    <updated>2014-04-11T00:00:00+00:00</updated>
+    <author>
+      <name>Webbdesignkurser</name>
+      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <email>kontakt@webbdesignkurser.se<email>
+    </author>
+    <content type="html">&lt;h2 id=&quot;marginaler-och-utfyllnad-i-css&quot;&gt;Marginaler och utfyllnad i CSS&lt;/h2&gt;
+
+&lt;p class=&quot;preamble&quot;&gt;Margin och padding är två helt olika saker, men de går ofta hand i hand. Margin används för att ge elementet ett avstånd på hemsidan, medan padding fyller ut.&lt;/p&gt;
+
+&lt;h3 id=&quot;margin&quot;&gt;Margin&lt;/h3&gt;
+&lt;p&gt;Margin kan skrivas på två olika sätt i CSS, antingen skriver man varje riktning var för sig, eller så förkortar man ner det till ett attribut.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;margin-top&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;margin-left&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;20px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;margin-right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;30px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;margin-bottom&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;40px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nc&quot;&gt;.block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;20px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;30px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;40px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Båda alternativen går lika bra, och ger följande effekt på elementet.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_css-margin.png&quot; /&gt; &lt;/p&gt;
+
+&lt;h3 id=&quot;padding&quot;&gt;Padding&lt;/h3&gt;
+&lt;p&gt;Till skillnad från margin så placerar det inte ut elementet, trots att det visuellt kan se ut så. Det padding gör är att den lägger till en utfyllnad inom elementet, vilket  exempelvis passar bra på en knapp som har en bakgrund och behöver utrymme runt knapptexten.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;padding-top&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;padding-left&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;20px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;padding-right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;30px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;padding-bottom&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;40px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nc&quot;&gt;.block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;20px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;30px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;40px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Det här ger då följande effekt.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_css-padding.png&quot; /&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website#&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-margin-padding/&quot;&gt;Margin och padding&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 11, 2014.&lt;/p&gt;</content>
+  </entry>
+
+
+  
+  <entry>
+    <title type="html"><![CDATA[Positionering]]></title>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/css-positionering/" />
+    <id>http://webbdesignkurser.github.io/website/webbdesign/css-positionering</id>
+    <published>2014-04-10T00:00:00+00:00</published>
+    <updated>2014-04-10T00:00:00+00:00</updated>
+    <author>
+      <name>Webbdesignkurser</name>
+      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <email>kontakt@webbdesignkurser.se<email>
+    </author>
+    <content type="html">&lt;h2 id=&quot;stt-position-med-css&quot;&gt;Sätt position med CSS&lt;/h2&gt;
+
+&lt;p class=&quot;preamble&quot;&gt;Hur placerar man ut ett element på hemsidan? För att svara på frågan måste vi först veta hur vi vill placera ut det. Element kan nämligen ha olika beteenden som reagerar annorlunda med omgivningen.&lt;/p&gt;
+
+&lt;h2 id=&quot;relative-absolute-fixed--static&quot;&gt;Relative, Absolute, Fixed &amp;amp; Static&lt;/h2&gt;
+&lt;p&gt;Dessa variablar används för att ge HTML-element olika typer av beteenden som påverkar positionen. De skrivs i CSS som &lt;code&gt;position: relative&lt;/code&gt; om elementet ska ha en relativ position. Sedan kan man positionera ut elementet med hjälp av &lt;a href=&quot;/webbdesign/css-margin-padding&quot;&gt;margin&lt;/a&gt;. &lt;/p&gt;
+
+&lt;h3 id=&quot;position-relative&quot;&gt;Position Relative&lt;/h3&gt;
+&lt;p&gt;Med &lt;code&gt;position: relative&lt;/code&gt; utgår man från den &lt;strong&gt;nuvarande positionen&lt;/strong&gt; när man ska positionera ut elementet.  &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_position-relative.png&quot; /&gt;  &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.relativtBlock&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;relative&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;position-absolute&quot;&gt;Position Absolute&lt;/h3&gt;
+&lt;p&gt;Med &lt;code&gt;position: absolute&lt;/code&gt; utgår man från &lt;strong&gt;områdets absoluta nollpunkt&lt;/strong&gt;, vilket är vänstra hörnet av området som elementet ligger inom.  &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_position-absolute.png&quot; /&gt;  &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.absolutBlock&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;absolute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;position-fixed&quot;&gt;Position Fixed&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;position: fixed&lt;/code&gt; har samma värden som absolute, förutom att den följer med när man scrollar i webbläsaren.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_position-fixed.png&quot; /&gt; &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.fixeratBlock&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;fixed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;position-static&quot;&gt;Position Static&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;position: static&lt;/code&gt; nollställer alla värden, det är variabeln som alla element har innan man har valt något.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_position-static.png&quot; /&gt;  &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.statisktBlock&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;static&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;placera-ett-element-bredvid-ett-annat&quot;&gt;Placera ett element bredvid ett annat&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;float&lt;/code&gt; är attributet du behöver för att placera ett element bredvid ett annat i CSS. Du kan bestämma om elementet ska flyta till vänster eller höger. I det här exemplet så har vi två element, ett för content och ett för sidebar.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;content&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Startsida&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Välkommen till min hemsida!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;sidebar&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;strong&amp;gt;&lt;/span&gt;Meny till höger&lt;span class=&quot;nt&quot;&gt;&amp;lt;/strong&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.content&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;relative&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nc&quot;&gt;.sidebar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;relative&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;example box full-width&quot;&gt;
+	&lt;div style=&quot;position: relative;width: 300px;float: left;&quot;&gt;
+	  &lt;h1 style=&quot;margin-top: 0;&quot;&gt;Startsida&lt;/h1&gt;
+	  &lt;p&gt;Välkommen till min hemsida!&lt;/p&gt;
+	&lt;/div&gt;
+
+	&lt;div style=&quot;position: relative;float: left;&quot;&gt;
+	  &lt;strong&gt;Meny till höger&lt;/strong&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;example box full-width&quot;&gt;
+	&lt;div style=&quot;background: #ffff4c;position: relative;width: 300px;float: left;&quot;&gt;
+	  &lt;h1 style=&quot;margin-top: 0;&quot;&gt;Startsida&lt;/h1&gt;
+	  &lt;p&gt;Välkommen till min hemsida!&lt;/p&gt;
+	&lt;/div&gt;
+
+	&lt;div style=&quot;background: #ffff4f; position: relative;float: left;&quot;&gt;
+	  &lt;strong&gt;Meny till höger&lt;/strong&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;avsluta-en-float&quot;&gt;Avsluta en float&lt;/h3&gt;
+
+&lt;p&gt;Om du inte avslutar floaten kommer elementen efter dessa att malplaceras och hamna fel. Placera därför båda elementen inom ett annat element som har attributet &lt;code&gt;overflow: hidden&lt;/code&gt;. Alternativt lägger du en div efter de båda elementen som attributet &lt;code&gt;clear: both&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;style=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;overflow: hidden;&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;left&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;right&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;left&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;right&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;stle=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;clear: both;&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-positionering/&quot;&gt;Positionering&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 10, 2014.&lt;/p&gt;</content>
   </entry>
 
 

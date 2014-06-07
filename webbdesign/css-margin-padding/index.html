@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>Typografi &#8211; Webbdesignkurser</title>
+	<title>Margin och padding &#8211; Webbdesignkurser</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="Webbdesign, Kurser, Hemsidor, Html, Css">
 	<!-- meta name="keywords" content=""> -->
@@ -13,13 +13,13 @@
 	<!-- Open Graph -->
 	<meta property="og:locale" content="sv_SE">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Typografi">
+	<meta property="og:title" content="Margin och padding">
 	<meta property="og:description" content="Hur gör man en hemsida? Få svaret på Webbdesignkurser där alla kurser är gratis och lätta att komma igång med!">
-	<meta property="og:url" content="http://webbdesignkurser.github.io/website/webbdesign/css-typografi/">
+	<meta property="og:url" content="http://webbdesignkurser.github.io/website/webbdesign/css-margin-padding/">
 	<meta property="og:site_name" content="Webbdesignkurser">
 
 	
-	<link rel="canonical" href="http://webbdesignkurser.github.io/website/webbdesign/css-typografi/">
+	<link rel="canonical" href="http://webbdesignkurser.github.io/website/webbdesign/css-margin-padding/">
 	<link href="http://webbdesignkurser.github.io/website/feed.xml" type="application/atom+xml" rel="alternate" title="Webbdesignkurser Feed">
 	
 	  <link rel="dns-prefetch" href="//webbdesignkurser.se">
@@ -167,184 +167,61 @@
 
         
             <div class="col-sm-12">
-                <img src="/website/assets/header_css-text-ca3274959fdae91a06d7abcf7e409d0c.jpg" class="headerImage"/>
+                <img src="/website/assets/header_css-margin-padding-6c76a091becd682f50d625af9e37332e.jpg" class="headerImage"/>
             </div>
         
 
         <div class="col-md-8 content">
             
-                <h1 class="title">Typografi</h1>
+                <h1 class="title">Margin och padding</h1>
             
-            <h2 id="typografi-med-css">Typografi med CSS</h2>
+            <h2 id="marginaler-och-utfyllnad-i-css">Marginaler och utfyllnad i CSS</h2>
 
-<p class="preamble">Det är mer än bara textstorlek när det kommer till typografi på webben. Här kommer vi att gå igenom de viktigaste variablarna i CSS som används för typografi.</p>
+<p class="preamble">Margin och padding är två helt olika saker, men de går ofta hand i hand. Margin används för att ge elementet ett avstånd på hemsidan, medan padding fyller ut.</p>
 
-<h3 id="textstorlek">Textstorlek</h3>
+<h3 id="margin">Margin</h3>
+<p>Margin kan skrivas på två olika sätt i CSS, antingen skriver man varje riktning var för sig, eller så förkortar man ner det till ett attribut.</p>
 
-<p>Textstorleken anges i pixlar och skrivs <code>font-size: 14px</code> om texten ska vara 14 pixlar hög.</p>
-
-<div class="highlight"><pre><code class="css"><span class="nt">h1</span> <span class="p">{</span>
-  <span class="k">font-size</span><span class="o">:</span> <span class="m">30px</span><span class="p">;</span>
+<div class="highlight"><pre><code class="css"><span class="nc">.block</span><span class="p">{</span>
+  <span class="k">margin-top</span><span class="o">:</span> <span class="m">10px</span><span class="p">;</span>
+  <span class="k">margin-left</span><span class="o">:</span> <span class="m">20px</span><span class="p">;</span>
+  <span class="k">margin-right</span><span class="o">:</span> <span class="m">30px</span><span class="p">;</span>
+  <span class="k">margin-bottom</span><span class="o">:</span> <span class="m">40px</span><span class="p">;</span>
 <span class="p">}</span>
 
-<span class="nt">p</span> <span class="p">{</span>
-  <span class="k">font-size</span><span class="o">:</span> <span class="m">14px</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div>
-
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;h1&gt;</span>Rubrik<span class="nt">&lt;/h1&gt;</span>
-
-<span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, ut voluptas at quis rerum tempore eligendi quas vitae sint expedita voluptatum tenetur blanditiis architecto vel itaque recusandae facere commodi eius!<span class="nt">&lt;/p&gt;</span>
-
-<span class="nt">&lt;p&gt;</span>Labore magnam veritatis asperiores quod quaerat reiciendis?<span class="nt">&lt;/p&gt;</span>
-</code></pre></div>
-
-<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_css-typografi-2.png" style="margin-left: -13px;" />  </p>
-
-<h3 id="linjehjd">Linjehöjd</h3>
-
-<p>Linjehöjden avgör hur hög en rad ska vara. Du vill inte att raderna ska vara för nära varandra och samtidigt inte för långt borta. Höjden bestäms med hjälp av <code>line-height</code>.</p>
-
-<div class="highlight"><pre><code class="css"><span class="nt">h1</span> <span class="p">{</span>
-  <span class="k">font-size</span><span class="o">:</span> <span class="m">30px</span><span class="p">;</span>
-  <span class="k">line-height</span><span class="o">:</span> <span class="m">32px</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="nt">p</span> <span class="p">{</span>
-  <span class="k">font-size</span><span class="o">:</span> <span class="m">14px</span><span class="p">;</span>
-  <span class="k">line-height</span><span class="o">:</span> <span class="m">21px</span><span class="p">;</span>
+<span class="nc">.block</span><span class="p">{</span>
+  <span class="k">margin</span><span class="o">:</span> <span class="m">10px</span> <span class="m">20px</span> <span class="m">30px</span> <span class="m">40px</span><span class="p">;</span>
 <span class="p">}</span>
 </code></pre></div>
 
-<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_css-typografi-3.png" style="margin-left: -13px;" />  </p>
+<p>Båda alternativen går lika bra, och ger följande effekt på elementet.</p>
 
-<h3 id="radavstnd">Radavstånd</h3>
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_css-margin.png" /> </p>
 
-<p>Radavståndet är avståndet mellan rubriker och paragrafer.<br />
-Här använder vi <code>margin-bottom: 15px</code> för att skilja dom åt.</p>
+<h3 id="padding">Padding</h3>
+<p>Till skillnad från margin så placerar det inte ut elementet, trots att det visuellt kan se ut så. Det padding gör är att den lägger till en utfyllnad inom elementet, vilket  exempelvis passar bra på en knapp som har en bakgrund och behöver utrymme runt knapptexten.</p>
 
-<div class="highlight"><pre><code class="css"><span class="nt">h1</span> <span class="p">{</span>
-  <span class="k">font-size</span><span class="o">:</span> <span class="m">30px</span><span class="p">;</span>
-  <span class="k">line-height</span><span class="o">:</span> <span class="m">32px</span><span class="p">;</span>
-  <span class="k">margin-bottom</span><span class="o">:</span> <span class="m">15px</span><span class="p">;</span>
+<div class="highlight"><pre><code class="css"><span class="nc">.block</span><span class="p">{</span>
+  <span class="k">padding-top</span><span class="o">:</span> <span class="m">10px</span><span class="p">;</span>
+  <span class="k">padding-left</span><span class="o">:</span> <span class="m">20px</span><span class="p">;</span>
+  <span class="k">padding-right</span><span class="o">:</span> <span class="m">30px</span><span class="p">;</span>
+  <span class="k">padding-bottom</span><span class="o">:</span> <span class="m">40px</span><span class="p">;</span>
 <span class="p">}</span>
 
-<span class="nt">p</span> <span class="p">{</span>
-  <span class="k">font-size</span><span class="o">:</span> <span class="m">14px</span><span class="p">;</span>
-  <span class="k">line-height</span><span class="o">:</span> <span class="m">21px</span><span class="p">;</span>
-  <span class="k">margin-bottom</span><span class="o">:</span> <span class="m">15px</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div>
-
-<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_css-typografi-4.png" style="margin-left: -13px;" />  </p>
-
-<h3 id="typsnitt">Typsnitt</h3>
-
-<p>Med hjälp av <code>font-family</code> så tilldelar vi texten ett typsnitt. En fullständig lista på alla tillgängliga typsnitt hittar du <a href="http://cssfontstack.com" target="_blank">här</a>. Om du vill importera ett eget typsnitt så hänvisar vi dig till vår <a href="http://webbdesignkurser.github.io/website/typsnitt/">fördjupning av typsnitt</a>.</p>
-
-<div class="highlight"><pre><code class="css"><span class="nt">h1</span> <span class="p">{</span>
-  <span class="k">font-size</span><span class="o">:</span> <span class="m">30px</span><span class="p">;</span>
-  <span class="k">line-height</span><span class="o">:</span> <span class="m">32px</span><span class="p">;</span>
-  <span class="k">margin-bottom</span><span class="o">:</span> <span class="m">15px</span><span class="p">;</span>
-  <span class="k">font-family</span><span class="o">:</span> <span class="n">helvetica</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="nt">p</span> <span class="p">{</span>
-  <span class="k">font-size</span><span class="o">:</span> <span class="m">14px</span><span class="p">;</span>
-  <span class="k">line-height</span><span class="o">:</span> <span class="m">21px</span><span class="p">;</span>
-  <span class="k">margin-bottom</span><span class="o">:</span> <span class="m">15px</span><span class="p">;</span>
-  <span class="k">font-family</span><span class="o">:</span> <span class="n">helvetica</span><span class="p">;</span>
+<span class="nc">.block</span><span class="p">{</span>
+  <span class="k">padding</span><span class="o">:</span> <span class="m">10px</span> <span class="m">20px</span> <span class="m">30px</span> <span class="m">40px</span><span class="p">;</span>
 <span class="p">}</span>
 </code></pre></div>
 
-<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_css-typografi-5.png" style="margin-left: -13px;" />  </p>
+<p>Det här ger då följande effekt.</p>
 
-<h3 id="tjocklek-och-kursivt">Tjocklek och kursivt</h3>
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_css-padding.png" /> </p>
 
-<p>I HTML finns det två taggar som används för tjock text och kursiv text, nämligen <code>&lt;strong&gt;</code> och <code>&lt;em&gt;</code>. Eftersom vi tidigare i kursen nollställde alla CSS-värden med en <a href="http://webbdesignkurser.github.io/websitewebbdesign/reset-css/">Reset CSS</a> så måste vi nu ta in dessa stilar igen till respektve HTML-tag.</p>
-
-<div class="highlight"><pre><code class="css"><span class="nt">strong</span> <span class="p">{</span>
-  <span class="k">font-weight</span><span class="o">:</span> <span class="k">bold</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="nt">em</span> <span class="p">{</span>
-  <span class="k">font-style</span><span class="o">:</span> <span class="k">italic</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div>
-
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;strong&gt;</span>Tjock text<span class="nt">&lt;/strong&gt;</span> <span class="nt">&lt;br/&gt;</span>
-
-<span class="nt">&lt;em&gt;</span>Kursiv text<span class="nt">&lt;/em&gt;</span>
-</code></pre></div>
-
-<div class="example box full-width">
-
-<strong>Tjock text</strong> <br />
-
-<em>Kursiv text</em>
-
-</div>
-
-<h2 id="lnkar">Länkar</h2>
-
-<p>För att ändra css-stilen när man har <strong>musen över</strong> eller <strong>trycker</strong> på en länk så krävs det några extra attribut, nämligen <code>hover</code> och <code>active</code>.</p>
-
-<div class="highlight"><pre><code class="css"><span class="nt">a</span> <span class="p">{</span>
-  <span class="c">/* När länken är oberörd */</span>
-<span class="p">}</span>
-
-<span class="nt">a</span><span class="nd">:hover</span> <span class="p">{</span>
-  <span class="c">/* När länken hålls över */</span>
-<span class="p">}</span>
-
-<span class="nt">a</span><span class="nd">:active</span> <span class="p">{</span>
-  <span class="c">/* När länken trycks på */</span>
-<span class="p">}</span>
-</code></pre></div>
-
-<h3 id="exempel">Exempel</h3>
-
-<div class="highlight"><pre><code class="css"><span class="nt">a</span> <span class="p">{</span>
-  <span class="k">color</span><span class="o">:</span> <span class="m">#38b857</span><span class="p">;</span> <span class="c">/* Grön */</span>
-  <span class="k">text-decoration</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span> <span class="c">/* Inget understreck */</span>
-<span class="p">}</span>
-
-<span class="nt">a</span><span class="nd">:hover</span> <span class="p">{</span>
-  <span class="k">color</span><span class="o">:</span> <span class="m">#44d96c</span><span class="p">;</span> <span class="c">/* Ljusare grön */</span>
-  <span class="k">text-decoration</span><span class="o">:</span> <span class="k">underline</span><span class="p">;</span> <span class="c">/* Understreck */</span>
-<span class="p">}</span>
-
-<span class="nt">a</span><span class="nd">:active</span> <span class="p">{</span>
-  <span class="k">color</span><span class="o">:</span> <span class="m">#47e672</span><span class="p">;</span> <span class="c">/* Ännu ljusare grön */</span>
-<span class="p">}</span>
-</code></pre></div>
-
-<div class="highlight"><pre><code class="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>Håll musen över mig<span class="nt">&lt;/a&gt;</span>
-</code></pre></div>
-
-<style>
-.examplelink {
-  font-size: 20px;
-  color: #38b857; /* Grön */
-  text-decoration: none; /* Inget understreck */
-}
-.examplelink:hover {
-  color: #44d96c; /* Ljusare grön */
-  text-decoration: underline; /* Understreck */
-}
-.examplelink:active {
-  color: #47e672; /* Ännu ljusare grön */
-}
-</style>
-
-<div class="example box full-width">
-  <a href="#" class="examplelink">Håll musen över mig</a>
-</div>
-<p><a class="btn btn-next" href="http://webbdesignkurser.github.io/website/webbdesign/css-positionering">Gå till nästa steg!</a></p>
+<p><a class="btn btn-next" href="http://webbdesignkurser.github.io/website#">Gå till nästa steg!</a></p>
 
             <hr/>
             <h4 class="share">Dela </h4>
-            <input class="form-control" style="width: auto;" type="text" value="http://wdk.se/cd876"> 
+            <input class="form-control" style="width: auto;" type="text" value="http://wdk.se/79303"> 
             
                 <section id="disqus_thread"></section>
             
@@ -445,7 +322,7 @@ Här använder vi <code>margin-bottom: 15px</code> för att skilja dom åt.</p>
                     
                         
                             
-                                <li><a class="webbdesign navItem current active" href="http://webbdesignkurser.github.io/website/webbdesign/css-typografi/">Typografi</a></li>
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-typografi/">Typografi</a></li>
                             
                         
                     
@@ -457,7 +334,7 @@ Här använder vi <code>margin-bottom: 15px</code> för att skilja dom åt.</p>
                     
                         
                             
-                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-margin-padding/">Margin och padding</a></li>
+                                <li><a class="webbdesign navItem current active" href="http://webbdesignkurser.github.io/website/webbdesign/css-margin-padding/">Margin och padding</a></li>
                             
                         
                     

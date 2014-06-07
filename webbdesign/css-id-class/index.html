@@ -89,7 +89,7 @@
 
  <script src="/website/assets/search-573d37cbc3f04ac57b09a188e5e0926a.js"></script>
  <!--CSS-->
- <link rel="stylesheet" href="/website/assets/main-de03974b26ba45255c662c6b5d33f292.css">
+ <link rel="stylesheet" href="/website/assets/main-fedaeda1c6cddbb88c8263d6d1907ed1.css">
  <link rel="stylesheet" href="/website/assets/highlight-cfca618c692f56f5eb1391aba9e8df2d.css">
 
  
@@ -255,44 +255,63 @@ Det appliceras på html-element som följande.</p>
 <span class="p">}</span>
 </code></pre></div>
 
-<h3 id="scoping">Scoping</h3>
+<h3 id="understreck-bindestreck-eller-camelcase">Understreck, bindestreck eller CamelCase?</h3>
+<p>Som du har märkt använder vi inte mellanrum när vi namnger html-elementen, det beror på att man inte kan det helt enkelt. Istället kan man använda understreck, bindestreck eller så kallat CamelCase när man skriver. Vi föredrar camelCase men det är en smaksak.</p>
+
+<div class="highlight"><pre><code class="css"><span class="nc">.ett_block</span><span class="p">{</span>
+  
+<span class="p">}</span>
+
+<span class="nc">.ett-block</span><span class="p">{</span>
+  
+<span class="p">}</span>
+
+<span class="nc">.ettBlock</span><span class="p">{</span>
+  
+<span class="p">}</span>
+</code></pre></div>
+
+<hr />
+
+<h2 id="scoping">Scoping</h2>
+
 <p>Det är ibland svårt att veta vilken class som tillhör vart på hemsidan om man har ett tiotal classer. Det finns en enkel lösning på det, scoping. Man kan översätta det till avgränsning på svenska.   </p>
+
+<h3 id="scopa-inom-flera-element">Scopa inom flera element</h3>
 
 <p>Om vi har en div som ligger inom en div, till exempel såhär:</p>
 
 <div class="highlight"><pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;sidhuvud&quot;</span><span class="nt">&gt;</span>
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;meny&quot;</span><span class="nt">&gt;</span>
-    Här ligger menyn
+    Den här menyn kommer att påverkas
   <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;meny&quot;</span><span class="nt">&gt;</span>
+  Den här menyn kommer inte att påverkas
 <span class="nt">&lt;/div&gt;</span>
 </code></pre></div>
 
 <p>Så kan du scopa det i CSS’en på det här viset och på så sätt hålla det sorterat.</p>
 
-<div class="highlight"><pre><code class="css"><span class="nc">.sidhuvud</span><span class="p">{</span>
-
-<span class="p">}</span>
-
-<span class="nc">.sidhuvud.meny</span><span class="p">{</span>
-
+<div class="highlight"><pre><code class="css"><span class="nc">.sidhuvud</span> <span class="nc">.meny</span><span class="p">{</span>
+  <span class="c">/* Den här kommer endast att påverka .meny som ligger inom .sidhuvud */</span>
 <span class="p">}</span>
 </code></pre></div>
 
-<p>Stilen i <code>.sidhuvud.meny</code> kommer bara att påverka diven <code>.meny</code> som ligger inom <code>.sidhuvud</code>.</p>
+<p>Stilen i <code>.sidhuvud .meny</code> kommer bara att påverka diven <code>.meny</code> som ligger inom <code>.sidhuvud</code>.</p>
 
-<h3 id="understreck-bindestreck-eller-camelcase">Understreck, bindestreck eller CamelCase?</h3>
-<p>Som du har märkt använder vi inte mellanrum när vi namnger html-elementen, det beror på att man inte kan det helt enkelt. Istället kan man använda understreck, bindestreck eller så kallat CamelCase när man skriver. Vi föredrar camelCase men det är en smaksak.</p>
+<h3 id="scopa-inom-ett-element">Scopa inom ett element</h3>
 
-<div class="highlight"><pre><code class="css"><span class="nc">.ett_block</span><span class="p">{</span>
-	
-<span class="p">}</span>
+<p>Om vi vill scopa inom ett element, till exempel styla en h2-rubrik som har classen <code>.special</code> och endast påverka alla h2 som finns på sidan med den classen, skriver vi precis som ovan fast utan mellanrummet.</p>
 
-<span class="nc">.ett-block</span><span class="p">{</span>
-	
-<span class="p">}</span>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;h2</span> <span class="na">class=</span><span class="s">&quot;special&quot;</span><span class="nt">&gt;</span>Den här rubriken kommer att påverkas<span class="nt">&lt;/h2&gt;</span>
 
-<span class="nc">.ettBlock</span><span class="p">{</span>
-	
+<span class="nt">&lt;h3</span> <span class="na">class=</span><span class="s">&quot;special&quot;</span><span class="nt">&gt;</span>Den här rubriken kommer inte att påverkas<span class="nt">&lt;/h3&gt;</span>
+</code></pre></div>
+
+<div class="highlight"><pre><code class="css"><span class="nt">h2</span><span class="nc">.special</span><span class="p">{</span>
+  
 <span class="p">}</span>
 </code></pre></div>
 
@@ -408,6 +427,12 @@ Det appliceras på html-element som följande.</p>
                         
                             
                                 <li><a class="webbdesign navItem current active" href="http://webbdesignkurser.github.io/website/webbdesign/css-id-class/">Id och class</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-margin-padding/">Margin och padding</a></li>
                             
                         
                     
