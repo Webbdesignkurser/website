@@ -69,7 +69,7 @@
                     {% endfor %}
                     </ul>
                     <ul class="others">
-                    <li><h4 class="{{ category }} title background"><a>Övriga kurser</a></h4></li>
+                    <!-- Enable this when we have courses <li><h4 class="{{ category }} title background"><a>Övriga kurser</a></h4></li> -->
                     {% for course in site.courses %}
                         {% unless course.id == category or course.inactive %}
                             <li><a href="{{ site.url }}/{{ course.id }}/inledning" class="navItem {{ course.class }} color">{{ course.title }}</a></li>
