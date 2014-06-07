@@ -33,7 +33,11 @@
                                     <h3>{{ course.title }}</h3>
                                     <p>{{ course.description }}</p>
                                     <span class="btn btn-secondary">Gratis</span>
-                                    <a href="{{ site.url }}/{{ course.id }}/inledning" class="btn btn-primary pull-right color">Kom igång!</a>
+                                    {% if course.inactive %}
+                                      <span class="btn btn-secondary pull-right">Kommer snart!</span>
+                                    {% else %}
+                                      <a href="{{ site.url }}/{{ course.id }}/inledning" class="btn btn-primary pull-right color">Kom igång!</a>
+                                    {% endif %}
                                 </div>
                             </div>
                         </div>
@@ -67,7 +71,7 @@
                     <ul class="others">
                     <li><h4 class="{{ category }} title background"><a>Övriga kurser</a></h4></li>
                     {% for course in site.courses %}
-                        {% unless course.id == category %}
+                        {% unless course.id == category or course.inactive %}
                             <li><a href="{{ site.url }}/{{ course.id }}/inledning" class="navItem {{ course.class }} color">{{ course.title }}</a></li>
                         {% endunless %}
                     {% endfor %}

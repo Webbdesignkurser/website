@@ -16,7 +16,7 @@
             {% endunless %}
             {{ content }}
             <!-- Change 'webbdesign' to 'artiklar' once done -->
-            {% for post in site.categories['webbdesign'] %}
+            {% for post in site.categories['artiklar'] %}
               <img src="{{ post.headerimage | asset_path }}"/>
               <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }} - {{ post.date | date: "%-d %B %Y" }}</a></h2>
               <p>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 300 }}{% endif %} <a href="{{ site.url }}{{ post.url }}">Läs mer</a></p>
@@ -39,7 +39,11 @@
                                     <h3>{{ course.title }}</h3>
                                     <p>{{ course.description }}</p>
                                     <span class="btn btn-secondary">Gratis</span>
-                                    <a href="{{ site.url }}/{{ course.id }}/inledning" class="btn btn-primary pull-right color">Kom igång!</a>
+                                    {% if course.inactive %}
+                                      <span class="btn btn-secondary pull-right">Kommer snart!</span>
+                                    {% else %}
+                                      <a href="{{ site.url }}/{{ course.id }}/inledning" class="btn btn-primary pull-right color">Kom igång!</a>
+                                    {% endif %}
                                 </div>
                             </div>
                         </div>
