@@ -116,8 +116,33 @@ Och i CSS'en skapar vi nu en specialstil till classen.
 
 
 
-###Scoping
+
+###Understreck, bindestreck eller CamelCase?
+Som du har märkt använder vi inte mellanrum när vi namnger html-elementen, det beror på att man inte kan det helt enkelt. Istället kan man använda understreck, bindestreck eller så kallat CamelCase när man skriver. Vi föredrar camelCase men det är en smaksak.
+
+{% highlight css %}
+
+.ett_block{
+  
+}
+
+.ett-block{
+  
+}
+
+.ettBlock{
+  
+}
+
+{% endhighlight %}
+
+<hr/>
+
+##Scoping  
+
 Det är ibland svårt att veta vilken class som tillhör vart på hemsidan om man har ett tiotal classer. Det finns en enkel lösning på det, scoping. Man kan översätta det till avgränsning på svenska.   
+
+###Scopa inom flera element
 
 Om vi har en div som ligger inom en div, till exempel såhär:
 
@@ -125,8 +150,12 @@ Om vi har en div som ligger inom en div, till exempel såhär:
 
 <div class="sidhuvud">
   <div class="meny">
-    Här ligger menyn
+    Den här menyn kommer att påverkas
   </div>
+</div>
+
+<div class="meny">
+  Den här menyn kommer inte att påverkas
 </div>
 
 {% endhighlight %}
@@ -135,39 +164,36 @@ Så kan du scopa det i CSS'en på det här viset och på så sätt hålla det so
 
 {% highlight css %}
 
-.sidhuvud{
-
-}
-
-.sidhuvud.meny{
-
+.sidhuvud .meny{
+  /* Den här kommer endast att påverka .meny som ligger inom .sidhuvud */
 }
 
 {% endhighlight %}
 
-Stilen i ``.sidhuvud.meny`` kommer bara att påverka diven ``.meny`` som ligger inom ``.sidhuvud``.
+Stilen i ``.sidhuvud .meny`` kommer bara att påverka diven ``.meny`` som ligger inom ``.sidhuvud``.
 
 
 
+###Scopa inom ett element
 
-###Understreck, bindestreck eller CamelCase?
-Som du har märkt använder vi inte mellanrum när vi namnger html-elementen, det beror på att man inte kan det helt enkelt. Istället kan man använda understreck, bindestreck eller så kallat CamelCase när man skriver. Vi föredrar camelCase men det är en smaksak.
+Om vi vill scopa inom ett element, till exempel styla en h2-rubrik som har classen ``.special`` och endast påverka alla h2 som finns på sidan med den classen, skriver vi precis som ovan fast utan mellanrummet.
+
+{% highlight html %}
+
+<h2 class="special">Den här rubriken kommer att påverkas</h2>
+
+<h3 class="special">Den här rubriken kommer inte att påverkas</h3>
+
+{% endhighlight %}
 
 {% highlight css %}
 
-.ett_block{
-	
-}
-
-.ett-block{
-	
-}
-
-.ettBlock{
-	
+h2.special{
+  
 }
 
 {% endhighlight %}
+
 
 
 <a class="btn btn-next" href="{{ site.url }}#">Gå till nästa steg!</a>
