@@ -67,11 +67,12 @@ courses:
     description: Efter den här kursen så kommer du att kunna utveckla och publicera en fungerande hemsida.
     class: webbdesign
     image: thumbnail_grunderna-i-webbdesign.jpg
-#  - title: Responsiv Design
-#    id: responsiv-design
-#    description: Hur designar man för alla plattformar? Här går vi igenom alla alternativen som finns.
-#    class: responsivDesign
-#    image: thumbnail_responsiv-design.jpg
+  - title: Responsiv Design
+    id: responsiv-design
+    description: Hur designar man för alla plattformar? Här går vi igenom alla alternativen som finns.
+    class: responsivDesign
+    image: thumbnail_responsiv-design.jpg
+    inactive: true
   - title: Grunderna i Grafisk design
     id: grafisk-design
     description: En bra hemsida kräver även bra design. Här visar vi grunderna i bildhantering och design.
