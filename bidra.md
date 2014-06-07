@@ -11,4 +11,4 @@ Vi har valt att ladda upp hela Webbdesignkurser på [GitHub](http://github.com/W
 
 ## Hur kan jag bidra?
 Om du vet hur man använder GitHub kan du skicka oss en "pull-request" på [http://github.com/Webbdesignkurser/website](http://github.com/Webbdesignkurser/website).
-Du kan även skicka ett email till kontakt@webbdesignkurser.se med ditt bidrag.
+Du kan även skicka ett email till [kontakt@webbdesignkurser.se](mailto:kontakt@webbdesignkurser.se) med ditt bidrag.

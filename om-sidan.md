@@ -12,8 +12,8 @@ permalink: /om-sidan/
 Vi bestämde oss för att utveckla en gratis kurs i webbdesign. Den är dessutom fri från reklam och sponsringar. Vi kände båda att vi inte vill rikta reklam åt utbildningar, då vi försöker vara så oberoende som möjligt. 
 
 ###Den perfekta plattformen för skolan
-Vårat konsept bygger på att dela kunskap gratis, utan några kommersiella syften.
-Hela vår hemsida får kopieras, delas och byggas vidare på. Den ligger nämligen uppladdad på GitHub. Där kan alla bidra med eget material och nya kurser. Som sagt, dela kunskap.  
+Vårat koncept bygger på att dela kunskap gratis, utan några kommersiella syften.
+Hela vår hemsida får kopieras, delas och byggas vidare på. Den ligger nämligen uppladdad på [GitHub](http://github.com/Webbdesignkurser). Där kan alla bidra med eget material och nya kurser. Som sagt, dela kunskap.  
 
 ###Använder din skola våra kurser?
 Vi skulle tycka det vore jätteroligt om ni kunde berätta om er upplevelse, vi försöker alltid att göra hemsidan bättre och fylla de krav som skolverket har. Kontakta oss på [kontakt@webbdesignkurser.se](mailto:kontakt@webbdesignkurser.se).
