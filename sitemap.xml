@@ -7,37 +7,7 @@
     
         
         <url>
-            <loc>http://webbdesignkurser.github.io/website/bidra/</loc>
-        </url>
-        
-    
-        
-        <url>
             <loc>http://webbdesignkurser.github.io/website/short.json</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://webbdesignkurser.github.io/website/index.html</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://webbdesignkurser.github.io/website/search.html</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://webbdesignkurser.github.io/website/sitemap.xml</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://webbdesignkurser.github.io/website/artiklar/</loc>
         </url>
         
     
@@ -49,7 +19,19 @@
     
         
         <url>
+            <loc>http://webbdesignkurser.github.io/website/404.html</loc>
+        </url>
+        
+    
+        
+        <url>
             <loc>http://webbdesignkurser.github.io/website/faq/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://webbdesignkurser.github.io/website/artiklar/</loc>
         </url>
         
     
@@ -61,7 +43,31 @@
     
         
         <url>
-            <loc>http://webbdesignkurser.github.io/website/404.html</loc>
+            <loc>http://webbdesignkurser.github.io/website/search.html</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://webbdesignkurser.github.io/website/app/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://webbdesignkurser.github.io/website/bidra/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://webbdesignkurser.github.io/website/index.html</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://webbdesignkurser.github.io/website/sitemap.xml</loc>
         </url>
         
     
@@ -172,6 +178,12 @@
         
         <url>
             <loc>http://webbdesignkurser.github.io/website/webbdesign/css-positionering/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://webbdesignkurser.github.io/website/webbdesign/css-bakgrund/</loc>
         </url>
         
     

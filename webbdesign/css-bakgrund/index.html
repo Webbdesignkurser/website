@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>Inledning &#8211; Webbdesignkurser</title>
+	<title>Bakgrund &#8211; Webbdesignkurser</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="Webbdesign, Kurser, Hemsidor, Html, Css">
 	<!-- meta name="keywords" content=""> -->
@@ -13,13 +13,13 @@
 	<!-- Open Graph -->
 	<meta property="og:locale" content="sv_SE">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Inledning">
+	<meta property="og:title" content="Bakgrund">
 	<meta property="og:description" content="Hur gör man en hemsida? Få svaret på Webbdesignkurser där alla kurser är gratis och lätta att komma igång med!">
-	<meta property="og:url" content="http://webbdesignkurser.github.io/website/webbdesign/inledning/">
+	<meta property="og:url" content="http://webbdesignkurser.github.io/website/webbdesign/css-bakgrund/">
 	<meta property="og:site_name" content="Webbdesignkurser">
 
 	
-	<link rel="canonical" href="http://webbdesignkurser.github.io/website/webbdesign/inledning/">
+	<link rel="canonical" href="http://webbdesignkurser.github.io/website/webbdesign/css-bakgrund/">
 	<link href="http://webbdesignkurser.github.io/website/feed.xml" type="application/atom+xml" rel="alternate" title="Webbdesignkurser Feed">
 	
 	  <link rel="dns-prefetch" href="//webbdesignkurser.se">
@@ -167,40 +167,49 @@
 
         
             <div class="col-sm-12">
-                <img src="/website/assets/header_grunderna-i-webbdesign-5876dca3e83117a559cb6a80672f80a5.jpg" class="headerImage"/>
+                <img src="/website/assets/header_css-bakgrund-74f885f8f96f1de9faaef5d1d1873389.jpg" class="headerImage"/>
             </div>
         
 
         <div class="col-md-8 content">
             
-                <h1 class="title">Inledning</h1>
+                <h1 class="title">Bakgrund</h1>
             
-            <h2 id="hur-gr-man-en-hemsida">Hur gör man en hemsida?</h2>
-<p class="preamble">Hur gör man en hemsida, hur laddar man upp den på internet och hur designar man den?  
-I den här kursen kommer vi att lära dig hur man skapar och publicerar en fungerande hemsida.</p>
+            <h2 id="stta-bakgrunder-med-css">Sätta bakgrunder med CSS</h2>
 
-<p>Det är rätt svårt att lära sig webbdesign från böcker, de blir snabbt utdaterade och tekniken ser ut på ett helt annat sätt imorgon. Så om du har en webbdesign-bok liggandes vid skolbänken eller köksbordet just nu så släng bort den, här kommer vi att gå igenom allt du behöver veta.</p>
+<p class="preamble">Bakgrunder kan appliceras på nästan alla HTML-element, och är relativt enkelt.</p>
 
-<h3 id="kostar-det-ngot">Kostar det något?</h3>
-<p>Nej, varken den här kursen eller möjligheten att designa en hemsida kostar något. Om du däremot planerar att publicera din hemsida på internet så kan domänen (namnet) och webbhotellet (utrymmet) kosta. Det beror helt på hur du vill publicera den, vilket vi kommer till senare.  </p>
+<p>Vanligast är det att man sätter bakgrunden på en <a href="/webbdesign/css-id-class">div</a> eller <a href="/webbdesign/css-typografi">text</a>. Det kan gälla en header, sidfot, knapp med mera. Vi använder oss av <code>background</code> i css för att bestämma bakgrund. Sedan kan vi skriva en <a href="/webbdesign/css-farger/">färgkod</a> eller <a href="/webbdesign/html-bilder/">bildadress</a> för att visa bakgrunden.</p>
 
-<p>Vi kommer däremot att använda köpta programvaror i den här kursen, kostnadsfria alternativ kommer att finnas. Det är upp till dig att skaffa dessa programvaror på valfritt sätt.</p>
+<h3 id="bakgrundfrg">Bakgrundfärg</h3>
 
-<h3 id="hjlp-under-kursens-gng">Hjälp under kursens gång</h3>
-<p>Har du några frågor under kursen så får du gärna använda kommentarsfältet längst ned på sidan. Vi försöker att svara så ofta vi kan, och du får gärna hjälpa andra.  </p>
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;ettRosaBlock&quot;</span><span class="nt">&gt;</span>
 
-<div class="success box">
-<h3>Vår policy och löfte till dig</h3>
-<p>Vi tillåter oss inte att sponsras av kommersiella tjänster eller programutvecklare. Vi rekommenderar helt enkelt inte sponsrat material. Däremot rekommenderar vi det som vi personligen anser är bäst just nu.</p>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div>
 
-<p>Du är här för att lära dig, inte för att köpas upp. Det är vår policy och löfte till dig.</p>
-</div>
+<div class="highlight"><pre><code class="css"><span class="nc">.ettRosaBlock</span><span class="p">{</span>
+  <span class="k">background</span><span class="o">:</span> <span class="m">#fd65e4</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
 
-<p><a class="btn btn-next" href="http://webbdesignkurser.github.io/website/webbdesign/programvaror/">Redo? Då sätter vi igång!</a> </p>
+<h3 id="bakgrundsbild">Bakgrundsbild</h3>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;ettRosaBlock&quot;</span><span class="nt">&gt;</span>
+
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div>
+
+<div class="highlight"><pre><code class="css"><span class="nc">.ettRosaBlock</span><span class="p">{</span>
+  <span class="k">background</span><span class="o">:</span> <span class="sx">url(images/bild.jpg)</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p><a class="btn btn-next" href="http://webbdesignkurser.github.io/website#">Gå till nästa steg!</a></p>
 
             <hr/>
             <h4 class="share">Dela </h4>
-            <input class="form-control" style="width: auto;" type="text" value="http://wdk.se/03b31"> 
+            <input class="form-control" style="width: auto;" type="text" value="http://wdk.se/6f5e2"> 
             
                 <section id="disqus_thread"></section>
             
@@ -229,7 +238,7 @@ I den här kursen kommer vi att lära dig hur man skapar och publicerar en funge
                     
                         
                             
-                                <li><a class="webbdesign navItem current active" href="http://webbdesignkurser.github.io/website/webbdesign/inledning/">Inledning</a></li>
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/inledning/">Inledning</a></li>
                             
                         
                     
@@ -325,7 +334,7 @@ I den här kursen kommer vi att lära dig hur man skapar och publicerar en funge
                     
                         
                             
-                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-bakgrund/">Bakgrund</a></li>
+                                <li><a class="webbdesign navItem current active" href="http://webbdesignkurser.github.io/website/webbdesign/css-bakgrund/">Bakgrund</a></li>
                             
                         
                     
