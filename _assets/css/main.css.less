@@ -346,7 +346,7 @@ header {
 	margin-bottom: 40px;
 	@media (max-width: 480px) {padding-top: 30px;}
 	h1 {
-		font-family: 'lato';
+		font-family: 'lato' !important;
 		font-size: 50px;
 		display: inline-block;
 		background: @brand-color;
@@ -583,8 +583,10 @@ header {
 			li{
 				list-style: none;
 				h4{
+					display: block;
 					margin: 0;
-					a{color: #fff;}
+					a{color: #fff;
+					padding-top: 16px; }
 				}
 				a{
 					width: 100%;
@@ -668,10 +670,10 @@ header {
 		margin: 10px;
 		font-size:  18px;
 		background: @color-contribute;
-		color: @color-contribute-sec;
+		color: #fff;
 		&:hover {
 			background: darken(@color-contribute, 5%);
-			color: @color-contribute-sec;
+			color: #f2f3f2;
 		}
 	}
 	.btn-secondary {
