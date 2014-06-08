@@ -117,8 +117,8 @@ Och i CSS'en skapar vi nu en specialstil till classen.
 
 
 
-###Understreck, bindestreck eller CamelCase?
-Som du har märkt använder vi inte mellanrum när vi namnger html-elementen, det beror på att man inte kan det helt enkelt. Istället kan man använda understreck, bindestreck eller så kallat CamelCase när man skriver. Vi föredrar camelCase men det är en smaksak.
+###Understreck, bindestreck eller camelCase?
+Som du har märkt använder vi inte mellanrum när vi namnger html-elementen, det beror på att man inte kan det helt enkelt. Istället kan man använda understreck, bindestreck eller så kallat camelCase när man skriver. Vi föredrar camelCase men det är en smaksak.
 
 {% highlight css %}
 
