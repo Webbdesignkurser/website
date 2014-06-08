@@ -28,7 +28,7 @@ Authors: Per Lööv & David Marby
 @color-contribute: 		#2f2e29;
 @color-contribute-sec: 	#e4e4e4;
 
-@brand-font: 			'Lato', sans-serif;
+@brand-font: 			sans-serif;
 @paragraf-size: 		13px;
 
 
@@ -346,6 +346,7 @@ header {
 	margin-bottom: 40px;
 	@media (max-width: 480px) {padding-top: 30px;}
 	h1 {
+		font-family: 'lato';
 		font-size: 50px;
 		display: inline-block;
 		background: @brand-color;
@@ -355,7 +356,7 @@ header {
 	}
 	h2 {
 		margin: 0;
-		font-size: 14.6pt;
+		font-size: 14.6pt !important;
 		line-height: 20px !important;
 		background: #111;
 		color: #fff;
@@ -365,7 +366,7 @@ header {
 	}
 	p {
 		margin: 0;
-		font-size: 14.6pt;
+		font-size: 14.6pt !important;
 		line-height: 20px;
 		background: #fff;
 		color: #000;
