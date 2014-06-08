@@ -22,6 +22,15 @@ Html-elementet <strong>``<div>``</strong> används för att markera områden på
 
 {% endhighlight %}
 
+###Span för att markera text
+Html-elementet <strong>``<span>``</strong> används för att markera texter på hemsidan som behöver stylas. Exempelvis såhär:
+
+{% highlight html %}
+
+<span>Den här texten kan vi att kunna styla senare i CSS</span>
+
+{% endhighlight %}
+
 
 
 ###Id
