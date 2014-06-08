@@ -1,0 +1,709 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>Genomgång &#8211; Webbdesignkurser</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="Webbdesign, Kurser, Hemsidor, Html, Css">
+	<!-- meta name="keywords" content=""> -->
+
+	<!-- Open Graph -->
+	<meta property="og:locale" content="sv_SE">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Genomgång">
+	<meta property="og:description" content="Hur gör man en hemsida? Få svaret på Webbdesignkurser där alla kurser är gratis och lätta att komma igång med!">
+	<meta property="og:url" content="http://webbdesignkurser.github.io/website/webbdesign/genomgang/">
+	<meta property="og:site_name" content="Webbdesignkurser">
+
+	
+	<link rel="canonical" href="http://webbdesignkurser.github.io/website/webbdesign/genomgang/">
+	<link href="http://webbdesignkurser.github.io/website/feed.xml" type="application/atom+xml" rel="alternate" title="Webbdesignkurser Feed">
+	
+	  <link rel="dns-prefetch" href="//webbdesignkurser.se">
+	  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+	  <link rel="dns-prefetch" href="//ajax.googleapis.com">
+	  <link rel="dns-prefetch" href="//netdna.bootstrapcdn.com">
+	  <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+  
+	<!-- http://t.co/dKP3o1e -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="http://webbdesignkurser.github.io/website/favicon.ico">
+
+	<!-- JavaScript -->
+	
+		<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-hover-dropdown/2.0.2/bootstrap-hover-dropdown.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/lunr.js/0.3.3/lunr.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-dateFormat/1.0/jquery.dateFormat.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/URI.js/1.11.2/URI.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.0/fastclick.min.js"></script>
+	  <script>
+		    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		     ga('create', 'UA-33272798-1', 'webbdesignkurser.se');
+		     ga('send', 'pageview');
+	 </script>
+	
+
+	<script>
+    $(function() {
+      if (!Modernizr.svg) {
+        $(".logo img").attr("src", "assets/images/logo.png");
+      }
+    });
+  </script>
+
+
+<script id="search-results-template" type="text/mustache">
+  {{#entries}}
+    <article>
+      <h3>
+        <a href="{{url}}">{{title}}</a>
+      </h3>
+    </article>
+  {{/entries}}
+</script>
+
+
+<script type="text/javascript">
+  $(function() {
+    $('#search-query').lunrSearch({
+      indexUrl: '/website/search.json',             // URL of the `search.json` index data for your site
+      results:  '#search-results',          // jQuery selector for the search results container
+      entries:  '.entries',                 // jQuery selector for the element to contain the results list, must be a child of the results element above.
+      template: '#search-results-template'  // jQuery selector for the Mustache.js template
+    });
+  });
+</script>
+
+ <script src="/website/assets/search-573d37cbc3f04ac57b09a188e5e0926a.js"></script>
+ <!--CSS-->
+ <link rel="stylesheet" href="/website/assets/main-b129c843cbbe8167f230976819c940db.css">
+ <link rel="stylesheet" href="/website/assets/highlight-cfca618c692f56f5eb1391aba9e8df2d.css">
+
+ 
+	 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	 <link href="//fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet" type="text/css">
+ 
+
+</head>
+<body>
+	<div class="main">
+		<header class="navbar navbar-fixed-top" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<h1 style="display: none;">Webbdesignkurser</h1>
+			<a class="navbar-brand logo" href="http://webbdesignkurser.github.io/website"><img src="/website/assets/logo-85029ec08e27256a3ad35666a4e10d4c.svg"></a>
+		</div>
+		<div class="navbar-collapse nav-collapse collapse navbar-right" id="navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="100" data-close-others="false">Webbkurser <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+            
+            	
+            		<li><a tabindex="-1" href="http://webbdesignkurser.github.io/website/webbdesign/inledning">Grunderna i Webbdesign</a></li>
+            	
+            
+            	
+            
+            	
+            
+            	
+            
+            	
+            
+            	
+            
+					</ul>
+				</li>
+				<li><a href="http://webbdesignkurser.github.io/website/artiklar">Artiklar</a></li>
+				<li><a href="http://webbdesignkurser.github.io/website/faq">Vanliga frågor</a></li>
+				<li><a href="http://webbdesignkurser.github.io/website/bidra">Bidra</a></li>
+				<li><a href="http://webbdesignkurser.github.io/website/om-sidan">Om sidan</a></li>
+				<form  action="http://webbdesignkurser.github.io/website/search" method="get" class="navbar-form navbar-right" role="search">
+					<div class="form-group pull-right">
+				    <input type="text" id="search-query" class="form-control" name="q" placeholder="Sök" autocomplete="off">
+					</div>
+				</form>
+			</ul>
+		</div> <!-- .nav-collapse -->
+	</div> <!-- .container -->
+</header>
+		
+			<section id="search-results" style="display: none;">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							  <h2>Sökresultat</h2>
+							  <div class="entries">
+							  </div>
+						</div>
+					</div>
+				</div>
+			</section>
+		
+
+<div class="container">
+
+    <div class="row">
+
+        
+            <div class="col-sm-12">
+                <img src="/website/assets/header_html-css-genomgang-a98c95a3e48cd46421468c8d4db82847.jpg" class="headerImage"/>
+            </div>
+        
+
+        <div class="col-md-8 content">
+            
+                <h1 class="title">Genomgång</h1>
+            
+            <p class="preamble">Vi kommer nu att sätta upp en fungerande hemsida, och det gäller att du har följt hela kursen för att hänga med.</p>
+
+<h2 id="resultat">Resultat</h2>
+
+<p>Såhär kommer vårat exempel att bli, <a>tryck här</a> för att ladda ner exempelsidans alla filer.</p>
+
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_html-css-genomgang6.png" /> </p>
+
+<h2 id="stta-upp-det-viktigaste">Sätta upp det viktigaste</h2>
+
+<p>Vi börjar med vår <a href="/webbdesign/grunderna-i-html/">HTML-grund</a>, samt en <a href="/webbdesign/reset-css/">CSS-reset</a>.</p>
+
+<div class="highlight"><pre><code class="html"><span class="cp">&lt;!doctype html&gt;</span>
+
+<span class="nt">&lt;html&gt;</span>
+
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">&quot;utf-8&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;title&gt;</span>Matlagning<span class="nt">&lt;/title&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+
+  <span class="nt">&lt;body&gt;</span>
+    <span class="c">&lt;!-- Innehållet på hemsidan ska ligga här --&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div>
+
+<h2 id="header-content-sidebar-och-footer">Header, content, sidebar och footer</h2>
+
+<p>Det här är de fyra områdena som jag tänkt ha på hemsidan. Jag skriver dom som divar men de kan även skrivas som <code>&lt;header&gt;</code> <code>&lt;content&gt;</code> och <code>&lt;footer&gt;</code> i senaste versionen HTML 5.</p>
+
+<div class="highlight"><pre><code class="html">  <span class="nt">&lt;body&gt;</span>
+    
+    <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;header&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;content&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;sidebar&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;footer&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  
+  <span class="nt">&lt;/body&gt;</span>
+</code></pre></div>
+
+<div class="highlight"><pre><code class="css"><span class="nf">#header</span><span class="p">{</span>
+
+<span class="p">}</span>
+
+<span class="nf">#content</span><span class="p">{</span>
+
+<span class="p">}</span>
+
+<span class="nf">#sidebar</span><span class="p">{</span>
+
+<span class="p">}</span>
+
+<span class="nf">#footer</span><span class="p">{</span>
+
+<span class="p">}</span>
+</code></pre></div>
+
+<h2 id="storlekar-och-positionering">Storlekar och positionering</h2>
+
+<p>Header och footer tänker jag mig ska vara 100% breda, medan content och sidebar ska ligga bredvid varandra och vara 70% respektive 30% breda.</p>
+
+<div class="highlight"><pre><code class="css"><span class="nf">#header</span><span class="p">{</span>
+  <span class="k">width</span><span class="o">:</span> <span class="m">100</span><span class="o">%</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nf">#content</span><span class="p">{</span>
+  <span class="k">width</span><span class="o">:</span> <span class="m">70</span><span class="o">%</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nf">#sidebar</span><span class="p">{</span>
+  <span class="k">width</span><span class="o">:</span> <span class="m">30</span><span class="o">%</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nf">#footer</span><span class="p">{</span>
+  <span class="k">width</span><span class="o">:</span> <span class="m">100</span><span class="o">%</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_html-css-genomgang1.png" /> </p>
+
+<h3 id="floata-sidebaren-till-hger-om-content">Floata sidebaren till höger om content</h3>
+
+<p>Content och sidebar tänker jag mig ska ligga bredvid varandra, det fixar vi med att sätta <code>float: left</code> på divarna, samt en div som omringar de två divarna och avslutar floaten. Jag döper den diven till container.</p>
+
+<div class="highlight"><pre><code class="html">      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;container&quot;</span><span class="nt">&gt;</span>
+
+        <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;content&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+
+        <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;sidebar&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div&gt;</span>
+
+      <span class="nt">&lt;/div&gt;</span>
+</code></pre></div>
+
+<div class="highlight"><pre><code class="css"><span class="nf">#content</span><span class="p">{</span>
+  <span class="k">width</span><span class="o">:</span> <span class="m">70</span><span class="o">%</span><span class="p">;</span>
+  <span class="k">float</span><span class="o">:</span> <span class="k">left</span><span class="p">;</span>	
+<span class="p">}</span>
+
+<span class="nf">#sidebar</span><span class="p">{</span>
+  <span class="k">width</span><span class="o">:</span> <span class="m">30</span><span class="o">%</span><span class="p">;</span>
+  <span class="k">float</span><span class="o">:</span> <span class="k">left</span><span class="p">;</span>	
+<span class="p">}</span>
+
+<span class="nc">.container</span><span class="p">{</span>
+  <span class="k">overflow</span><span class="o">:</span> <span class="k">hidden</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<h3 id="avstnd-mellan-content-och-sidebar">Avstånd mellan content och sidebar</h3>
+<p>Vi vill ha ett avstånd mellan <strong>#content</strong> och <strong>#sidebar</strong>, det gör vi genom att ta bort <code>10%</code> av bredden på <strong>#sidebar</strong> och lägga det på en <code>margin-left</code> istället.</p>
+
+<div class="highlight"><pre><code class="css"><span class="nf">#sidebar</span><span class="p">{</span>
+  <span class="k">width</span><span class="o">:</span> <span class="m">20</span><span class="o">%</span><span class="p">;</span>
+  <span class="k">float</span><span class="o">:</span> <span class="k">left</span><span class="p">;</span>
+  <span class="k">margin-left</span><span class="o">:</span> <span class="m">10</span><span class="o">%</span><span class="p">;</span>	
+<span class="p">}</span>
+</code></pre></div>
+
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_html-css-genomgang1-5.png" /> </p>
+
+<h2 id="wrapper">Wrapper</h2>
+
+<p>Allt ska centreras inom ett 960px brett område hade jag tänkt. Vi lägger därför alla divar inom en <a href="/webbdesign/css-wrapper/">wrapper</a>.</p>
+
+<div class="highlight"><pre><code class="html">  <span class="nt">&lt;body&gt;</span>
+    
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;siteWrapper&quot;</span><span class="nt">&gt;</span>
+
+      <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;header&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;container&quot;</span><span class="nt">&gt;</span>
+
+        <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;content&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+
+        <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;sidebar&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div&gt;</span>
+
+      <span class="nt">&lt;/div&gt;</span>
+
+      <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;footer&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;/div&gt;</span>
+  
+  <span class="nt">&lt;/body&gt;</span>
+</code></pre></div>
+
+<div class="highlight"><pre><code class="css"><span class="nc">.siteWrapper</span><span class="p">{</span>
+  <span class="k">width</span><span class="o">:</span> <span class="m">960px</span><span class="p">;</span>
+  <span class="k">margin</span><span class="o">:</span> <span class="m">0</span> <span class="k">auto</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_html-css-genomgang2.png" /></p>
+
+<h2 id="frger-och-bakgrunder">Färger och bakgrunder</h2>
+
+<p>Vi börjar med att sätta en bakgrundsfärg på hela sidan, alltså body. Där tänker jag mig en ljusgrå färg. Headern kan vi strunta i att ge bakgrund åt och container gör vi vit. Footern blir mörkgrå.</p>
+
+<div class="highlight"><pre><code class="css"><span class="nt">body</span><span class="p">{</span>
+  <span class="k">background</span><span class="o">:</span> <span class="m">#e4e5e4</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.container</span><span class="p">{</span>
+  <span class="k">overflow</span><span class="o">:</span> <span class="k">hidden</span><span class="p">;</span>
+  <span class="k">background</span><span class="o">:</span> <span class="m">#fff</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nf">#footer</span><span class="p">{</span>
+  <span class="k">width</span><span class="o">:</span> <span class="m">100</span><span class="o">%</span><span class="p">;</span>
+  <span class="k">background</span><span class="o">:</span> <span class="m">#1d1d1d</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_html-css-genomgang3.png" /> </p>
+
+<h2 id="texter">Texter</h2>
+
+<p>Vi fyller vår hemsida med textinnehåll, i det här exemplet kommer jag att skriva en massa <a href="http://sv.lipsum.com/" target="_blank">Lorem Ipsum</a>.</p>
+
+<div class="highlight"><pre><code class="html">  <span class="nt">&lt;body&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;siteWrapper&quot;</span><span class="nt">&gt;</span>
+
+      <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;header&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h1&gt;</span>Matlagning<span class="nt">&lt;/h1&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;container&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;content&quot;</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;h2&gt;</span>Vegetarisk mat är bra för hälsan<span class="nt">&lt;/h2&gt;</span>
+          <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+          Fugit, non aut tempore itaque veniam ipsam aperiam quae quasi.<span class="nt">&lt;/p&gt;</span>
+          <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+          Totam, consequatur, nam, labore, recusandae cum quas provident 
+          obcaecati quaerat quibusdam porro a praesentium assumenda i
+          llum impedit doloribus perspiciatis sequi rem ullam.<span class="nt">&lt;/p&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+ 
+        <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;sidebar&quot;</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;h3&gt;</span>Fakta om vegetarisk mat<span class="nt">&lt;/h3&gt;</span>
+          <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+          Similique, magni, quaerat blanditiis odio quibusdam perspiciatis 
+          placeat commodi iste repudiandae rem veniam aperiam dolores 
+          reprehenderit ut amet beatae accusamus. Quia, dicta.<span class="nt">&lt;/p&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+ 
+      <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;footer&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;span&gt;</span>Skapades av <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://webbdesignkurser.se&quot;</span><span class="nt">&gt;</span>Webbdesignkurser<span class="nt">&lt;/a&gt;&lt;/span&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+      
+    <span class="nt">&lt;/div&gt;</span>
+  
+  <span class="nt">&lt;/body&gt;</span>
+</code></pre></div>
+
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_html-css-genomgang4.png" /> </p>
+
+<h2 id="padding">Padding</h2>
+
+<p>Som du märker är det väldigt trångt just nu. Det fixar vi med hjälp av <a href="/webbdesign/css-margin-padding/">padding</a> på <strong>#header</strong>, <strong>#container</strong> och <strong>span</strong> som ligger i footern. Eftersom <strong>span</strong> inte reagerar som ett block vanligtvis, måste vi ge den <code>display: block</code> för att kunna ha en padding.</p>
+
+<div class="highlight"><pre><code class="css"><span class="nf">#header</span><span class="p">{</span>
+  <span class="k">width</span><span class="o">:</span> <span class="m">100</span><span class="o">%</span><span class="p">;</span>
+  <span class="k">padding</span><span class="o">:</span> <span class="m">30px</span> <span class="m">0px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.container</span><span class="p">{</span>
+  <span class="k">overflow</span><span class="o">:</span> <span class="k">hidden</span><span class="p">;</span>
+  <span class="k">background</span><span class="o">:</span> <span class="m">#fff</span><span class="p">;</span>
+  <span class="k">padding</span><span class="o">:</span> <span class="m">30px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nf">#footer</span> <span class="nt">span</span><span class="p">{</span>
+  <span class="k">display</span><span class="o">:</span> <span class="k">block</span><span class="p">;</span>
+  <span class="k">padding</span><span class="o">:</span> <span class="m">30px</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_html-css-genomgang5.png" /> </p>
+
+<h2 id="textstiler">Textstiler</h2>
+
+<p>Sist men inte minst så ska alla <a href="/webbdesign/css-typografi/">texter stylas</a>.</p>
+
+<div class="highlight"><pre><code class="css"><span class="nt">h1</span> <span class="p">{</span>
+  <span class="k">font-size</span><span class="o">:</span> <span class="m">40px</span><span class="p">;</span>
+  <span class="k">line-height</span><span class="o">:</span> <span class="m">45px</span><span class="p">;</span>
+  <span class="k">font-family</span><span class="o">:</span> <span class="n">helvetica</span><span class="p">;</span>
+  <span class="k">font-weight</span><span class="o">:</span> <span class="k">bold</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">h2</span> <span class="p">{</span>
+  <span class="k">font-size</span><span class="o">:</span> <span class="m">25px</span><span class="p">;</span>
+  <span class="k">line-height</span><span class="o">:</span> <span class="m">30px</span><span class="p">;</span>
+  <span class="k">margin-bottom</span><span class="o">:</span> <span class="m">15px</span><span class="p">;</span>
+  <span class="k">font-family</span><span class="o">:</span> <span class="n">helvetica</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">h3</span> <span class="p">{</span>
+  <span class="k">font-size</span><span class="o">:</span> <span class="m">20px</span><span class="p">;</span>
+  <span class="k">line-height</span><span class="o">:</span> <span class="m">25px</span><span class="p">;</span>
+  <span class="k">margin-bottom</span><span class="o">:</span> <span class="m">15px</span><span class="p">;</span>
+  <span class="k">font-family</span><span class="o">:</span> <span class="n">helvetica</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">p</span> <span class="p">{</span>
+  <span class="k">font-size</span><span class="o">:</span> <span class="m">14px</span><span class="p">;</span>
+  <span class="k">line-height</span><span class="o">:</span> <span class="m">25px</span><span class="p">;</span>
+  <span class="k">margin-bottom</span><span class="o">:</span> <span class="m">15px</span><span class="p">;</span>
+  <span class="k">font-family</span><span class="o">:</span> <span class="n">helvetica</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">a</span><span class="p">{</span>
+  <span class="k">color</span><span class="o">:</span> <span class="m">#eb4f9a</span><span class="p">;</span>
+  <span class="k">text-decoration</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nf">#footer</span> <span class="nt">span</span><span class="p">{</span>
+  <span class="k">display</span><span class="o">:</span> <span class="k">block</span><span class="p">;</span>
+  <span class="k">padding</span><span class="o">:</span> <span class="m">30px</span><span class="p">;</span>
+  <span class="k">color</span><span class="o">:</span> <span class="m">#eee</span><span class="p">;</span>
+  <span class="k">font-size</span><span class="o">:</span> <span class="m">14px</span><span class="p">;</span>
+  <span class="k">font-family</span><span class="o">:</span> <span class="n">helvetica</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_html-css-genomgang6.png" /> </p>
+
+<p><a class="btn btn-next" href="http://webbdesignkurser.github.io/website#">Gå till nästa steg!</a></p>
+
+            <hr/>
+            <h4 class="share">Dela </h4>
+            <input class="form-control" style="width: auto;" type="text" value="http://wdk.se/de3d3"> 
+            
+                <section id="disqus_thread"></section>
+            
+        </div>
+
+        <div class="col-md-4 sidebar">
+            
+                <div class="chapter nav">
+                    <ul>
+                    
+                    
+                        
+                            <li><h4><a class="webbdesign title background">Grunderna i Webbdesign</a></h4></li>
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/inledning/">Inledning</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/programvaror/">Programvaror</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/bra-design/">Vad är bra design?</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li class="sub"><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-html/">Grunderna i HTML</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/html-texter/">Skriva texter</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/html-lankar/">Länkar</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/html-bilder/">Bilder</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/html-listor/">Listor</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/html-tabeller/">Tabeller</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li class="sub"><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-css/">Grunderna i CSS</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/reset-css/">Reset CSS</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-farger/">Färger</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-typografi/">Typografi</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-id-class/">Id och class</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-margin-padding/">Margin och padding</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-positionering/">Positionering</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-bakgrund/">Bakgrund</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-wrapper/">Wrapper</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li class="sub"><a class="webbdesign navItem current active" href="http://webbdesignkurser.github.io/website/webbdesign/genomgang/">Genomgång</a></li>
+                            
+                        
+                    
+                    </ul>
+                    <ul class="others">
+                    <!-- Enable this when we have courses <li><h4 class="webbdesign title background"><a>Övriga kurser</a></h4></li> -->
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                    </ul>
+                </div>
+            
+        </div>
+    </div>
+
+    <div class="row">
+       <div class="col-sm-12">
+           <div class="contribute">
+              <div class="box">
+                  <h3 class="text-center">Vill du bidra till ett öppnare och friare läromedel?</h3>
+                  <a class="btn btn-secondary" href="/app">Köp vår app</a> eller 
+                  <a href="/bidra" class="btn btn-primary">Bidra med eget material</a>
+              </div>
+          </div>
+
+      </div>
+    </div>
+
+</div>
+	<div class="container">
+	    <div class="row">
+	        <div class="col-sm-12">
+	            
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'webbdesignkurser'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+	        </div>
+	    </div>
+	</div>
+
+	<footer>
+	    <div class="container">
+	        <div class="row">
+	            <div class="col-sm-12">
+	            	<div class="logobadge">
+	            		<a class="logo" href="http://webbdesignkurser.github.io/website"><img src="/website/assets/logo-w-844f9fc8075ad0098e92770bb58b7766.svg"></a>
+	            	</div>
+	                <h3>Allt du ser på Webbdesignkurser.se får kopieras och ändras</h3>
+	                <p>Webbdesignkurser.se är <a href="http://github.com/webbdesignkurser" target="_blank" title="GitHub">öppen källkod</a> och licensierat under <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.sv" target="_blank" title="Läs licensen">Creative Commons</a>.</p>
+	            </div>
+	        </div>
+	    </div>
+	</footer>
+
+</div>
+
+</body>
+</html>
