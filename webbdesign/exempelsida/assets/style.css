@@ -1,0 +1,80 @@
+/* Typography */
+
+h1 {
+  font-size: 40px;
+  line-height: 45px;
+  font-family: helvetica;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  font-family: helvetica;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 15px;
+  font-family: helvetica;
+}
+
+p {
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 15px;
+  font-family: helvetica;
+}
+
+a{
+  color: #eb4f9a;
+  text-decoration: none;
+}
+
+
+/* Layout */
+
+body{
+  background: #e4e5e4;
+}
+
+#header{
+  width: 100%;
+  padding: 30px 0px;
+}
+
+#content{
+  width: 70%;
+  float: left;	
+}
+
+#sidebar{
+  width: 20%;
+  float: right;
+}
+
+#container{
+  overflow: hidden;
+  background: #fff;
+  padding: 30px;
+}
+
+.siteWrapper{
+  width: 960px;
+  margin: 0 auto;
+}
+
+#footer{
+  width: 100%;
+  background: #1d1d1d;
+}
+
+#footer span{
+  display: block;
+  padding: 30px;
+  color: #eee;
+  font-size: 14px;
+  font-family: helvetica;
+}

@@ -1,7 +1,9 @@
 {
 
 
-	"d6363" : "http://webbdesignkurser.github.io/website/om-sidan/",
+
+
+	"51564" : "http://webbdesignkurser.github.io/website/bidra/",
 
 
 
@@ -9,11 +11,19 @@
 
 
 
+	"d6363" : "http://webbdesignkurser.github.io/website/om-sidan/",
+
+
+
+	"f9a4d" : "http://webbdesignkurser.github.io/website/faq/",
+
+
+
+	"4314f" : "http://webbdesignkurser.github.io/website/index.html",
 
 
 
 
-	"51564" : "http://webbdesignkurser.github.io/website/bidra/",
 
 
 
@@ -22,16 +32,6 @@
 
 
 	"e7263" : "http://webbdesignkurser.github.io/website/app/",
-
-
-
-
-
-	"4314f" : "http://webbdesignkurser.github.io/website/index.html",
-
-
-
-	"f9a4d" : "http://webbdesignkurser.github.io/website/faq/",
 
 
 
@@ -65,8 +65,6 @@
 
 	"0ee66" : "http://webbdesignkurser.github.io/website/webbdesign/css-id-class/",
 
-	"3145b" : "http://webbdesignkurser.github.io/website/artiklar/css-positionering/",
-
 	"79303" : "http://webbdesignkurser.github.io/website/webbdesign/css-margin-padding/",
 
 	"b10fa" : "http://webbdesignkurser.github.io/website/webbdesign/css-positionering/",
@@ -75,6 +73,10 @@
 
 	"7ad28" : "http://webbdesignkurser.github.io/website/webbdesign/css-wrapper/",
 
-	"de3d3" : "http://webbdesignkurser.github.io/website/webbdesign/genomgang/"
+	"de3d3" : "http://webbdesignkurser.github.io/website/webbdesign/genomgang/",
+
+	"5fa75" : "http://webbdesignkurser.github.io/website/webbdesign/publicera-hemsidan/",
+
+	"66ad8" : "http://webbdesignkurser.github.io/website/webbdesign/slutord/"
 
 }

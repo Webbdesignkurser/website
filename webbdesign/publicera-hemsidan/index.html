@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<title>Positionering &#8211; Webbdesignkurser</title>
+	<title>Publicera hemsidan &#8211; Webbdesignkurser</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="Webbdesign, Kurser, Hemsidor, Html, Css">
 	<!-- meta name="keywords" content=""> -->
@@ -13,13 +13,13 @@
 	<!-- Open Graph -->
 	<meta property="og:locale" content="sv_SE">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Positionering">
+	<meta property="og:title" content="Publicera hemsidan">
 	<meta property="og:description" content="Hur gör man en hemsida? Få svaret på Webbdesignkurser där alla kurser är gratis och lätta att komma igång med!">
-	<meta property="og:url" content="http://webbdesignkurser.github.io/website/artiklar/css-positionering/">
+	<meta property="og:url" content="http://webbdesignkurser.github.io/website/webbdesign/publicera-hemsidan/">
 	<meta property="og:site_name" content="Webbdesignkurser">
 
 	
-	<link rel="canonical" href="http://webbdesignkurser.github.io/website/artiklar/css-positionering/">
+	<link rel="canonical" href="http://webbdesignkurser.github.io/website/webbdesign/publicera-hemsidan/">
 	<link href="http://webbdesignkurser.github.io/website/feed.xml" type="application/atom+xml" rel="alternate" title="Webbdesignkurser Feed">
 	
 	  <link rel="dns-prefetch" href="//webbdesignkurser.se">
@@ -89,7 +89,7 @@
 
  <script src="/website/assets/search-573d37cbc3f04ac57b09a188e5e0926a.js"></script>
  <!--CSS-->
- <link rel="stylesheet" href="/website/assets/main-b129c843cbbe8167f230976819c940db.css">
+ <link rel="stylesheet" href="/website/assets/main-66a51d2b586e0a62c2601cab5a07353a.css">
  <link rel="stylesheet" href="/website/assets/highlight-cfca618c692f56f5eb1391aba9e8df2d.css">
 
  
@@ -167,46 +167,54 @@
 
         
             <div class="col-sm-12">
-                <img src="/website/assets/header_css-positionering-945278a4590a7da9e4d2ae9aa761d3e0.jpg" class="headerImage"/>
+                <img src="/website/assets/header_publicera-hemsidan-6a818b67f22b106ae526ae888a2063ab.jpg" class="headerImage"/>
             </div>
         
 
         <div class="col-md-8 content">
             
-                <h1 class="title">Positionering</h1>
+                <h1 class="title">Publicera hemsidan</h1>
             
-            <h2 id="stt-position-med-css">Sätt position med CSS</h2>
+            <h2 id="hur-man-publicerar-en-hemsida-p-internet">Hur man publicerar en hemsida på internet</h2>
 
-<p class="preamble">Hur placerar man ut ett element på hemsidan? För att svara på frågan måste vi först veta hur vi vill placera ut det. Element kan nämligen ha olika beteenden som reagerar annorlunda med omgivningen.</p>
+<p class="preamble">Att ladda upp en hemsida på internet är relativt enkelt, vi kommer att behöva två saker - ett webbhotell och domännamn.</p>
 
-<h3 id="relative-absolute-fixed--static">Relative, Absolute, Fixed &amp; Static</h3>
-<p>Dessa variablar används för att ge HTML-element olika typer av beteenden som påverkar positionen. De skrivs i CSS som <code>position: relative</code> om elementet ska ha en relativ position. Men vad betyder då dessa variablar? För att göra det enkelt så kan vi jämföra dessa med LEGO-block, där varje variabel har en färg. <em>(LEGO sponsrar ej denna kurs)</em></p>
+<h3 id="webbhotell">Webbhotell</h3>
+<p>Ett webbhotell låter dig lagra din alla filer som hemsidan består av på en server. Du betalar en summa per år för tjänsten och det kan variera i pris. Vi kan inte rekommendera något specifikt webbhotell, men <a href="https://www.google.se/search?client=safari&amp;rls=en&amp;q=webbhotell+bäst+i+test&amp;revid=1814833887&amp;sa=X&amp;ei=yQmaU8DFDYjpywO2l4GADQ&amp;ved=0CG0Q1QIoAA">Googla</a> och se om du hittar något som ser bra ut. Priset brukar ligga på 10kr - 100kr/mån och betalas årsvis.</p>
 
-<h3 id="position-relative">Position: Relative</h3>
-<p>Med <code>position: relative</code> utgår man från den <strong>nuvarande positionen</strong> när man ska positionera ut elementet.  </p>
+<h3 id="domnnamn">Domännamn</h3>
+<p>Ett webbhotell utan domännamn är som ett hus utan en adress, det går helt enkelt inte. För att du ska kunna besöka hemsidan behöver du även ett domännamn som man parkerar till det webbhotell som hemsidan ligger uppladdad på. Man måste inte ha webbhotell och domän via samma tjänst, men det kan vara praktiskt. Priset brukar ligga på 10kr - 100kr/år och betalas årsvis.</p>
 
-<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_position-relative.png" />  </p>
+<h3 id="kan-jag-anvnda----i-domnnamnet">Kan jag använda Å, Ä, Ö i domännamnet?</h3>
+<p>Ja det kan du, men det funkar bara med <strong>.se</strong> domäner och det har inte stöd för mailtjänster om du planerar att använda domänen till en mail. Vi rekommenderar att du först och främst byter ut Å, Ä och Ö till A, A och O, men att du även köper den med svenska tecken för att säkra den för framtiden då mailtjänster har stöd för detta.</p>
 
-<h3 id="position-absolute">Position: Absolute</h3>
-<p>Med <code>position: absolute</code> utgår man från <strong>områdets absoluta nollpunkt</strong>, vilket är vänstra hörnet av området som elementet ligger inom.  </p>
+<h2 id="hur-laddar-jag-upp-hemsidan">Hur laddar jag upp hemsidan?</h2>
+<p>När du har betalat för webbhotell och domännamn behöver du <strong>FTP-uppgifterna</strong> till ditt webbutrymme, om du inte hittar dessa uppgifter kan du kontakta supporten på webbhotellet.   </p>
 
-<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_position-absolute.png" />  </p>
+<p>Sedan behöver du även ett <strong>FTP-program</strong> för att kunna logga in med FTP-uppgifterna. Här rekommenderar vi Transmit om du använder Mac, men om du kör Windows så är FileZilla perfekt för dig.</p>
 
-<h3 id="position-fixed">Position: Fixed</h3>
-<p><code>position: fixed</code> har samma värden som absolute, förutom att den följer med när man scrollar i webbläsaren.</p>
+<p><a href="#" class="btn btn-primary download">Transmit för Mac</a> 
+<a href="#" class="btn btn-primary download">FileZilla för Windows</a> </p>
 
-<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_position-fixed.png" /> </p>
+<h3 id="logga-in-och-ladda-upp">Logga in och ladda upp</h3>
+<p><strong>Fyll i dina FTP-uppgifter</strong> och logga in.</p>
 
-<h3 id="position-static">Position: Static</h3>
-<p><code>position: static</code> nollställer alla värden, det är variabeln som alla element har innan man har valt någon.</p>
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_ftp-program.png" />   </p>
 
-<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_position-static.png" />  </p>
+<p><strong>Öppna mappen</strong> <code>public_html</code>. Om du inte hittar den så befinner du dig antagligen redan i den.</p>
 
-<p><a class="btn btn-next" href="http://webbdesignkurser.github.io/website#">Gå till nästa steg!</a></p>
+<p><strong>Ladda sedan upp</strong> alla dina html/css-filer och bilder genom att dra in dom dit.</p>
+
+<p><img src="http://webbdesignkurser.github.io/website/assets/images/asset_ftp-program-ladda-upp.png" /> </p>
+
+<h2 id="klart">Klart!</h2>
+<p><strong>Nu är din hemsida live</strong> och kan bli sedd av flera miljarder människor världen över! Påverka, inspirera och utveckla nya idéer, det är bara du som sätter gränserna. </p>
+
+<p><a class="btn btn-next" href="http://webbdesignkurser.github.io/website#">Läs våra slutord</a></p>
 
             <hr/>
             <h4 class="share">Dela </h4>
-            <input class="form-control" style="width: auto;" type="text" value="http://wdk.se/3145b"> 
+            <input class="form-control" style="width: auto;" type="text" value="http://wdk.se/5fa75"> 
             
                 <section id="disqus_thread"></section>
             
@@ -219,7 +227,7 @@
                     
                     
                         
-                    
+                            <li><h4><a class="webbdesign title background">Grunderna i Webbdesign</a></h4></li>
                         
                     
                         
@@ -230,25 +238,139 @@
                     
                         
                     
+                        
                     
-                        
-                            
-                                <li><a class="artiklar navItem current" href="http://webbdesignkurser.github.io/website/artiklar/nya-webbdesignkurser/">Nya Webbdesignkurser</a></li>
-                            
-                        
                     
                         
                             
-                                <li><a class="artiklar navItem current active" href="http://webbdesignkurser.github.io/website/artiklar/css-positionering/">Positionering</a></li>
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/inledning/">Inledning</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/programvaror/">Programvaror</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/bra-design/">Vad är bra design?</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li class="sub"><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-html/">Grunderna i HTML</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/html-texter/">Skriva texter</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/html-lankar/">Länkar</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/html-bilder/">Bilder</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/html-listor/">Listor</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/html-tabeller/">Tabeller</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li class="sub"><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-css/">Grunderna i CSS</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/reset-css/">Reset CSS</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-farger/">Färger</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-typografi/">Typografi</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-id-class/">Id och class</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-margin-padding/">Margin och padding</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-positionering/">Positionering</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-bakgrund/">Bakgrund</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/css-wrapper/">Wrapper</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li class="sub"><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/genomgang/">Genomgång</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current active" href="http://webbdesignkurser.github.io/website/webbdesign/publicera-hemsidan/">Publicera hemsidan</a></li>
+                            
+                        
+                    
+                        
+                            
+                                <li><a class="webbdesign navItem current" href="http://webbdesignkurser.github.io/website/webbdesign/slutord/">Slutord</a></li>
                             
                         
                     
                     </ul>
                     <ul class="others">
-                    <!-- Enable this when we have courses <li><h4 class="artiklar title background"><a>Övriga kurser</a></h4></li> -->
+                    <!-- Enable this when we have courses <li><h4 class="webbdesign title background"><a>Övriga kurser</a></h4></li> -->
                     
-                        
-                            <li><a href="http://webbdesignkurser.github.io/website/webbdesign/inledning" class="navItem webbdesign color">Grunderna i Webbdesign</a></li>
                         
                     
                         
