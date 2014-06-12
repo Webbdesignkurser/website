@@ -58,4 +58,11 @@ Det här ger då följande effekt.
 
 
 
+###Less is more
+Om elementets margin eller padding endast ska påverka upp och ner räcker det att bara skriva ``margin: 10px 0px;`` Det är nämligen detsamma som ``margin: 10px 0px 10px 0px;``.  
+
+Om elementet har lika mycket avstånd på alla sidor, räcker det att skriva avståndet en gång, så kommer det att läggas på varje sida. ``margin: 10px;`` ger alltså samma effekt som ``margin: 10px 10px 10px 10px;``
+
+
+
 <a class="btn btn-next" href="{{ site.url }}#">Gå till nästa steg!</a>

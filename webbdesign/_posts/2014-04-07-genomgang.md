@@ -10,14 +10,14 @@ submenu: true
 
 ##Resultat
 
-Såhär kommer vårat exempel att bli, <a>tryck här</a> för att ladda ner exempelsidans alla filer.
+<a href="/webbdesign/exempelsida">Såhär</a> kommer vårat exempel att bli, <a href="/webbdesign/exempelsida.zip">tryck här</a> för att ladda ner exempelsidans alla filer.
 
-<img src="{{ site.url }}/assets/images/asset_html-css-genomgang6.png"/> 
+<a href="/webbdesign/exempelsida"><img src="{{ site.url }}/assets/images/asset_html-css-genomgang6.png"/></a>
 
 
 ##Sätta upp det viktigaste
 
-Vi börjar med vår <a href="/webbdesign/grunderna-i-html/">HTML-grund</a>, samt en <a href="/webbdesign/reset-css/">CSS-reset</a>.
+Vi börjar med vår <a href="/webbdesign/grunderna-i-html/">HTML-grund</a>, samt <a href="/webbdesign/grunderna-i-css">style.css</a> och en <a href="/webbdesign/reset-css/">CSS-reset</a>.
 
 {% highlight html %}
 
@@ -28,6 +28,8 @@ Vi börjar med vår <a href="/webbdesign/grunderna-i-html/">HTML-grund</a>, samt
   <head>
     <meta charset="utf-8">
     <title>Matlagning</title>
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="assets/style.css">
   </head>
 
   <body>
@@ -108,17 +110,17 @@ Header och footer tänker jag mig ska vara 100% breda, medan content och sidebar
 
 {% endhighlight %}
 
-<img src="{{ site.url }}/assets/images/asset_html-css-genomgang1.png"/> 
+<img src="{{ site.url }}/assets/images/asset_html-css-genomgang0.png"/> 
 
 
 
 ###Floata sidebaren till höger om content
 
-Content och sidebar tänker jag mig ska ligga bredvid varandra, det fixar vi med att sätta ``float: left`` på divarna, samt en div som omringar de två divarna och avslutar floaten. Jag döper den diven till container.
+Content och sidebar tänker jag mig ska ligga bredvid varandra, det fixar vi med att sätta ``float: left`` och ``right`` på divarna, samt en div som omringar de två divarna och avslutar floaten. Jag döper den diven till container.
 
 {% highlight html %}
 
-      <div class="container">
+      <div id="container">
 
         <div id="content">
         </div>
@@ -141,24 +143,27 @@ Content och sidebar tänker jag mig ska ligga bredvid varandra, det fixar vi med
 
 #sidebar{
   width: 30%;
-  float: left;	
+  float: right;	
 }
 
-.container{
+#container{
   overflow: hidden;
 }
 
 {% endhighlight %}
 
+<img src="{{ site.url }}/assets/images/asset_html-css-genomgang1.png"/> 
+
+
+
 ###Avstånd mellan content och sidebar
-Vi vill ha ett avstånd mellan <strong>#content</strong> och <strong>#sidebar</strong>, det gör vi genom att ta bort ``10%`` av bredden på <strong>#sidebar</strong> och lägga det på en ``margin-left`` istället.
+Jag vill ha ett avstånd mellan #content och #sidebar, det gör vi genom att minska storleken till 20% på <strong>#sidebar</strong>.
 
 {% highlight css %}
 
 #sidebar{
   width: 20%;
-  float: left;
-  margin-left: 10%;	
+  float: right;
 }
 
 {% endhighlight %}
@@ -180,7 +185,7 @@ Allt ska centreras inom ett 960px brett område hade jag tänkt. Vi lägger där
       <div id="header">
       </div>
 
-      <div class="container">
+      <div id="container">
 
         <div id="content">
         </div>
@@ -221,7 +226,7 @@ body{
   background: #e4e5e4;
 }
 
-.container{
+#container{
   overflow: hidden;
   background: #fff;
 }
@@ -251,7 +256,7 @@ Vi fyller vår hemsida med textinnehåll, i det här exemplet kommer jag att skr
         <h1>Matlagning</h1>
       </div>
 
-      <div class="container">
+      <div id="container">
         <div id="content">
           <h2>Vegetarisk mat är bra för hälsan</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -297,7 +302,7 @@ Som du märker är det väldigt trångt just nu. Det fixar vi med hjälp av <a h
   padding: 30px 0px;
 }
 
-.container{
+#container{
   overflow: hidden;
   background: #fff;
   padding: 30px;
@@ -366,5 +371,8 @@ a{
 
 <img src="{{ site.url }}/assets/images/asset_html-css-genomgang6.png"/> 
 
+##Snyggt! Nu har vi designat upp en enkel hemsida
+Om vi känner oss nöjda så är det dags att publicera den på internet.
 
-<a class="btn btn-next" href="{{ site.url }}#">Gå till nästa steg!</a>
+
+<a class="btn btn-next" href="{{ site.url }}#">Hur man publicerar hemsidan</a>
