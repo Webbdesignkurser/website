@@ -5,7 +5,7 @@ title: Helt nya Webbdesignkurser.se
 comments: true
 ---
 <p class="preamble">Helt nytt. Samma idé. </p>
-För ett bra tag sedan startade vi webbdesignkurser.se och har sedan dess utvecklat den, med en ny design varje år. Webbdesignkurser är ett ett gratis webbläromedel som helt saknar reklam. Kurserna inriktar sig mot utbildningar och alla kan ta del utav materialet. Oavsett ålder och ekonomi.  
+För ett bra tag sedan startade vi Webbdesignkurser.se och har sedan dess utvecklat den, med en ny design varje år. Webbdesignkurser är ett gratis webbläromedel som helt saknar reklam. Kurserna inriktar sig mot utbildningar och alla kan ta del utav materialet. Oavsett ålder och ekonomi.  
 
 Vi är nu inne i vårt tredje år och satsar på bättre, modernare och bredare kurser.
 Webbdesignkurser har fått en helt ny design, och kurserna har blivit omskrivna från grunden.  
