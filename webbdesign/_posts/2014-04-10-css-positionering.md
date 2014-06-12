@@ -157,7 +157,7 @@ Om du inte avslutar floaten kommer elementen efter dessa att malplaceras och ham
 <div class="right">
 </div>
 
-<div stle="clear: both;"></div>
+<div style="clear: both;"></div>
 
 {% endhighlight %}  
 
