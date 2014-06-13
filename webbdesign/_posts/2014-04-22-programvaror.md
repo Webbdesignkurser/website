@@ -14,11 +14,11 @@ Om vi får rekommendera något så ladda gärna ner <strong>Google Chrome</stron
 
 Internet Explorer kan vara webbutvecklarens värsta fiende av egen erfarenhet. Den brukar nämligen inte ha stöd för det senaste inom webbdesign vilket kan begränsa dig om du vill att hemsidan ska se bra ut även i Explorer. Ha därför lite extra koll på just den webbläsaren, då det fortfarande är många användare som använder den.
 
-<a class="btn btn-primary download">Google Chrome</a>
-<a class="btn btn-primary download">Firefox</a>
-<a class="btn btn-secondary download">Safari</a>
-<a class="btn btn-secondary download">Opera</a>
-<a class="btn btn-secondary download">Internet Explorer</a> 
+<a href="http://www.google.se/intl/sv/chrome/browser/" target="_blank" class="btn btn-primary download">Google Chrome</a>
+<a href="http://www.mozilla.org/sv-SE/firefox/new/" target="_blank" class="btn btn-primary download">Firefox</a>
+<a href="https://www.apple.com/se/safari/" target="_blank" class="btn btn-secondary download">Safari</a>
+<a href="http://www.opera.com/sv/download" target="_blank" class="btn btn-secondary download">Opera</a>
+<a href="http://windows.microsoft.com/sv-se/internet-explorer/download-ie" target="_blank" class="btn btn-secondary download">Internet Explorer</a> 
 
 
 ###Texteditor
@@ -26,7 +26,7 @@ Med en texteditor kan man skriva och redigera textfiler. Du har antagligen redan
 
 <strong>Vi kommer inte</strong> att använda dessa program, utan kommer istället att använda oss av Sublime Text som är speciellt utvecklad för att göra hemsidor.  
 
-<div><a class="btn btn-primary download">Ladda ned Sublime Text</a> <a class="btn btn-secondary download">Eller Notepad++ (Gratis)</a></div>
+<div><a href="http://www.sublimetext.com/2" target="_blank" class="btn btn-primary download">Ladda ned Sublime Text</a> <a href="http://notepad-plus-plus.org/download/" target="_blank" class="btn btn-secondary download">Eller Notepad++ (Gratis)</a></div>
 
 <div class="note box">
 <h3>WYSIWYG-editor</h3>
@@ -38,7 +38,7 @@ Det är ett program (Dreamviewer tex.) där man kan göra hemsidan genom en enkl
 ###Bildhanteringsprogram
 Med bildhanteringsprogrammet kommer vi att kunna redigera och spara ner bilder i olika format.  
 
-<a class="btn btn-primary download">Ladda ned Photoshop</a> <a class="btn btn-secondary download">Eller Gimp (Gratis)</a>  
+<a href="http://www.photoshop.com/products" target="_blank" class="btn btn-primary download">Ladda ned Photoshop</a> <a href="http://www.gimp.org/downloads/" target="_blank" class="btn btn-secondary download">Eller Gimp (Gratis)</a>  
 
 
 <a class="btn btn-next" href="{{ site.url }}/webbdesign/bra-design/">Tankat klart allt? Då fortsätter vi!</a>

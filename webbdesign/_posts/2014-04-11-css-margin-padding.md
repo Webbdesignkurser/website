@@ -64,5 +64,23 @@ Om elementets margin eller padding endast ska påverka upp och ner räcker det a
 Om elementet har lika mycket avstånd på alla sidor, räcker det att skriva avståndet en gång, så kommer det att läggas på varje sida. ``margin: 10px;`` ger alltså samma effekt som ``margin: 10px 10px 10px 10px;``
 
 
+##Top, Right, Bottom och Left
+Det finns ett tredje attribut, som används för att positionera ut element. Det skrivs ``top: 10px`` för att positonera ut ett element 10px från toppen.
 
-<a class="btn btn-next" href="{{ site.url }}#">Gå till nästa steg!</a>
+{% highlight css %}
+
+.block{
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+{% endhighlight %}
+
+
+###Vad är skillnaden mellan "Top" och "Margin-top"?
+Det kanske verkar konstigt att man har två attribut som gör samma saker, men skiljer sig däremot från varandra. "Top" används för att positionera ut ett element med hjälp av ``position`` (som vi går igenom på nästa sida). Margin-top är till för att sätta ett avstånd i förhållande mot element i omgivningen.
+
+
+<a class="btn btn-next" href="{{ site.url }}/webbdesign/css-positionering">Gå till nästa steg!</a>

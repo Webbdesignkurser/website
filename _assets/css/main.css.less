@@ -25,7 +25,7 @@ Authors: Per Lööv & David Marby
 @color-note: 			#f5e8ce;
 @color-success: 		#30a235;
 @color-example: 		#9e9e9e;
-@color-contribute: 		#1e1f1d;
+@color-contribute: 		@color-webbdesign;
 
 @brand-font: 			sans-serif;
 @paragraf-size: 		13px;
@@ -337,7 +337,7 @@ header {
 
 //* Headline on startpage *//
 .headlineWrapper {
-	padding-top: 80px;
+	padding-top: 100px;
 	text-align: center;
 	width: 100%;
 	height: 400px;
@@ -659,13 +659,13 @@ header {
 
 //* Contribute box *//
 .contribute {
-	background: #000 url(images/bg_contribute.jpg) center center;
+	background: #000 url(images/bg_contribute.png) center center;
 	height: 500px;
 	border-radius: 5px;
 	.box {
 		padding: 20px;
 		text-align: center;
-		padding-top: 150px;
+		padding-top: 170px;
 		color: #fff;
 		font-size: 18px;
 		font-weight: 400 !important;
@@ -675,27 +675,27 @@ header {
 			color: #fff;
 			font-weight: 400 !important;
 			margin-bottom: 10px;
-			text-shadow: 0px 0px 15px rgba(0,0,0,0.3);
 		}
 	}
 	.btn-primary {
 		margin: 10px;
 		font-size:  18px;
-		background: @color-contribute;
+		border: 1px #fff solid !important;
+		background: none;
 		color: #fff;
 		&:hover {
-			background: darken(@color-contribute, 5%);
-			color: #f2f3f2;
+			background: rgba(0,0,0,0.1);
+			color: #fff;
 		}
 	}
 	.btn-secondary {
 		margin: 10px;
 		font-size: 18px;
 		background: #fff !important;
-		color: @color-contribute;
+		color: #c5c8f5;
 		border: none !important;
 		&:hover {
-			color: @color-success;
+			color: darken(#c5c8f5, 5%);
 		}
 		&:active {
 			box-shadow: none;

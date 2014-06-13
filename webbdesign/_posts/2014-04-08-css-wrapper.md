@@ -36,4 +36,4 @@ Rekommenderas att hemsidans bredd antingen är 960px eller 1200px bred.
 
 {% endhighlight %}
 
-<a class="btn btn-next" href="{{ site.url }}#">Gå till nästa steg!</a>
+<a class="btn btn-next" href="{{ site.url }}/webbdesign/genomgang">Gå till nästa steg!</a>

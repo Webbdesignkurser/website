@@ -13,7 +13,7 @@ comments: true
 
 
 ##Relative, Absolute, Fixed & Static
-Dessa variablar används för att ge HTML-element olika typer av beteenden som påverkar positionen. De skrivs i CSS som ``position: relative`` om elementet ska ha en relativ position. Sedan kan man positionera ut elementet med hjälp av <a href="/webbdesign/css-margin-padding">margin</a>. 
+Dessa variablar används för att ge HTML-element olika typer av beteenden som påverkar positionen. De skrivs i CSS som ``position: relative`` om elementet ska ha en relativ position. Sedan kan man positionera ut elementet med hjälp av <a href="/webbdesign/css-margin-padding">top, right, bottom eller left</a>. 
 
 
 
@@ -161,4 +161,4 @@ Om du inte avslutar floaten kommer elementen efter dessa att malplaceras och ham
 
 {% endhighlight %}  
 
-<a class="btn btn-next" href="{{ site.url }}">Gå till nästa steg!</a>
+<a class="btn btn-next" href="{{ site.url }}/webbdesign/css-bakgrund">Gå till nästa steg!</a>

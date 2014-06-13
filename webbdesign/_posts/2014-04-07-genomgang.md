@@ -375,4 +375,4 @@ a{
 Om vi känner oss nöjda så är det dags att publicera den på internet.
 
 
-<a class="btn btn-next" href="{{ site.url }}#">Hur man publicerar hemsidan</a>
+<a class="btn btn-next" href="{{ site.url }}/webbdesign/publicera-hemsidan">Hur man publicerar hemsidan</a>

@@ -6,20 +6,25 @@ page: faq
 permalink: /faq/
 ---
 
-## Hur gör man en hemsida?
-Hemsidor är uppbyggda av ren text, sparade i små filer som man laddar upp på sitt webbhotell. Dom här texterna kan till exempel vara skrivna i ett språk kallat HTML. Med HTML kan man hämta in bilder och texter på hemsidan, samt skapa länkar till andra filer.  
+## Vilka typer av hemsidor kommer jag att kunna skapa med hjälp av era kurser?
+Du kommer att kunna skapa enkla, snygga och moderna hemsidor. Dock lär vi inte ut någon programmering i PHP och databashantering, vilket betyder att du bara kommer att lära dig hur man skapar statiska hemsidor.
+Kort sagt kan vi säga att du kommer kunna göra en hemsida likt den här.
 
-För att få större inblick på hur en hemsida kan vara uppbyggd kan du högerklicka på en hemsida för att visa källkoden, då dyker dom här texterna upp. Vill du lära dig mer hur man verkligen skapar en hemsida kan du följa vår nybörjarkurs i HTML & CSS.
+### Vad är skillnaden på statiska och dynamiska hemsidor?
+På en statisk hemsida kan man inte använda databaser för att hantera inloggningar, inläggsredigerare, bloggliknande funktioner med mera. Med en dynamisk sida kan man därimot göra detta, med hjälp av bland annat programmeringsspråket PHP och databashantering. Vi har valt att i nuläget inte gå djupare in på det här.
 
-## WYSIWYG-Program?
-WYSIWYG står för What You See Is What You Get, det vill säga program som hjälper dig skapa hemsidor med hjälp av visuella verktyg. Det är inget vi rekommenderar, men det är såklart en smaksak. Dreamviewer är ett exempel på WYSIWYG-program, vilket ger dig både en visuell redigerare och möjlighet till att skriva direkt i koden.
+## Kan ni göra en hemsida åt mig?
+Tyvärr inte, vi lär bara ut. Testa däremot vår <a href="/webbdesign/inledning">nybörjarkurs i webbdesign</a> så är du snart proffs på webbdesign.
+
+### Har ni workshops eller fysiska kurser?
+Nej, men vi bollar gärna idéer mer dig :)
 
 ## Vad är copyright?
 Copyright, eller upphovsrätt som det heter på svenska, används för att ge den person som skapat något av verkshöjd ensamrätt över materialet. Att kopiera copyright-skyddat material bryter mot lagen vilket kan resultera i skadestånd.
 
-## Jag får en massa konstiga tecken istället för å, ä och ö?
-Det beror på kodningen på din hemsida. Du måste berätta för hemsidan att det är svenska som gäller.
-Lägg in det här inom ``<head>``:
+## Jag får konstiga tecken istället för å, ä och ö?
+Det beror på kodningen på din hemsida. Du måste berätta för hemsidan att det är svenska som gäller.  
+<strong>Klistra in</strong> det här inom ``<head>``:
 {% highlight html %}
 <meta charset="utf-8">
 {% endhighlight %}
@@ -32,10 +37,10 @@ Det är inte ovanligt att Internet Explorer ska kasta om allt. Kolla så att du 
 {% endhighlight %}
 
 ## Hur väljer jag webbhotell?
-Vi är en oberoende tjänst när det gäller val av webbhotell och kan inte ge några förslag. Däremot får du gärna läsa vårat kapitel om webbhotell för att veta mer vad man ska tänka på när man väljer.
+Vi är en oberoende tjänst när det gäller val av webbhotell och kan inte ge några förslag. Däremot får du gärna läsa vårat kapitel <a href="/webbdesign/publicera-hemsidan/">om webbhotell</a>.
 
 ## Hur kan jag öka trafiken på sidan?
-Bästa sättet är att ha bra innehåll på sidan som besökarna vill läsa och dela med sig av. Sedan brukar det mesta gå av sig själv. Annars kan man köpa reklamplats på till exempel Facebook, Twitter, Google med flera.
+Bästa sättet är att ha bra innehåll på sidan som besökarna vill läsa och dela med sig av. Sedan brukar det mesta gå av sig själv. Annars kan man köpa reklamplats på till exempel Facebook, Twitter, Google med flera. 
 
-## Hur kan jag kontakta er?
-Du kan kontakta oss på: [kontakt@webbdesignkurser.se](mailto:kontakt@webbdesignkurser.se).
+## Hur kontaktar jag er?
+Skicka oss ett mail på [kontakt@webbdesignkurser.se](mailto:kontakt@webbdesignkurser.se) så ska vi försöka svara så snart vi kan!

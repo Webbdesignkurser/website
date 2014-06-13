@@ -210,4 +210,4 @@ a:active {
 <div class="example box full-width">
   <a href="#" class="examplelink">Håll musen över mig</a>
 </div>
-<a class="btn btn-next" href="{{ site.url }}/webbdesign/css-positionering">Gå till nästa steg!</a>
+<a class="btn btn-next" href="{{ site.url }}/webbdesign/css-id-class">Gå till nästa steg!</a>

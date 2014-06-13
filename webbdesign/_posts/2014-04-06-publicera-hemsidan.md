@@ -24,8 +24,8 @@ När du har betalat för webbhotell och domännamn behöver du <strong>FTP-uppgi
 
 Sedan behöver du även ett <strong>FTP-program</strong> för att kunna logga in med FTP-uppgifterna. Här rekommenderar vi Transmit om du använder Mac, men om du kör Windows så är FileZilla perfekt för dig.
 
-<a href="#" class="btn btn-primary download">Transmit för Mac</a> 
-<a href="#" class="btn btn-primary download">FileZilla för Windows</a> 
+<a href="http://panic.com/transmit" target="_blank" class="btn btn-primary download">Transmit för Mac</a> 
+<a href="https://filezilla-project.org" target="_blank" class="btn btn-primary download">FileZilla för Windows</a> 
 
 ###Logga in och ladda upp
 <strong>Fyll i dina FTP-uppgifter</strong> och logga in.
@@ -41,4 +41,4 @@ Sedan behöver du även ett <strong>FTP-program</strong> för att kunna logga in
 ##Klart!
 <strong>Nu är din hemsida live</strong> och kan bli sedd av flera miljarder människor världen över! Påverka, inspirera och utveckla nya idéer, det är bara du som sätter gränserna. 
 
-<a class="btn btn-next" href="{{ site.url }}#">Läs våra slutord</a>
+<a class="btn btn-next" href="{{ site.url }}/webbdesign/slutord">Läs våra slutord</a>

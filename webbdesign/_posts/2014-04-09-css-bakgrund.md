@@ -131,4 +131,4 @@ Du kan bestämma hur bakgrunden ska ligga, antingen till vänster (förinställt
 {% endhighlight %}
 
 
-<a class="btn btn-next" href="{{ site.url }}#">Gå till nästa steg!</a>
+<a class="btn btn-next" href="{{ site.url }}/webbdesign/css-wrapper">Gå till nästa steg!</a>

@@ -14,4 +14,4 @@ Genom att du köper den så hjälper du oss att fortsätta utveckla kurserna.
 
 <p>Stort tack!</p>
 
-<a class="btn btn-primary download" href="#">Köp</a> <a class="btn btn-primary" href="http://facebook.com/webbdesignkurser" target="_blank">Eller gilla oss på Facebook</a>
+<a class="btn btn-secondary download" href="#">Appen kommer om några dagar</a> <a class="btn btn-primary" href="http://facebook.com/webbdesignkurser" target="_blank">Gilla oss på Facebook så länge</a>
