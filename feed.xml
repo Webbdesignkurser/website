@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://webbdesignkurser.github.io/website/feed.xml" />
 <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website" />
-<updated>2014-06-12T22:45:42+00:00</updated>
+<updated>2014-06-13T20:44:06+00:00</updated>
 <id>http://webbdesignkurser.github.io/website/</id>
 <author>
   <name>Webbdesignkurser</name>
@@ -97,18 +97,18 @@ I den här kursen kommer vi att lära dig hur man skapar och publicerar en funge
 
 &lt;p&gt;Internet Explorer kan vara webbutvecklarens värsta fiende av egen erfarenhet. Den brukar nämligen inte ha stöd för det senaste inom webbdesign vilket kan begränsa dig om du vill att hemsidan ska se bra ut även i Explorer. Ha därför lite extra koll på just den webbläsaren, då det fortfarande är många användare som använder den.&lt;/p&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-primary download&quot;&gt;Google Chrome&lt;/a&gt;
-&lt;a class=&quot;btn btn-primary download&quot;&gt;Firefox&lt;/a&gt;
-&lt;a class=&quot;btn btn-secondary download&quot;&gt;Safari&lt;/a&gt;
-&lt;a class=&quot;btn btn-secondary download&quot;&gt;Opera&lt;/a&gt;
-&lt;a class=&quot;btn btn-secondary download&quot;&gt;Internet Explorer&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.google.se/intl/sv/chrome/browser/&quot; target=&quot;_blank&quot; class=&quot;btn btn-primary download&quot;&gt;Google Chrome&lt;/a&gt;
+&lt;a href=&quot;http://www.mozilla.org/sv-SE/firefox/new/&quot; target=&quot;_blank&quot; class=&quot;btn btn-primary download&quot;&gt;Firefox&lt;/a&gt;
+&lt;a href=&quot;https://www.apple.com/se/safari/&quot; target=&quot;_blank&quot; class=&quot;btn btn-secondary download&quot;&gt;Safari&lt;/a&gt;
+&lt;a href=&quot;http://www.opera.com/sv/download&quot; target=&quot;_blank&quot; class=&quot;btn btn-secondary download&quot;&gt;Opera&lt;/a&gt;
+&lt;a href=&quot;http://windows.microsoft.com/sv-se/internet-explorer/download-ie&quot; target=&quot;_blank&quot; class=&quot;btn btn-secondary download&quot;&gt;Internet Explorer&lt;/a&gt; &lt;/p&gt;
 
 &lt;h3 id=&quot;texteditor&quot;&gt;Texteditor&lt;/h3&gt;
 &lt;p&gt;Med en texteditor kan man skriva och redigera textfiler. Du har antagligen redan det förinstallerat på datorn, Anteckningar för Windows och Textredigeraren för Mac.  &lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Vi kommer inte&lt;/strong&gt; att använda dessa program, utan kommer istället att använda oss av Sublime Text som är speciellt utvecklad för att göra hemsidor.  &lt;/p&gt;
 
-&lt;div&gt;&lt;a class=&quot;btn btn-primary download&quot;&gt;Ladda ned Sublime Text&lt;/a&gt; &lt;a class=&quot;btn btn-secondary download&quot;&gt;Eller Notepad++ (Gratis)&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;&lt;a href=&quot;http://www.sublimetext.com/2&quot; target=&quot;_blank&quot; class=&quot;btn btn-primary download&quot;&gt;Ladda ned Sublime Text&lt;/a&gt; &lt;a href=&quot;http://notepad-plus-plus.org/download/&quot; target=&quot;_blank&quot; class=&quot;btn btn-secondary download&quot;&gt;Eller Notepad++ (Gratis)&lt;/a&gt;&lt;/div&gt;
 
 &lt;div class=&quot;note box&quot;&gt;
 &lt;h3&gt;WYSIWYG-editor&lt;/h3&gt;
@@ -120,7 +120,7 @@ Det är ett program (Dreamviewer tex.) där man kan göra hemsidan genom en enkl
 &lt;h3 id=&quot;bildhanteringsprogram&quot;&gt;Bildhanteringsprogram&lt;/h3&gt;
 &lt;p&gt;Med bildhanteringsprogrammet kommer vi att kunna redigera och spara ner bilder i olika format.  &lt;/p&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-primary download&quot;&gt;Ladda ned Photoshop&lt;/a&gt; &lt;a class=&quot;btn btn-secondary download&quot;&gt;Eller Gimp (Gratis)&lt;/a&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.photoshop.com/products&quot; target=&quot;_blank&quot; class=&quot;btn btn-primary download&quot;&gt;Ladda ned Photoshop&lt;/a&gt; &lt;a href=&quot;http://www.gimp.org/downloads/&quot; target=&quot;_blank&quot; class=&quot;btn btn-secondary download&quot;&gt;Eller Gimp (Gratis)&lt;/a&gt;  &lt;/p&gt;
 
 &lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/bra-design/&quot;&gt;Tankat klart allt? Då fortsätter vi!&lt;/a&gt;&lt;/p&gt;
 
@@ -1237,7 +1237,7 @@ Här använder vi &lt;code&gt;margin-bottom: 15px&lt;/code&gt; för att skilja d
 &lt;div class=&quot;example box full-width&quot;&gt;
   &lt;a href=&quot;#&quot; class=&quot;examplelink&quot;&gt;Håll musen över mig&lt;/a&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-positionering&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-id-class&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-typografi/&quot;&gt;Typografi&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 12, 2014.&lt;/p&gt;</content>
   </entry>
@@ -1401,7 +1401,7 @@ Det appliceras på html-element som följande.&lt;/p&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website#&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-margin-padding&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-id-class/&quot;&gt;Id och class&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 12, 2014.&lt;/p&gt;</content>
   </entry>
@@ -1466,7 +1466,21 @@ Det appliceras på html-element som följande.&lt;/p&gt;
 
 &lt;p&gt;Om elementet har lika mycket avstånd på alla sidor, räcker det att skriva avståndet en gång, så kommer det att läggas på varje sida. &lt;code&gt;margin: 10px;&lt;/code&gt; ger alltså samma effekt som &lt;code&gt;margin: 10px 10px 10px 10px;&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website#&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;top-right-bottom-och-left&quot;&gt;Top, Right, Bottom och Left&lt;/h2&gt;
+&lt;p&gt;Det finns ett tredje attribut, som används för att positionera ut element. Det skrivs &lt;code&gt;top: 10px&lt;/code&gt; för att positonera ut ett element 10px från toppen.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;top&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;bottom&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;vad-r-skillnaden-mellan-top-och-margin-top&quot;&gt;Vad är skillnaden mellan “Top” och “Margin-top”?&lt;/h3&gt;
+&lt;p&gt;Det kanske verkar konstigt att man har två attribut som gör samma saker, men skiljer sig däremot från varandra. “Top” används för att positionera ut ett element med hjälp av &lt;code&gt;position&lt;/code&gt; (som vi går igenom på nästa sida). Margin-top är till för att sätta ett avstånd i förhållande mot element i omgivningen.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-positionering&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-margin-padding/&quot;&gt;Margin och padding&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 11, 2014.&lt;/p&gt;</content>
   </entry>
@@ -1489,7 +1503,7 @@ Det appliceras på html-element som följande.&lt;/p&gt;
 &lt;p class=&quot;preamble&quot;&gt;Hur placerar man ut ett element på hemsidan? För att svara på frågan måste vi först veta hur vi vill placera ut det. Element kan nämligen ha olika beteenden som reagerar annorlunda med omgivningen.&lt;/p&gt;
 
 &lt;h2 id=&quot;relative-absolute-fixed--static&quot;&gt;Relative, Absolute, Fixed &amp;amp; Static&lt;/h2&gt;
-&lt;p&gt;Dessa variablar används för att ge HTML-element olika typer av beteenden som påverkar positionen. De skrivs i CSS som &lt;code&gt;position: relative&lt;/code&gt; om elementet ska ha en relativ position. Sedan kan man positionera ut elementet med hjälp av &lt;a href=&quot;/webbdesign/css-margin-padding&quot;&gt;margin&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Dessa variablar används för att ge HTML-element olika typer av beteenden som påverkar positionen. De skrivs i CSS som &lt;code&gt;position: relative&lt;/code&gt; om elementet ska ha en relativ position. Sedan kan man positionera ut elementet med hjälp av &lt;a href=&quot;/webbdesign/css-margin-padding&quot;&gt;top, right, bottom eller left&lt;/a&gt;. &lt;/p&gt;
 
 &lt;h3 id=&quot;position-relative&quot;&gt;Position Relative&lt;/h3&gt;
 &lt;p&gt;Med &lt;code&gt;position: relative&lt;/code&gt; utgår man från den &lt;strong&gt;nuvarande positionen&lt;/strong&gt; när man ska positionera ut elementet.  &lt;/p&gt;
@@ -1603,7 +1617,7 @@ Det appliceras på html-element som följande.&lt;/p&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;style=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;clear: both;&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-bakgrund&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-positionering/&quot;&gt;Positionering&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 10, 2014.&lt;/p&gt;</content>
   </entry>
@@ -1707,7 +1721,7 @@ Det appliceras på html-element som följande.&lt;/p&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website#&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-wrapper&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-bakgrund/&quot;&gt;Bakgrund&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 09, 2014.&lt;/p&gt;</content>
   </entry>
@@ -1749,7 +1763,7 @@ Rekommenderas att hemsidans bredd antingen är 960px eller 1200px bred.&lt;/p&gt
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website#&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/genomgang&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-wrapper/&quot;&gt;Wrapper&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 08, 2014.&lt;/p&gt;</content>
   </entry>
@@ -2076,7 +2090,7 @@ Rekommenderas att hemsidans bredd antingen är 960px eller 1200px bred.&lt;/p&gt
 &lt;h2 id=&quot;snyggt-nu-har-vi-designat-upp-en-enkel-hemsida&quot;&gt;Snyggt! Nu har vi designat upp en enkel hemsida&lt;/h2&gt;
 &lt;p&gt;Om vi känner oss nöjda så är det dags att publicera den på internet.&lt;/p&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website#&quot;&gt;Hur man publicerar hemsidan&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/publicera-hemsidan&quot;&gt;Hur man publicerar hemsidan&lt;/a&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/genomgang/&quot;&gt;Genomgång&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 07, 2014.&lt;/p&gt;</content>
   </entry>
