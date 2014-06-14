@@ -2,26 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Webbdesignkurser</title>
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://webbdesignkurser.github.io/website/feed.xml" />
-<link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website" />
-<updated>2014-06-13T20:44:06+00:00</updated>
-<id>http://webbdesignkurser.github.io/website/</id>
+<link rel="self" type="application/atom+xml" href="http://webbdesignkurser.se/feed.xml" />
+<link rel="alternate" type="text/html" href="http://webbdesignkurser.se" />
+<updated>2014-06-14T13:17:26+00:00</updated>
+<id>http://webbdesignkurser.se/</id>
 <author>
   <name>Webbdesignkurser</name>
-  <uri>http://webbdesignkurser.github.io/website/</uri>
+  <uri>http://webbdesignkurser.se/</uri>
   <email>kontakt@webbdesignkurser.se<email>
 </author>
 
   
   <entry>
     <title type="html"><![CDATA[Helt nya Webbdesignkurser.se]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/artiklar/nya-webbdesignkurser/" />
-    <id>http://webbdesignkurser.github.io/website/artiklar/nya-webbdesignkurser</id>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.se/artiklar/nya-webbdesignkurser/" />
+    <id>http://webbdesignkurser.se/artiklar/nya-webbdesignkurser</id>
     <published>2014-06-07T00:00:00+00:00</published>
     <updated>2014-06-07T00:00:00+00:00</updated>
     <author>
       <name>Webbdesignkurser</name>
-      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <uri>http://webbdesignkurser.se/</uri>
       <email>kontakt@webbdesignkurser.se<email>
     </author>
     <content type="html">&lt;p class=&quot;preamble&quot;&gt;Helt nytt. Samma idé. &lt;/p&gt;
@@ -34,20 +34,20 @@ Vi håller fortfarande på att skriva klart en del av kurserna, men de kommer ko
 &lt;p&gt;Nya webbdesignkurser är helt gjord med öppen källkod och finns på &lt;a href=&quot;http://github.com/Webbdesignkurser&quot;&gt;Github&lt;/a&gt;.&lt;br /&gt;
 Den är byggd på Jekyll, LESS &amp;amp; Bootstrap.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/artiklar/nya-webbdesignkurser/&quot;&gt;Helt nya Webbdesignkurser.se&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on June 07, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.se/artiklar/nya-webbdesignkurser/&quot;&gt;Helt nya Webbdesignkurser.se&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.se&quot;&gt;Webbdesignkurser&lt;/a&gt; on June 07, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Inledning]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/inledning/" />
-    <id>http://webbdesignkurser.github.io/website/webbdesign/inledning</id>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.se/webbdesign/inledning/" />
+    <id>http://webbdesignkurser.se/webbdesign/inledning</id>
     <published>2014-04-23T00:00:00+00:00</published>
     <updated>2014-04-23T00:00:00+00:00</updated>
     <author>
       <name>Webbdesignkurser</name>
-      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <uri>http://webbdesignkurser.se/</uri>
       <email>kontakt@webbdesignkurser.se<email>
     </author>
     <content type="html">&lt;h2 id=&quot;hur-gr-man-en-hemsida&quot;&gt;Hur gör man en hemsida?&lt;/h2&gt;
@@ -71,22 +71,22 @@ I den här kursen kommer vi att lära dig hur man skapar och publicerar en funge
 &lt;p&gt;Du är här för att lära dig, inte för att köpas upp. Det är vår policy och löfte till dig.&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/programvaror/&quot;&gt;Redo? Då sätter vi igång!&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.se/webbdesign/programvaror/&quot;&gt;Redo? Då sätter vi igång!&lt;/a&gt; &lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/inledning/&quot;&gt;Inledning&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 23, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.se/webbdesign/inledning/&quot;&gt;Inledning&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.se&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 23, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Programvaror]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/programvaror/" />
-    <id>http://webbdesignkurser.github.io/website/webbdesign/programvaror</id>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.se/webbdesign/programvaror/" />
+    <id>http://webbdesignkurser.se/webbdesign/programvaror</id>
     <published>2014-04-22T00:00:00+00:00</published>
     <updated>2014-04-22T00:00:00+00:00</updated>
     <author>
       <name>Webbdesignkurser</name>
-      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <uri>http://webbdesignkurser.se/</uri>
       <email>kontakt@webbdesignkurser.se<email>
     </author>
     <content type="html">&lt;h2 id=&quot;vilka-program-behver-man-fr-att-gra-en-hemsida&quot;&gt;Vilka program behöver man för att göra en hemsida?&lt;/h2&gt;
@@ -122,22 +122,22 @@ Det är ett program (Dreamviewer tex.) där man kan göra hemsidan genom en enkl
 
 &lt;p&gt;&lt;a href=&quot;http://www.photoshop.com/products&quot; target=&quot;_blank&quot; class=&quot;btn btn-primary download&quot;&gt;Ladda ned Photoshop&lt;/a&gt; &lt;a href=&quot;http://www.gimp.org/downloads/&quot; target=&quot;_blank&quot; class=&quot;btn btn-secondary download&quot;&gt;Eller Gimp (Gratis)&lt;/a&gt;  &lt;/p&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/bra-design/&quot;&gt;Tankat klart allt? Då fortsätter vi!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.se/webbdesign/bra-design/&quot;&gt;Tankat klart allt? Då fortsätter vi!&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/programvaror/&quot;&gt;Programvaror&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 22, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.se/webbdesign/programvaror/&quot;&gt;Programvaror&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.se&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 22, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Vad är bra design?]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/bra-design/" />
-    <id>http://webbdesignkurser.github.io/website/webbdesign/bra-design</id>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.se/webbdesign/bra-design/" />
+    <id>http://webbdesignkurser.se/webbdesign/bra-design</id>
     <published>2014-04-22T00:00:00+00:00</published>
     <updated>2014-04-22T00:00:00+00:00</updated>
     <author>
       <name>Webbdesignkurser</name>
-      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <uri>http://webbdesignkurser.se/</uri>
       <email>kontakt@webbdesignkurser.se<email>
     </author>
     <content type="html">&lt;h2 id=&quot;innan-vi-brjar&quot;&gt;Innan vi börjar&lt;/h2&gt;
@@ -150,69 +150,69 @@ Det är ett program (Dreamviewer tex.) där man kan göra hemsidan genom en enkl
 &lt;h3 id=&quot;bra-design-r-innovativ&quot;&gt;&lt;em&gt;1&lt;/em&gt; Bra design är innovativ&lt;/h3&gt;
 &lt;p&gt;Ha ett nytänk i din design, istället för att härma andra så ta steget längre och skapa något nytt.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_bra-design7.png&quot; /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_bra-design7.png&quot; /&gt; &lt;/p&gt;
 
 &lt;h3 id=&quot;bra-design-gr-en-hemsida-anvndbar&quot;&gt;&lt;em&gt;2&lt;/em&gt; Bra design gör en hemsida användbar&lt;/h3&gt;
 &lt;p&gt;Allt måste fylla ett särskilt syfte, inte bara funktionsmässigt utan också psykiskt och estetiskt. Användaren distaheras lätt så var tydlig med syftet i din design.  &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_bra-design1.png&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_bra-design1.png&quot; /&gt;  &lt;/p&gt;
 
 &lt;h3 id=&quot;bra-design-r-estetisk&quot;&gt;&lt;em&gt;3&lt;/em&gt; Bra design är estetisk&lt;/h3&gt;
 &lt;p&gt;En hemsida ska vara snygg och bekväm att kolla på. &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_bra-design6.png&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_bra-design6.png&quot; /&gt;  &lt;/p&gt;
 
 &lt;h3 id=&quot;bra-design-r-tydlig&quot;&gt;&lt;em&gt;4&lt;/em&gt; Bra design är tydlig&lt;/h3&gt;
 &lt;p&gt;Bra design ska kunna tala för sig själv, vad man ska göra och vart man ska trycka.  &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_bra-design5.png&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_bra-design5.png&quot; /&gt;  &lt;/p&gt;
 
 &lt;h3 id=&quot;bra-design-r-diskret&quot;&gt;&lt;em&gt;5&lt;/em&gt; Bra design är diskret&lt;/h3&gt;
 &lt;p&gt;Innehållet på hemsidan ska bara synas när besökaren behöver se det. Det ska inte störa användarupplevelsen.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_bra-design3.png&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_bra-design3.png&quot; /&gt;  &lt;/p&gt;
 
 &lt;h3 id=&quot;bra-design-r-rlig&quot;&gt;&lt;em&gt;6&lt;/em&gt; Bra design är ärlig&lt;/h3&gt;
 &lt;p&gt;Ingen gillar när man luras. Lova inte besökaren något som hemsidan inte kan erbjuda.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_bra-design2.png&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_bra-design2.png&quot; /&gt;  &lt;/p&gt;
 
 &lt;h3 id=&quot;bra-design-r-tidls&quot;&gt;&lt;em&gt;7&lt;/em&gt; Bra design är tidlös&lt;/h3&gt;
 &lt;p&gt;Teknik kan föråldras, men bra design är tidlös. Använd tekniken du har idag och skapa något hållbart.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_bra-design8.png&quot; /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_bra-design8.png&quot; /&gt; &lt;/p&gt;
 
 &lt;h3 id=&quot;bra-design-r-pixelperfektion&quot;&gt;&lt;em&gt;8&lt;/em&gt; Bra design är pixelperfektion&lt;/h3&gt;
 &lt;p&gt;Genom att du är noga i din design så visar du respekt gentemot användaren.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_bra-design4.png&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_bra-design4.png&quot; /&gt;  &lt;/p&gt;
 
 &lt;h3 id=&quot;bra-design-r-miljvnlig&quot;&gt;&lt;em&gt;9&lt;/em&gt; Bra design är miljövänlig&lt;/h3&gt;
 &lt;p&gt;Varje kilobyte i dina bilder tar utrymme och kraft från internetleverantörer. Det kan dessutom vara frustrerande för en användare med långa laddningstider. Var därför noga med att bara ta så mycket utrymme som du behöver.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_bra-design10.png&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_bra-design10.png&quot; /&gt;  &lt;/p&gt;
 
 &lt;h3 id=&quot;bra-design-r-s-lite-design-som-mjligt&quot;&gt;&lt;em&gt;10&lt;/em&gt; Bra design är så lite design som möjligt&lt;/h3&gt;
 &lt;p&gt;Sist med inte minst, bra design är så lite design som möjligt. Mindre, men bättre. &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_bra-design9.png&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_bra-design9.png&quot; /&gt;  &lt;/p&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-html/&quot;&gt;Då sätter vi igång!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.se/webbdesign/grunderna-i-html/&quot;&gt;Då sätter vi igång!&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/bra-design/&quot;&gt;Vad är bra design?&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 22, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.se/webbdesign/bra-design/&quot;&gt;Vad är bra design?&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.se&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 22, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Grunderna i HTML]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-html/" />
-    <id>http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-html</id>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.se/webbdesign/grunderna-i-html/" />
+    <id>http://webbdesignkurser.se/webbdesign/grunderna-i-html</id>
     <published>2014-04-21T00:00:00+00:00</published>
     <updated>2014-04-21T00:00:00+00:00</updated>
     <author>
       <name>Webbdesignkurser</name>
-      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <uri>http://webbdesignkurser.se/</uri>
       <email>kontakt@webbdesignkurser.se<email>
     </author>
     <content type="html">&lt;h2 id=&quot;en-hemsidas-uppbyggnad&quot;&gt;En hemsidas uppbyggnad&lt;/h2&gt;
@@ -224,21 +224,21 @@ Det är ett program (Dreamviewer tex.) där man kan göra hemsidan genom en enkl
 
 &lt;h3 id=&quot;ppna-texteditorn-och-skapa-ett-nytt-dokument&quot;&gt;&lt;em&gt;2&lt;/em&gt; Öppna texteditorn och skapa ett nytt dokument&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_texteditor.png&quot; style=&quot;margin-left: -13px;&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_texteditor.png&quot; style=&quot;margin-left: -13px;&quot; /&gt;  &lt;/p&gt;
 
 &lt;h3 id=&quot;spara-ner-html-filen&quot;&gt;&lt;em&gt;3&lt;/em&gt; Spara ner HTML-filen&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Spara ner&lt;/strong&gt; &lt;span class=&quot;keyboard&quot;&gt;Ctrl / Cmd&lt;/span&gt; &lt;span class=&quot;keyboard&quot;&gt;S&lt;/span&gt; det tomma dokumentet i din nya mapp, döp filen till &lt;strong&gt;&lt;code&gt;index.html&lt;/code&gt;&lt;/strong&gt;&lt;br /&gt;
 Det är Index som besökaren först kommer att komma till när de besöker hemsidan, en startsida helt enkelt. Filändelsen i slutet av namnet berättar för webbläsaren att det är HTML som ska visas.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_save-index-html.png&quot; style=&quot;margin-left: -10px;&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_save-index-html.png&quot; style=&quot;margin-left: -10px;&quot; /&gt;  &lt;/p&gt;
 
 &lt;h3 id=&quot;ppna-indexhtml-i-webblsaren&quot;&gt;&lt;em&gt;4&lt;/em&gt; Öppna &lt;code&gt;index.html&lt;/code&gt; i webbläsaren&lt;/h3&gt;
 &lt;p&gt;Nu ska vi öppna hemsidan i webbläsaren för att se hur den ser ut.&lt;br /&gt;
 &lt;strong&gt;Högerklicka på filen&lt;/strong&gt; &amp;gt; &lt;strong&gt;Öppna med&lt;/strong&gt; &amp;gt; &lt;strong&gt;Välj en valfri webbläsare&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_open-with.png&quot; style=&quot;margin-left: -5px;&quot; /&gt;   &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_open-with.png&quot; style=&quot;margin-left: -5px;&quot; /&gt;   &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_blank-browser.png&quot; style=&quot;margin-left: -15px;&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_blank-browser.png&quot; style=&quot;margin-left: -15px;&quot; /&gt;  &lt;/p&gt;
 
 &lt;div class=&quot;success box&quot;&gt;&lt;h3&gt;Bra gjort! Du har precis besökt din första hemsida&lt;/h3&gt;  
 &lt;p&gt;Den är lite tom just nu, men det beror på att vi inte har skrivit något i HTML-filen än.&lt;/p&gt;&lt;/div&gt;
@@ -306,17 +306,17 @@ Skriv därför följande rad längst upp i dokumentet.&lt;/p&gt;
 
 &lt;p&gt;Som du märker så flyttar vi in texten två mellanslag för varje gång som vi går djupare in i en tagg. Det här gör man för att lättare se och organisera strukturen på texten, då det kan bli för många taggar att hålla reda på om allt ligger på samma rad.  &lt;/p&gt;
 
-&lt;p&gt;Vanligtvis flyttar man in texten 2 eller 4 mellanslag, alternativt trycker man &lt;span class=&quot;keyboard&quot;&gt;Tab &lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/keyboard_tab.png&quot; /&gt;&lt;/span&gt; på tangentbordet.&lt;/p&gt;
+&lt;p&gt;Vanligtvis flyttar man in texten 2 eller 4 mellanslag, alternativt trycker man &lt;span class=&quot;keyboard&quot;&gt;Tab &lt;img src=&quot;http://webbdesignkurser.se/assets/images/keyboard_tab.png&quot; /&gt;&lt;/span&gt; på tangentbordet.&lt;/p&gt;
 
 &lt;div class=&quot;success box&quot; style=&quot;margin-top: 10px;&quot;&gt;
-&lt;p&gt;&lt;strong&gt;Tips: &lt;/strong&gt; Med Sublime Text kan du markera flera rader och sedan trycka &lt;span class=&quot;keyboard&quot;&gt;Tab &lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/keyboard_tab.png&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Tryck &lt;span class=&quot;keyboard&quot;&gt;Shift&lt;/span&gt; &lt;span class=&quot;keyboard&quot;&gt;Tab &lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/keyboard_tab.png&quot; /&gt;&lt;/span&gt; för att trycka in texten igen.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tips: &lt;/strong&gt; Med Sublime Text kan du markera flera rader och sedan trycka &lt;span class=&quot;keyboard&quot;&gt;Tab &lt;img src=&quot;http://webbdesignkurser.se/assets/images/keyboard_tab.png&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Tryck &lt;span class=&quot;keyboard&quot;&gt;Shift&lt;/span&gt; &lt;span class=&quot;keyboard&quot;&gt;Tab &lt;img src=&quot;http://webbdesignkurser.se/assets/images/keyboard_tab.png&quot; /&gt;&lt;/span&gt; för att trycka in texten igen.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;h3 id=&quot;title&quot;&gt;Title&lt;/h3&gt;
 
 &lt;p&gt;&lt;code&gt;&amp;lt;title&amp;gt;&lt;/code&gt; visar den text som syns i hemsidans flik på webbläsaren.&lt;br /&gt;
-&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_title.png&quot; style=&quot;border-bottom: 1px solid #999;&quot; /&gt;  &lt;/p&gt;
+&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_title.png&quot; style=&quot;border-bottom: 1px solid #999;&quot; /&gt;  &lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
 
@@ -353,22 +353,22 @@ Skriv därför följande rad längst upp i dokumentet.&lt;/p&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/html-texter/&quot;&gt;Snyggt! Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.se/webbdesign/html-texter/&quot;&gt;Snyggt! Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-html/&quot;&gt;Grunderna i HTML&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 21, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.se/webbdesign/grunderna-i-html/&quot;&gt;Grunderna i HTML&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.se&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 21, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Skriva texter]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/html-texter/" />
-    <id>http://webbdesignkurser.github.io/website/webbdesign/html-texter</id>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.se/webbdesign/html-texter/" />
+    <id>http://webbdesignkurser.se/webbdesign/html-texter</id>
     <published>2014-04-20T00:00:00+00:00</published>
     <updated>2014-04-20T00:00:00+00:00</updated>
     <author>
       <name>Webbdesignkurser</name>
-      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <uri>http://webbdesignkurser.se/</uri>
       <email>kontakt@webbdesignkurser.se<email>
     </author>
     <content type="html">&lt;h2 id=&quot;skriva-texter-i-html&quot;&gt;Skriva texter i HTML&lt;/h2&gt;
@@ -409,7 +409,7 @@ Skriv därför följande rad längst upp i dokumentet.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Spara dokumentet&lt;/strong&gt; och &lt;strong&gt;uppdaterar hemsidan&lt;/strong&gt;. Den kommer nu att se ut såhär.&lt;/p&gt;
 
-&lt;div&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_html-rubriker.png&quot; alt=&quot;Html Rubriker&quot; style=&quot;margin-left: -10px;&quot; /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_html-rubriker.png&quot; alt=&quot;Html Rubriker&quot; style=&quot;margin-left: -10px;&quot; /&gt;&lt;/div&gt;
 
 &lt;div class=&quot;note box&quot;&gt;
 &lt;h3&gt;Val av rubriker&lt;/h3&gt;
@@ -425,7 +425,7 @@ Skriv därför följande rad längst upp i dokumentet.&lt;/p&gt;
 Är du redo att koka pasta?&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_html-paragraf.png&quot; alt=&quot;Html Paragraf&quot; style=&quot;margin-left: -10px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_html-paragraf.png&quot; alt=&quot;Html Paragraf&quot; style=&quot;margin-left: -10px;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;radbyten&quot;&gt;Radbyten&lt;/h3&gt;
 &lt;p&gt;Texten kommer att fortsätta på samma rad tills att du skapar en ny paragraf eller gör ett radbyte med &lt;code&gt;&amp;lt;br/&amp;gt;&lt;/code&gt;  &lt;/p&gt;
@@ -436,29 +436,29 @@ Skriv därför följande rad längst upp i dokumentet.&lt;/p&gt;
 Är du redo att koka pasta?&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_html-radbyte.png&quot; alt=&quot;Html Radbyte&quot; style=&quot;margin-left: -13px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_html-radbyte.png&quot; alt=&quot;Html Radbyte&quot; style=&quot;margin-left: -13px;&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;success box&quot;&gt;
 &lt;h3&gt;Bra gjort!&lt;/h3&gt;
 &lt;p&gt;Nu kan du grunderna i att skriva texter i HTML. Nästa steg för oss är att länka en html-sida till en annan.&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/html-lankar/&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.se/webbdesign/html-lankar/&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/html-texter/&quot;&gt;Skriva texter&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 20, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.se/webbdesign/html-texter/&quot;&gt;Skriva texter&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.se&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 20, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Länkar]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/html-lankar/" />
-    <id>http://webbdesignkurser.github.io/website/webbdesign/html-lankar</id>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.se/webbdesign/html-lankar/" />
+    <id>http://webbdesignkurser.se/webbdesign/html-lankar</id>
     <published>2014-04-19T00:00:00+00:00</published>
     <updated>2014-04-19T00:00:00+00:00</updated>
     <author>
       <name>Webbdesignkurser</name>
-      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <uri>http://webbdesignkurser.se/</uri>
       <email>kontakt@webbdesignkurser.se<email>
     </author>
     <content type="html">&lt;h2 id=&quot;lnka-till-andra-sidor-med-html&quot;&gt;Länka till andra sidor med HTML&lt;/h2&gt;
@@ -495,7 +495,7 @@ Skriv därför följande rad längst upp i dokumentet.&lt;/p&gt;
 &lt;p&gt;I det här exemplet har vi två html-sidor som heter &lt;code&gt;hundar.html&lt;/code&gt; och &lt;code&gt;katter.html&lt;/code&gt;&lt;br /&gt;
 Vi ska länka dessa till varandra.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_html-links-example.png&quot; style=&quot;margin-left: -13px;&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_html-links-example.png&quot; style=&quot;margin-left: -13px;&quot; /&gt;  &lt;/p&gt;
 
 &lt;h3 id=&quot;i-hundarhtml-skriver-vi-fljande&quot;&gt;I &lt;code&gt;hundar.html&lt;/code&gt; skriver vi följande&lt;/h3&gt;
 
@@ -516,22 +516,22 @@ Vi ska länka dessa till varandra.&lt;/p&gt;
 &lt;p&gt;Det är så man länkar sidor, nu ska vi visa bilder i HTML.&lt;/p&gt; 
 &lt;/div&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/html-bilder/&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.se/webbdesign/html-bilder/&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/html-lankar/&quot;&gt;Länkar&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 19, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.se/webbdesign/html-lankar/&quot;&gt;Länkar&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.se&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 19, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Bilder]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/html-bilder/" />
-    <id>http://webbdesignkurser.github.io/website/webbdesign/html-bilder</id>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.se/webbdesign/html-bilder/" />
+    <id>http://webbdesignkurser.se/webbdesign/html-bilder</id>
     <published>2014-04-18T00:00:00+00:00</published>
     <updated>2014-04-18T00:00:00+00:00</updated>
     <author>
       <name>Webbdesignkurser</name>
-      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <uri>http://webbdesignkurser.se/</uri>
       <email>kontakt@webbdesignkurser.se<email>
     </author>
     <content type="html">&lt;h2 id=&quot;visa-bilder-med-html&quot;&gt;Visa bilder med HTML&lt;/h2&gt;
@@ -569,7 +569,7 @@ Vi ska länka dessa till varandra.&lt;/p&gt;
 Du får inte använda å, ä, ö, mellanrum eller konstiga tecken i bildens namn. Du får däremot använda bindestreck och understreck i filnamnet, så använd det istället för mellanrum.
 &lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_bilder-format.png&quot; style=&quot;margin-top: 40px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_bilder-format.png&quot; style=&quot;margin-top: 40px;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;skillnaden-mellan-jpg-gif-och-png&quot;&gt;Skillnaden mellan JPG, GIF och PNG&lt;/h2&gt;
 
@@ -602,7 +602,7 @@ Du får inte använda å, ä, ö, mellanrum eller konstiga tecken i bildens namn
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_html-bild-exempel.jpg&quot; /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_html-bild-exempel.jpg&quot; /&gt; &lt;/p&gt;
 
 &lt;h2 id=&quot;spara-bild-fr-webben&quot;&gt;Spara bild för webben&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Det är viktigt&lt;/strong&gt; att optimera bilderna för webben. Du kan inte använda det där semesterfotot på 8 MB direkt på hemsidan. Då laddar hemsidan långsammare och besökaren tröttnar. Om man surfar över mobilt bredband vill man dessutom inte att hemsidan ska dra för mycket av månadens betalsurf.  &lt;/p&gt;
@@ -619,37 +619,37 @@ Du får inte använda å, ä, ö, mellanrum eller konstiga tecken i bildens namn
 
 &lt;h3 id=&quot;bestm-filtyp-och-kvallit&quot;&gt;&lt;em&gt;3&lt;/em&gt; Bestäm filtyp och kvallité&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_save-for-web-1.jpg&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_save-for-web-1.jpg&quot; /&gt;  &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_save-for-web-2.jpg&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_save-for-web-2.jpg&quot; /&gt;  &lt;/p&gt;
 
 &lt;h3 id=&quot;spara&quot;&gt;&lt;em&gt;4&lt;/em&gt; Spara&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_save-for-web-3.jpg&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_save-for-web-3.jpg&quot; /&gt;  &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_save-for-web-4.jpg&quot; style=&quot;margin-left: -13px;&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_save-for-web-4.jpg&quot; style=&quot;margin-left: -13px;&quot; /&gt;  &lt;/p&gt;
 
 &lt;div class=&quot;success box&quot;&gt;
 &lt;h3&gt;Toppen!&lt;/h3&gt;
 &lt;p&gt;Nu vet du hur man sparar bilder och hämtar in dom på hemsidan.&lt;/p&gt; 
 &lt;/div&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/html-listor/&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.se/webbdesign/html-listor/&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/html-bilder/&quot;&gt;Bilder&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 18, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.se/webbdesign/html-bilder/&quot;&gt;Bilder&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.se&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 18, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Listor]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/html-listor/" />
-    <id>http://webbdesignkurser.github.io/website/webbdesign/html-listor</id>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.se/webbdesign/html-listor/" />
+    <id>http://webbdesignkurser.se/webbdesign/html-listor</id>
     <published>2014-04-17T00:00:00+00:00</published>
     <updated>2014-04-17T00:00:00+00:00</updated>
     <author>
       <name>Webbdesignkurser</name>
-      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <uri>http://webbdesignkurser.se/</uri>
       <email>kontakt@webbdesignkurser.se<email>
     </author>
     <content type="html">&lt;h2 id=&quot;skriva-listor-i-html&quot;&gt;Skriva listor i HTML&lt;/h2&gt;
@@ -670,7 +670,7 @@ Du får inte använda å, ä, ö, mellanrum eller konstiga tecken i bildens namn
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_html-list.png&quot; style=&quot;margin-left: -12px;&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_html-list.png&quot; style=&quot;margin-left: -12px;&quot; /&gt;  &lt;/p&gt;
 
 &lt;h2 id=&quot;lista-i-listan&quot;&gt;Lista i listan&lt;/h2&gt;
 
@@ -688,29 +688,29 @@ Du får inte använda å, ä, ö, mellanrum eller konstiga tecken i bildens namn
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;div&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_html-list-sub.png&quot; style=&quot;margin-left: -12px;&quot; /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_html-list-sub.png&quot; style=&quot;margin-left: -12px;&quot; /&gt;&lt;/div&gt;
 
 &lt;div class=&quot;success box&quot;&gt;
 &lt;h3&gt;Så lätt var det&lt;/h3&gt;
 &lt;p&gt;Vi vet att det inte ser så jättesnyggt ut, vi har bara inte kommit till själva designdelen än.&lt;/p&gt; 
 &lt;/div&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/html-tabeller/&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.se/webbdesign/html-tabeller/&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/html-listor/&quot;&gt;Listor&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 17, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.se/webbdesign/html-listor/&quot;&gt;Listor&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.se&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 17, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Tabeller]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/html-tabeller/" />
-    <id>http://webbdesignkurser.github.io/website/webbdesign/html-tabeller</id>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.se/webbdesign/html-tabeller/" />
+    <id>http://webbdesignkurser.se/webbdesign/html-tabeller</id>
     <published>2014-04-16T00:00:00+00:00</published>
     <updated>2014-04-16T00:00:00+00:00</updated>
     <author>
       <name>Webbdesignkurser</name>
-      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <uri>http://webbdesignkurser.se/</uri>
       <email>kontakt@webbdesignkurser.se<email>
     </author>
     <content type="html">&lt;h2 id=&quot;skapa-tabeller-i-html&quot;&gt;Skapa tabeller i HTML&lt;/h2&gt;
@@ -746,7 +746,7 @@ Du får inte använda å, ä, ö, mellanrum eller konstiga tecken i bildens namn
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/table&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_html-table-row.png&quot; style=&quot;margin-left: -10px;&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_html-table-row.png&quot; style=&quot;margin-left: -10px;&quot; /&gt;  &lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;table&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
@@ -767,7 +767,7 @@ Du får inte använda å, ä, ö, mellanrum eller konstiga tecken i bildens namn
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/table&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_html-table-rows.png&quot; style=&quot;margin-left: -10px;&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_html-table-rows.png&quot; style=&quot;margin-left: -10px;&quot; /&gt;  &lt;/p&gt;
 
 &lt;h2 id=&quot;ndra-bredd-och-hjd&quot;&gt;Ändra bredd och höjd&lt;/h2&gt;
 
@@ -793,9 +793,9 @@ För det så behöver vi skriva in en &lt;code&gt;style&lt;/code&gt; i &lt;code&
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/table&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_html-table-rows-width-height.png&quot; style=&quot;margin-left: -10px;&quot; /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_html-table-rows-width-height.png&quot; style=&quot;margin-left: -10px;&quot; /&gt; &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_html-table-rows-width-height-highlight.png&quot; style=&quot;margin-left: -10px;&quot; /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_html-table-rows-width-height-highlight.png&quot; style=&quot;margin-left: -10px;&quot; /&gt; &lt;/p&gt;
 
 &lt;h2 id=&quot;thead-tbody-och-tfoot&quot;&gt;&lt;code&gt;&amp;lt;thead&amp;gt;&lt;/code&gt; &lt;code&gt;&amp;lt;tbody&amp;gt;&lt;/code&gt; och &lt;code&gt;&amp;lt;tfoot&amp;gt;&lt;/code&gt;&lt;/h2&gt;
 
@@ -835,22 +835,22 @@ För det så behöver vi skriva in en &lt;code&gt;style&lt;/code&gt; i &lt;code&
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/table&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-css/&quot;&gt;Dags att styla hemsidan - Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.se/webbdesign/grunderna-i-css/&quot;&gt;Dags att styla hemsidan - Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/html-tabeller/&quot;&gt;Tabeller&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 16, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.se/webbdesign/html-tabeller/&quot;&gt;Tabeller&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.se&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 16, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Grunderna i CSS]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-css/" />
-    <id>http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-css</id>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.se/webbdesign/grunderna-i-css/" />
+    <id>http://webbdesignkurser.se/webbdesign/grunderna-i-css</id>
     <published>2014-04-15T00:00:00+00:00</published>
     <updated>2014-04-15T00:00:00+00:00</updated>
     <author>
       <name>Webbdesignkurser</name>
-      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <uri>http://webbdesignkurser.se/</uri>
       <email>kontakt@webbdesignkurser.se<email>
     </author>
     <content type="html">&lt;h2 id=&quot;designa-html-med-css&quot;&gt;Designa HTML med CSS&lt;/h2&gt;
@@ -895,7 +895,7 @@ För det så behöver vi skriva in en &lt;code&gt;style&lt;/code&gt; i &lt;code&
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_css-basics.png&quot; style=&quot;margin-left: -11px;&quot; /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_css-basics.png&quot; style=&quot;margin-left: -11px;&quot; /&gt; &lt;/p&gt;
 
 &lt;h3 id=&quot;skriva-kommentarer-i-css&quot;&gt;Skriva kommentarer i CSS&lt;/h3&gt;
 &lt;p&gt;Precis som i HTML så kan vi kommentera ut texter i filen som inte påverkar hur webbläsaren ska läsa sidan.
@@ -913,22 +913,22 @@ Om det endast gäller en rad skriver du &lt;code&gt;//&lt;/code&gt; medan flera 
   &lt;p&gt;Nu kan du grunden i hur CSS fungerar. Nästa steg blir att lära sig alla attribut som går att tillämpa i CSS.&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/reset-css&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.se/webbdesign/reset-css&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-css/&quot;&gt;Grunderna i CSS&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 15, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.se/webbdesign/grunderna-i-css/&quot;&gt;Grunderna i CSS&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.se&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 15, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Reset CSS]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/reset-css/" />
-    <id>http://webbdesignkurser.github.io/website/webbdesign/reset-css</id>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.se/webbdesign/reset-css/" />
+    <id>http://webbdesignkurser.se/webbdesign/reset-css</id>
     <published>2014-04-14T00:00:00+00:00</published>
     <updated>2014-04-14T00:00:00+00:00</updated>
     <author>
       <name>Webbdesignkurser</name>
-      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <uri>http://webbdesignkurser.se/</uri>
       <email>kontakt@webbdesignkurser.se<email>
     </author>
     <content type="html">&lt;h2 id=&quot;nollstll-css-i-alla-webblsare&quot;&gt;Nollställ CSS i alla webbläsare&lt;/h2&gt;
@@ -1000,22 +1000,22 @@ Hämta därefter in din reset.css &lt;strong&gt;innan&lt;/strong&gt; din style.c
   &lt;p&gt;Om du inte vill skapa en ny CSS-fil för din Reset så går det lika bra att klistra in det längst upp i style.css. Men vi kände att det blir mer sorterat på det här sättet.&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-farger&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.se/webbdesign/css-farger&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/reset-css/&quot;&gt;Reset CSS&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 14, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.se/webbdesign/reset-css/&quot;&gt;Reset CSS&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.se&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 14, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Färger]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/css-farger/" />
-    <id>http://webbdesignkurser.github.io/website/webbdesign/css-farger</id>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.se/webbdesign/css-farger/" />
+    <id>http://webbdesignkurser.se/webbdesign/css-farger</id>
     <published>2014-04-13T00:00:00+00:00</published>
     <updated>2014-04-13T00:00:00+00:00</updated>
     <author>
       <name>Webbdesignkurser</name>
-      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <uri>http://webbdesignkurser.se/</uri>
       <email>kontakt@webbdesignkurser.se<email>
     </author>
     <content type="html">&lt;h2 id=&quot;frgstt-element-med-css&quot;&gt;Färgsätt element med CSS&lt;/h2&gt;
@@ -1054,22 +1054,22 @@ Opaciteten kan sedan skrivas från &lt;code&gt;0&lt;/code&gt; till &lt;code&gt;1
 	&lt;p&gt;Om du använder Mac och skriver i Sublime Text så kan du trycka &lt;span class=&quot;keyboard&quot;&gt;Cmd&lt;/span&gt; &lt;span class=&quot;keyboard&quot;&gt;Shift&lt;/span&gt; &lt;span class=&quot;keyboard&quot;&gt;C&lt;/span&gt; för att ta fram en färgpalett direkt i texteditorn.&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-typografi&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.se/webbdesign/css-typografi&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-farger/&quot;&gt;Färger&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 13, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.se/webbdesign/css-farger/&quot;&gt;Färger&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.se&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 13, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Typografi]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/css-typografi/" />
-    <id>http://webbdesignkurser.github.io/website/webbdesign/css-typografi</id>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.se/webbdesign/css-typografi/" />
+    <id>http://webbdesignkurser.se/webbdesign/css-typografi</id>
     <published>2014-04-12T00:00:00+00:00</published>
     <updated>2014-04-12T00:00:00+00:00</updated>
     <author>
       <name>Webbdesignkurser</name>
-      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <uri>http://webbdesignkurser.se/</uri>
       <email>kontakt@webbdesignkurser.se<email>
     </author>
     <content type="html">&lt;h2 id=&quot;typografi-med-css&quot;&gt;Typografi med CSS&lt;/h2&gt;
@@ -1096,7 +1096,7 @@ Opaciteten kan sedan skrivas från &lt;code&gt;0&lt;/code&gt; till &lt;code&gt;1
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Labore magnam veritatis asperiores quod quaerat reiciendis?&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_css-typografi-2.png&quot; style=&quot;margin-left: -13px;&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_css-typografi-2.png&quot; style=&quot;margin-left: -13px;&quot; /&gt;  &lt;/p&gt;
 
 &lt;h3 id=&quot;linjehjd&quot;&gt;Linjehöjd&lt;/h3&gt;
 
@@ -1113,7 +1113,7 @@ Opaciteten kan sedan skrivas från &lt;code&gt;0&lt;/code&gt; till &lt;code&gt;1
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_css-typografi-3.png&quot; style=&quot;margin-left: -13px;&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_css-typografi-3.png&quot; style=&quot;margin-left: -13px;&quot; /&gt;  &lt;/p&gt;
 
 &lt;h3 id=&quot;radavstnd&quot;&gt;Radavstånd&lt;/h3&gt;
 
@@ -1133,11 +1133,11 @@ Här använder vi &lt;code&gt;margin-bottom: 15px&lt;/code&gt; för att skilja d
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_css-typografi-4.png&quot; style=&quot;margin-left: -13px;&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_css-typografi-4.png&quot; style=&quot;margin-left: -13px;&quot; /&gt;  &lt;/p&gt;
 
 &lt;h3 id=&quot;typsnitt&quot;&gt;Typsnitt&lt;/h3&gt;
 
-&lt;p&gt;Med hjälp av &lt;code&gt;font-family&lt;/code&gt; så tilldelar vi texten ett typsnitt. En fullständig lista på alla tillgängliga typsnitt hittar du &lt;a href=&quot;http://cssfontstack.com&quot; target=&quot;_blank&quot;&gt;här&lt;/a&gt;. Om du vill importera ett eget typsnitt så hänvisar vi dig till vår &lt;a href=&quot;http://webbdesignkurser.github.io/website/typsnitt/&quot;&gt;fördjupning av typsnitt&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Med hjälp av &lt;code&gt;font-family&lt;/code&gt; så tilldelar vi texten ett typsnitt. En fullständig lista på alla tillgängliga typsnitt hittar du &lt;a href=&quot;http://cssfontstack.com&quot; target=&quot;_blank&quot;&gt;här&lt;/a&gt;. Om du vill importera ett eget typsnitt så hänvisar vi dig till vår &lt;a href=&quot;http://webbdesignkurser.se/typsnitt/&quot;&gt;fördjupning av typsnitt&lt;/a&gt;.&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;30px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -1154,11 +1154,11 @@ Här använder vi &lt;code&gt;margin-bottom: 15px&lt;/code&gt; för att skilja d
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_css-typografi-5.png&quot; style=&quot;margin-left: -13px;&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_css-typografi-5.png&quot; style=&quot;margin-left: -13px;&quot; /&gt;  &lt;/p&gt;
 
 &lt;h3 id=&quot;tjocklek-och-kursivt&quot;&gt;Tjocklek och kursivt&lt;/h3&gt;
 
-&lt;p&gt;I HTML finns det två taggar som används för tjock text och kursiv text, nämligen &lt;code&gt;&amp;lt;strong&amp;gt;&lt;/code&gt; och &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt;. Eftersom vi tidigare i kursen nollställde alla CSS-värden med en &lt;a href=&quot;http://webbdesignkurser.github.io/websitewebbdesign/reset-css/&quot;&gt;Reset CSS&lt;/a&gt; så måste vi nu ta in dessa stilar igen till respektve HTML-tag.&lt;/p&gt;
+&lt;p&gt;I HTML finns det två taggar som används för tjock text och kursiv text, nämligen &lt;code&gt;&amp;lt;strong&amp;gt;&lt;/code&gt; och &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt;. Eftersom vi tidigare i kursen nollställde alla CSS-värden med en &lt;a href=&quot;http://webbdesignkurser.sewebbdesign/reset-css/&quot;&gt;Reset CSS&lt;/a&gt; så måste vi nu ta in dessa stilar igen till respektve HTML-tag.&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;strong&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;font-weight&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;bold&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -1237,22 +1237,22 @@ Här använder vi &lt;code&gt;margin-bottom: 15px&lt;/code&gt; för att skilja d
 &lt;div class=&quot;example box full-width&quot;&gt;
   &lt;a href=&quot;#&quot; class=&quot;examplelink&quot;&gt;Håll musen över mig&lt;/a&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-id-class&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.se/webbdesign/css-id-class&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-typografi/&quot;&gt;Typografi&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 12, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.se/webbdesign/css-typografi/&quot;&gt;Typografi&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.se&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 12, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Id och class]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/css-id-class/" />
-    <id>http://webbdesignkurser.github.io/website/webbdesign/css-id-class</id>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.se/webbdesign/css-id-class/" />
+    <id>http://webbdesignkurser.se/webbdesign/css-id-class</id>
     <published>2014-04-12T00:00:00+00:00</published>
     <updated>2014-04-12T00:00:00+00:00</updated>
     <author>
       <name>Webbdesignkurser</name>
-      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <uri>http://webbdesignkurser.se/</uri>
       <email>kontakt@webbdesignkurser.se<email>
     </author>
     <content type="html">&lt;h2 id=&quot;namnge-html-element-med-id-och-class&quot;&gt;Namnge html-element med id och class&lt;/h2&gt;
@@ -1401,22 +1401,22 @@ Det appliceras på html-element som följande.&lt;/p&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-margin-padding&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.se/webbdesign/css-margin-padding&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-id-class/&quot;&gt;Id och class&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 12, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.se/webbdesign/css-id-class/&quot;&gt;Id och class&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.se&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 12, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Margin och padding]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/css-margin-padding/" />
-    <id>http://webbdesignkurser.github.io/website/webbdesign/css-margin-padding</id>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.se/webbdesign/css-margin-padding/" />
+    <id>http://webbdesignkurser.se/webbdesign/css-margin-padding</id>
     <published>2014-04-11T00:00:00+00:00</published>
     <updated>2014-04-11T00:00:00+00:00</updated>
     <author>
       <name>Webbdesignkurser</name>
-      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <uri>http://webbdesignkurser.se/</uri>
       <email>kontakt@webbdesignkurser.se<email>
     </author>
     <content type="html">&lt;h2 id=&quot;marginaler-och-utfyllnad-i-css&quot;&gt;Marginaler och utfyllnad i CSS&lt;/h2&gt;
@@ -1440,7 +1440,7 @@ Det appliceras på html-element som följande.&lt;/p&gt;
 
 &lt;p&gt;Båda alternativen går lika bra, och ger följande effekt på elementet.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_css-margin.png&quot; /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_css-margin.png&quot; /&gt; &lt;/p&gt;
 
 &lt;h3 id=&quot;padding&quot;&gt;Padding&lt;/h3&gt;
 &lt;p&gt;Till skillnad från margin så placerar det inte ut elementet, trots att det visuellt kan se ut så. Det padding gör är att den lägger till en utfyllnad inom elementet, vilket  exempelvis passar bra på en knapp som har en bakgrund och behöver utrymme runt knapptexten.&lt;/p&gt;
@@ -1459,7 +1459,7 @@ Det appliceras på html-element som följande.&lt;/p&gt;
 
 &lt;p&gt;Det här ger då följande effekt.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_css-padding.png&quot; /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_css-padding.png&quot; /&gt; &lt;/p&gt;
 
 &lt;h3 id=&quot;less-is-more&quot;&gt;Less is more&lt;/h3&gt;
 &lt;p&gt;Om elementets margin eller padding endast ska påverka upp och ner räcker det att bara skriva &lt;code&gt;margin: 10px 0px;&lt;/code&gt; Det är nämligen detsamma som &lt;code&gt;margin: 10px 0px 10px 0px;&lt;/code&gt;.  &lt;/p&gt;
@@ -1480,22 +1480,22 @@ Det appliceras på html-element som följande.&lt;/p&gt;
 &lt;h3 id=&quot;vad-r-skillnaden-mellan-top-och-margin-top&quot;&gt;Vad är skillnaden mellan “Top” och “Margin-top”?&lt;/h3&gt;
 &lt;p&gt;Det kanske verkar konstigt att man har två attribut som gör samma saker, men skiljer sig däremot från varandra. “Top” används för att positionera ut ett element med hjälp av &lt;code&gt;position&lt;/code&gt; (som vi går igenom på nästa sida). Margin-top är till för att sätta ett avstånd i förhållande mot element i omgivningen.&lt;/p&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-positionering&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.se/webbdesign/css-positionering&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-margin-padding/&quot;&gt;Margin och padding&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 11, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.se/webbdesign/css-margin-padding/&quot;&gt;Margin och padding&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.se&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 11, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Positionering]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/css-positionering/" />
-    <id>http://webbdesignkurser.github.io/website/webbdesign/css-positionering</id>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.se/webbdesign/css-positionering/" />
+    <id>http://webbdesignkurser.se/webbdesign/css-positionering</id>
     <published>2014-04-10T00:00:00+00:00</published>
     <updated>2014-04-10T00:00:00+00:00</updated>
     <author>
       <name>Webbdesignkurser</name>
-      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <uri>http://webbdesignkurser.se/</uri>
       <email>kontakt@webbdesignkurser.se<email>
     </author>
     <content type="html">&lt;h2 id=&quot;stt-position-med-css&quot;&gt;Sätt position med CSS&lt;/h2&gt;
@@ -1508,7 +1508,7 @@ Det appliceras på html-element som följande.&lt;/p&gt;
 &lt;h3 id=&quot;position-relative&quot;&gt;Position Relative&lt;/h3&gt;
 &lt;p&gt;Med &lt;code&gt;position: relative&lt;/code&gt; utgår man från den &lt;strong&gt;nuvarande positionen&lt;/strong&gt; när man ska positionera ut elementet.  &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_position-relative.png&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_position-relative.png&quot; /&gt;  &lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.relativtBlock&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;relative&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -1518,7 +1518,7 @@ Det appliceras på html-element som följande.&lt;/p&gt;
 &lt;h3 id=&quot;position-absolute&quot;&gt;Position Absolute&lt;/h3&gt;
 &lt;p&gt;Med &lt;code&gt;position: absolute&lt;/code&gt; utgår man från &lt;strong&gt;områdets absoluta nollpunkt&lt;/strong&gt;, vilket är vänstra hörnet av området som elementet ligger inom.  &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_position-absolute.png&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_position-absolute.png&quot; /&gt;  &lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.absolutBlock&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;absolute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -1528,7 +1528,7 @@ Det appliceras på html-element som följande.&lt;/p&gt;
 &lt;h3 id=&quot;position-fixed&quot;&gt;Position Fixed&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;position: fixed&lt;/code&gt; har samma värden som absolute, förutom att den följer med när man scrollar i webbläsaren.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_position-fixed.png&quot; /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_position-fixed.png&quot; /&gt; &lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.fixeratBlock&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;fixed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -1538,7 +1538,7 @@ Det appliceras på html-element som följande.&lt;/p&gt;
 &lt;h3 id=&quot;position-static&quot;&gt;Position Static&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;position: static&lt;/code&gt; nollställer alla värden, det är variabeln som alla element har innan man har valt något.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_position-static.png&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_position-static.png&quot; /&gt;  &lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.statisktBlock&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;static&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -1617,22 +1617,107 @@ Det appliceras på html-element som följande.&lt;/p&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;style=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;clear: both;&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-bakgrund&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;display-inline-block-och-inline-block&quot;&gt;Display: Inline, Block och Inline-block&lt;/h2&gt;
+&lt;p&gt;Element som agerar som block (tex div) beter sig annorlunda jämfört med text (tex span). Det beror på att de har olika display-inställningar. Man kan själv sätta display-inställning på ett block genom attributet &lt;code&gt;display: inline / block / inline-block&lt;/code&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-positionering/&quot;&gt;Positionering&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 10, 2014.&lt;/p&gt;</content>
+&lt;h3 id=&quot;inline-element&quot;&gt;Inline-element&lt;/h3&gt;
+&lt;p&gt;Inline-element har följande som standard.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fyller ut området beroende på innehållet.&lt;/li&gt;
+&lt;li&gt;Ignorerar top och bottom i margin, men funkar med left och right, samt padding.&lt;/li&gt;
+&lt;li&gt;Följer med i text-innehåll utan att byta rad.&lt;/li&gt;
+&lt;li&gt;Ignorerar width och height.&lt;/li&gt;
+&lt;li&gt;Kan positioneras med hjälp av text-align.&lt;/li&gt;
+&lt;li&gt;Kan positioneras med hjälp av vertical-align.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Exempel på inline-element &lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;span&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;strong&amp;gt;&lt;/code&gt; och &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;block-element&quot;&gt;Block-element&lt;/h3&gt;
+&lt;p&gt;Block-element har följande som standard.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Om ingen bredd är satt, fylls området ut till 100%.&lt;/li&gt;
+&lt;li&gt;Kan ha margin och padding.&lt;/li&gt;
+&lt;li&gt;Placeras på en ny rad efter tidigare element, om ingen float är angiven.&lt;/li&gt;
+&lt;li&gt;Kan inte positioneras med hjälp av text-align.&lt;/li&gt;
+&lt;li&gt;Kan inte positioneras med hjälp av vertical-align.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Exempel på block-element &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;form&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;header&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;nav&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;ul&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;li&amp;gt;&lt;/code&gt; och &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;inline-block-element&quot;&gt;Inline-block-element&lt;/h3&gt;
+&lt;p&gt;Inline-block tar vara på bådas egenskaper. Den klarar av margin och anpassar samtidigt bredden efter innehållet istället för 100%.&lt;/p&gt;
+
+&lt;h3 id=&quot;exempel&quot;&gt;Exempel&lt;/h3&gt;
+&lt;p&gt;I det här exemplet har vi tre stycken &lt;code&gt;&amp;lt;span&amp;gt;&lt;/code&gt; men textinnehåll. Som du ser så tar &lt;strong&gt;inline&lt;/strong&gt; inte hänsyn om marginaler inom content men kan däremot innehålla padding. &lt;strong&gt;Block&lt;/strong&gt; lägger däremot marginaler utanför content och breddar ut sig på hela området. &lt;strong&gt;Inline-block&lt;/strong&gt; tar vara på både block in inline och lägger marginaler inom content och samtidigt anpassar bredden utefter innehållet.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;content&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;inline&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Inline&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;content&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;block&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Block&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;content&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;inline-block&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Inline-block&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.content&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;span&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;20px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;8px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;12px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#33abe2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#fff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nc&quot;&gt;.inline&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;inline&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nc&quot;&gt;.block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nc&quot;&gt;.inline-block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;inline&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;example box full-width&quot;&gt;
+
+&lt;div style=&quot;background: #000;&quot;&gt;
+  &lt;span style=&quot;display: inline; line-height: 14px;margin: 20px; display: inline;padding: 8px 12px;background: #33abe2;color: #fff;&quot;&gt;Inline&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;background: #000;&quot;&gt;
+  &lt;span style=&quot;display: block;padding: 8px 12px;margin: 20px;background: #33abe2;color: #fff;&quot;&gt;Block&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;background: #000;&quot;&gt;
+  &lt;span style=&quot;display: inline-block;padding: 8px 12px;margin: 20px;background: #33abe2;color: #fff;&quot;&gt;Inline-block&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.se/webbdesign/css-bakgrund&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.se/webbdesign/css-positionering/&quot;&gt;Positionering&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.se&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 10, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Bakgrund]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/css-bakgrund/" />
-    <id>http://webbdesignkurser.github.io/website/webbdesign/css-bakgrund</id>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.se/webbdesign/css-bakgrund/" />
+    <id>http://webbdesignkurser.se/webbdesign/css-bakgrund</id>
     <published>2014-04-09T00:00:00+00:00</published>
     <updated>2014-04-09T00:00:00+00:00</updated>
     <author>
       <name>Webbdesignkurser</name>
-      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <uri>http://webbdesignkurser.se/</uri>
       <email>kontakt@webbdesignkurser.se<email>
     </author>
     <content type="html">&lt;h2 id=&quot;stta-bakgrunder-med-css&quot;&gt;Sätta bakgrunder med CSS&lt;/h2&gt;
@@ -1721,22 +1806,22 @@ Det appliceras på html-element som följande.&lt;/p&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-wrapper&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.se/webbdesign/css-wrapper&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-bakgrund/&quot;&gt;Bakgrund&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 09, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.se/webbdesign/css-bakgrund/&quot;&gt;Bakgrund&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.se&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 09, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Wrapper]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/css-wrapper/" />
-    <id>http://webbdesignkurser.github.io/website/webbdesign/css-wrapper</id>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.se/webbdesign/css-wrapper/" />
+    <id>http://webbdesignkurser.se/webbdesign/css-wrapper</id>
     <published>2014-04-08T00:00:00+00:00</published>
     <updated>2014-04-08T00:00:00+00:00</updated>
     <author>
       <name>Webbdesignkurser</name>
-      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <uri>http://webbdesignkurser.se/</uri>
       <email>kontakt@webbdesignkurser.se<email>
     </author>
     <content type="html">&lt;h2 id=&quot;centrera-hemsidan-med-css&quot;&gt;Centrera hemsidan med CSS&lt;/h2&gt;
@@ -1763,35 +1848,35 @@ Rekommenderas att hemsidans bredd antingen är 960px eller 1200px bred.&lt;/p&gt
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/genomgang&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.se/webbdesign/genomgang&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/css-wrapper/&quot;&gt;Wrapper&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 08, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.se/webbdesign/css-wrapper/&quot;&gt;Wrapper&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.se&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 08, 2014.&lt;/p&gt;</content>
   </entry>
 
 
   
   <entry>
     <title type="html"><![CDATA[Genomgång]]></title>
-    <link rel="alternate" type="text/html" href="http://webbdesignkurser.github.io/website/webbdesign/genomgang/" />
-    <id>http://webbdesignkurser.github.io/website/webbdesign/genomgang</id>
+    <link rel="alternate" type="text/html" href="http://webbdesignkurser.se/webbdesign/genomgang/" />
+    <id>http://webbdesignkurser.se/webbdesign/genomgang</id>
     <published>2014-04-07T00:00:00+00:00</published>
     <updated>2014-04-07T00:00:00+00:00</updated>
     <author>
       <name>Webbdesignkurser</name>
-      <uri>http://webbdesignkurser.github.io/website/</uri>
+      <uri>http://webbdesignkurser.se/</uri>
       <email>kontakt@webbdesignkurser.se<email>
     </author>
     <content type="html">&lt;p class=&quot;preamble&quot;&gt;Vi kommer nu att sätta upp en fungerande hemsida, och det gäller att du har följt hela kursen för att hänga med.&lt;/p&gt;
 
 &lt;h2 id=&quot;resultat&quot;&gt;Resultat&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;/webbdesign/exempelsida&quot;&gt;Såhär&lt;/a&gt; kommer vårat exempel att bli, &lt;a href=&quot;/webbdesign/exempelsida.zip&quot;&gt;tryck här&lt;/a&gt; för att ladda ner exempelsidans alla filer.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.se/webbdesign/exempelsida&quot;&gt;Såhär&lt;/a&gt; kommer vårat exempel att bli, &lt;a href=&quot;http://webbdesignkurser.se/webbdesign/exempelsida.zip&quot;&gt;tryck här&lt;/a&gt; för att ladda ner exempelsidans alla filer.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/webbdesign/exempelsida&quot;&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_html-css-genomgang6.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.se/webbdesign/exempelsida&quot;&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_html-css-genomgang6.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;stta-upp-det-viktigaste&quot;&gt;Sätta upp det viktigaste&lt;/h2&gt;
 
-&lt;p&gt;Vi börjar med vår &lt;a href=&quot;/webbdesign/grunderna-i-html/&quot;&gt;HTML-grund&lt;/a&gt;, samt &lt;a href=&quot;/webbdesign/grunderna-i-css&quot;&gt;style.css&lt;/a&gt; och en &lt;a href=&quot;/webbdesign/reset-css/&quot;&gt;CSS-reset&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Vi börjar med vår &lt;a href=&quot;http://webbdesignkurser.se/webbdesign/grunderna-i-html/&quot;&gt;HTML-grund&lt;/a&gt;, samt &lt;a href=&quot;http://webbdesignkurser.se/webbdesign/grunderna-i-css&quot;&gt;style.css&lt;/a&gt; och en &lt;a href=&quot;http://webbdesignkurser.se/webbdesign/reset-css/&quot;&gt;CSS-reset&lt;/a&gt;.&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
 
@@ -1870,7 +1955,7 @@ Rekommenderas att hemsidans bredd antingen är 960px eller 1200px bred.&lt;/p&gt
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_html-css-genomgang0.png&quot; /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_html-css-genomgang0.png&quot; /&gt; &lt;/p&gt;
 
 &lt;h3 id=&quot;floata-sidebaren-till-hger-om-content&quot;&gt;Floata sidebaren till höger om content&lt;/h3&gt;
 
@@ -1902,7 +1987,7 @@ Rekommenderas att hemsidans bredd antingen är 960px eller 1200px bred.&lt;/p&gt
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_html-css-genomgang1.png&quot; /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_html-css-genomgang1.png&quot; /&gt; &lt;/p&gt;
 
 &lt;h3 id=&quot;avstnd-mellan-content-och-sidebar&quot;&gt;Avstånd mellan content och sidebar&lt;/h3&gt;
 &lt;p&gt;Jag vill ha ett avstånd mellan #content och #sidebar, det gör vi genom att minska storleken till 20% på &lt;strong&gt;#sidebar&lt;/strong&gt;.&lt;/p&gt;
@@ -1913,11 +1998,11 @@ Rekommenderas att hemsidans bredd antingen är 960px eller 1200px bred.&lt;/p&gt
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_html-css-genomgang1-5.png&quot; /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_html-css-genomgang1-5.png&quot; /&gt; &lt;/p&gt;
 
 &lt;h2 id=&quot;wrapper&quot;&gt;Wrapper&lt;/h2&gt;
 
-&lt;p&gt;Allt ska centreras inom ett 960px brett område hade jag tänkt. Vi lägger därför alla divar inom en &lt;a href=&quot;/webbdesign/css-wrapper/&quot;&gt;wrapper&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Allt ska centreras inom ett 960px brett område hade jag tänkt. Vi lägger därför alla divar inom en &lt;a href=&quot;http://webbdesignkurser.se/webbdesign/css-wrapper/&quot;&gt;wrapper&lt;/a&gt;.&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;  &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
     
@@ -1950,7 +2035,7 @@ Rekommenderas att hemsidans bredd antingen är 960px eller 1200px bred.&lt;/p&gt
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_html-css-genomgang2.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_html-css-genomgang2.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;frger-och-bakgrunder&quot;&gt;Färger och bakgrunder&lt;/h2&gt;
 
@@ -1971,7 +2056,7 @@ Rekommenderas att hemsidans bredd antingen är 960px eller 1200px bred.&lt;/p&gt
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_html-css-genomgang3.png&quot; /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_html-css-genomgang3.png&quot; /&gt; &lt;/p&gt;
 
 &lt;h2 id=&quot;texter&quot;&gt;Texter&lt;/h2&gt;
 
@@ -2014,11 +2099,11 @@ Rekommenderas att hemsidans bredd antingen är 960px eller 1200px bred.&lt;/p&gt
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_html-css-genomgang4.png&quot; /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_html-css-genomgang4.png&quot; /&gt; &lt;/p&gt;
 
 &lt;h2 id=&quot;padding&quot;&gt;Padding&lt;/h2&gt;
 
-&lt;p&gt;Som du märker är det väldigt trångt just nu. Det fixar vi med hjälp av &lt;a href=&quot;/webbdesign/css-margin-padding/&quot;&gt;padding&lt;/a&gt; på &lt;strong&gt;#header&lt;/strong&gt;, &lt;strong&gt;#container&lt;/strong&gt; och &lt;strong&gt;span&lt;/strong&gt; som ligger i footern. Eftersom &lt;strong&gt;span&lt;/strong&gt; inte reagerar som ett block vanligtvis, måste vi ge den &lt;code&gt;display: block&lt;/code&gt; för att kunna ha en padding.&lt;/p&gt;
+&lt;p&gt;Som du märker är det väldigt trångt just nu. Det fixar vi med hjälp av &lt;a href=&quot;http://webbdesignkurser.se/webbdesign/css-margin-padding/&quot;&gt;padding&lt;/a&gt; på &lt;strong&gt;#header&lt;/strong&gt;, &lt;strong&gt;#container&lt;/strong&gt; och &lt;strong&gt;span&lt;/strong&gt; som ligger i footern. Eftersom &lt;strong&gt;span&lt;/strong&gt; inte reagerar som ett block vanligtvis, måste vi ge den &lt;code&gt;display: block&lt;/code&gt; för att kunna ha en padding.&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nf&quot;&gt;#header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -2037,11 +2122,11 @@ Rekommenderas att hemsidans bredd antingen är 960px eller 1200px bred.&lt;/p&gt
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_html-css-genomgang5.png&quot; /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_html-css-genomgang5.png&quot; /&gt; &lt;/p&gt;
 
 &lt;h2 id=&quot;textstiler&quot;&gt;Textstiler&lt;/h2&gt;
 
-&lt;p&gt;Sist men inte minst så ska alla &lt;a href=&quot;/webbdesign/css-typografi/&quot;&gt;texter stylas&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sist men inte minst så ska alla &lt;a href=&quot;http://webbdesignkurser.se/webbdesign/css-typografi/&quot;&gt;texter stylas&lt;/a&gt;.&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;40px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -2085,14 +2170,14 @@ Rekommenderas att hemsidans bredd antingen är 960px eller 1200px bred.&lt;/p&gt
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.github.io/website/assets/images/asset_html-css-genomgang6.png&quot; /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://webbdesignkurser.se/assets/images/asset_html-css-genomgang6.png&quot; /&gt; &lt;/p&gt;
 
 &lt;h2 id=&quot;snyggt-nu-har-vi-designat-upp-en-enkel-hemsida&quot;&gt;Snyggt! Nu har vi designat upp en enkel hemsida&lt;/h2&gt;
 &lt;p&gt;Om vi känner oss nöjda så är det dags att publicera den på internet.&lt;/p&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.github.io/website/webbdesign/publicera-hemsidan&quot;&gt;Hur man publicerar hemsidan&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.se/webbdesign/publicera-hemsidan&quot;&gt;Hur man publicerar hemsidan&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.github.io/website/webbdesign/genomgang/&quot;&gt;Genomgång&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.github.io/website&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 07, 2014.&lt;/p&gt;</content>
+    &lt;p&gt;&lt;a href=&quot;http://webbdesignkurser.se/webbdesign/genomgang/&quot;&gt;Genomgång&lt;/a&gt; was originally published by Webbdesignkurser at &lt;a href=&quot;http://webbdesignkurser.se&quot;&gt;Webbdesignkurser&lt;/a&gt; on April 07, 2014.&lt;/p&gt;</content>
   </entry>
 
 

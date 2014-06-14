@@ -1,21 +1,7 @@
 {
 
 
-	"684da" : "http://webbdesignkurser.github.io/website/artiklar/",
-
-
-
-
-
-	"51564" : "http://webbdesignkurser.github.io/website/bidra/",
-
-
-
-	"4314f" : "http://webbdesignkurser.github.io/website/index.html",
-
-
-
-	"e7263" : "http://webbdesignkurser.github.io/website/app/",
+	"f7896" : "http://webbdesignkurser.se/om-sidan/",
 
 
 
@@ -23,60 +9,74 @@
 
 
 
-
-
-	"f9a4d" : "http://webbdesignkurser.github.io/website/faq/",
+	"9c4a1" : "http://webbdesignkurser.se/bidra/",
 
 
 
 
 
-	"d6363" : "http://webbdesignkurser.github.io/website/om-sidan/",
+	"ece81" : "http://webbdesignkurser.se/app/",
 
 
 
-	"2d1d3" : "http://webbdesignkurser.github.io/website/artiklar/nya-webbdesignkurser/",
+	"4620a" : "http://webbdesignkurser.se/artiklar/",
 
-	"03b31" : "http://webbdesignkurser.github.io/website/webbdesign/inledning/",
 
-	"75504" : "http://webbdesignkurser.github.io/website/webbdesign/programvaror/",
 
-	"e4a93" : "http://webbdesignkurser.github.io/website/webbdesign/bra-design/",
+	"bb573" : "http://webbdesignkurser.se/faq/",
 
-	"26515" : "http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-html/",
 
-	"93943" : "http://webbdesignkurser.github.io/website/webbdesign/html-texter/",
 
-	"9138a" : "http://webbdesignkurser.github.io/website/webbdesign/html-lankar/",
 
-	"7a721" : "http://webbdesignkurser.github.io/website/webbdesign/html-bilder/",
 
-	"f257f" : "http://webbdesignkurser.github.io/website/webbdesign/html-listor/",
 
-	"17783" : "http://webbdesignkurser.github.io/website/webbdesign/html-tabeller/",
 
-	"eb96b" : "http://webbdesignkurser.github.io/website/webbdesign/grunderna-i-css/",
+	"bde99" : "http://webbdesignkurser.se/index.html",
 
-	"0af43" : "http://webbdesignkurser.github.io/website/webbdesign/reset-css/",
 
-	"749a0" : "http://webbdesignkurser.github.io/website/webbdesign/css-farger/",
 
-	"cd876" : "http://webbdesignkurser.github.io/website/webbdesign/css-typografi/",
+	"22893" : "http://webbdesignkurser.se/artiklar/nya-webbdesignkurser/",
 
-	"0ee66" : "http://webbdesignkurser.github.io/website/webbdesign/css-id-class/",
+	"14bc7" : "http://webbdesignkurser.se/webbdesign/inledning/",
 
-	"79303" : "http://webbdesignkurser.github.io/website/webbdesign/css-margin-padding/",
+	"fd39f" : "http://webbdesignkurser.se/webbdesign/programvaror/",
 
-	"b10fa" : "http://webbdesignkurser.github.io/website/webbdesign/css-positionering/",
+	"5d58b" : "http://webbdesignkurser.se/webbdesign/bra-design/",
 
-	"6f5e2" : "http://webbdesignkurser.github.io/website/webbdesign/css-bakgrund/",
+	"65cc7" : "http://webbdesignkurser.se/webbdesign/grunderna-i-html/",
 
-	"7ad28" : "http://webbdesignkurser.github.io/website/webbdesign/css-wrapper/",
+	"0fc1b" : "http://webbdesignkurser.se/webbdesign/html-texter/",
 
-	"de3d3" : "http://webbdesignkurser.github.io/website/webbdesign/genomgang/",
+	"bd613" : "http://webbdesignkurser.se/webbdesign/html-lankar/",
 
-	"5fa75" : "http://webbdesignkurser.github.io/website/webbdesign/publicera-hemsidan/",
+	"9ab23" : "http://webbdesignkurser.se/webbdesign/html-bilder/",
 
-	"66ad8" : "http://webbdesignkurser.github.io/website/webbdesign/slutord/"
+	"d7ed8" : "http://webbdesignkurser.se/webbdesign/html-listor/",
+
+	"526d0" : "http://webbdesignkurser.se/webbdesign/html-tabeller/",
+
+	"eac0c" : "http://webbdesignkurser.se/webbdesign/grunderna-i-css/",
+
+	"e077f" : "http://webbdesignkurser.se/webbdesign/reset-css/",
+
+	"63ee8" : "http://webbdesignkurser.se/webbdesign/css-farger/",
+
+	"cd509" : "http://webbdesignkurser.se/webbdesign/css-typografi/",
+
+	"e8e7b" : "http://webbdesignkurser.se/webbdesign/css-id-class/",
+
+	"1bdd2" : "http://webbdesignkurser.se/webbdesign/css-margin-padding/",
+
+	"dd5f7" : "http://webbdesignkurser.se/webbdesign/css-positionering/",
+
+	"22383" : "http://webbdesignkurser.se/webbdesign/css-bakgrund/",
+
+	"3e8fd" : "http://webbdesignkurser.se/webbdesign/css-wrapper/",
+
+	"b2a89" : "http://webbdesignkurser.se/webbdesign/genomgang/",
+
+	"312be" : "http://webbdesignkurser.se/webbdesign/publicera-hemsidan/",
+
+	"fbb98" : "http://webbdesignkurser.se/webbdesign/slutord/"
 
 }
