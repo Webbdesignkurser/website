@@ -14,7 +14,7 @@ Kort sagt kan vi säga att du kommer kunna göra en hemsida likt den här.
 På en statisk hemsida kan man inte använda databaser för att hantera inloggningar, inläggsredigerare, bloggliknande funktioner med mera. Med en dynamisk sida kan man därimot göra detta, med hjälp av bland annat programmeringsspråket PHP och databashantering. Vi har valt att i nuläget inte gå djupare in på det här.
 
 ## Kan ni göra en hemsida åt mig?
-Tyvärr inte, vi lär bara ut. Testa däremot vår <a href="/webbdesign/inledning">nybörjarkurs i webbdesign</a> så är du snart proffs på webbdesign.
+Tyvärr inte, vi lär bara ut. Testa däremot vår [nybörjarkurs i webbdesign](/webbdesign/inledning) så är du snart proffs på webbdesign.
 
 ### Har ni workshops eller fysiska kurser?
 Nej, men vi bollar gärna idéer mer dig :)
@@ -37,7 +37,7 @@ Det är inte ovanligt att Internet Explorer ska kasta om allt. Kolla så att du 
 {% endhighlight %}
 
 ## Hur väljer jag webbhotell?
-Vi är en oberoende tjänst när det gäller val av webbhotell och kan inte ge några förslag. Däremot får du gärna läsa vårat kapitel <a href="/webbdesign/publicera-hemsidan/">om webbhotell</a>.
+Vi är en oberoende tjänst när det gäller val av webbhotell och kan inte ge några förslag. Däremot får du gärna läsa vårat kapitel [om webbhotell](/webbdesign/publicera-hemsidan).
 
 ## Hur kan jag öka trafiken på sidan?
 Bästa sättet är att ha bra innehåll på sidan som besökarna vill läsa och dela med sig av. Sedan brukar det mesta gå av sig själv. Annars kan man köpa reklamplats på till exempel Facebook, Twitter, Google med flera. 

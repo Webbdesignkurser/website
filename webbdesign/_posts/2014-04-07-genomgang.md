@@ -10,14 +10,14 @@ submenu: true
 
 ##Resultat
 
-<a href="/webbdesign/exempelsida">Såhär</a> kommer vårat exempel att bli, <a href="/webbdesign/exempelsida.zip">tryck här</a> för att ladda ner exempelsidans alla filer.
+<a href="{{ site.url }}/webbdesign/exempelsida">Såhär</a> kommer vårat exempel att bli, <a href="{{ site.url }}/webbdesign/exempelsida.zip">tryck här</a> för att ladda ner exempelsidans alla filer.
 
-<a href="/webbdesign/exempelsida"><img src="{{ site.url }}/assets/images/asset_html-css-genomgang6.png"/></a>
+<a href="{{ site.url }}/webbdesign/exempelsida"><img src="{{ site.url }}/assets/images/asset_html-css-genomgang6.png"/></a>
 
 
 ##Sätta upp det viktigaste
 
-Vi börjar med vår <a href="/webbdesign/grunderna-i-html/">HTML-grund</a>, samt <a href="/webbdesign/grunderna-i-css">style.css</a> och en <a href="/webbdesign/reset-css/">CSS-reset</a>.
+Vi börjar med vår <a href="{{ site.url }}/webbdesign/grunderna-i-html/">HTML-grund</a>, samt <a href="{{ site.url }}/webbdesign/grunderna-i-css">style.css</a> och en <a href="{{ site.url }}/webbdesign/reset-css/">CSS-reset</a>.
 
 {% highlight html %}
 
@@ -174,7 +174,7 @@ Jag vill ha ett avstånd mellan #content och #sidebar, det gör vi genom att min
 
 ##Wrapper
 
-Allt ska centreras inom ett 960px brett område hade jag tänkt. Vi lägger därför alla divar inom en <a href="/webbdesign/css-wrapper/">wrapper</a>.
+Allt ska centreras inom ett 960px brett område hade jag tänkt. Vi lägger därför alla divar inom en <a href="{{ site.url }}/webbdesign/css-wrapper/">wrapper</a>.
 
 {% highlight html %}
 
@@ -293,7 +293,7 @@ Vi fyller vår hemsida med textinnehåll, i det här exemplet kommer jag att skr
 
 ##Padding
 
-Som du märker är det väldigt trångt just nu. Det fixar vi med hjälp av <a href="/webbdesign/css-margin-padding/">padding</a> på <strong>#header</strong>, <strong>#container</strong> och <strong>span</strong> som ligger i footern. Eftersom <strong>span</strong> inte reagerar som ett block vanligtvis, måste vi ge den ``display: block`` för att kunna ha en padding.
+Som du märker är det väldigt trångt just nu. Det fixar vi med hjälp av <a href="{{ site.url }}/webbdesign/css-margin-padding/">padding</a> på <strong>#header</strong>, <strong>#container</strong> och <strong>span</strong> som ligger i footern. Eftersom <strong>span</strong> inte reagerar som ett block vanligtvis, måste vi ge den ``display: block`` för att kunna ha en padding.
 
 {% highlight css %}
 
@@ -322,7 +322,7 @@ Som du märker är det väldigt trångt just nu. Det fixar vi med hjälp av <a h
 
 ##Textstiler
 
-Sist men inte minst så ska alla <a href="/webbdesign/css-typografi/">texter stylas</a>.
+Sist men inte minst så ska alla <a href="{{ site.url }}/webbdesign/css-typografi/">texter stylas</a>.
 
 {% highlight css %}
 

@@ -23,76 +23,10 @@
             {% endif %}
         </div>
 
-        <div class="col-md-4 sidebar">
-            {% unless page.date %}
-                <div class="row">
-                    {% for course in site.courses %}
-                        <div class="col-md-12 col-sm-6 chapter">
-                           <div class="box">
-                                <div class="{{ course.class }} background">
-                                    <h3>{{ course.title }}</h3>
-                                    <p>{{ course.description }}</p>
-                                    <span class="btn btn-secondary">Gratis</span>
-                                    {% if course.inactive %}
-                                      <span class="btn btn-secondary pull-right">Kommer snart!</span>
-                                    {% else %}
-                                      <a href="{{ site.url }}/{{ course.id }}/inledning" class="btn btn-primary pull-right color">Kom igång!</a>
-                                    {% endif %}
-                                </div>
-                            </div>
-                        </div>
-                    {% endfor %}
-                </div>
-                {% else %}
-                <div class="chapter nav">
-                    <ul>
-                    {% assign category = page.categories[0]; %}
-                    {% for course in site.courses %}
-                        {% if course.id == category %}
-                            <li><h4><a class="{{ category }} title background">{{ course.title }}</a></h4></li>
-                        {% endif %}
-                    {% endfor %}
-                    {% for post in site.categories[category] %}
-                        {% if post.title == page.title %}
-                            {% if post.submenu %}
-                                <li class="sub"><a class="{{ category }} navItem current active" href="{{ site.url }}{{post.url}}">{{ post.title }}</a></li>
-                            {% else %}
-                                <li><a class="{{ category }} navItem current active" href="{{ site.url }}{{post.url}}">{{ post.title }}</a></li>
-                            {% endif %}
-                        {% else %}
-                            {% if post.submenu %}
-                                <li class="sub"><a class="{{ category }} navItem current" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
-                            {% else %}
-                                <li><a class="{{ category }} navItem current" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
-                            {% endif %}
-                        {% endif %}
-                    {% endfor %}
-                    </ul>
-                    <ul class="others">
-                    <!-- Enable this when we have courses <li><h4 class="{{ category }} title background"><a>Övriga kurser</a></h4></li> -->
-                    {% for course in site.courses %}
-                        {% unless course.id == category or course.inactive %}
-                            <li><a href="{{ site.url }}/{{ course.id }}/inledning" class="navItem {{ course.class }} color">{{ course.title }}</a></li>
-                        {% endunless %}
-                    {% endfor %}
-                    </ul>
-                </div>
-            {% endunless %}
-        </div>
+        {% include sidebar.html %}
     </div>
 
-    <div class="row">
-       <div class="col-sm-12">
-           <div class="contribute">
-              <div class="box">
-                  <h3 class="text-center">Vill du bidra till ett öppnare och friare läromedel?</h3>
-                  <a class="btn btn-secondary" href="/app">Köp vår app</a> eller 
-                  <a href="/bidra" class="btn btn-primary">Bidra med eget material</a>
-              </div>
-          </div>
-
-      </div>
-    </div>
+    {% include bidra.html %}
 
 </div>
 {% include footer.html %}

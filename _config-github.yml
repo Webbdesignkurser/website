@@ -1,6 +1,2 @@
-url: http://webbdesignkurser.github.io/website
-searchUrl: /website/search.json
-assets:
- baseurl: "/website/assets"
-
+url: http://webbdesignkurser.se
 local: false
