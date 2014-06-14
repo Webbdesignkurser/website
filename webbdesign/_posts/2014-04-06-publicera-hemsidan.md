@@ -11,7 +11,7 @@ comments: true
 <p class="preamble">Att ladda upp en hemsida på internet är relativt enkelt, vi kommer att behöva två saker - ett webbhotell och domännamn.</p>
 
 ###Webbhotell
-Ett webbhotell låter dig lagra din alla filer som hemsidan består av på en server. Du betalar en summa per år för tjänsten och det kan variera i pris. Vi kan inte rekommendera något specifikt webbhotell, men <a href="https://www.google.se/search?client=safari&rls=en&q=webbhotell+bäst+i+test&revid=1814833887&sa=X&ei=yQmaU8DFDYjpywO2l4GADQ&ved=0CG0Q1QIoAA">Googla</a> och se om du hittar något som ser bra ut. Priset brukar ligga på 10kr - 100kr/mån och betalas årsvis.
+Ett webbhotell låter dig lagra alla dina filer som hemsidan består av på en server. Du betalar en summa per år för tjänsten och det kan variera i pris. Vi kan inte rekommendera något specifikt webbhotell, men <a href="https://www.google.se/search?client=safari&rls=en&q=webbhotell+bäst+i+test&revid=1814833887&sa=X&ei=yQmaU8DFDYjpywO2l4GADQ&ved=0CG0Q1QIoAA">Googla</a> och se om du hittar något som ser bra ut. Priset brukar ligga på 10kr - 100kr/mån och betalas årsvis.
 
 ###Domännamn
 Ett webbhotell utan domännamn är som ett hus utan en adress, det går helt enkelt inte. För att du ska kunna besöka hemsidan behöver du även ett domännamn som man parkerar till det webbhotell som hemsidan ligger uppladdad på. Man måste inte ha webbhotell och domän via samma tjänst, men det kan vara praktiskt. Priset brukar ligga på 10kr - 100kr/år och betalas årsvis.
