@@ -159,6 +159,99 @@ Om du inte avslutar floaten kommer elementen efter dessa att malplaceras och ham
 
 <div style="clear: both;"></div>
 
+{% endhighlight %}
+
+##Display: Inline, Block och Inline-block
+Element som agerar som block (tex div) beter sig annorlunda jämfört med text (tex span). Det beror på att de har olika display-inställningar. Man kan själv sätta display-inställning på ett block genom attributet ``display: inline / block / inline-block``
+
+###Inline-element
+Inline-element har följande som standard.
+<ul>
+<li>Fyller ut området beroende på innehållet.</li>
+<li>Ignorerar top och bottom i margin, men funkar med left och right, samt padding.</li>
+<li>Följer med i text-innehåll utan att byta rad.</li>
+<li>Ignorerar width och height.</li>
+<li>Kan positioneras med hjälp av text-align.</li>
+<li>Kan positioneras med hjälp av vertical-align.</li>
+</ul>
+Exempel på inline-element ``<a>``, ``<span>``, ``<strong>`` och ``<em>``.
+
+###Block-element
+Block-element har följande som standard.
+<ul>
+<li>Om ingen bredd är satt, fylls området ut till 100%.</li>
+<li>Kan ha margin och padding.</li>
+<li>Placeras på en ny rad efter tidigare element, om ingen float är angiven.</li>
+<li>Kan inte positioneras med hjälp av text-align.</li>
+<li>Kan inte positioneras med hjälp av vertical-align.</li>
+</ul>
+Exempel på block-element ``<p>``, ``<div>``, ``<form>``, ``<header>``, ``<nav>``, ``<ul>``, ``<li>`` och ``<h1>``.
+
+###Inline-block-element
+Inline-block tar vara på bådas egenskaper. Den klarar av margin och anpassar samtidigt bredden efter innehållet istället för 100%.
+
+
+
+###Exempel
+I det här exemplet har vi tre stycken ``<span>`` men textinnehåll. Som du ser så tar <strong>inline</strong> inte hänsyn om marginaler inom content men kan däremot innehålla padding. <strong>Block</strong> lägger däremot marginaler utanför content och breddar ut sig på hela området. <strong>Inline-block</strong> tar vara på både block in inline och lägger marginaler inom content och samtidigt anpassar bredden utefter innehållet.
+
+{% highlight html %}
+
+<div class="content">
+  <span class="inline">Inline</span>
+</div>
+
+<div class="content">
+  <span class="block">Block</span>
+</div>
+
+<div class="content">
+  <span class="inline-block">Inline-block</span>
+</div>
+
 {% endhighlight %}  
+
+{% highlight css %}
+
+.content{
+  background: #000;
+}
+
+span{
+  margin: 20px;
+  padding: 8px 12px;
+  background: #33abe2;
+  color: #fff;
+}
+
+.inline{
+  display: inline;
+}
+
+.block{
+  display: block;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+{% endhighlight %}
+
+<div class="example box full-width">
+
+<div style="background: #000;">
+  <span style="display: inline; line-height: 14px;margin: 20px; display: inline;padding: 8px 12px;background: #33abe2;color: #fff;">Inline</span></p>
+</div>
+
+<div style="background: #000;">
+  <span style="display: block;padding: 8px 12px;margin: 20px;background: #33abe2;color: #fff;">Block</span></p>
+</div>
+
+<div style="background: #000;">
+  <span style="display: inline-block;padding: 8px 12px;margin: 20px;background: #33abe2;color: #fff;">Inline-block</span></p>
+</div>
+
+</div>
 
 <a class="btn btn-next" href="{{ site.url }}/webbdesign/css-bakgrund">Gå till nästa steg!</a>
