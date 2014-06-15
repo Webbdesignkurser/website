@@ -251,20 +251,19 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 
 //***************** LAYOUT ******************//
 
+.logo { //Logo
+	img {
+		margin-top: -2px;
+		width: 250px;
+		.transition(all, 0.1s, ease-in);
+		@media (min-width: 767px) and (max-width: 995px) {
+			width: 160px;
+		}
+	}
+}
 
 //* Header and Menu *//
 header {
-	.logo { //Logo
-		img {
-			margin-top: -2px;
-			@media (min-width: 768px) and (max-width: 979px) {
-				width: 160px;
-			}
-			@media (max-width: 767px) {
-				width: 200px;
-			}
-		}
-	}
 	#navbar-collapse{
 		width: auto !important;
 		right: 0 !important;
@@ -283,7 +282,7 @@ header {
 				color: #555;
 				font-weight: bold;
 				font-size: 15px;
-				@media (max-width: 979px) {
+				@media (min-width: 480px) and (max-width: 995px) {
 					padding: 15px 8px;
 				}
 				@media (min-width: 480px) {
@@ -333,6 +332,10 @@ header {
 				@media (max-width: 979px) {
 					width: 100px;
 				}
+				@media (max-width: 480px) {
+					width: 100%;
+					margin-top: -10px;
+				}
 			}
 			@media (max-width: 768px) {
 				margin-right: 4%;
@@ -356,7 +359,12 @@ header {
 	width: 100%;
 	height: 400px;
 	background: #eee url(images/bg_headline.jpg) center center no-repeat;
+	background-size: cover;
 	margin-bottom: 40px;
+	.transition(all, 0.1s, ease-in);
+	@media (max-width: 480px) {
+		height: 340px;
+	}
 	@media (max-width: 480px) {padding-top: 30px;}
 	h1 {
 		font-family: 'lato', helvetica, arial !important;
@@ -381,7 +389,7 @@ header {
 		padding: 15px 25px;
 		font-weight: 400 !important;
 		@media (max-width: 480px) {
-			font-size: 12pt !important;
+			font-size: 11pt !important;
 			width: 100%;
 		}
 	}
@@ -396,7 +404,7 @@ header {
 		font-weight: 400 !important;
 		font-family: @brand-font;
 		@media (max-width: 480px) {
-			font-size: 12pt !important;
+			font-size: 11pt !important;
 			width: 100%;
 		}
 	}
@@ -414,7 +422,10 @@ header {
 		height: auto;
 		display: block;
 		@media (min-width: 768px) and (max-width: 979px) {
-			margin-bottom: 30px;
+			margin-bottom: 15px;
+		}
+		@media (max-width: 480px) {
+			margin-top: 15px;
 		}
 	}
 
@@ -676,6 +687,9 @@ header {
 	background: #000 url(images/bg_contribute.png) center center;
 	height: 500px;
 	border-radius: 5px;
+	@media (max-width: 480px) {
+		height: 320px;
+	}
 	.box {
 		padding: 20px;
 		text-align: center;
@@ -684,7 +698,9 @@ header {
 		font-size: 18px;
 		font-weight: 400 !important;
 		font-family: @brand-font;
-		@media (max-width: 480px) {padding-top: 140px;}
+		@media (max-width: 480px) {
+			padding-top: 50px;
+		}
 		h3{
 			color: #fff;
 			font-weight: 400 !important;
@@ -701,18 +717,24 @@ header {
 			background: rgba(0,0,0,0.1);
 			color: #fff;
 		}
+		@media (max-width: 480px) {
+			font-size: 15px;
+		}
 	}
 	.btn-secondary {
 		margin: 10px;
 		font-size: 18px;
 		background: #fff !important;
-		color: #c5c8f5;
+		color: #9ec4e9;
 		border: none !important;
 		&:hover {
-			color: darken(#c5c8f5, 5%);
+			color: darken(#9ec4e9, 5%);
 		}
 		&:active {
 			box-shadow: none;
+		}
+		@media (max-width: 480px) {
+			font-size: 15px;
 		}
 	}
 }
@@ -776,6 +798,9 @@ footer {
 				opacity: 0.6;
 				width: 100%;
 			}
+		}
+		@media (max-width: 480px) {
+			margin-top: -70px;
 		}
 	}
 }
