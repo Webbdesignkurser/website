@@ -76,7 +76,7 @@ JPG passar däremot inte för grafisk design eller typografi, även en höguppl�
 <div class="note box no-margin">- JPG passar inte för grafisk design eller typografi</div>
 
 ###GIF (Graphics Interchange Format)
-Precis som JPG så är GIF ett rätt så gammalt format. I grunden är GIF en 8-bitars färgfil, vilket betyder att den endast kan innehålla 256 färger. Skillnaden mellan GIF och JPG är att GIF har möjligheten att vara transparant och stödjer dessutom animationer.
+Precis som JPG så är GIF ett rätt så gammalt format. I grunden är GIF en 8-bitars färgfil, vilket betyder att den endast kan innehålla 256 färger. Skillnaden mellan GIF och JPG är att GIF har möjligheten att vara transparent och stödjer dessutom animationer.
 
 GIF är däremot ett gammalt och begränsat filformat, och du bör inte använda det för foton eller grafisk design.
 
@@ -87,7 +87,7 @@ GIF är däremot ett gammalt och begränsat filformat, och du bör inte använda
 
 
 ###PNG (Portable Network Graphics)
-PNG skapades som ett alternativ till GIF. Det har stöd för fler färger (24-bit) och klarar transparans mycket bättre. Det är det mest använda formatet idag på internet och perfekt för grafisk design och typografi.
+PNG skapades som ett alternativ till GIF. Det har stöd för fler färger (24-bit) och klarar transparens mycket bättre. Det är det mest använda formatet idag på internet och perfekt för grafisk design och typografi.
 
 <div class="success box no-margin">+ PNG passar för grafisk design och typografi</div>
 
