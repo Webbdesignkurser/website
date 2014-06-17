@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://webbdesignkurser.se/feed.xml" />
 <link rel="alternate" type="text/html" href="http://webbdesignkurser.se" />
-<updated>2014-06-15T11:57:59+00:00</updated>
+<updated>2014-06-17T20:12:11+00:00</updated>
 <id>http://webbdesignkurser.se/</id>
 <author>
   <name>Webbdesignkurser</name>
@@ -585,7 +585,7 @@ Du får inte använda å, ä, ö, mellanrum eller konstiga tecken i bildens namn
 &lt;div class=&quot;note box no-margin&quot;&gt;- JPG passar inte för grafisk design eller typografi&lt;/div&gt;
 
 &lt;h3 id=&quot;gif-graphics-interchange-format&quot;&gt;GIF (Graphics Interchange Format)&lt;/h3&gt;
-&lt;p&gt;Precis som JPG så är GIF ett rätt så gammalt format. I grunden är GIF en 8-bitars färgfil, vilket betyder att den endast kan innehålla 256 färger. Skillnaden mellan GIF och JPG är att GIF har möjligheten att vara transparant och stödjer dessutom animationer.&lt;/p&gt;
+&lt;p&gt;Precis som JPG så är GIF ett rätt så gammalt format. I grunden är GIF en 8-bitars färgfil, vilket betyder att den endast kan innehålla 256 färger. Skillnaden mellan GIF och JPG är att GIF har möjligheten att vara transparent och stödjer dessutom animationer.&lt;/p&gt;
 
 &lt;p&gt;GIF är däremot ett gammalt och begränsat filformat, och du bör inte använda det för foton eller grafisk design.&lt;/p&gt;
 
@@ -594,7 +594,7 @@ Du får inte använda å, ä, ö, mellanrum eller konstiga tecken i bildens namn
 &lt;div class=&quot;note box no-margin&quot;&gt;- GIF passar inte för foton eller grafisk design&lt;/div&gt;
 
 &lt;h3 id=&quot;png-portable-network-graphics&quot;&gt;PNG (Portable Network Graphics)&lt;/h3&gt;
-&lt;p&gt;PNG skapades som ett alternativ till GIF. Det har stöd för fler färger (24-bit) och klarar transparans mycket bättre. Det är det mest använda formatet idag på internet och perfekt för grafisk design och typografi.&lt;/p&gt;
+&lt;p&gt;PNG skapades som ett alternativ till GIF. Det har stöd för fler färger (24-bit) och klarar transparens mycket bättre. Det är det mest använda formatet idag på internet och perfekt för grafisk design och typografi.&lt;/p&gt;
 
 &lt;div class=&quot;success box no-margin&quot;&gt;+ PNG passar för grafisk design och typografi&lt;/div&gt;
 
