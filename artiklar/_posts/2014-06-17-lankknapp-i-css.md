@@ -22,7 +22,7 @@ Det finns två sätt att gå tillväga, bara ett är rätt. Antingen lägger man
 
 {% highlight css %}
 
-.button{
+.button {
   background: #2eabd9;
   padding: 10px 18px;
   color: #fff;
@@ -53,15 +53,15 @@ Vanligtvis brukar man ha ett flertal olika knappar där varje knapp spelar en ro
 
 {% highlight css %}
 
-.button{}
+.button {}
 
-.button.primary{}
+.button.primary {}
 
-.button.success{}
+.button.success {}
 
-.button.warning{}
+.button.warning {}
 
-.button.danger{}
+.button.danger {}
 
 {% endhighlight %}
 
@@ -73,7 +73,7 @@ Det som jag tycker blir snyggast estetiskt sätt är när sidorna på knappen mi
 
 {% highlight css %}
 
-.button{
+.button {
   padding: 10px 18px;
 }
 
@@ -83,7 +83,7 @@ Därefter gör vi knapptexten vit.
 
 {% highlight css %}
 
-.button{
+.button {
   padding: 10px 18px;
   color: #fff;
 }
@@ -94,7 +94,7 @@ Med hjälp av <strong>border-radius</strong> kan vi göra kanterna runda på kna
 
 {% highlight css %}
 
-.button{
+.button {
   padding: 10px 18px;
   color: #fff;
   -webkit-border-radius: 3px; 
@@ -108,7 +108,7 @@ Till sist ska vi applicera ``display: inline-block`` för att knappen ska lägga
 
 {% highlight css %}
 
-.button{
+.button {
   padding: 10px 18px;
   color: #fff;
   -webkit-border-radius: 3px; 
@@ -125,19 +125,19 @@ Nu när vi har grunden klar kan vi färgsätta alla knappar med hjälp av ``back
 
 {% highlight css %}
 
-.button.primary{
+.button.primary {
   background: #2eabd9;
 }
 
-.button.success{
+.button.success {
   background: #38ac39;
 }
 
-.button.warning{
+.button.warning {
   background: #bf8520;
 }
 
-.button.danger{
+.button.danger {
   background: #ba2a2d;
 }
 
@@ -149,31 +149,31 @@ Vilken färg ska knapparna få när man tar musen över? Det bestämmer vi med h
 
 {% highlight css %}
 
-.button.primary{
+.button.primary {
   background: #2eabd9;
 }
-  .button.primary:hover{
+  .button.primary:hover {
     background: #1987b0;
   }
 
-.button.success{
+.button.success {
   background: #38ac39;
 }
-  .button.success:hover{
+  .button.success:hover {
     background: #297f22;
   }
 
-.button.warning{
+.button.warning {
   background: #bf8520;
 }
-  .button.warning:hover{
+  .button.warning:hover {
     background: #a8720e;
   }
 
-.button.danger{
+.button.danger {
   background: #ba2a2d;
 }
-  .button.danger:hover{
+  .button.danger:hover {
     background: #a42322;
   }
 
@@ -183,7 +183,7 @@ Vi vill dessutom inte ha någon underline på länktexten, så vi skriver ``text
 
 {% highlight css %}
 
-.button{
+.button {
   padding: 10px 18px;
   color: #fff;
   -webkit-border-radius: 3px; 
@@ -191,7 +191,7 @@ Vi vill dessutom inte ha någon underline på länktexten, så vi skriver ``text
   border-radius: 3px; 
   text-decoration: none;
 }
-  .button:hover{
+  .button:hover {
   	text-decoration: none;
   }
 
@@ -262,7 +262,7 @@ Vi vill dessutom inte ha någon underline på länktexten, så vi skriver ``text
 
 
 {% highlight css %}
-.button{
+.button {
   padding: 10px 18px;
   color: #fff;
   -webkit-border-radius: 3px; 
@@ -271,36 +271,36 @@ Vi vill dessutom inte ha någon underline på länktexten, så vi skriver ``text
   text-decoration: none;
   display: inline-block;
 }
-  .button:hover{
+  .button:hover {
   	text-decoration: none;
   }
 
 
-.button.primary{
+.button.primary {
   background: #2eabd9;
 }
-  .button.primary:hover{
+  .button.primary:hover {
     background: #1987b0;
   }
 
-.button.success{
+.button.success {
   background: #38ac39;
 }
-  .button.success:hover{
+  .button.success:hover {
     background: #297f22;
   }
 
-.button.warning{
+.button.warning {
   background: #bf8520;
 }
-  .button.warning:hover{
+  .button.warning:hover {
     background: #a8720e;
   }
 
-.button.danger{
+.button.danger {
   background: #ba2a2d;
 }
-  .button.danger:hover{
+  .button.danger:hover {
     background: #a42322;
   }
 
