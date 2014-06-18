@@ -6,7 +6,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
-	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
+	{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 	<meta name="keywords" content="Webbdesignkurser, Webbdesign, Kurser, Hemsidor, Html, Css">
 	<!-- meta name="keywords" content="{{ page.tags | join: ', ' }}"> -->
 
@@ -14,7 +14,7 @@
 	<meta property="og:locale" content="sv_SE">
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 160 | replace: '...','' }}{% endif %}">
+	{% if page.description %}<meta property="og:description" content="{{ page.description }}">{% endif %}
 	<meta property="og:url" content="{{ site.url }}{{ page.url }}">
 	<meta property="og:site_name" content="{{ site.title }}">
 
