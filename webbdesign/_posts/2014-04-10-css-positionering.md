@@ -100,7 +100,6 @@ Med ``position: absolute`` utgår man från <strong>områdets absoluta nollpunkt
 
 .content{
   position: relative;
-  width: 300px;
   float: left;
 }
 
@@ -112,7 +111,7 @@ Med ``position: absolute`` utgår man från <strong>områdets absoluta nollpunkt
 {% endhighlight %}  
 
 <div class="example box full-width">
-	<div style="position: relative;width: 300px;float: left;">
+	<div style="position: relative;float: left;">
 	  <h1 style="margin-top: 0;">Startsida</h1>
 	  <p>Välkommen till min hemsida!</p>
 	</div>
@@ -123,7 +122,7 @@ Med ``position: absolute`` utgår man från <strong>områdets absoluta nollpunkt
 </div>
 
 <div class="example box full-width">
-	<div style="background: #ffff4c;position: relative;width: 300px;float: left;">
+	<div style="background: #ffff4c;position: relative;float: left;">
 	  <h1 style="margin-top: 0;">Startsida</h1>
 	  <p>Välkommen till min hemsida!</p>
 	</div>
@@ -193,7 +192,23 @@ Inline-block tar vara på bådas egenskaper. Den klarar av margin och anpassar s
 
 
 ###Exempel
-I det här exemplet har vi tre stycken ``<span>`` men textinnehåll. Som du ser så tar <strong>inline</strong> inte hänsyn om marginaler inom content men kan däremot innehålla padding. <strong>Block</strong> lägger däremot marginaler utanför content och breddar ut sig på hela området. <strong>Inline-block</strong> tar vara på både block in inline och lägger marginaler inom content och samtidigt anpassar bredden utefter innehållet.
+I det här exemplet har vi tre stycken ``<span>`` med textinnehåll. Som du ser så tar <strong>inline</strong> inte hänsyn om marginaler inom content men kan däremot innehålla padding. <strong>Block</strong> lägger däremot marginaler utanför content och breddar ut sig på hela området. <strong>Inline-block</strong> tar vara på både block och inline och lägger marginaler inom content samtidigt samtidigt som den anpassar bredden utefter innehållet.
+
+<div class="example box full-width" style="margin-bottom: 15px;">
+
+  <div style="background: #000;">
+    <span style="display: inline; line-height: 14px;margin: 20px; display: inline;padding: 8px 12px;background: #33abe2;color: #fff;">Inline</span></p>
+  </div>
+
+  <div style="background: #000;">
+    <span style="display: block;padding: 8px 12px;margin: 20px;background: #33abe2;color: #fff;">Block</span></p>
+  </div>
+
+  <div style="background: #000;">
+    <span style="display: inline-block;padding: 8px 12px;margin: 20px;background: #33abe2;color: #fff;">Inline-block</span></p>
+  </div>
+
+</div>
 
 {% highlight html %}
 
@@ -238,20 +253,5 @@ span{
 
 {% endhighlight %}
 
-<div class="example box full-width">
-
-<div style="background: #000;">
-  <span style="display: inline; line-height: 14px;margin: 20px; display: inline;padding: 8px 12px;background: #33abe2;color: #fff;">Inline</span></p>
-</div>
-
-<div style="background: #000;">
-  <span style="display: block;padding: 8px 12px;margin: 20px;background: #33abe2;color: #fff;">Block</span></p>
-</div>
-
-<div style="background: #000;">
-  <span style="display: inline-block;padding: 8px 12px;margin: 20px;background: #33abe2;color: #fff;">Inline-block</span></p>
-</div>
-
-</div>
 
 <a class="btn btn-next" href="{{ site.url }}/webbdesign/css-bakgrund">Gå till nästa steg!</a>
