@@ -89,7 +89,7 @@
 
  <script src="/assets/search-cf294fcd89e8c8f32edfc2b5a7902f64.js"></script>
  <!--CSS-->
- <link rel="stylesheet" href="/assets/main-da67278bae50e6ad47f8b050d29c022e.css">
+ <link rel="stylesheet" href="/assets/main-0419c03ad970d58118b01ee381256bdc.css">
  <link rel="stylesheet" href="/assets/highlight-e4ef90f79e8fe2136c6be9739d8e6cae.css">
 
  
@@ -238,7 +238,6 @@
 
 <div class="highlight"><pre><code class="css"><span class="nc">.content</span><span class="p">{</span>
   <span class="k">position</span><span class="o">:</span> <span class="k">relative</span><span class="p">;</span>
-  <span class="k">width</span><span class="o">:</span> <span class="m">300px</span><span class="p">;</span>
   <span class="k">float</span><span class="o">:</span> <span class="k">left</span><span class="p">;</span>
 <span class="p">}</span>
 
@@ -249,7 +248,7 @@
 </code></pre></div>
 
 <div class="example box full-width">
-	<div style="position: relative;width: 300px;float: left;">
+	<div style="position: relative;float: left;">
 	  <h1 style="margin-top: 0;">Startsida</h1>
 	  <p>Välkommen till min hemsida!</p>
 	</div>
@@ -260,7 +259,7 @@
 </div>
 
 <div class="example box full-width">
-	<div style="background: #ffff4c;position: relative;width: 300px;float: left;">
+	<div style="background: #ffff4c;position: relative;float: left;">
 	  <h1 style="margin-top: 0;">Startsida</h1>
 	  <p>Välkommen till min hemsida!</p>
 	</div>
@@ -324,7 +323,23 @@
 <p>Inline-block tar vara på bådas egenskaper. Den klarar av margin och anpassar samtidigt bredden efter innehållet istället för 100%.</p>
 
 <h3 id="exempel">Exempel</h3>
-<p>I det här exemplet har vi tre stycken <code>&lt;span&gt;</code> men textinnehåll. Som du ser så tar <strong>inline</strong> inte hänsyn om marginaler inom content men kan däremot innehålla padding. <strong>Block</strong> lägger däremot marginaler utanför content och breddar ut sig på hela området. <strong>Inline-block</strong> tar vara på både block in inline och lägger marginaler inom content och samtidigt anpassar bredden utefter innehållet.</p>
+<p>I det här exemplet har vi tre stycken <code>&lt;span&gt;</code> med textinnehåll. Som du ser så tar <strong>inline</strong> inte hänsyn om marginaler inom content men kan däremot innehålla padding. <strong>Block</strong> lägger däremot marginaler utanför content och breddar ut sig på hela området. <strong>Inline-block</strong> tar vara på både block och inline och lägger marginaler inom content samtidigt samtidigt som den anpassar bredden utefter innehållet.</p>
+
+<div class="example box full-width" style="margin-bottom: 15px;">
+
+  <div style="background: #000;">
+    <span style="display: inline; line-height: 14px;margin: 20px; display: inline;padding: 8px 12px;background: #33abe2;color: #fff;">Inline</span>
+  </div>
+
+  <div style="background: #000;">
+    <span style="display: block;padding: 8px 12px;margin: 20px;background: #33abe2;color: #fff;">Block</span>
+  </div>
+
+  <div style="background: #000;">
+    <span style="display: inline-block;padding: 8px 12px;margin: 20px;background: #33abe2;color: #fff;">Inline-block</span>
+  </div>
+
+</div>
 
 <div class="highlight"><pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;content&quot;</span><span class="nt">&gt;</span>
   <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;inline&quot;</span><span class="nt">&gt;</span>Inline<span class="nt">&lt;/span&gt;</span>
@@ -362,22 +377,6 @@
   <span class="k">display</span><span class="o">:</span> <span class="k">inline</span><span class="o">-</span><span class="k">block</span><span class="p">;</span>
 <span class="p">}</span>
 </code></pre></div>
-
-<div class="example box full-width">
-
-<div style="background: #000;">
-  <span style="display: inline; line-height: 14px;margin: 20px; display: inline;padding: 8px 12px;background: #33abe2;color: #fff;">Inline</span>
-</div>
-
-<div style="background: #000;">
-  <span style="display: block;padding: 8px 12px;margin: 20px;background: #33abe2;color: #fff;">Block</span>
-</div>
-
-<div style="background: #000;">
-  <span style="display: inline-block;padding: 8px 12px;margin: 20px;background: #33abe2;color: #fff;">Inline-block</span>
-</div>
-
-</div>
 
 <p><a class="btn btn-next" href="http://webbdesignkurser.se/webbdesign/css-bakgrund">Gå till nästa steg!</a></p>
 
