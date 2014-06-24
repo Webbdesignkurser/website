@@ -14,4 +14,4 @@ Genom att du köper den så hjälper du oss att fortsätta utveckla kurserna.
 
 <p>Stort tack!</p>
 
-<a class="btn btn-primary download" href="https://itunes.apple.com/us/app/webbdesignkurser/id889709366?mt=8" target="_blank">Köp den på App Store</a> <a class="btn btn-primary" href="http://facebook.com/webbdesignkurser" target="_blank">Eller gilla oss på Facebook</a>
+<a class="btn btn-primary download" href="https://itunes.apple.com/se/app/webbdesignkurser/id889709366" target="_blank">Köp den på App Store</a> <a class="btn btn-primary" href="http://facebook.com/webbdesignkurser" target="_blank">Eller gilla oss på Facebook</a>
