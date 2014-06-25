@@ -9,7 +9,7 @@ comments: true
 
 ##Skapa tabeller i HTML  
 
-Till skillnad från en lista så består tabeller utav vertikala och horizontella rader/celler. Det är användbart när man behöver lista olika objekt, priser, informationer mm. bredvid varandra för jämförelse. Tabeller bör inte användas för att positionera ut hemsidans kolumner i layouten. Det kommer vi sedan att gå igenom när vi berättar om <a href="/grunderna-i-css/">CSS</a>.  
+Till skillnad från en lista så består tabeller utav vertikala och horisontella rader/celler. Det är användbart när man behöver lista olika objekt, priser, information etc. bredvid varandra för jämförelse. Tabeller bör inte användas för att positionera ut hemsidans kolumner i layouten. Det kommer vi sedan att gå igenom när vi berättar om <a href="/grunderna-i-css/">CSS</a>.  
 
 
 
