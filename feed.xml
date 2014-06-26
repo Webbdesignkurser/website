@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://webbdesignkurser.se/feed.xml" />
 <link rel="alternate" type="text/html" href="http://webbdesignkurser.se" />
-<updated>2014-06-25T21:10:28+00:00</updated>
+<updated>2014-06-26T05:07:08+00:00</updated>
 <id>http://webbdesignkurser.se/</id>
 <author>
   <name>Webbdesignkurser</name>
@@ -1267,7 +1267,7 @@ Hämta därefter in din reset.css &lt;strong&gt;innan&lt;/strong&gt; din style.c
 
 &lt;div class=&quot;note box full-width&quot;&gt;
   &lt;h3&gt;Andra alternativ&lt;/h3&gt;
-  &lt;p&gt;Om du inte vill skapa en ny CSS-fil för din Reset så går det lika bra att klistra in det längst upp i style.css. Men vi kände att det blir mer sorterat på det här sättet.&lt;/p&gt;
+  &lt;p&gt;Om du inte vill skapa en ny CSS-fil för din Reset så går det lika bra att klistra in det längst upp i style.css. Men vi känner att det blir mer sorterat på det här sättet.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;a class=&quot;btn btn-next&quot; href=&quot;http://webbdesignkurser.se/webbdesign/css-farger&quot;&gt;Gå till nästa steg!&lt;/a&gt;&lt;/p&gt;
