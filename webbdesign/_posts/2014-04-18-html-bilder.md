@@ -87,7 +87,7 @@ GIF är däremot ett gammalt och begränsat filformat, och du bör inte använda
 
 
 ###PNG (Portable Network Graphics)
-PNG skapades som ett alternativ till GIF. Det har stöd för fler färger (24-bit) och klarar transparens mycket bättre. Det är det mest använda formatet idag på Internet och perfekt för grafisk design och typografi.
+PNG skapades som ett alternativ till GIF. Det har stöd för fler färger (24-bit) och klarar transparens mycket bättre. Det är det mest använda formatet idag på internet och perfekt för grafisk design och typografi.
 
 <div class="success box no-margin">+ PNG passar för grafisk design och typografi</div>
 
