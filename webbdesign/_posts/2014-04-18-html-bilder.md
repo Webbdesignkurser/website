@@ -65,11 +65,11 @@ Du får inte använda å, ä, ö, mellanrum eller konstiga tecken i bildens namn
 ##Skillnaden mellan JPG, GIF och PNG  
 
 ###JPG (Joint Photographic Experts Group)
-JPG utvecklades av Joint Photographic Experts Group (JPEG) som en standard för fotografer. Det praktiska med JPG var att man kunde redusera bildens storlek genom att minska antalet pixelområden. Man kunde alltså dra ner på antalet färger som man behövde hämta i bilden och på så sätt dra ner på filstorleken.  
+JPG utvecklades av Joint Photographic Experts Group (JPEG) som en standard för fotografer. Det praktiska med JPG var att man kunde reducera bildens storlek genom att minska antalet pixelområden. Man kunde alltså dra ner på antalet färger som man behövde hämta i bilden och på så sätt dra ner på filstorleken.  
 
 Det här gjorde att JPG blev ett populärt filformat på den tiden då uppkopplingen var som långsammast.
 
-JPG passar däremot inte för grafisk design eller typografi, även en högupplöst JPG tappar kvallité och resulterar i dåliga pixlar på grafiska element.
+JPG passar däremot inte för grafisk design eller typografi, även en högupplöst JPG tappar kvalité och resulterar i dåliga pixlar på grafiska element.
 
 <div class="success box no-margin">+ JPG passar för foton</div>  
 
@@ -87,7 +87,7 @@ GIF är däremot ett gammalt och begränsat filformat, och du bör inte använda
 
 
 ###PNG (Portable Network Graphics)
-PNG skapades som ett alternativ till GIF. Det har stöd för fler färger (24-bit) och klarar transparens mycket bättre. Det är det mest använda formatet idag på internet och perfekt för grafisk design och typografi.
+PNG skapades som ett alternativ till GIF. Det har stöd för fler färger (24-bit) och klarar transparens mycket bättre. Det är det mest använda formatet idag på Internet och perfekt för grafisk design och typografi.
 
 <div class="success box no-margin">+ PNG passar för grafisk design och typografi</div>
 
