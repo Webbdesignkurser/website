@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://webbdesignkurser.se/feed.xml" />
 <link rel="alternate" type="text/html" href="http://webbdesignkurser.se" />
-<updated>2014-06-26T05:07:08+00:00</updated>
+<updated>2014-08-26T07:36:04+00:00</updated>
 <id>http://webbdesignkurser.se/</id>
 <author>
   <name>Webbdesignkurser</name>
@@ -844,11 +844,11 @@ Du får inte använda å, ä, ö, mellanrum eller konstiga tecken i bildens namn
 &lt;h2 id=&quot;skillnaden-mellan-jpg-gif-och-png&quot;&gt;Skillnaden mellan JPG, GIF och PNG&lt;/h2&gt;
 
 &lt;h3 id=&quot;jpg-joint-photographic-experts-group&quot;&gt;JPG (Joint Photographic Experts Group)&lt;/h3&gt;
-&lt;p&gt;JPG utvecklades av Joint Photographic Experts Group (JPEG) som en standard för fotografer. Det praktiska med JPG var att man kunde redusera bildens storlek genom att minska antalet pixelområden. Man kunde alltså dra ner på antalet färger som man behövde hämta i bilden och på så sätt dra ner på filstorleken.  &lt;/p&gt;
+&lt;p&gt;JPG utvecklades av Joint Photographic Experts Group (JPEG) som en standard för fotografer. Det praktiska med JPG var att man kunde reducera bildens storlek genom att minska antalet pixelområden. Man kunde alltså dra ner på antalet färger som man behövde hämta i bilden och på så sätt dra ner på filstorleken.  &lt;/p&gt;
 
 &lt;p&gt;Det här gjorde att JPG blev ett populärt filformat på den tiden då uppkopplingen var som långsammast.&lt;/p&gt;
 
-&lt;p&gt;JPG passar däremot inte för grafisk design eller typografi, även en högupplöst JPG tappar kvallité och resulterar i dåliga pixlar på grafiska element.&lt;/p&gt;
+&lt;p&gt;JPG passar däremot inte för grafisk design eller typografi, även en högupplöst JPG tappar kvalité och resulterar i dåliga pixlar på grafiska element.&lt;/p&gt;
 
 &lt;div class=&quot;success box no-margin&quot;&gt;+ JPG passar för foton&lt;/div&gt;
 
