@@ -7,13 +7,19 @@
     
         
         <url>
-            <loc>http://webbdesignkurser.se/bidra/</loc>
+            <loc>http://webbdesignkurser.se/om-sidan/</loc>
         </url>
         
     
         
         <url>
             <loc>http://webbdesignkurser.se/app/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://webbdesignkurser.se/404.html</loc>
         </url>
         
     
@@ -32,17 +38,11 @@
         
     
         
-        <url>
-            <loc>http://webbdesignkurser.se/sitemap.xml</loc>
-        </url>
-        
     
         
         <url>
-            <loc>http://webbdesignkurser.se/artiklar/</loc>
+            <loc>http://webbdesignkurser.se/bidra/</loc>
         </url>
-        
-    
         
     
         
@@ -53,13 +53,13 @@
     
         
         <url>
-            <loc>http://webbdesignkurser.se/om-sidan/</loc>
+            <loc>http://webbdesignkurser.se/artiklar/</loc>
         </url>
         
     
         
         <url>
-            <loc>http://webbdesignkurser.se/404.html</loc>
+            <loc>http://webbdesignkurser.se/sitemap.xml</loc>
         </url>
         
     
