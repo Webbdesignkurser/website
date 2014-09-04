@@ -42,11 +42,11 @@ För att lista en lista i en lista skriver du en ny lista under det objekt där 
 <ul>
   <li>Objekt 1</li>
   <li>Objekt 2
-  <ul>
-    <li>Objekt 2.1</li>
-    <li>Objekt 2.2</li>
-    <li>Objekt 2.3</li>
-  </ul>
+    <ul>
+      <li>Objekt 2.1</li>
+      <li>Objekt 2.2</li>
+      <li>Objekt 2.3</li>
+    </ul>
   </li>
   <li>Objekt 3</li>
 </ul>
