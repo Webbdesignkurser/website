@@ -13,7 +13,13 @@
     
         
         <url>
-            <loc>https://webbdesignkurser.se/index.html</loc>
+            <loc>https://webbdesignkurser.se/app/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://webbdesignkurser.se/artiklar/</loc>
         </url>
         
     
@@ -30,25 +36,11 @@
         
     
         
-        <url>
-            <loc>https://webbdesignkurser.se/search.html</loc>
-        </url>
-        
     
         
         <url>
-            <loc>https://webbdesignkurser.se/artiklar/</loc>
+            <loc>https://webbdesignkurser.se/index.html</loc>
         </url>
-        
-    
-        
-        <url>
-            <loc>https://webbdesignkurser.se/sitemap.xml</loc>
-        </url>
-        
-    
-        
-    
         
     
         
@@ -59,7 +51,15 @@
     
         
         <url>
-            <loc>https://webbdesignkurser.se/app/</loc>
+            <loc>https://webbdesignkurser.se/search.html</loc>
+        </url>
+        
+    
+        
+    
+        
+        <url>
+            <loc>https://webbdesignkurser.se/sitemap.xml</loc>
         </url>
         
     
