@@ -41,7 +41,7 @@ Om du vill att länken ska öppna sidan i ett nytt fönster lägger du till ``ta
 Om sidan som du ska länka till inte ligger i samma mapp som länken så räcker det inte att skriva sida.html som adress, utan du blir tvungen att skriva vilken mapp den ligger i.
 {% highlight html %}
 
-<a href="/undermapp/sida.html">Länk</a> <!-- Länka till undermapp -->
+<a href="undermapp/sida.html">Länk</a> <!-- Länka till undermapp -->
 
 <a href="../sida.html">Länk</a> <!-- Länka till övermapp -->
 
